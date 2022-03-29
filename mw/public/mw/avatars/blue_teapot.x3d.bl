@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. mk_teapot.bash
+
+mk_teapot "0 0 1"

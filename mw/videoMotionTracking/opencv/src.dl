@@ -1,0 +1,25 @@
+#!/bin/bash
+
+source ./GetSrcFromGithub.bash
+
+
+# This script attempts to build and install openCV (opencv.org) from the
+# github.com repo source for use in MirrorWorlds.
+
+# This installs a particular tagged version of OpenCV so that you do not
+# suffer from upstream code changes, and things stay more consistent and
+# manageable.
+
+tag=3.1.0
+tag_contrib=$tag
+
+
+#Usage: GetSrcFromGithub user package tag [sha512]
+
+GetSrcFromGithub opencv opencv $tag src
+
+GetSrcFromGithub opencv opencv_contrib $tag_contrib src/contrib
+
+# Remove broken module; at least for tag_contrib=3.1.0
+rm -rf src/contrib/modules/hdf
+

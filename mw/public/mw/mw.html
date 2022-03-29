@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel='stylesheet' href='x3dom/x3dom.css'></link>
+    <link rel='stylesheet' href='mw_default.css'></link>
+    <!-- <link rel="stylesheet" type="text/css" href="world.css"> -->
+    <script src='x3dom/x3dom.js'> </script>
+    <script src="util.js"></script>
+    <script src="mw.js"></script>
+  <!--  <script src='subscription/chat.js'></script>
+    <script src='../subscriptions/avatarList.js'></script>-->
+</head>
+
+<body onload="mw_init()">
+
+  <section>
+      <div id="sceneContainer" style="left: 250px">
+    <x3d id="x3dContent">
+        <scene>
+        </scene>
+    </x3d>
+  </div>
+</section>
+
+
+    <div id="sideBar">
+
+        <div id="widgetSpace">
+
+        <!--  <div id="userLoc" class="widget" style="height: 50%;">
+              <span class="widgetHeader">User Locations</span>
+              <div class="widgetContent" height="400px">
+                <b>People currently observing this model:</b>
+                <ul id="positions">
+                <li> I'm here lolol</li></ul>
+              </div>
+          </div>-->
+
+          <div id="chat" class="widget" style="height: 100%;">
+              <span class="widgetHeader">Chat Window</span>
+              <div class="widgetContent pre-scrollable">
+              <ul id="messages"></ul>
+            </div>
+            <div id="sendBox">
+                <input id="inputField" display="block" autocomplete="off"/>
+                <button id="sendButton" display="inline">Send</button>
+            </div>
+          </div>
+
+        </div>
+
+        <button id="maxButton" title="show toolbar" class="minmaxB shadow inactive" onclick="maximize()">
+            <b> &gt; </b>
+        </button>
+        <button id="minButton" title="hide toolbar" class="minmaxB active" onclick="minimize()">
+            <b> &lt; </b>
+        </button>
+    </div>
+
+    <div id="MenuBar">
+      <div id="menuSpace">
+        <button id="menuButton" style="position: fixed; bottom: 0; right: 0;" title="Options">
+            Options
+        </button>
+
+        <div id="avatarMenu" class="inactive widget">
+          <span id="optionsMenuHeader">Options</span>
+          <button id="exitMenu" onclick="toggleRet(true)" display="inline-block"> X </button>
+          <span id="optionsMenuHeader">Avatar Select</span>
+          <select id="selectAvatar">
+              <option value="avatars/FemaleTeen_aopted.x3d">Olive</option>
+              <option value="avatars/MaleTeen_aopted.x3d">Mack</option>
+              <option value="avatars/Regina_aopted.x3d">Regina</option>
+              <option value="avatars/Warrior_aopted.x3d">Warrior</option>
+              <option value="avatars/XBot_aopted.x3d">XBot</option>
+              <option value="avatars/YBot_aopted.x3d">YBot</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+
+
+<script>
+  function minimize() {
+    //minimize the whole widgetspace
+    document.getElementById("widgetSpace").style.display = "none";
+    document.getElementById("sceneContainer").style.left = "0px";
+    // toggle buttons
+    document.getElementById("maxButton").className = "minmaxB active";
+    document.getElementById("minButton").className = "minmaxB shadow inactive";
+  }
+
+  function maximize() {
+    //maximize the whole widgetspace
+    document.getElementById("widgetSpace").style.display = "table";
+    document.getElementById("sceneContainer").style.left = "250px";
+    //toggle buttons
+
+    document.getElementById("maxButton").className = "minmaxB shadow inactive";
+    document.getElementById("minButton").className = "minmaxB active";
+}
+
+  function toggleRet(toggle) {
+    //the menu button is not open
+    if (!toggle)
+    {
+      document.getElementById("avatarMenu").className = "active widget";
+      document.getElementById("menuButton").className = "inactive";
+    }
+    //the menu button is open
+    else
+    {
+      document.getElementById("avatarMenu").className = "inactive";
+      document.getElementById("menuButton").className = "active";
+
+    }
+  }
+</script>
+
+</body>
+</html>

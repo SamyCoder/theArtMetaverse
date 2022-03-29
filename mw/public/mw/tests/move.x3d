@@ -1,0 +1,7 @@
+<x3d>
+    <scene>
+        <matrixtransform data-mw_script='move.js' data-mw_call='move'>
+            <inline url="gnome.x3d" data-mw_call='hello'/>
+        </matrixtransform>
+    </scene>
+</x3d>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <style>
+#lightbox{
+    visibility:hidden;
+    position:absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    background:red;
+    border:2px solid #3c3c3c;
+    color:white;
+    z-index:10;
+    padding:20px;
+}
+
+.dimmer{
+    background: #002;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .6;
+    top: 0;
+    z-index:9;
+}
+    </style>
+
+    <script>
+
+    function main() {
+
+        var opener = document.getElementById("opener");
+
+        opener.onclick = function(){
+
+            var lightbox = document.getElementById("lightbox"),
+            dimmer = document.createElement("div");
+
+            dimmer.className = 'dimmer';
+
+            dimmer.onclick = function(){
+                document.body.removeChild(this);   
+                lightbox.style.visibility = 'hidden';
+            }
+
+            document.body.appendChild(dimmer);
+
+            lightbox.style.visibility = 'visible';
+            return false;
+        }
+    }
+
+    </script>
+
+    <meta charset="utf-8"/>
+    <title>developer Mirror Worlds</title>
+</head>
+
+
+<body onload='main();'>
+
+    <div id="lightbox">Testing out the lightbox</div>
+    <a href="#" id="opener">Click me</a>
+
+</body>

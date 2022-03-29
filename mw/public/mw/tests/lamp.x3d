@@ -1,0 +1,30 @@
+<x3d>
+    <scene>
+        <Shape>
+            <Appearance>
+                <Material ambientIntensity='.2'
+                    shininess='.2' diffuseColor='.54 .59 .62'/>
+            </Appearance>
+            <Cylinder height='8' radius='.2'></Cylinder>
+        </Shape>
+        <Transform translation='0 4 0'>
+            <Shape>
+                <Appearance>
+                    <Material id='lampBulb' ambientIntensity='.2'
+                        shininess='.1' diffuseColor='.0, .0, .9'/>
+                </Appearance>
+                <Sphere radius='.7'/>
+            </Shape>
+        </Transform>
+        <Transform translation='0 -.5 .15' rotation='.5 0 0 1.5'
+            bboxsize='1, 1, 1'>
+            <Shape id="toggleSwitch">
+                <Appearance>
+                    <Material ambientIntensity='.2'
+                        shininess='.1' diffuseColor='.95, .9, .25'/>
+                </Appearance>
+                <Cylinder radius='.1' height='.25'/>
+            </Shape>
+        </Transform>
+    </scene>
+</x3d>

@@ -1,0 +1,41 @@
+<x3d>
+    <scene>
+        <shape>
+            <appearance>
+                <material diffuseColor="0.6 0.6 0.7"/>
+            </appearance>
+            <box/>
+        </shape>
+        <transform translation='2 0 0'>
+            <transform rotation='0 0 1 -1.5708'>
+                <shape>
+                    <appearance>
+                        <material diffuseColor="1 0 0"/>
+        	    </appearance>
+        	    <cone/>
+                </shape>
+            </transform>
+        </transform>
+        <transform translation='0 2 0'>
+            <transform rotation='0 0 1 0'>
+                <shape>
+                    <appearance>
+                        <material diffuseColor="0 1 0"/>
+                    </appearance>
+        	    <cone/>
+                </shape>
+            </transform>
+        </transform>
+        <transform translation='0 0 2'>
+            <transform rotation='1 0 0 1.5708'>
+                <shape>
+                    <appearance>
+                        <material diffuseColor="0 0 1"/>
+        	    </appearance>
+        	    <cone/>
+                </shape>
+            </transform>
+        </transform>
+    </scene>
+</x3d>
+

@@ -1,0 +1,21 @@
+File structure
+
+  mw/
+
+     Contains files accessible by web URLs from a web client
+     that the Mirror Worlds server uses internally.
+     These files came from the Mirror Worlds project source
+     repository.  By default these files are accessible via
+     the URL like http(s)://host.bla.bla:1234/mw/PATH, where
+     PATH is the file path relative to this mw/ directory.
+     The 'mw' part of this URL directs the HTTP mirror worlds
+     server to get files from here.
+
+
+  ./
+
+     Except for files in mw/, this directory the default location files
+     for a particular running mirror worlds service.  It's a place that a
+     particular mirror worlds service gets custom files that are not from
+     the mirror worlds built-in source code.
+

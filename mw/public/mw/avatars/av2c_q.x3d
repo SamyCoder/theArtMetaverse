@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <WorldInfo info='"This Web3D Content was created with Vivaty Studio, a Web3D authoring tool" "www.mediamachines.com"' title='av2c'/>
+ 
+      <WorldInfo DEF='AOPT_WorldInfo_80234160' info='"This Web3D Content was created with Vivaty Studio, a Web3D authoring tool" "www.mediamachines.com"' title='MW Avatar gen 3'/>
+      <Transform DEF='Av'>
+        <Transform DEF='dad_IndexedFaceSet16' translation='0 0.8 -0.25'>
+          <Shape DEF='IndexedFaceSet16'>
+            <Appearance>
+              <Material DEF='Blue' diffuseColor='0 0 1' specularColor='0 1 1'/>
+              <ImageTexture url='"smoke_PNG966_sm.png"'/>
+            </Appearance>
+            <IndexedFaceSet DEF='GeoIndexedFaceSet16' creaseAngle='0.5236' solid='false' texCoordIndex='0 1 2 -1 0 2 3 -1' coordIndex='0 1 2 -1 0 2 3 -1'>
+              <Coordinate DEF='IndexedFaceSet16_Coord' point='-0.25 0.8 0.25 -0.25 -0.8 0.25 0.25 -0.8 0.25 0.25 0.8 0.25'/>
+              <TextureCoordinate point='0 1 0 0 1 0 1 1'/>
+            </IndexedFaceSet>
+          </Shape>
+        </Transform>
+      </Transform>
+      <TimeSensor DEF='Wizard' cycleInterval='10' loop='true'/>
+      <OrientationInterpolator DEF='Wizard_rot0' key='0 0.25 0.5 0.75 1' keyValue='0 1 0 0 0 1 0 1.571 0 1 0 3.142 0 1 0 4.712 0 1 0 6.283'/>
+
+      <ROUTE fromNode='Wizard_rot0' fromField='value_changed' toNode='Av' toField='set_rotation'/>
+      <ROUTE fromNode='Wizard' fromField='fraction_changed' toNode='Wizard_rot0' toField='set_fraction'/>
+
+    <Transform DEF='dad_Group2' rotation='0 1 0 1.571'>
+      <Group>
+      
+        <Transform DEF='Av'>
+          <Transform USE='dad_IndexedFaceSet16'/>
+        </Transform>
+        <TimeSensor DEF='Wizard' cycleInterval='10' loop='true'/>
+        <OrientationInterpolator DEF='Wizard_rot0' key='0 0.25 0.5 0.75 1' keyValue='0 1 0 0 0 1 0 1.571 0 1 0 3.142 0 1 0 4.712 0 1 0 6.283'/>
+    
+      </Group>
+    </Transform>
+    <ROUTE fromNode='Wizard_rot0' fromField='value_changed' toNode='Av' toField='set_rotation'/>
+    <ROUTE fromNode='Wizard' fromField='fraction_changed' toNode='Wizard_rot0' toField='set_fraction'/>
+  </Scene>
+</X3D>

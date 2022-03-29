@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8"/>
+    <title>Mirror Worlds</title>
+    <!--<link rel="stylesheet" type="text/css" href="index.css">-->
+	<link rel="stylesheet" type="text/css" href="/mw/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/mw/js/bootstrap.min.js"></script>
+    <script>
+        function main()
+        {
+            document.getElementById('url').innerHTML =
+                'Current URL: ' + location.href;
+        }
+    </script>
+
+    <!-- Remove this file from repo eventually -->
+</head>
+
+<body onload="main();">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    	<div class="container">
+        	<div class="navbar-header">
+          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            		<span class="sr-only">Toggle navigation</span>
+           		 	<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+          		</button>
+         		<a class="navbar-brand" href="#">Mirror Worlds Online</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="/mw/devel_index.html">Developer Home</a></li>        
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"
+                        href="#">Documentation
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="serverAPI.html">Server API</a></li>
+                        <li><a href="/mw/docs/index.html">Client API</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </nav>
+
+
+    <div style="height: 75px"></div>
+
+    <div class="container">
+
+		<h1>Mirror Worlds Online</h1>
+
+   	 	<p>Your Mirror Worlds Service is up and running.
+    	  This page is a temporary index page to
+     	 get you up and running. Find this file and replace it.</p>
+
+		<a class="btn btn-default btn-lg" href="http://www.icat.vt.edu/mirrorworlds/">The Mirror Worlds
+                Homepage >></a>
+
+	</div>
+	<div class="container">
+
+		<hr></hr>
+
+		<h2>Available Worlds</h2>
+		<p style="margin-bottom: 50px;">Click the images below to navigate to the available worlds</p>
+
+		<div class="row">	
+			<div class="col-sm-4 text-center">
+				<a class="worldLink"
+                                    href="mw/mw.html?file=/../MossArtsCenter/MossArtsCenter.js">
+					<img src="images/macWorld.jpg" class="img-circle img-center" width="250" height="250">
+				</a>
+				<h3>Moss Arts Center</h3>
+			</div>
+
+			<div class="col-sm-4 text-center">
+				<a class="worldLink"
+                                    href="mw/mw.html?file=/../McDaniels_NutGrove/NutGrove.js">
+					<img src="images/nutGrove.jpg" class="img-circle img-center" width="250" height="250">
+				</a>
+				<h3>McDaniel's Nut Grove</h3>
+			</div>
+
+			<div class="col-sm-4 text-center">
+				<a class="worldLink" href="mw/mw.html?file=/../HaldenPool/HaldenPool.js">
+					<img src="images/nuclearPool.png" class="img-circle img-center" width="250" height="250">
+				</a>
+				<h3>Nuclear Fuel Pool</h3>
+			</div>
+		</div>
+
+		<hr></hr>
+	</div>
+	
+	<div class="text-center">	
+		<a class="btn btn-default btn-md" href="https://github.com/vtcoders/mirrorworlds">
+			Check us out on GitHub
+		</a>
+	</div>
+
+	<div style="height: 25px"></div>
+
+    <pre id=url></pre>
+</body>
+</html>

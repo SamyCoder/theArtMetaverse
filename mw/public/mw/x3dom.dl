@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+. ../../download.bash
+
+# Usage: Download target url [sha512sum]
+
+mkdir x3dom
+cd x3dom
+
+Download x3dom.zip\
+ http://x3dom.org/download/1.7.1/x3dom-1.7.1.zip\
+ 6a96a4258bf34de224edece6cc5263e21f0c322b495cf5b30\
+c447c591b9e7a8193ec28abc2f52b78d41a0d4f4616424824c\
+285b61f335bae1be897adb5d73d6f
+
+unzip x3dom.zip

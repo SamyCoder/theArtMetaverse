@@ -1,0 +1,29 @@
+{
+  "name": "mirror_worlds_server",
+  "version": "0.1.3",
+  "description": "server for mirror Worlds",
+  "main": "mw_server.js",
+  "dependencies": {
+    "ws": "2.2.0",
+    "csv": "^0.4.6",
+    "glob": "7.1.1",
+    "express": "4.15.3",
+    "jsdoc": "3.5.5",
+    "socket.io-client": "2.0.4"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vtcoders/mirrorworlds"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/vtcoders/mirrorworlds"
+  },
+
+  "homepage": "https://github.com/vtcoders/mirrorworlds",
+  "license": "AGPL-1.0"
+}

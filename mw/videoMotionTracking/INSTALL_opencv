@@ -1,0 +1,322 @@
+#!/bin/bash
+
+# This script attempts to build and install openCV (opencv.org) from the
+# github.com repo source for use in MirrorWorlds.  We assume that you know
+# some bash.  You can tell from the return status of the script if it
+# succeeds.  Hence the 'set -e'.
+
+# This installs a particular tagged version of OpenCV so that you do not
+# suffer from upstream code changes, and things stay more consistent and
+# manageable.
+
+# Prerequisite Ubuntu (16.04) packages:
+#
+# git cmake build-essential qt5-default python-dev python3-dev python-numpy python3-numpy default-jdk default-jre ant libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libavresample-dev libv4l-dev
+#
+# Keep that consistent with README.md
+
+# exit with error status if commands fail
+set -e
+
+# fail if any pipe line command fails
+set -o pipefail
+
+progname="$(basename ${BASH_SOURCE[0]})"
+
+
+function usage()
+{
+    cat << EOF
+
+   Usage: $0 [--prefix PREFIX] [--builddir BUILDDIR]
+
+     Download, build, and install the OpenCV libraries from the github source.
+   This script currently installs release github tag $tag which we believe
+   to be a release version.
+
+     It's highly reccomended that you use the --prefix PREFIX and
+   --builddir BUILDDIR options.
+
+
+               ------------- OPTIONS ---------------
+
+
+      --builddir BUILDDIR   Set the top directory used to write temporary
+                            files used to build OpenCV.  You may delete
+                            all files in BUILDDIR after this script
+                            installs OpenCV.  The default BUILDDIR is
+                            $topsrcdir
+
+
+      --prefix PREFIX       Set the top installation prefix directory to
+                            install OpenCV in to PREFIX.  The default
+                            PREFIX is $prefix
+
+EOF
+    exit 1
+}
+
+# BUILDDIR and PREFIX may be set already
+BUILDDIR=${BUILDDIR:=}
+PREFIX=${PREFIX:=}
+
+error=
+
+
+# Parse command line options
+
+while [ -n "$1" ] ; do
+
+    case "$1" in
+
+        --builddir)
+            shift 1
+            BUILDDIR="$1"
+            ;;
+        --prefix)
+            shift 1
+            PREFIX="$1"
+            ;;
+        *)
+            error=yes
+            ;;
+    esac
+
+    shift 1
+done
+
+
+
+
+########################################################################
+#################### stuff you may want to change ######################
+########################################################################
+
+# Build attempt.  Appended to package and tag for making installation
+# build attempt have a unique name.  Not like you have to use it.
+attempt=1
+
+# openCV git tagged version (tag) to install See output of 'git tag' from
+# a clone of the master branch and select a tag from that list.  If the
+# package maintainers are doing their job this should build like a 'nice'
+# release.
+# Try running from a git repo clone directory:
+#
+#  git log --date-order --tags --simplify-by-decoration --pretty="format:%ai %d"'
+#
+# You can just guess a name to start with and then run the above 'git log'
+# command in the git clone directory.
+tag=3.1.0
+
+# tag version for opencv/opencv_contrib repo.  Like tag but the other
+# repo.
+tag_contrib=3.1.0
+
+# package name.  Just for file name space separation. Any name will do.
+package=opencv
+
+# Unique relative installation name for these tags and attempt.
+name=${package}-${tag}-${tag_contrib}-$attempt
+
+# full path prefix of all installed, source, and build files.
+root=/usr/local
+#root=${HOME}/installed
+
+# installation prefix.  Where all the installed files persist.
+#prefix=$root/encap/$name
+prefix=$root/opencv
+#prefix=$root/installed/$package
+
+# Where all the build/source work happens.  Every file for every build
+# attempt except installed files.  We put all the sources and build
+# attempts in here.
+topsrcdir=$root/src/$package
+
+
+# These were just dummy variables to help you configure
+unset root package attempt
+
+# So the only thing set above was: tag tag_contrib name prefix topsrcdir
+
+########################################################################
+################## END stuff you may want to change ####################
+########################################################################
+
+[ -z "$error" ] || usage
+
+[ -n "$PREFIX" ] && prefix="$PREFIX"
+[ -n "$BUILDDIR" ] && topsrcdir="$BUILDDIR"
+
+# Where we dump source files and build for a particular version and build
+# attempt.  Top source directory may contain many workdir attempts.
+workdir=$topsrcdir/$name
+
+
+
+# Just so you understand: when we build this "package" we use two full
+# copies of the source code, one that is the local git clone, and one copy
+# of the source is the tagged version that is extracted from this local
+# clone for each build attempt.  The build directory made from this
+# local extracted source.  Patches could be added to the extracted source.
+# We don't change the local clone source.
+
+
+# We separate generated built files from source.
+# We can make and save several attempts at building or just 'remove' them.
+builddir=$workdir/build
+srcdir=$workdir/src
+# the contrib source
+srcdir_contrib=$workdir/src_contrib
+
+
+
+if [ -e $prefix ] ; then
+    set +x
+    echo "prefix directory (or file) $prefix exists"
+    echo "Remove it if you would like to run this script."
+    exit 1
+fi
+if [ -e $workdir ] ; then
+    echo "work/build directory $workdir already exists"
+    echo "remove it if you would like to run this script."
+    exit 1
+fi
+
+set -x
+
+mkdir -p $workdir
+
+# save a copy of this script in the work directory
+cat << EOF > $workdir/$progname
+#!/bin/bash
+
+# This is a generated file
+
+PREFIX="$PREFIX"
+BUILDDIR="$BUILDDIR"
+
+EOF
+
+cat "${BASH_SOURCE[0]}" >> $workdir/$progname
+chmod 755 $workdir/$progname
+
+
+
+unset PREFIX BUILDDIR
+
+
+
+
+# remove intermediate dummy variables
+unset name workdir
+
+########################################################################
+# We are left with:
+#
+# tag tag_contrib builddir srcdir srcdir_contrib prefix topsrcdir
+
+# Where is the OpenCV source code?
+opencvurl=https://github.com/opencv/opencv
+opencvurl_contrib=https://github.com/opencv/opencv_contrib
+
+
+# Usage: PullCheckGitUrl URL TAG REPO_DIR SRC_DIR
+#                        $1  $2  $3       $4
+# global topsrcdir must be defined
+# This function sets up all the source files.
+# TODO: consider what branch we use.  It's usually master.
+function PullCheckGitUrl()
+{
+    [ -n "$4" ] || exit 1
+    local url=$1
+    local repo_dir=$3
+    local src_dir=$4
+    local cwd="$PWD"
+
+    if [ ! -f "$repo_dir/.git/config" ] ; then
+        cd $topsrcdir
+        # git clone --recursive "$url" "$repo_dir"
+        git clone "$url" "$repo_dir"
+    fi
+
+    cd $repo_dir
+
+    url="$(git config --get remote.origin.url)"
+    set +x
+    if [ "$url" != "$1" ] ; then
+        echo "git cloned repo in \"$PWD\" is not from $1 it's from $url"
+        exit 1
+    fi
+    echo -e "\ngit clone of \"$1\" in \"$PWD\" was found.\n"
+    echo -e "pulling latest changes from $url\n"
+    set -x
+    #git pull --recurse-submodules
+    git pull
+
+    # directory must not pre-exist
+    mkdir $src_dir
+
+    # pull the version of the source we want into the src_dir note: We are
+    # not counting on the authors of this openCV code to not modify the source
+    # code as they build the code.  Most package build systems are notorious
+    # for polluting source code as they build, so we start with clean copy
+    # of source files at the beginning of the build for each build
+    # attempt; hence we do the following:
+    git archive\
+ --format=tar "$2" | $(cd "$src_dir" && tar -xf -)
+    cd "$cwd"
+}
+
+
+# PullCheckGitUrl URL TAG REPO_DIR SRC_DIR
+PullCheckGitUrl $opencvurl $tag $topsrcdir/git $srcdir
+PullCheckGitUrl\
+ $opencvurl_contrib $tag_contrib $topsrcdir/git_contrib $srcdir_contrib
+
+# copy modules that we want to add from the contrib
+#cp -r $srcdir_contrib/modules/bgsegm $srcdir/modules
+
+# Remove broken module; at least for tag_contrib=3.1.0
+rm -rf $srcdir_contrib/modules/hdf
+
+mkdir -p $builddir
+
+cd $builddir
+
+unset topsrcdir tag tag_contrib srcdir srcdir_contrib builddir
+
+
+# we now just have: prefix
+
+
+#CONTRIBS="bgsegm"
+CMAKE_OPTIONS="-DCMAKE_BUILD_TYPE=Release -DWITH_QT=ON"
+CMAKE_CONTRIB_OPTIONS="-DOPENCV_EXTRA_MODULES_PATH=../src_contrib/modules"
+CMAKE_SAMPLES="-DBUILD_EXAMPLES=ON -DINSTALL_C_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON"
+
+CMAKE_OPTIONS="$CMAKE_OPTIONS $CMAKE_CONTRIB_OPTIONS $CMAKE_SAMPLE"
+
+# -Werror fails to build with error -Werror=sign-compare
+# modules/ts/include/opencv2/ts/ts_gtest.h:18925:16
+#CXX_FLAGS="-g -Wall -Werror"
+CXX_FLAGS="-g -Wall"
+
+
+# Cmake works better with relative source path ../src
+
+cmake ../src\
+ -G"Unix Makefiles"\
+ -DCMAKE_CXX_FLAGS:STRING="$CXX_FLAGS"\
+ -DCMAKE_INSTALL_PREFIX:PATH="$prefix"\
+ $CMAKE_OPTIONS
+
+make VERBOSE=1 -j$(nproc)
+#make VERBOSE=1
+
+mkdir -p $prefix
+
+make install
+
+set +x
+echo "SUCCESS"
+

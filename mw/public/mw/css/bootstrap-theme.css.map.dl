@@ -1,0 +1,7 @@
+#!/bin/bash
+
+. ../bootstrap_download.bash
+
+# Usage: Download target url [sha512sum]
+
+Download bootstrap-theme.css.map $prefix/css/bootstrap-theme.css.map
