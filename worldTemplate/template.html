@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MirrorWorlds Template World</title>
+    <meta encoding="utf-8">
+    
+    <script type='text/javascript' src='http://www.x3dom.org/download/x3dom.js'> </script> 
+    <link rel='stylesheet' type='text/css' href='http://www.x3dom.org/download/x3dom.css'></link>
+	
+    <link rel='stylesheet' type'text/css' href="world.css">
+    <script src="worldWidgets.js"></script>
+    
+    <!--<link rel="stylesheet" type="text/css" href="client.css">-->
+	
+	<script src="https://cdn.socket.io/socket.io-1.0.0.js"></script>
+	<!--<script src="client-object.js"></script>-->
+    <!--<script src="enviro-object.js"></script>-->
+    
+</head>
+
+<body onload = "init()">
+    
+    <div id="sceneContainer">
+    </div>
+    
+    <div id="bottomBar">
+    </div>
+    
+    <div id="sideBar">
+        <button id="maxButton" style="visibility: hidden" class="minmaxB">
+            <b> < </b>
+        </button>
+        <button id="minButton" style="visibility: visible" class="minmaxB">
+            <b> > </b>
+        </button>
+            
+        <div id="widgetSpace">
+            
+            <div class="widget">
+                <span>Another widget</span>
+            </div>
+            
+            <div id="chat" class="widget">
+                <span class="widgetHeader">Chat Window</span>
+                <ul id="messages"></ul>
+                <input id="inputField" autocomplete="off" />
+                <button id="sendButton">Send</button>
+            </div>
+            
+            <div class="widget">
+                <span>Another widget</span>
+            </div>
+            
+            <div class="widget">
+                <span>Another widget</span>
+            </div>
+            
+            <div class="widget">
+                <span>Another widget</span>
+            </div>
+        </div>
+    </div>
+    
+
+    
+</body>
+
+</html>
