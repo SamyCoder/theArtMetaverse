@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+  <head>
+    <meta name='Vizthumbnail' content='Thumb_MossArt_Composed_UG_cameras_x3d8012391500567167.jpg'/>
+    <meta name='filename' content='cameras.x3d'/>
+    <meta name='generator' content='Blender 2.78 (sub 0)'/>
+    <meta name='ExportTime' content='12:12:47'/>
+    <meta name='ExportDate' content='7/20/2017'/>
+    <meta name='VivatyStudioVersion' content='738'/>
+    <meta name='VivatyStudioSource' content='mossart_composed_ug_cameras.fxw'/>
+  </head>
+  <Scene>
+    <WorldInfo
+      title='MossArt_Composed'
+      info='"This Web3D Content was created with Vivaty Studio, a Web3D authoring tool"
+      "www.mediamachines.com"'/>
+      <Transform DEF='cameras_LOC_TRANSFORM'
+        rotation='0 1 0 3.142'
+        scale='.01 .01 .01'>
+        <Viewpoint DEF='generalOutsideView'
+          containerField='children'
+          description='Viewpoint1'
+          jump='true'
+          fieldOfView='.7854'
+          position='-3000 0 -16000'
+          orientation='0 1 0 3.142'/>
+          <Transform DEF='cam_main_Interance_TRANSFORM'
+            containerField='children'
+            translation='-1493.11 -267.22 -5751.21'
+            rotation='-.653 .756 .036 .144'>
+            <Viewpoint DEF='CA_cam_main_Interance'
+              containerField='children'
+              description='CA_cam_main_Interance'
+              jump='true'
+              fieldOfView='.785'
+              position='0 0 0'
+              orientation='0 1 0 3.142'/>
+            </Transform>
+            <Transform DEF='cam_centeralStairs_inside_TRANSFORM'
+              containerField='children'
+              translation='-1257.63 -228.119 -3513.63'
+              rotation='-.626 .777 -.065 .049'>
+              <Viewpoint DEF='CA_cam_centeralStairs_inside'
+                containerField='children'
+                description='CA_cam_centeralStairs_inside'
+                jump='true'
+                fieldOfView='.785'
+                position='0 0 0'
+                orientation='0 1 0 3.142'/>
+              </Transform>
+              <Transform DEF='cam_sandBox_hallWay_TRANSFORM'
+                containerField='children'
+                translation='760.653 -241.687 -2522.13'
+                rotation='.016 -1 .016 1.557'>
+                <Viewpoint DEF='CA_cam_sandBox_hallWay'
+                  containerField='children'
+                  description='CA_cam_sandBox_hallWay'
+                  jump='true'
+                  fieldOfView='.95'
+                  position='0 0 0'
+                  orientation='0 1 0 3.142'/>
+                </Transform>
+                <Transform DEF='cam_sandBox_insideSandBox_TRANSFORM'
+                  containerField='children'
+                  translation='-66.6788 -196.256 -1347.51'>
+                  <Viewpoint DEF='CA_cam_sandBox_insideSandBox'
+                    containerField='children'
+                    description='CA_cam_sandBox_insideSandBox'
+                    jump='true'
+                    fieldOfView='.95'
+                    position='0 0 0'
+                    orientation='-1 -0 -0 0'/>
+                  </Transform>
+                <Transform DEF='cam_cube_Interance_TRANSFORM'
+                  containerField='children'
+                  translation='-100.297 -278.357 -6596.3'
+                  rotation='-.949 -.316 -.01 .066'>
+                  <Viewpoint DEF='CA_cam_cube_Interance'
+                    containerField='children'
+                    description='CA_cam_cube_Interance'
+                    jump='true'
+                    fieldOfView='.785'
+                    position='0 0 0'
+                    orientation='0 1 0 3.142'/>
+                  </Transform>
+                  <Transform DEF='cam_PerformanceHall_interance_TRANSFORM'
+                    containerField='children'
+                    translation='-3150.07 -254.506 -4070.61'
+                    rotation='-.015 -1 -.017 1.449'>
+                    <Viewpoint DEF='CA_cam_PerformanceHall_interance'
+                      containerField='children'
+                      description='CA_cam_PerformanceHall_interance'
+                      jump='true'
+                      fieldOfView='.785'
+                      position='0 0 0'
+                      orientation='0 1 0 3.142'/>
+                    </Transform>
+                    <Transform DEF='cam_PerformanceHallStairs_inside_TRANSFORM'
+                      containerField='children'
+                      translation='-4535.13 -240.208 -4681.9'
+                      rotation='-.003 -1 -.031 2.956'>
+                      <Viewpoint DEF='CA_cam_PerformanceHallStairs_inside'
+                        containerField='children'
+                        description='CA_cam_PerformanceHallStairs_inside'
+                        jump='true'
+                        fieldOfView='.785'
+                        position='0 0 0'
+                        orientation='0 1 0 3.142'/>
+                      </Transform>
+                      <Transform DEF='cam_observationRoom_hallway_TRANSFORM'
+                        containerField='children'
+                        translation='-98.751 121.742 215.636'
+                        rotation='.002 -1 0 3.034'>
+                        <Viewpoint DEF='CA_cam_observationRoom_hallway'
+                          containerField='children'
+                          description='CA_cam_observationRoom_hallway'
+                          jump='true'
+                          fieldOfView='1.24'
+                          position='0 0 0'
+                          orientation='0 1 0 3.142'/>
+                        </Transform>
+                        <Transform DEF='cam_observationRoom_insideRoom_TRANSFORM'
+                          containerField='children'
+                          translation='-317.857 161.072 -200.472'
+                          rotation='0 1 0 3.089'>
+                          <Viewpoint DEF='CA_cam_observationRoom_insideRoom'
+                            containerField='children'
+                            description='CA_cam_observationRoom_insideRoom'
+                            jump='true'
+                            fieldOfView='1.24'
+                            position='0 0 0'
+                            orientation='0 1 0 3.142'/>
+                          </Transform>
+                          <Transform DEF='cam_learningLab_hallWay_TRANSFORM'
+                            containerField='children'
+                            translation='194.365 111.897 220.677'
+                            rotation='.001 1 -.016 3.072'>
+                            <Viewpoint DEF='CA_cam_learningLab_hallWay'
+                              containerField='children'
+                              description='CA_cam_learningLab_hallWay'
+                              jump='true'
+                              fieldOfView='.95'
+                              position='0 0 0'
+                              orientation='0 1 0 3.142'/>
+                            </Transform>
+                            <Transform DEF='cam_learningLab_insideLab_TRANSFORM'
+                              containerField='children'
+                              translation='955.437 81.9437 -160.337'
+                              rotation='0 1 .031 3.142'>
+                              <Viewpoint DEF='CA_cam_learningLab_insideLab'
+                                containerField='children'
+                                description='CA_cam_learningLab_insideLab'
+                                jump='true'
+                                fieldOfView='.95'
+                                position='0 0 0'
+                                orientation='0 1 0 3.142'/>
+                              </Transform>
+                              <Transform DEF='cam_performanceStudio_insideStudio_TRANSFORM'
+                                containerField='children'
+                                translation='1314.71 -304.866 -3372.53'
+                                rotation='.002 .999 -.047 3.072'>
+                                <Viewpoint DEF='CA_cam_performanceStudio_insideStudio'
+                                  containerField='children'
+                                  description='CA_cam_performanceStudio_insideStudio'
+                                  jump='true'
+                                  fieldOfView='.95'
+                                  position='0 0 0'
+                                  orientation='-.01 1 -.02 0'/>
+                                </Transform>
+                                  <Transform DEF='cam_backInterance_TRANSFORM'
+                                    containerField='children'
+                                    translation='-626.939 107.85 2536.76'>
+                                    <Viewpoint DEF='CA_cam_backInterance'
+                                      containerField='children'
+                                      description='CA_cam_backInterance'
+                                      jump='true'
+                                      fieldOfView='.95'
+                                      position='0 0 0'
+                                      orientation='-1 0 -0 0'/>
+                                    </Transform>
+                                  </Transform>
+                                  <DirectionalLight DEF='lightUp'
+                                    intensity='.16'
+                                    ambientIntensity='0'
+                                    direction='0 -1 -0'
+                                    color='1 1 1'
+                                    on='true'/>
+                                    <DirectionalLight DEF='lightDown'
+                                      intensity='.16'
+                                      ambientIntensity='0'
+                                      direction='0 1 0'
+                                      color='1 1 1'
+                                      on='true'/>
+                                      <DirectionalLight DEF='lighFront'
+                                        intensity='.16'
+                                        ambientIntensity='0'
+                                        direction='0 0 -1'
+                                        color='1 1 1'
+                                        on='true'/>
+                                        <DirectionalLight DEF='lightBack'
+                                          intensity='.16'
+                                          ambientIntensity='0'
+                                          direction='0 0 -1'
+                                          color='1 1 1'
+                                          on='true'/>
+                                          <DirectionalLight DEF='lightSide1'
+                                            intensity='.16'
+                                            ambientIntensity='0'
+                                            direction='1 0 0'
+                                            color='1 1 1'
+                                            on='true'/>
+                                            <DirectionalLight DEF='lightSide2'
+                                              intensity='.16'
+                                              ambientIntensity='0'
+                                              direction='-1 0 0'
+                                              color='1 1 1'
+                                              on='true'/>
+                                              <Transform DEF='dad_Light6'
+                                                translation='30 0 45'>
+                                                <PointLight DEF='pointLight_all'
+                                                  containerField='children'
+                                                  ambientIntensity='0'
+                                                  intensity='.4'
+                                                  radius='100'
+                                                  attenuation='1 0 0'
+                                                  color='1 1 1'
+                                                  on='true'/>
+                                                </Transform>
+                                                <Inline DEF='Inline1'
+                                                  url='"M1Main_aopt.x3d"'/>
+                                                  <Inline DEF='Inline2'
+                                                    url='"M2Out_aopt.x3d"'/>
+                                                    <Inline DEF='Inline3'
+                                                      url='"M3Lobby1_aopt.x3d"'/>
+                                                      <Inline DEF='Inline4'
+                                                        url='"M4Lobby2_aopt.x3d"'/>
+                                                        <Inline DEF='Inline6'
+                                                          url='"M6Pool-Performance_aopt.x3d"'/>
+                                                          <Inline DEF='Inline7'
+                                                            url='"M7PerformanceFBXASCx3d_aopt.x3d"'/>
+                                                            <Inline DEF='Inline8'
+                                                              url='"M8Master-Create-Lab-News-Upper_aopt.x3d"'/>
+                                                              <Inline DEF='Inline9'
+                                                                url='"M9Upper-SandChair1_aopt.x3d"'/>
+                                                                <Inline DEF='Inline10'
+                                                                  url='"M10SandChair2_aopt.x3d"'/>
+                                                                  <Inline DEF='Inline11'
+                                                                    url='"M11SandTable-Couch-Desk12_aopt.x3d"'/>
+                                                                    <Inline DEF='Inline12'
+                                                                      url='"M12SandDesk3_aopt.x3d"'/>
+                                                                      <Inline DEF='Inline13'
+                                                                        url='"M13SandCorner-White-Doors_aopt.x3d"'/>
+                                                                        <Inline DEF='Inline14'
+                                                                          url='"M14SandDoors-Lights_aopt.x3d"'/>
+                                                                          <Inline DEF='Inline15'
+                                                                            url='"M15SandboxRoom-Hallway_aopt.x3d"'/>
+                                                                            <Inline DEF='Inline16'
+                                                                              url='"M16LearnObservTable-RoomAcces_aopt.x3d"'/>
+                                                                              <Inline DEF='Inline17'
+                                                                                url='"M17LearnObservMonit-WhiteBoar-Door_aopt.x3d"'/>
+                                                                                <Inline DEF='Inline18'
+                                                                                  url='"M18LearnObserv-Chairs1_aopt.x3d"'/>
+                                                                                  <Inline DEF='Inline19'
+                                                                                    url='"M19LearnObserv-Chairs2_aopt.x3d"'/>
+                                                                                    <Inline DEF='Inline20'
+                                                                                      url='"M20LearnObserv-Monitors_aopt.x3d"'/>
+                                                                                      <Inline DEF='Inline21'
+                                                                                        url='"M21LearnPref_aopt.x3d"'/>
+                                                                                        <Inline DEF='Inline22'
+                                                                                          url='"M22LearningLab1_aopt.x3d"'/>
+                                                                                          <Inline DEF='Inline23'
+                                                                                            url='"M23LearningLab2-Tables1_aopt.x3d"'/>
+                                                                                            <Inline DEF='Inline24'
+                                                                                              url='"M24LearningLab2-Tables2-Stools_aopt.x3d"'/>
+                                                                                              <Inline DEF='Inline25'
+                                                                                                url='"M25LearningLab2-Tables2-Chairs1_aopt.x3d"'/>
+                                                                                                <Inline DEF='Inline26'
+                                                                                                  url='"M26LearningLab2-Tables2-Chairs2_aopt.x3d"'/>
+                                                                                                  <Inline DEF='Inline27'
+                                                                                                    url='"M27LearningLab2-ProjectsDoorsWhite-Tablets_aopt.x3d"'/>
+                                                                                                    <Inline DEF='Inline28'
+                                                                                                      url='"M28StillNOrgan-Unassign-Signs-Doors1_aopt.x3d"'/>
+                                                                                                      <Inline DEF='Inline29'
+                                                                                                        url='"M29StillNOrgan-UnassignDoors2_aopt.x3d"'/>
+                                                                                                        <Inline DEF='Inline30'
+                                                                                                          url='"M30LearningLabHall-FromRevised2maya_aopt.x3d"'/>
+                                                                                                          <Inline DEF='Inline5'
+                                                                                                            url='"M5Kiosk-theFBXSC_aopt.x3d"'/>
+                                                                                                          </Scene>
+                                                                                                        </X3D>

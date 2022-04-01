@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <NavigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'/>
+    <Background DEF='WO_World' groundColor='0.051 0.051 0.051' skyColor='0.051 0.051 0.051'/>
+    <Transform DEF='MossArtsCenter_Model1_TRANSFORM' rotation='0 1 -0 3.14159' scale='0.01 0.01 0.01'>
+      <Transform DEF='Learning_Lab_Hallway_Observation_Room_TRANSFORM'>
+        <Transform DEF='LearningLab2_TRANSFORM'>
+          <Transform DEF='Chairs1_TRANSFORM'>
+            <Transform DEF='Simple_Chair_26_TRANSFORM'>
+              <Transform DEF='pCube5_002_TRANSFORM'>
+                <Transform DEF='pCube5_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_003'>
+                    <Shape DEF='SP_3'>
+                      <Appearance DEF='AOPT_Appearance_2631222640'>
+                        <Material DEF='MA_MossArtsCenter_Model_Chair_Backing' ambientIntensity='0.333' diffuseColor='0 0 0' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_3' vertexCount='2859 750' primType='"TRIANGLESTRIP" "TRIANGLES"' position='368.61151123 46.2139511108 -668.361999512' size='41.408996582 36.3367004395 16.5579833984' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_3_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_3_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_3_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_2'>
+                      <Appearance DEF='AOPT_Appearance_2622890960'>
+                        <Material DEF='MA_MossArtsCenter_Model_Chair_Yellow' ambientIntensity='0.333' diffuseColor='1 1 0.689' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_2' vertexCount='1552 207' primType='"TRIANGLESTRIP" "TRIANGLES"' position='368.603515625 53.2110023499 -667.581481934' size='38.350982666 24.8646011353 15.9790039063' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_2_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_2_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_2_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_002_TRANSFORM'>
+                <Transform DEF='pCube4_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_006'>
+                    <Shape DEF='SP_6'>
+                      <Appearance USE='AOPT_Appearance_2622890960'/>
+                      <BinaryGeometry DEF='BG_6' vertexCount='1013 117' primType='"TRIANGLESTRIP" "TRIANGLES"' position='368.300994873 31.3130512238 -643.719482422' size='38.8880004883 7.35110092163 43.507019043' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_6_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_6_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_6_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_002_TRANSFORM'>
+                <Transform DEF='pCube3_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_004'>
+                    <Shape DEF='SP_7'>
+                      <Appearance USE='AOPT_Appearance_2631222640'/>
+                      <BinaryGeometry DEF='BG_7' vertexCount='3810 2253' primType='"TRIANGLESTRIP" "TRIANGLES"' position='368.288513184 15.9569206238 -643.920471191' size='41.7049865723 26.3541603088 38.9530029297' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_7_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_7_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_7_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='Simple_Chair_27_TRANSFORM'>
+              <Transform DEF='pCube5_001_TRANSFORM'>
+                <Transform DEF='pCube5_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_008'>
+                    <Shape DEF='SP_5'>
+                      <Appearance USE='AOPT_Appearance_2631222640'/>
+                      <BinaryGeometry DEF='BG_5' vertexCount='2825 786' primType='"TRIANGLESTRIP" "TRIANGLES"' position='467.61151123 46.4139480591 -668.361999512' size='41.408996582 36.3367004395 16.5579833984' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_5_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_5_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_5_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_4'>
+                      <Appearance USE='AOPT_Appearance_2622890960'/>
+                      <BinaryGeometry DEF='BG_4' vertexCount='1552 207' primType='"TRIANGLESTRIP" "TRIANGLES"' position='467.603515625 53.4109992981 -667.581481934' size='38.350982666 24.8646011353 15.9790039063' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_4_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_4_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_4_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_001_TRANSFORM'>
+                <Transform DEF='pCube4_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_007'>
+                    <Shape DEF='SP_10'>
+                      <Appearance USE='AOPT_Appearance_2622890960'/>
+                      <BinaryGeometry DEF='BG_10' vertexCount='1023 120' primType='"TRIANGLESTRIP" "TRIANGLES"' position='467.300994873 31.5130500793 -643.719482422' size='38.8880004883 7.35109901428 43.507019043' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_10_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_10_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_10_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_001_TRANSFORM'>
+                <Transform DEF='pCube3_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_001'>
+                    <Shape DEF='SP_1'>
+                      <Appearance USE='AOPT_Appearance_2631222640'/>
+                      <BinaryGeometry DEF='BG_1' vertexCount='3832 2217' primType='"TRIANGLESTRIP" "TRIANGLES"' position='467.288513184 16.1569252014 -643.920471191' size='41.7049865723 26.3541488647 38.9530029297' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_1_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_1_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_1_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='Simple_Chair_38_TRANSFORM'>
+              <Transform DEF='pCube5_TRANSFORM'>
+                <Transform DEF='pCube5_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_005'>
+                    <Shape DEF='SP_0'>
+                      <Appearance USE='AOPT_Appearance_2631222640'/>
+                      <BinaryGeometry DEF='BG_0' vertexCount='2837 792' primType='"TRIANGLESTRIP" "TRIANGLES"' position='417.61151123 46.2139511108 -669.361999512' size='41.408996582 36.3367004395 16.5579833984' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_0_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_0_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_0_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_8'>
+                      <Appearance DEF='AOPT_Appearance_2631268592'>
+                        <Material DEF='MA_MossArtsCenter_Model_Chair_Green' ambientIntensity='0.333' diffuseColor='0.501 0.718 0.528' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_8' vertexCount='1510 213' primType='"TRIANGLESTRIP" "TRIANGLES"' position='417.603027344 53.2110023499 -668.581481934' size='38.3500061035 24.8646011353 15.9790039063' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_8_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_8_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_8_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_TRANSFORM'>
+                <Transform DEF='pCube4_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled'>
+                    <Shape DEF='SP_9'>
+                      <Appearance USE='AOPT_Appearance_2631268592'/>
+                      <BinaryGeometry DEF='BG_9' vertexCount='999 123' primType='"TRIANGLESTRIP" "TRIANGLES"' position='417.300994873 31.3130512238 -644.64050293' size='38.8880004883 7.35110092163 41.7850341797' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_9_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_9_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_9_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_TRANSFORM'>
+                <Transform DEF='pCube3_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_002'>
+                    <Shape DEF='SP_11'>
+                      <Appearance USE='AOPT_Appearance_2631222640'/>
+                      <BinaryGeometry DEF='BG_11' vertexCount='3790 2289' primType='"TRIANGLESTRIP" "TRIANGLES"' position='417.288513184 15.9569206238 -645.063964844' size='41.7049865723 26.3541603088 37.4099731445' index='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_11_indexBinary.bin' coord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_11_coordNormalBinary.bin+8' texCoord='M25LearningLab2-Tables2-Chairs1_aoptbinGeo/BG_11_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>

@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(23, 9, 76, 1);
+    height: 100%;
+    margin: 0;
+    font: 13px Helvetica, Arial; 
+}
+
+p {
+	margin-top:0;
+	margin-bottom:0
+}
+
+X3D {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+section {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#sceneContainer {
+    background-color: rgba(100, 100, 100, 0.5);
+    width: 100%;
+    bottom: 130px;
+    z-index: -1;
+    top: 0;
+    position: fixed;
+    display: table-row;
+}
+
+#bottomBar {
+    background-color: rgba(207, 207, 207, 1);
+    width: 100%;
+    height: 100px;
+    z-index: -2;
+    bottom: 0;
+    position: fixed;
+    overflow: hidden;
+    padding: 20px 20px 10px 40px;
+    display: table-row;
+}
+
+#sideBar {
+    width: 250px;
+    height: 100%;
+    left: 0;
+    z-index: 4;
+    position: absolute;
+}
+
+#maxButton {
+    visibility: hidden;
+    left: 0;
+}
+
+#minButton {
+    visibility: visible;
+    margin-left: 232px;
+}
+
+.minmaxB {
+	position: fixed;
+    display: inline-block;
+    height: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+    background: #FFF;
+    border: none;
+}
+
+.minmaxB:hover {
+    background: rgb(130, 224, 255);
+}
+
+#widgetSpace {
+    background-color: rgba(255, 255, 255, .5);
+    height: 100%;
+    width: 232px;
+    position: absolute;
+    display: table;
+    border-collapse: collapse;
+    left: 0;
+}
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 1px 6px 0px #2b2b2b;
+    -moz-box-shadow: 0 1px 6px 0px #2b2b2b;
+    box-shadow: 0 1px 6px 0px #2b2b2b;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 1px 6px 0px #2b2b2b;
+    -moz-box-shadow: 0 1px 6px 0px #2b2b2b;
+    box-shadow: 0 1px 6px 0px #2b2b2b;
+    
+}
+
+.widget {
+    background-color: rgba(255, 255, 255, .5);
+    padding: 20px;
+    resize: vertical;
+    display: table-row;
+    position: relative;
+    vertical-align: bottom;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.widgetHeader {
+    font-weight: bold;
+    background: rgba(175, 175, 175, 1);
+    border: 1px solid #999999;
+    padding: 15px 0px 15px 15px;
+    position: fixed;
+    width: 232px;
+}
+
+#inputField {
+	margin-left: 5px;
+	width: 155px;
+	height: 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+#messages {
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0;
+    top: 0;
+    overflow:hidden;
+    overflow-y:scroll;
+}
+
+#messages li {
+	padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) { 
+	background: #eee; 
+}
+
+#sendButton { 
+    margin-left: 5px;
+    height: 30px;
+	width: 50px;
+	background: rgb(130, 224, 255);
+	border: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold;
+}

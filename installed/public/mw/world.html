@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MirrorWorlds</title>
+
+    <script type='text/javascript' src='x3dom/x3dom.js'> </script> 
+    <link rel='stylesheet' type='text/css' href='x3dom/x3dom.css'></link>
+    <link rel="stylesheet" type="text/css" href="world.css">
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="enviro-object.js"></script>
+    <script src="client-object.js"></script>
+    
+</head>
+
+<body onload = "init()">
+    
+    <section>
+        <div id="sceneContainer" class="one-edge-shadow">
+            <X3D id="x3dContent">
+                <Scene>
+                    <Viewpoint id="firstPerson" set_bind="true" position='2 1.5 5' orientation='0 1 0 0'></Viewpoint>
+
+                    <Group id="avatarGroup"></Group>
+                </Scene>
+            </X3D>
+        </div>
+
+        <div id="bottomBar">
+
+            <b>People currently observing this model:</b>
+            <span id="users">Loading...</span>
+
+        </div>
+    </section>
+        
+    <div id="sideBar">
+        
+        <div id="widgetSpace">
+            
+            <div class="widget">
+                <span class="widgetHeader">Another widget</span>
+            </div>
+            
+            <div class="widget">
+                <span style="padding: 10px;">Toolbar</span>
+                    <div id="toolbar">
+                        <span>Select an Avatar:<br></span>
+                        <select id="selectAvatar">
+                            <option value="avatars/pumba.x3d">Warthog</option>
+                            <option value="avatars/teapot.x3d">Teapot</option>
+                            <option value="avatars/pumbaGreen.x3d">Green Warthog</option>
+                            <option value="avatars/pumbaBlue.x3d">Blue Warthog</option>
+                        </select>
+                    </div>
+            </div>
+            
+            <div id="chat" class="widget" style="height: 75%;">
+                <span class="widgetHeader">Chat Window</span>
+                <ul id="messages"></ul>
+                <input id="inputField" autocomplete="off" />
+                <button id="sendButton">Send</button>
+            </div>
+            
+        </div>
+        
+        <button id="maxButton" style="visibility: hidden" class="minmaxB shadow">
+            <b> &lt; </b>
+        </button>
+        <button id="minButton" style="visibility: visible" class="minmaxB">
+            <b> &gt; </b>
+        </button>
+    </div>
+    
+</body>
+
+</html>

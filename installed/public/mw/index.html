@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8"/>
+    <title>Mirror Worlds</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        function main()
+        {
+            document.getElementById('url').innerHTML =
+                'Current URL: ' + location.href;
+        }
+    </script>
+</head>
+<body onload="main();">
+    <h1>Mirror Worlds default index</h1>
+
+    <p>Your Mirror Worlds Service is up and running.
+      This page is a temporary index page to
+      get you up and running. Find this file and replace it.</p>
+
+    <h3>Links</h3>
+
+    <ul>
+        <li><a href="world.html?file=example.x3d">Example World</a> is a simple
+            mirror worlds example.</li>
+        <li><a href="viewer.html?file=example.x3d">View example world
+                without widgets or collaboration</a></li> 
+        <li><a
+            href="clipplane.html?file=example.x3d">Clip
+            plane example with "simple example" model</a></li>
+        <li><a href="http://mw.icat.vt.edu/">The Mirror Worlds
+                Homepage</a></li>
+        <li><a href="https://github.com/vtcoders/mirrorworlds">The
+                Mirror Worlds GitHub repository</a></li>
+    </ul>
+
+    <pre id=url></pre>
+</body>
+</html>

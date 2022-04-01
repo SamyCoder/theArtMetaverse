@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <NavigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'/>
+    <Background DEF='WO_World' groundColor='0.051 0.051 0.051' skyColor='0.051 0.051 0.051'/>
+    <Transform DEF='LearningLabHallway_TRANSFORM' rotation='0 1 -0 3.14159' scale='0.01 0.01 0.01'>
+      <Transform DEF='Hallway_Objects_TRANSFORM'>
+        <Transform DEF='Router_FBX_TRANSFORM'>
+          <Transform DEF='G12_TRANSFORM'>
+            <Transform DEF='pCylinder4_TRANSFORM'>
+              <Transform DEF='pCylinder4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_007'>
+                  <Shape DEF='SP_0'>
+                    <Appearance DEF='AOPT_Appearance_4182629712'>
+                      <Material DEF='MA_MossArtsCenter_Model_Cisco_wireless' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      <ImageTexture DEF='IM_MossArtsCenter_Model_Cisco_wireless' url='"MossArtsCenter_Model_Cisco_wireless_MainTex.jpg" "MossArtsCenter_Model_Cisco_wireless_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/30/../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Cisco_wireless_MainTex.jpg"'/>
+                      <TextureTransform DEF='AOPT_TextureTransform_4182655616'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_0' vertexCount='224' primType='"TRIANGLESTRIP"' position='476.460998535 198.777496338 220.840499878' size='1.70202636719 1.70100402832 3.37899780273' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_0_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_0_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_0_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder3_TRANSFORM'>
+              <Transform DEF='pCylinder3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled'>
+                  <Shape DEF='SP_2'>
+                    <Appearance USE='AOPT_Appearance_4182629712'/>
+                    <BinaryGeometry DEF='BG_2' vertexCount='224' primType='"TRIANGLESTRIP"' position='462.898010254 198.777496338 220.840499878' size='1.70199584961 1.70100402832 3.37899780273' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_2_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_2_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_2_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder2_002_TRANSFORM'>
+              <Transform DEF='pCylinder2_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_011'>
+                  <Shape DEF='SP_1'>
+                    <Appearance USE='AOPT_Appearance_4182629712'/>
+                    <BinaryGeometry DEF='BG_1' vertexCount='224' primType='"TRIANGLESTRIP"' position='462.898010254 212.382995605 220.840499878' size='1.70199584961 1.70199584961 3.37899780273' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_1_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_1_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_1_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder1_005_TRANSFORM'>
+              <Transform DEF='pCylinder1_005_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_038'>
+                  <Shape DEF='SP_4'>
+                    <Appearance USE='AOPT_Appearance_4182629712'/>
+                    <BinaryGeometry DEF='BG_4' vertexCount='224' primType='"TRIANGLESTRIP"' position='476.546020508 212.382995605 220.840499878' size='1.70199584961 1.70199584961 3.37899780273' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_4_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_4_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_4_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='G11_pCube3_TRANSFORM'>
+            <Transform DEF='polySurface4_TRANSFORM'>
+              <Transform DEF='polySurface4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_004'>
+                  <Shape DEF='SP_3'>
+                    <Appearance USE='AOPT_Appearance_4182629712'/>
+                    <BinaryGeometry DEF='BG_3' vertexCount='145' primType='"TRIANGLESTRIP"' position='457.739990234 217.843994141 218.925994873' size='11.641998291 11.641998291 0.694000244141' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_3_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_3_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_3_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='polySurface3_TRANSFORM'>
+              <Transform DEF='polySurface3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_012'>
+                  <Shape DEF='SP_6'>
+                    <Appearance USE='AOPT_Appearance_4182629712'/>
+                    <BinaryGeometry DEF='BG_6' vertexCount='161' primType='"TRIANGLESTRIP"' position='457.739990234 193.582000732 218.925994873' size='11.641998291 11.641998291 0.694000244141' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_6_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_6_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_6_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='G10_pCube2_TRANSFORM'>
+            <Transform DEF='polySurface2_TRANSFORM'>
+              <Transform DEF='polySurface2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_003'>
+                  <Shape DEF='SP_8'>
+                    <Appearance USE='AOPT_Appearance_4182629712'/>
+                    <BinaryGeometry DEF='BG_8' vertexCount='153' primType='"TRIANGLESTRIP"' position='481.721984863 217.658004761 218.925994873' size='11.641998291 11.641998291 0.694000244141' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_8_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_8_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_8_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='polySurface1_TRANSFORM'>
+              <Transform DEF='polySurface1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_028'>
+                  <Shape DEF='SP_5'>
+                    <Appearance USE='AOPT_Appearance_4182629712'/>
+                    <BinaryGeometry DEF='BG_5' vertexCount='163' primType='"TRIANGLESTRIP"' position='481.721984863 193.582000732 218.925994873' size='11.641998291 11.641998291 0.694000244141' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_5_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_5_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_5_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_008_TRANSFORM'>
+              <Transform DEF='pCube1_008_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_040'>
+                  <Shape DEF='SP_10'>
+                    <Appearance USE='AOPT_Appearance_4182629712'/>
+                    <BinaryGeometry DEF='BG_10' vertexCount='867 39' primType='"TRIANGLESTRIP" "TRIANGLES"' position='469.700500488 205.500488281 224.294998169' size='21.575012207 21.5749969482 6.67999267578' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_10_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_10_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_10_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Fire_Alarms_TRANSFORM'>
+          <Transform DEF='G9_Fire_alarm_FBX_TRANSFORM'>
+            <Transform DEF='pCylinder1_004_TRANSFORM'>
+              <Transform DEF='pCylinder1_004_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_026'>
+                  <Shape DEF='SP_14'>
+                    <Appearance DEF='AOPT_Appearance_4137059520'>
+                      <Material DEF='MA_MossArtsCenter_Model_glass' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081' transparency='0.819547'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_14' vertexCount='130 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-462.718505859 105.566543579 92.8051986694' size='8.46701049805 20.852897644 17.6235961914' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_14_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_14_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_14_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_11'>
+                    <Appearance DEF='AOPT_Appearance_4182792672'>
+                      <Material USE='MA_MossArtsCenter_Model_Cisco_wireless'/>
+                      <ImageTexture DEF='IM_MossArtsCenter_Model_Fire_Alarm_diffuse' url='"MossArtsCenter_Model_Fire_Alarm_diffuse_MainTex.jpg" "MossArtsCenter_Model_Fire_Alarm_diffuse_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/30/../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Fire_Alarm_diffuse_MainTex.jpg"'/>
+                      <TextureTransform USE='AOPT_TextureTransform_4182655616'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_11' vertexCount='34' primType='"TRIANGLESTRIP"' position='-462.504486084 111.723503113 92.8053512573' size='8.03900146484 3.67900085449 12.7642974854' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_11_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_11_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_11_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube2_006_TRANSFORM'>
+              <Transform DEF='pCube2_006_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_032'>
+                  <Shape DEF='SP_12'>
+                    <Appearance USE='AOPT_Appearance_4182792672'/>
+                    <BinaryGeometry DEF='BG_12' vertexCount='17' primType='"TRIANGLESTRIP"' position='-463.26348877 102.698501587 92.8053512573' size='0.253021240234 3.75700378418 6.54890441895' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_12_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_12_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_12_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_007_TRANSFORM'>
+              <Transform DEF='pCube1_007_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_035'>
+                  <Shape DEF='SP_13'>
+                    <Appearance USE='AOPT_Appearance_4182792672'/>
+                    <BinaryGeometry DEF='BG_13' vertexCount='337 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-464.429504395 104.200042725 92.8054046631' size='3.85498046875 12.3059005737 9.34540557861' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_13_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_13_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_13_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='G8_Fire_alarm_FBX_1_TRANSFORM'>
+            <Transform DEF='pCylinder1_003_TRANSFORM'>
+              <Transform DEF='pCylinder1_003_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_018'>
+                  <Shape DEF='SP_15'>
+                    <Appearance USE='AOPT_Appearance_4137059520'/>
+                    <BinaryGeometry DEF='BG_15' vertexCount='130 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1886.80004883 105.566650391 47.9986495972' size='17.6199951172 20.8526992798 8.46689987183' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_15_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_15_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_15_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_9'>
+                    <Appearance USE='AOPT_Appearance_4182792672'/>
+                    <BinaryGeometry DEF='BG_9' vertexCount='34' primType='"TRIANGLESTRIP"' position='1886.80004883 111.723503113 48.2125511169' size='12.7600097656 3.67900085449 8.03910064697' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_9_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_9_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_9_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_006_TRANSFORM'>
+              <Transform DEF='pCube1_006_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_005'>
+                  <Shape DEF='SP_7'>
+                    <Appearance USE='AOPT_Appearance_4182792672'/>
+                    <BinaryGeometry DEF='BG_7' vertexCount='337 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1886.80004883 104.200042725 46.2756004333' size='9.33996582031 12.3059005737 3.85440063477' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_7_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_7_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_7_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube2_005_TRANSFORM'>
+              <Transform DEF='pCube2_005_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_036'>
+                  <Shape DEF='SP_19'>
+                    <Appearance USE='AOPT_Appearance_4182792672'/>
+                    <BinaryGeometry DEF='BG_19' vertexCount='17' primType='"TRIANGLESTRIP"' position='1886.80004883 102.699005127 47.5054512024' size='6.53991699219 3.7560043335 0.252899169922' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_19_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_19_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_19_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='G7_TRANSFORM'>
+          <Transform DEF='Cylinder_6_TRANSFORM'>
+            <Transform DEF='Cylinder_6_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_015'>
+                <Shape DEF='SP_18'>
+                  <Appearance DEF='AOPT_Appearance_4183267728'>
+                    <Material USE='MA_MossArtsCenter_Model_Cisco_wireless'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_18' vertexCount='134' primType='"TRIANGLESTRIP"' position='498.000488281 229.800003052 120.904998779' size='10.6650085449 0.906005859375 10.6660003662' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_18_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_18_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_18_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Cylinder_7_TRANSFORM'>
+            <Transform DEF='Cylinder_7_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_022'>
+                <Shape DEF='SP_21'>
+                  <Appearance USE='AOPT_Appearance_4183267728'/>
+                  <BinaryGeometry DEF='BG_21' vertexCount='134' primType='"TRIANGLESTRIP"' position='176.000488281 229.800003052 120.904998779' size='10.6649932861 0.906005859375 10.6660003662' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_21_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_21_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_21_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Cylinder_8_TRANSFORM'>
+            <Transform DEF='Cylinder_8_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_031'>
+                <Shape DEF='SP_22'>
+                  <Appearance USE='AOPT_Appearance_4183267728'/>
+                  <BinaryGeometry DEF='BG_22' vertexCount='134' primType='"TRIANGLESTRIP"' position='-255.999511719 229.800003052 120.904998779' size='10.6649932861 0.906005859375 10.6660003662' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_22_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_22_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_22_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='G6_fire_alarm_v2_FBX_1_TRANSFORM'>
+          <Transform DEF='pCylinder1_002_TRANSFORM'>
+            <Transform DEF='pCylinder1_002_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_029'>
+                <Shape DEF='SP_17'>
+                  <Appearance DEF='AOPT_Appearance_4183264880'>
+                    <Material USE='MA_MossArtsCenter_Model_Cisco_wireless'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_fire_alarm_v2_diffuse' url='"MossArtsCenter_Model_fire_alarm_v2_diffuse_MainTex.jpg" "MossArtsCenter_Model_fire_alarm_v2_diffuse_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/30/../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_fire_alarm_v2_diffuse_MainTex.jpg"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_4182655616'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_17' vertexCount='49' primType='"TRIANGLESTRIP"' position='66.0003967285 227.199996948 121.904998779' size='6.40160369873 0.652008056641 6.40200042725' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_17_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_17_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_17_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube2_004_TRANSFORM'>
+            <Transform DEF='pCube2_004_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_020'>
+                <Shape DEF='SP_20'>
+                  <Appearance USE='AOPT_Appearance_4137059520'/>
+                  <BinaryGeometry DEF='BG_20' vertexCount='54 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='66.0003967285 225.390991211 121.904502869' size='3.87139892578 1.13200378418 1.68099975586' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_20_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_20_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_20_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_005_TRANSFORM'>
+            <Transform DEF='pCube1_005_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_013'>
+                <Shape DEF='SP_23'>
+                  <Appearance USE='AOPT_Appearance_4183264880'/>
+                  <BinaryGeometry DEF='BG_23' vertexCount='22' primType='"TRIANGLESTRIP"' position='66.0003967285 226.395507813 121.904998779' size='4.15380096436 1.32301330566 1.96600341797' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_23_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_23_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_23_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='G5_Motion_sensor_FBX_TRANSFORM'>
+          <Transform DEF='pSphere1_001_TRANSFORM'>
+            <Transform DEF='pSphere1_001_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_002'>
+                <Shape DEF='SP_24'>
+                  <Appearance DEF='AOPT_Appearance_4183260608'>
+                    <Material USE='MA_MossArtsCenter_Model_Cisco_wireless'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Motion_sensor_diffuse' url='"MossArtsCenter_Model_Motion_sensor_diffuse_MainTex.jpg" "MossArtsCenter_Model_Motion_sensor_diffuse_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/30/../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Motion_sensor_diffuse_MainTex.jpg"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_4182655616'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_24' vertexCount='888 15' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1575.14990234 225.121002197 122.104995728' size='1.57995605469 2.33999633789 1.57399749756' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_24_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_24_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_24_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube2_003_TRANSFORM'>
+            <Transform DEF='pCube2_003_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_008'>
+                <Shape DEF='SP_16'>
+                  <Appearance USE='AOPT_Appearance_4183260608'/>
+                  <BinaryGeometry DEF='BG_16' vertexCount='22' primType='"TRIANGLESTRIP"' position='1575.14990234 226.339508057 122.104995728' size='4.90002441406 0.429000854492 4.90599822998' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_16_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_16_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_16_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_004_TRANSFORM'>
+            <Transform DEF='pCube1_004_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_019'>
+                <Shape DEF='SP_28'>
+                  <Appearance USE='AOPT_Appearance_4183260608'/>
+                  <BinaryGeometry DEF='BG_28' vertexCount='354 21' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1575.15002441 222.35949707 122.104995728' size='4.32006835938 3.25900268555 3.65599822998' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_28_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_28_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_28_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='G4_Motion_sensor_FBX_1_TRANSFORM'>
+          <Transform DEF='thermostat_FBX_TRANSFORM'>
+            <Transform DEF='thermostat_FBX_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_017'>
+                <Shape DEF='SP_32'>
+                  <Appearance>
+                    <Material USE='MA_MossArtsCenter_Model_Cisco_wireless'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_thermostat_diffuse' url='"MossArtsCenter_Model_thermostat_diffuse_MainTex.jpg" "MossArtsCenter_Model_thermostat_diffuse_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/30/../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_thermostat_diffuse_MainTex.jpg"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_4182655616'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_32' vertexCount='287 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1599.31005859 118.199996948 41.3778495789' size='6.14001464844 6.14200592041 4.02130126953' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_32_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_32_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_32_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pSphere1_TRANSFORM'>
+            <Transform DEF='pSphere1_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_042'>
+                <Shape DEF='SP_42'>
+                  <Appearance USE='AOPT_Appearance_4183260608'/>
+                  <BinaryGeometry DEF='BG_42' vertexCount='899 15' primType='"TRIANGLESTRIP" "TRIANGLES"' position='250.000488281 224.821502686 121.904998779' size='1.57499694824 2.34100341797 1.57400512695' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_42_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_42_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_42_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube2_002_TRANSFORM'>
+            <Transform DEF='pCube2_002_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_016'>
+                <Shape DEF='SP_29'>
+                  <Appearance USE='AOPT_Appearance_4183260608'/>
+                  <BinaryGeometry DEF='BG_29' vertexCount='22' primType='"TRIANGLESTRIP"' position='250 226.040496826 121.904998779' size='4.90600585938 0.429000854492 4.90599822998' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_29_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_29_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_29_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_003_TRANSFORM'>
+            <Transform DEF='pCube1_003_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_006'>
+                <Shape DEF='SP_30'>
+                  <Appearance USE='AOPT_Appearance_4183260608'/>
+                  <BinaryGeometry DEF='BG_30' vertexCount='358 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='250.000488281 222.059494019 121.904998779' size='4.31700134277 3.25900268555 3.65599822998' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_30_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_30_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_30_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='G3_Fire_extinguisher_FBX_TRANSFORM'>
+          <Transform DEF='pPipe1_TRANSFORM'>
+            <Transform DEF='pPipe1_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_010'>
+                <Shape DEF='SP_37'>
+                  <Appearance DEF='AOPT_Appearance_4183937840'>
+                    <Material USE='MA_MossArtsCenter_Model_Cisco_wireless'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_fire_extinguisher_diffuse' url='"MossArtsCenter_Model_fire_extinguisher_diffuse_MainTex.jpg" "MossArtsCenter_Model_fire_extinguisher_diffuse_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/30/../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_fire_extinguisher_diffuse_MainTex.jpg"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_4182655616'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_37' vertexCount='102' primType='"TRIANGLESTRIP"' position='1286.1550293 95.8348999023 221.692993164' size='14.3499755859 1.00540161133 11.2540130615' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_37_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_37_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_37_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder2_001_TRANSFORM'>
+            <Transform DEF='pCylinder2_001_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_027'>
+                <Shape DEF='SP_38'>
+                  <Appearance USE='AOPT_Appearance_4183937840'/>
+                  <BinaryGeometry DEF='BG_38' vertexCount='340 159' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1281.69995117 101.76235199 221.692993164' size='7.35998535156 26.279296875 2.27600097656' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_38_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_38_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_38_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder1_001_TRANSFORM'>
+            <Transform DEF='pCylinder1_001_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_025'>
+                <Shape DEF='SP_25'>
+                  <Appearance USE='AOPT_Appearance_4183937840'/>
+                  <BinaryGeometry DEF='BG_25' vertexCount='276 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1287.69995117 94.566947937 221.693511963' size='10.8800048828 35.4320983887 10.8809967041' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_25_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_25_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_25_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube3_TRANSFORM'>
+            <Transform DEF='pCube3_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_023'>
+                <Shape DEF='SP_39'>
+                  <Appearance USE='AOPT_Appearance_4183937840'/>
+                  <BinaryGeometry DEF='BG_39' vertexCount='87 57' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1291.4050293 111.915496826 221.693496704' size='6.75 6.95099639893 3.04299926758' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_39_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_39_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_39_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube2_001_TRANSFORM'>
+            <Transform DEF='pCube2_001_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_014'>
+                <Shape DEF='SP_35'>
+                  <Appearance USE='AOPT_Appearance_4183937840'/>
+                  <BinaryGeometry DEF='BG_35' vertexCount='183 9' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1289.89001465 116.75050354 221.692993164' size='10.580078125 4.55300140381 3.61799621582' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_35_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_35_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_35_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_002_TRANSFORM'>
+            <Transform DEF='pCube1_002_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_001'>
+                <Shape DEF='SP_36'>
+                  <Appearance USE='AOPT_Appearance_4183937840'/>
+                  <BinaryGeometry DEF='BG_36' vertexCount='22' primType='"TRIANGLESTRIP"' position='1287.69995117 114.289505005 221.693496704' size='4.83996582031 3.93500518799 4.8330078125' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_36_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_36_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_36_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='G2_TRANSFORM'>
+          <Transform DEF='Cylinder_4__TRANSFORM'>
+            <Transform DEF='Cylinder_4__ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_024'>
+                <Shape DEF='SP_26'>
+                  <Appearance USE='AOPT_Appearance_4183267728'/>
+                  <BinaryGeometry DEF='BG_26' vertexCount='134' primType='"TRIANGLESTRIP"' position='846.200500488 229.800003052 120.504997253' size='10.6650390625 0.906005859375 10.6660003662' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_26_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_26_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_26_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_001_TRANSFORM'>
+            <Transform DEF='pCube1_001_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_041'>
+                <Shape DEF='SP_40'>
+                  <Appearance USE='AOPT_Appearance_4183267728'/>
+                  <BinaryGeometry DEF='BG_40' vertexCount='10' primType='"TRIANGLESTRIP"' position='1930.28491211 117.522750854 120.904800415' size='0.369995117188 173.896499634 77.3023986816' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_40_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_40_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_40_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_41'>
+                  <Appearance DEF='AOPT_Appearance_4183947808'>
+                    <Material DEF='MA_MossArtsCenter_Model_blinn1' ambientIntensity='0.333' diffuseColor='0.529 0.529 0.529' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_41' vertexCount='58' primType='"TRIANGLESTRIP"' position='1930.92504883 110.199798584 120.904891968' size='4.97009277344 216.112380981 96.6281967163' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_41_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_41_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_41_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='_256_StorageRoom_FBX_1__TRANSFORM'>
+            <Transform DEF='_256_StorageRoom_FBX_1__ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_033'>
+                <Shape DEF='SP_27'>
+                  <Appearance>
+                    <Material USE='MA_MossArtsCenter_Model_Cisco_wireless'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_256_Storage_diffuse' url='"MossArtsCenter_Model_256_Storage_diffuse_MainTex.jpg" "MossArtsCenter_Model_256_Storage_diffuse_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/30/../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_256_Storage_diffuse_MainTex.jpg"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_4182655616'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_27' vertexCount='36' primType='"TRIANGLESTRIP"' position='1787.23999023 151.199996948 225.746002197' size='10 10 1.30599975586' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_27_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_27_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_27_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder2_TRANSFORM'>
+            <Transform DEF='pCylinder2_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_039'>
+                <Shape DEF='SP_31'>
+                  <Appearance USE='AOPT_Appearance_4183947808'/>
+                  <BinaryGeometry DEF='BG_31' vertexCount='126' primType='"TRIANGLESTRIP"' position='1912.13000488 214.288497925 144.770996094' size='5.06005859375 2.17098999023 5.0659942627' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_31_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_31_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_31_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder1_TRANSFORM'>
+            <Transform DEF='pCylinder1_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_021'>
+                <Shape DEF='SP_33'>
+                  <Appearance USE='AOPT_Appearance_4183947808'/>
+                  <BinaryGeometry DEF='BG_33' vertexCount='126' primType='"TRIANGLESTRIP"' position='1924.17993164 216.936004639 151.520004272' size='6.94006347656 2.97200012207 6.93600463867' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_33_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_33_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_33_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube2_TRANSFORM'>
+            <Transform DEF='pCube2_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_037'>
+                <Shape DEF='SP_34'>
+                  <Appearance USE='AOPT_Appearance_4183947808'/>
+                  <BinaryGeometry DEF='BG_34' vertexCount='106 24' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1924.17993164 211.579498291 114.804794312' size='3.70007324219 2.97900390625 33.8463973999' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_34_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_34_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_34_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_TRANSFORM'>
+            <Transform DEF='pCube1_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_030'>
+                <Shape DEF='SP_43'>
+                  <Appearance>
+                    <Material DEF='MA_MossArtsCenter_Model_blinn_door' ambientIntensity='0.333' diffuseColor='0.544 0.544 0.544' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_43' vertexCount='106 24' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1924.17993164 222.899993896 114.804702759' size='11.5799560547 9.30400085449 85.0745925903' index='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_43_indexBinary.bin' coord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_43_coordNormalBinary.bin+8' texCoord='M30LearningLabHall-FromRevised2maya_aoptbinGeo/BG_43_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+      </Transform>
+      <Transform DEF='G1_TRANSFORM'/>
+    </Transform>
+  </Scene>
+</X3D>

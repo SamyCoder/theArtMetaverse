@@ -1,0 +1,311 @@
+    <x3d>
+      <scene>
+        <worldInfo info='"Nicholas Polys" "Dane Webster" "Gravity: off"' title='3D Blacksburg MOSS'></worldInfo>
+        <viewpoint DEF='Viewpoint2' description='Viewpoint2' orientation='0 1 0 1.571' position='14.8714 0.68637 10.41' fieldOfView='0.7854'></viewpoint>
+        <viewpoint DEF='Viewpoint1' description='Viewpoint1' position='-3.6149 0.82365 21.9411' fieldOfView='0.7854'></viewpoint>
+        <navigationInfo DEF='NavigationInfo1' speed='2' type='"FLY" "ANY"' avatarSize='.125 .8 .35'></navigationInfo>
+        <transform DEF='dad_dad_Import_LightStudy_breakup9_nfp_geometry' rotation='0 1 0 0.785' translation='-0.13727 0 0.20591'>
+          <shape DEF='SP_8'>
+            <appearance>
+              <material DEF='Material_Surf' ambientIntensity='0.06272' diffuseColor='0.56 0.56 0.56' shininess='0.59375'></material>
+            </appearance>
+            <binaryGeometry DEF='BG_8' solid='false' vertexCount='19288 1632' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-1.02000045776 5.30999946594 1.59000015259' size='84.7600021362 13.2599992752 83.0999984741' index='binGeo/BG_8_indexBinary.bin' coord='binGeo/BG_8_coordBinary.bin+8' normal='binGeo/BG_8_normalBinary.bin+4' coordType='Int16' normalType='Int8'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_1'>
+            <appearance>
+              <material DEF='Material__39__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"CPL_box_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_1' solid='false' vertexCount='1124 15' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-11.9249992371 2.71000003815 3.66000008583' size='22.25 5.53999996185 10.720000267' index='binGeo/BG_1_indexBinary.bin' coord='binGeo/BG_1_coordBinary.bin+8' normal='binGeo/BG_1_normalBinary.bin+4' texCoord='binGeo/BG_1_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_4'>
+            <appearance>
+              <material DEF='Material_Surf37' ambientIntensity='0.02382' diffuseColor='0.3451 0.3451 0.3451' shininess='0.59375'></material>
+            </appearance>
+            <binaryGeometry DEF='BG_4' solid='false' vertexCount='501 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-3.03000068665 5.86500024796 -13.9399995804' size='40.7399978638 12.6300001144 28.6000003815' index='binGeo/BG_4_indexBinary.bin' coord='binGeo/BG_4_coordBinary.bin+8' normal='binGeo/BG_4_normalBinary.bin+4' coordType='Int16' normalType='Int8'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_5'>
+            <appearance>
+              <material DEF='Material__126__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"PAC_farSideBalconyWall_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_5' solid='false' vertexCount='6736 1392' primType='"TRIANGLESTRIP" "TRIANGLES"' position='11.5100002289 3.92000007629 -0.174999237061' size='12.3999996185 4.72000026703 17.7900009155' index='binGeo/BG_5_indexBinary.bin' coord='binGeo/BG_5_coordBinary.bin+8' normal='binGeo/BG_5_normalBinary.bin+4' texCoord='binGeo/BG_5_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_2'>
+            <appearance>
+              <material DEF='Material__124__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"PAC_frontSupportWall_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_2' solid='false' vertexCount='1692 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='8.31500053406 4.52500009537 6.80000019073' size='17.1100006104 5.82999992371 4.57999992371' index='binGeo/BG_2_indexBinary.bin' coord='binGeo/BG_2_coordBinary.bin+8' normal='binGeo/BG_2_normalBinary.bin+4' texCoord='binGeo/BG_2_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_3'>
+            <appearance>
+              <material DEF='Material__123__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"PAC_lowerFloor_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_3' solid='false' vertexCount='663 42' primType='"TRIANGLESTRIP" "TRIANGLES"' position='8.18000030518 -0.280000001192 0.924999713898' size='17.5200004578 0.560000002384 16.0499992371' index='binGeo/BG_3_indexBinary.bin' coord='binGeo/BG_3_coordBinary.bin+8' normal='binGeo/BG_3_normalBinary.bin+4' texCoord='binGeo/BG_3_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_6'>
+            <appearance>
+              <material DEF='Material__55__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375' specularColor='0.2 0.2 0.2'></material>
+              <imageTexture url='"PAC_secondFloor_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_6' solid='false' vertexCount='918 30' primType='"TRIANGLESTRIP" "TRIANGLES"' position='8.64000034332 1.89499998093 -0.609999656677' size='17.0200004578 0.869999885559 16.9000015259' index='binGeo/BG_6_indexBinary.bin' coord='binGeo/BG_6_coordBinary.bin+8' normal='binGeo/BG_6_normalBinary.bin+4' texCoord='binGeo/BG_6_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_7'>
+            <appearance>
+              <material DEF='Material__125__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"PAC_sideBalconyWall_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_7' solid='false' vertexCount='7586 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.0900000333786 4.72500038147 -4.43499946594' size='1.57999992371 4.23000049591 21.6100006104' index='binGeo/BG_7_indexBinary.bin' coord='binGeo/BG_7_coordBinary.bin+8' normal='binGeo/BG_7_normalBinary.bin+4' texCoord='binGeo/BG_7_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_0'>
+            <appearance>
+              <material DEF='Material__90__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"PAC_upperFloor_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_0' solid='false' vertexCount='778 24' primType='"TRIANGLESTRIP" "TRIANGLES"' position='8.70500087738 3.07500004768 0.794999599457' size='16.9900016785 0.30999994278 15.7899990082' index='binGeo/BG_0_indexBinary.bin' coord='binGeo/BG_0_coordBinary.bin+8' normal='binGeo/BG_0_normalBinary.bin+4' texCoord='binGeo/BG_0_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_10'>
+            <appearance>
+              <material DEF='Material__16__Surf' diffuseColor='0.7 0.7 0.7' shininess='0.59375'></material>
+              <imageTexture url='"PerfromHall_Stairs_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_10' solid='false' vertexCount='2637 510' primType='"TRIANGLESTRIP" "TRIANGLES"' position='8.55000019073 2.81500005722 3.08999991417' size='14.1599998474 5.65000009537 4.57999992371' index='binGeo/BG_10_indexBinary.bin' coord='binGeo/BG_10_coordBinary.bin+8' normal='binGeo/BG_10_normalBinary.bin+4' texCoord='binGeo/BG_10_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_9'>
+            <appearance>
+              <material DEF='Material__122__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"Stairs_Bake3.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_9' solid='false' vertexCount='16035 1020' primType='"TRIANGLESTRIP" "TRIANGLES"' position='2.92999982834 1.67999982834 5.04500007629' size='6.11999988556 4.21999979019 6.67000007629' index='binGeo/BG_9_indexBinary.bin' coord='binGeo/BG_9_coordBinary.bin+8' normal='binGeo/BG_9_normalBinary.bin+4' texCoord='binGeo/BG_9_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_11'>
+            <appearance>
+              <material DEF='Material_Surf6' ambientIntensity='0.01704' diffuseColor='0.21868 0.29193 0.14542' shininess='0.0625'></material>
+            </appearance>
+            <binaryGeometry DEF='BG_11' solid='false' vertexCount='4153 258' primType='"TRIANGLESTRIP" "TRIANGLES"' position='5.10499954224 -0.259999990463 24.4899997711' size='48.25 1.12000000477 22.8400001526' index='binGeo/BG_11_indexBinary.bin' coord='binGeo/BG_11_coordBinary.bin+8' normal='binGeo/BG_11_normalBinary.bin+4' coordType='Int16' normalType='Int8'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_14'>
+            <appearance>
+              <material DEF='Material__92__Surf' diffuseColor='0.7 0.7 0.7' shininess='0.59375'></material>
+              <imageTexture url='"curveWall_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_14' solid='false' vertexCount='14211 372' primType='"TRIANGLESTRIP" "TRIANGLES"' position='2.83999991417 5.22999954224 6.44000005722' size='4.61999988556 4.01999950409 3' index='binGeo/BG_14_indexBinary.bin' coord='binGeo/BG_14_coordBinary.bin+8' normal='binGeo/BG_14_normalBinary.bin+4' texCoord='binGeo/BG_14_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_12'>
+            <appearance>
+              <material DEF='Material__5__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"eastSide_Walls_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_12' solid='false' vertexCount='498 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='8.76000022888 2.79000020027 -3.77499961853' size='17.1000003815 6.18000030518 23.1700000763' index='binGeo/BG_12_indexBinary.bin' coord='binGeo/BG_12_coordBinary.bin+8' normal='binGeo/BG_12_normalBinary.bin+4' texCoord='binGeo/BG_12_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_13'>
+            <appearance>
+              <material DEF='Material__6__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"entranceCeiling_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_13' solid='false' vertexCount='277 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-6.14499950409 2.79000020027 -3.58500003815' size='18.4300003052 6.18000030518 18.8700008392' index='binGeo/BG_13_indexBinary.bin' coord='binGeo/BG_13_coordBinary.bin+8' normal='binGeo/BG_13_normalBinary.bin+4' texCoord='binGeo/BG_13_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_15'>
+            <appearance>
+              <material DEF='Material__38__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"frontFloors_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_15' solid='false' vertexCount='2326 456' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-8.50500011444 1.24499988556 -3.67000007629' size='20.0700016022 3.1099998951 19.3400001526' index='binGeo/BG_15_indexBinary.bin' coord='binGeo/BG_15_coordBinary.bin+8' normal='binGeo/BG_15_normalBinary.bin+4' texCoord='binGeo/BG_15_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_16'>
+            <appearance>
+              <material DEF='Material__91__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"gothicGrid_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_16' solid='false' vertexCount='25232 1089' primType='"TRIANGLESTRIP" "TRIANGLES"' position='0.925001144409 3.42999982834 0.964999675751' size='32.3700027466 7.57999992371 15.8099994659' index='binGeo/BG_16_indexBinary.bin' coord='binGeo/BG_16_coordBinary.bin+8' normal='binGeo/BG_16_normalBinary.bin+4' texCoord='binGeo/BG_16_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_17'>
+            <appearance>
+              <material DEF='Material__4__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"innerStairs_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_17' solid='false' vertexCount='2688 120' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-16.3699989319 1.28499996662 -8.33500003815' size='13.0799999237 2.64999985695 17.0500011444' index='binGeo/BG_17_indexBinary.bin' coord='binGeo/BG_17_coordBinary.bin+8' normal='binGeo/BG_17_normalBinary.bin+4' texCoord='binGeo/BG_17_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_18'>
+            <appearance>
+              <material DEF='Material__129__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"mainMounds_Walkways.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_18' solid='false' vertexCount='15560 2043' primType='"TRIANGLESTRIP" "TRIANGLES"' position='4.41499996185 -0.295000016689 19.2499980927' size='33.9500007629 1.28999996185 37.0599975586' index='binGeo/BG_18_indexBinary.bin' coord='binGeo/BG_18_coordBinary.bin+8' normal='binGeo/BG_18_normalBinary.bin+4' texCoord='binGeo/BG_18_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_19'>
+            <appearance>
+              <material DEF='Material__7__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"performHall_Box_Bake.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_19' solid='false' vertexCount='1143 63' primType='"TRIANGLESTRIP" "TRIANGLES"' position='8.60499954224 7.5 -2.36499977112' size='14.2899999619 3.47999954224 13.75' index='binGeo/BG_19_indexBinary.bin' coord='binGeo/BG_19_coordBinary.bin+8' normal='binGeo/BG_19_normalBinary.bin+4' texCoord='binGeo/BG_19_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_20'>
+            <appearance>
+              <material DEF='Google_Earth_Snapshot_17' ambientIntensity='0.00959' diffuseColor='0.17098 0.17882 0.16314' shininess='0.25' specularColor='0.29922 0.31294 0.28549'></material>
+            </appearance>
+            <binaryGeometry DEF='BG_20' solid='false' vertexCount='10119 642' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.494998931885 0.289999961853 6.48500061035' size='81.5699996948 3.25999999046 73.3899993896' index='binGeo/BG_20_indexBinary.bin' coord='binGeo/BG_20_coordBinary.bin+8' normal='binGeo/BG_20_normalBinary.bin+4' coordType='Int16' normalType='Int8'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_21'>
+            <appearance>
+              <material DEF='Material__3__Surf' diffuseColor='0.49 0.49 0.49' shininess='0.59375'></material>
+              <imageTexture url='"sidewalks_inMounds.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_21' solid='false' vertexCount='8323 459' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-2.36000061035 -0.485000014305 20.1600017548' size='41.3600006104 1.25 43.7600021362' index='binGeo/BG_21_indexBinary.bin' coord='binGeo/BG_21_coordBinary.bin+8' normal='binGeo/BG_21_normalBinary.bin+4' texCoord='binGeo/BG_21_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_22'>
+            <appearance>
+              <material DEF='Material__128__Surf' diffuseColor='1 1 1' shininess='0.0625'></material>
+              <imageTexture url='"AlderBark.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_22' solid='false' vertexCount='418 90' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.685000002384 1.14499998093 16.7000007629' size='1.27000010014 3.69000005722 1.53999900818' index='binGeo/BG_22_indexBinary.bin' coord='binGeo/BG_22_coordBinary.bin+8' normal='binGeo/BG_22_normalBinary.bin+4' texCoord='binGeo/BG_22_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_23'>
+            <appearance>
+              <material DEF='Material__127__Surf' diffuseColor='0.21868 0.29193 0.14542' shininess='0.0625'></material>
+              <imageTexture url='"AlderBranches.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_23' solid='false' vertexCount='4666 336' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.759999990463 1.78500008583 16.7399997711' size='3.11999988556 2.97000002861 3.61999893188' index='binGeo/BG_23_indexBinary.bin' coord='binGeo/BG_23_coordBinary.bin+8' normal='binGeo/BG_23_normalBinary.bin+4' texCoord='binGeo/BG_23_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_24'>
+            <appearance>
+              <material DEF='Material__128__Surf4' diffuseColor='1 1 1' shininess='0.0625'></material>
+              <imageTexture url='"AlderBark.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_24' solid='false' vertexCount='404 111' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-6.30999994278 1.09500002861 13.8150005341' size='1.14000034332 3.17000007629 1.36999988556' index='binGeo/BG_24_indexBinary.bin' coord='binGeo/BG_24_coordBinary.bin+8' normal='binGeo/BG_24_normalBinary.bin+4' texCoord='binGeo/BG_24_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_25'>
+            <appearance>
+              <material DEF='Material__127__Surf4' diffuseColor='0.21868 0.29193 0.14542' shininess='0.0625'></material>
+              <imageTexture url='"AlderBranches.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_25' solid='false' vertexCount='4702 300' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-6.36499977112 1.64500010014 13.7549991608' size='2.83000040054 2.55000019073 2.78999996185' index='binGeo/BG_25_indexBinary.bin' coord='binGeo/BG_25_coordBinary.bin+8' normal='binGeo/BG_25_normalBinary.bin+4' texCoord='binGeo/BG_25_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_26'>
+            <appearance>
+              <material DEF='Material__128__Surf2' diffuseColor='1 1 1' shininess='0.0625'></material>
+              <imageTexture url='"AlderBark.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_26' solid='false' vertexCount='362 102' primType='"TRIANGLESTRIP" "TRIANGLES"' position='4.32999992371 0.590000033379 20.1800003052' size='0.839999914169 2.46000003815 1.02000045776' index='binGeo/BG_26_indexBinary.bin' coord='binGeo/BG_26_coordBinary.bin+8' normal='binGeo/BG_26_normalBinary.bin+4' texCoord='binGeo/BG_26_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_27'>
+            <appearance>
+              <material DEF='Material__127__Surf2' diffuseColor='0.21868 0.29193 0.14542' shininess='0.0625'></material>
+              <imageTexture url='"AlderBranches.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_27' solid='false' vertexCount='4690 312' primType='"TRIANGLESTRIP" "TRIANGLES"' position='4.28499984741 1.01499998569 20.2049999237' size='2.07000017166 1.97000002861 2.40999984741' index='binGeo/BG_27_indexBinary.bin' coord='binGeo/BG_27_coordBinary.bin+8' normal='binGeo/BG_27_normalBinary.bin+4' texCoord='binGeo/BG_27_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_28'>
+            <appearance>
+              <material DEF='Material__128__Surf0' diffuseColor='1 1 1' shininess='0.0625'></material>
+              <imageTexture url='"AlderBark.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_28' solid='false' vertexCount='438 84' primType='"TRIANGLESTRIP" "TRIANGLES"' position='7.82999992371 1.15499997139 18.3199996948' size='1.84000015259 3.90999984741 1.04000091553' index='binGeo/BG_28_indexBinary.bin' coord='binGeo/BG_28_coordBinary.bin+8' normal='binGeo/BG_28_normalBinary.bin+4' texCoord='binGeo/BG_28_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_29'>
+            <appearance>
+              <material DEF='Material__127__Surf0' diffuseColor='0.21868 0.29193 0.14542' shininess='0.0625'></material>
+              <imageTexture url='"AlderBranches.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_29' solid='false' vertexCount='4678 324' primType='"TRIANGLESTRIP" "TRIANGLES"' position='7.77499961853 1.83500003815 18.3250007629' size='3.76999998093 3.13000011444 3.09000015259' index='binGeo/BG_29_indexBinary.bin' coord='binGeo/BG_29_coordBinary.bin+8' normal='binGeo/BG_29_normalBinary.bin+4' texCoord='binGeo/BG_29_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_30'>
+            <appearance>
+              <material DEF='Material__128__Surf5' diffuseColor='1 1 1' shininess='0.0625'></material>
+              <imageTexture url='"AlderBark.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_30' solid='false' vertexCount='355 123' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-10.2299995422 0.874999880791 12.2099990845' size='0.859999656677 2.40999984741 1.03999996185' index='binGeo/BG_30_indexBinary.bin' coord='binGeo/BG_30_coordBinary.bin+8' normal='binGeo/BG_30_normalBinary.bin+4' texCoord='binGeo/BG_30_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_31'>
+            <appearance>
+              <material DEF='Material__127__Surf5' diffuseColor='0.21868 0.29193 0.14542' shininess='0.0625'></material>
+              <imageTexture url='"AlderBranches.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_31' solid='false' vertexCount='4714 288' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-10.2649993896 1.29500007629 12.1700000763' size='2.1500005722 1.95000004768 2.11999988556' index='binGeo/BG_31_indexBinary.bin' coord='binGeo/BG_31_coordBinary.bin+8' normal='binGeo/BG_31_normalBinary.bin+4' texCoord='binGeo/BG_31_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_32'>
+            <appearance>
+              <material DEF='Material__128__Surf3' diffuseColor='1 1 1' shininess='0.0625'></material>
+              <imageTexture url='"AlderBark.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_32' solid='false' vertexCount='384 132' primType='"TRIANGLESTRIP" "TRIANGLES"' position='5.46500015259 0.425000011921 21.8349990845' size='1.07000017166 2.26999998093 0.609998703003' index='binGeo/BG_32_indexBinary.bin' coord='binGeo/BG_32_coordBinary.bin+8' normal='binGeo/BG_32_normalBinary.bin+4' texCoord='binGeo/BG_32_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_33'>
+            <appearance>
+              <material DEF='Material__127__Surf3' diffuseColor='0.21868 0.29193 0.14542' shininess='0.0625'></material>
+              <imageTexture url='"AlderBranches.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_33' solid='false' vertexCount='4642 360' primType='"TRIANGLESTRIP" "TRIANGLES"' position='5.43000030518 0.820000052452 21.8450012207' size='2.2000002861 1.82000005245 1.78999900818' index='binGeo/BG_33_indexBinary.bin' coord='binGeo/BG_33_coordBinary.bin+8' normal='binGeo/BG_33_normalBinary.bin+4' texCoord='binGeo/BG_33_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_34'>
+            <appearance>
+              <material DEF='Material__128__Surf1' diffuseColor='1 1 1' shininess='0.0625'></material>
+              <imageTexture url='"AlderBark.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_34' solid='false' vertexCount='400 105' primType='"TRIANGLESTRIP" "TRIANGLES"' position='18.2700004578 1.14500010014 13.6350002289' size='0.739999771118 3.09000015259 1.40999984741' index='binGeo/BG_34_indexBinary.bin' coord='binGeo/BG_34_coordBinary.bin+8' normal='binGeo/BG_34_normalBinary.bin+4' texCoord='binGeo/BG_34_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+          <shape DEF='SP_35'>
+            <appearance>
+              <material DEF='Material__127__Surf1' diffuseColor='0.21868 0.29193 0.14542' shininess='0.0625'></material>
+              <imageTexture url='"AlderBranches.png"'></imageTexture>
+            </appearance>
+            <binaryGeometry DEF='BG_35' solid='false' vertexCount='4666 336' primType='"TRIANGLESTRIP" "TRIANGLES"' position='18.3100013733 1.68000006676 13.6149997711' size='2.42000007629 2.48000001907 3.05000019073' index='binGeo/BG_35_indexBinary.bin' coord='binGeo/BG_35_coordBinary.bin+8' normal='binGeo/BG_35_normalBinary.bin+4' texCoord='binGeo/BG_35_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'></binaryGeometry>
+          </shape>
+        </transform>
+        <transform DEF='dad_Background1' translation='1.4185 0 0.1144'>
+          <background DEF='Background1' groundColor='0 0 0' backUrl='"back.jpg"' frontUrl='"front.jpg"' leftUrl='"left.jpg"' rightUrl='"right.jpg"' topUrl='"top.jpg"'></background>
+        </transform>
+
+		<Transform DEF='dad_Lamp' translation='25 0.25 8' scale="0.25 0.25 0.25">
+			<Shape DEF='LampPost' containerField='children'>
+				<Appearance containerField='appearance'>
+					<Material DEF='Grayish' containerField='material' ambientIntensity='.2' shininess='.2' diffuseColor='.54 .59 .62'/>
+				</Appearance>
+				<Cylinder DEF='LampCylinder' containerField='geometry' height='8' radius='.2'></Cylinder>
+			</Shape>
+			<Transform DEF='dad_Bulb' translation='0 4 0'>
+				<Shape DEF='light' id="lamp1" containerField='children'>
+					<Appearance containerField='appearance'>
+						<Material DEF='Yellow' containerField='material' ambientIntensity='.2' shininess='.1' diffuseColor='.95, .9, .25'/>
+					</Appearance>
+					<Sphere DEF='LampBulb' containerField='geometry' radius='.7'/>
+				</Shape>
+			</Transform>
+			<Transform DEF='dad_Button' translation='0 -.5 .15' rotation='.5 0 0 1.5' bboxsize='1, 1, 1'>
+				<Shape id="lampButton1" DEF='button' containerField='children'>
+					<Appearance containerField='appearance'>
+						<Material DEF='Gray' containerField='material' ambientIntensity='.2' shininess='.1' diffuseColor='.95, .9, .25'/>
+					</Appearance>
+					<Cylinder containerField='geometry' radius='.1' height='.25'/>
+				</Shape>
+			</Transform>
+		</Transform>
+                
+		<Transform translation='23 .2 8' scale="0.25 0.25 0.25"> 
+			<Shape containerField='children'>
+				<Appearance containerField='appearance'>
+					<Material containerField='material' ambientIntensity='.2' shininess='.2' diffuseColor='.54 .59 .62'/>
+				</Appearance>
+				<Cylinder containerField='geometry' height='8' radius='.2'></Cylinder>
+			</Shape>
+			<Transform DEF='dad_Bulb2' translation='0 4 0'>
+				<Shape DEF='light2' id="lamp2" containerField='children'>
+					<Appearance containerField='appearance'>
+						<Material DEF='Yellow' containerField='material' ambientIntensity='.2' shininess='.1' diffuseColor='.95, .9, .25'/>
+					</Appearance>
+					<Sphere DEF='LampBulb2' containerField='geometry' radius='.7'/>
+				</Shape>
+			</Transform>
+			<Transform DEF='dad_Button2' translation='0 -.5 .15' rotation='.5 0 0 1.5' bboxsize='1, 1, 1'>
+				<Shape id="lampButton2" DEF='button2' containerField='children'>
+					<Appearance containerField='appearance'>
+						<Material DEF='Gray' containerField='material' ambientIntensity='.2' shininess='.1' diffuseColor='.95, .9, .25'/>
+					</Appearance>
+					<Cylinder DEF='LampButton' containerField='geometry' radius='.1' height='.25'/>
+				</Shape>
+			</Transform>
+		</Transform>
+	</scene>
+</x3d>

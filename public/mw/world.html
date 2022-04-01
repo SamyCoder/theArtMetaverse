@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>MirrorWorlds</title>
+
+    <script type='text/javascript' src='x3dom/x3dom.js'> </script> 
+    <link rel='stylesheet' type='text/css' href='x3dom/x3dom.css'></link>
+    <link rel="stylesheet" type="text/css" href="world.css">
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="webClient.js"></script>
+    
+</head>
+
+<body onload = "init()">
+    
+    <section>
+        <div id="sceneContainer" class="one-edge-shadow">
+            <X3D id="x3dContent">
+                <Scene>
+                    <inline id=mw_model nameSpaceName=mw></inline>
+                    <Group id="avatarGroup"></Group>
+                </Scene>
+            </X3D>
+        </div>
+
+        <div id="bottomBar">
+
+            <b>People currently observing this model:</b>
+            <span id="users">Loading...</span>
+
+        </div>
+    </section>
+        
+    <div id="sideBar">
+        
+        <div id="widgetSpace">
+            
+            <div class="widget">
+                <span class="widgetHeader">Avatars</span>
+                <div class="widgetContent">
+                    <span>Select an Avatar:<br></span>
+                    <select id="selectAvatar">
+                        <option value="avatars/FemaleTeen_aopted.x3d">Olive</option>
+                        <option value="avatars/MaleTeen_aopted.x3d">Mack</option>
+                        <option value="avatars/Regina_aopted.x3d">Regina</option>
+                        <option value="avatars/Warrior_aopted.x3d">Warrior</option>
+                        <option value="avatars/XBot_aopted.x3d">XBot</option>
+                      	<option value="avatars/YBot_aopted.x3d">YBot</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div id="chat" class="widget" style="height: 50%;">
+                <span class="widgetHeader">Chat Window</span>
+                <ul id="messages"></ul>
+                <input id="inputField" autocomplete="off" />
+                <button id="sendButton">Send</button>
+            </div>
+            
+        </div>
+        
+        <button id="maxButton" title="show toolbar" class="minmaxB shadow inactive">
+            <b> &gt; </b>
+        </button>
+        <button id="minButton" title="hide toolbar" class="minmaxB active">
+            <b> &lt; </b>
+        </button>
+    </div>
+    
+</body>
+
+</html>

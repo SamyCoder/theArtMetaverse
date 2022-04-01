@@ -1,0 +1,22 @@
+{
+  "name": "mirror_worlds_server",
+  "version": "0.0.1",
+  "description": "server for mirror Worlds",
+  "main": "server.js",
+  "dependencies": {
+    "socket.io": "1.7.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deeskr/MirrorWorldsHTMLServer.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/deeskr/MirrorWorldsHTMLServer"
+  },
+  "homepage": "https://github.com/deeskr/MirrorWorldsHTMLServer"
+}

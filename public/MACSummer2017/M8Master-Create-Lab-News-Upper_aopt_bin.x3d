@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <NavigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'/>
+    <Background DEF='WO_World' groundColor='0.051 0.051 0.051' skyColor='0.051 0.051 0.051'/>
+    <Transform DEF='MossArtsCenter_Model1_TRANSFORM' rotation='0 1 -0 3.14159' scale='0.01 0.01 0.01'>
+      <Transform DEF='Upper_Hallway_TRANSFORM'>
+        <Transform DEF='Elevator_Door_TRANSFORM'>
+          <Transform DEF='Elevator_Door_Right_Door1_TRANSFORM'>
+            <Transform DEF='Elevator_Door_Right_Door1_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_051'>
+                <Shape DEF='SP_1'>
+                  <Appearance DEF='AOPT_Appearance_1532368608'>
+                    <Material DEF='MA_MossArtsCenter_Model_lambert1' ambientIntensity='0.333' diffuseColor='0.5 0.5 0.5' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_1' vertexCount='16' primType='"TRIANGLESTRIP"' position='-693.016479492 109.834777832 -2457.13500977' size='74.8829956055 222.034454346 6.6298828125' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_1_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_1_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_1_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Elevator_Door_Right_Door_TRANSFORM'>
+            <Transform DEF='Elevator_Door_Right_Door_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_160'>
+                <Shape DEF='SP_3'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_3' vertexCount='16' primType='"TRIANGLESTRIP"' position='-617.77746582 109.834777832 -2457.13500977' size='74.8829956055 222.034454346 6.6298828125' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_3_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_3_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_3_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Elevator_Door_Frame_TRANSFORM'>
+            <Transform DEF='Elevator_Door_Frame_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_116'>
+                <Shape DEF='SP_2'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_2' vertexCount='54' primType='"TRIANGLESTRIP"' position='-654.976989746 110.884315491 -2444.80517578' size='159.817993164 220.573394775 23.9099121094' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_2_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_2_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_2_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Router_FBX_TRANSFORM'>
+          <Transform DEF='pCylinder4_004_TRANSFORM'>
+            <Transform DEF='pCylinder4_004_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_111'>
+                <Shape DEF='SP_6'>
+                  <Appearance DEF='AOPT_Appearance_1532441856'>
+                    <Material DEF='MA_MossArtsCenter_Model_InformationStandClear' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Cisco_wireless' url='"MossArtsCenter_Model_Cisco_wireless_MainTex.jpg" "MossArtsCenter_Model_Cisco_wireless_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Cisco_wireless_MainTex.jpg"'/>
+                    <TextureTransform DEF='AOPT_TextureTransform_1532394560'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_6' vertexCount='224' primType='"TRIANGLESTRIP"' position='-940.596008301 205.432998657 -316.393005371' size='3.15002441406 1.58599853516 1.58599853516' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_6_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_6_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_6_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder3_004_TRANSFORM'>
+            <Transform DEF='pCylinder3_004_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_098'>
+                <Shape DEF='SP_4'>
+                  <Appearance USE='AOPT_Appearance_1532441856'/>
+                  <BinaryGeometry DEF='BG_4' vertexCount='224' primType='"TRIANGLESTRIP"' position='-940.596008301 205.432998657 -329.036987305' size='3.15002441406 1.58599853516 1.58599853516' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_4_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_4_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_4_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder2_004_TRANSFORM'>
+            <Transform DEF='pCylinder2_004_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_069'>
+                <Shape DEF='SP_0'>
+                  <Appearance USE='AOPT_Appearance_1532441856'/>
+                  <BinaryGeometry DEF='BG_0' vertexCount='224' primType='"TRIANGLESTRIP"' position='-940.596008301 218.115997314 -329.036987305' size='3.15002441406 1.58599853516 1.58599853516' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_0_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_0_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_0_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder1_007_TRANSFORM'>
+            <Transform DEF='pCylinder1_007_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_080'>
+                <Shape DEF='SP_9'>
+                  <Appearance USE='AOPT_Appearance_1532441856'/>
+                  <BinaryGeometry DEF='BG_9' vertexCount='224' primType='"TRIANGLESTRIP"' position='-940.596008301 218.115997314 -316.313995361' size='3.15002441406 1.58599853516 1.58599853516' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_9_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_9_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_9_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube3_001_TRANSFORM'>
+            <Transform DEF='transform2_TRANSFORM'/>
+            <Transform DEF='polySurface4_TRANSFORM'>
+              <Transform DEF='polySurface4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_043'>
+                  <Shape DEF='SP_7'>
+                    <Appearance USE='AOPT_Appearance_1532441856'/>
+                    <BinaryGeometry DEF='BG_7' vertexCount='219 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-938.811523438 223.206497192 -333.845001221' size='0.647033691406 10.8529968262 10.8519897461' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_7_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_7_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_7_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='polySurface3_TRANSFORM'>
+              <Transform DEF='polySurface3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_134'>
+                  <Shape DEF='SP_10'>
+                    <Appearance USE='AOPT_Appearance_1532441856'/>
+                    <BinaryGeometry DEF='BG_10' vertexCount='233' primType='"TRIANGLESTRIP"' position='-938.811523438 200.589508057 -333.845001221' size='0.647033691406 10.853012085 10.8519897461' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_10_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_10_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_10_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube2_002_TRANSFORM'>
+            <Transform USE='transform2_TRANSFORM'/>
+            <Transform DEF='polySurface2_TRANSFORM'>
+              <Transform DEF='polySurface2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_101'>
+                  <Shape DEF='SP_11'>
+                    <Appearance USE='AOPT_Appearance_1532441856'/>
+                    <BinaryGeometry DEF='BG_11' vertexCount='229 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-938.811523438 223.032989502 -311.489013672' size='0.647033691406 10.8520050049 10.8520202637' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_11_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_11_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_11_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='polySurface1_TRANSFORM'>
+              <Transform DEF='polySurface1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_040'>
+                  <Shape DEF='SP_13'>
+                    <Appearance USE='AOPT_Appearance_1532441856'/>
+                    <BinaryGeometry DEF='BG_13' vertexCount='235' primType='"TRIANGLESTRIP"' position='-938.811523438 200.589508057 -311.489013672' size='0.647033691406 10.853012085 10.8520202637' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_13_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_13_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_13_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_005_TRANSFORM'>
+            <Transform DEF='pCube1_005_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_155'>
+                <Shape DEF='SP_5'>
+                  <Appearance USE='AOPT_Appearance_1532441856'/>
+                  <BinaryGeometry DEF='BG_5' vertexCount='1071 27' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-943.81652832 211.699996948 -322.695007324' size='6.22698974609 20.1119995117 20.1119995117' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_5_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_5_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_5_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Donation_Plaque_TRANSFORM'>
+          <Transform DEF='pCylinder4_003_TRANSFORM'>
+            <Transform DEF='pCylinder4_003_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_062'>
+                <Shape DEF='SP_14'>
+                  <Appearance DEF='AOPT_Appearance_1532522672'>
+                    <Material DEF='MA_MossArtsCenter_Model_Metal_Pins' ambientIntensity='0.333' diffuseColor='0.412 0.412 0.412' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Metal_Pins' url='"MossArtsCenter_Model_Metal_Pins_BumpMap.png" "MossArtsCenter_Model_Metal_Pins_BumpMap.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Metal_Pins_BumpMap.png"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_14' vertexCount='84' primType='"TRIANGLESTRIP"' position='-637.992004395 149.963012695 -972.481018066' size='5.67004394531 2.30799865723 2.6240234375' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_14_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_14_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_14_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder3_003_TRANSFORM'>
+            <Transform DEF='pCylinder3_003_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_022'>
+                <Shape DEF='SP_8'>
+                  <Appearance USE='AOPT_Appearance_1532522672'/>
+                  <BinaryGeometry DEF='BG_8' vertexCount='84' primType='"TRIANGLESTRIP"' position='-637.992004395 128.036010742 -972.481018066' size='5.67004394531 2.30799865723 2.6240234375' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_8_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_8_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_8_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder2_003_TRANSFORM'>
+            <Transform DEF='pCylinder2_003_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_011'>
+                <Shape DEF='SP_15'>
+                  <Appearance USE='AOPT_Appearance_1532522672'/>
+                  <BinaryGeometry DEF='BG_15' vertexCount='84' primType='"TRIANGLESTRIP"' position='-636.724975586 128.036010742 -950.590515137' size='5.66998291016 2.30799865723 2.625' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_15_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_15_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_15_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder1_006_TRANSFORM'>
+            <Transform DEF='pCylinder1_006_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_095'>
+                <Shape DEF='SP_12'>
+                  <Appearance USE='AOPT_Appearance_1532522672'/>
+                  <BinaryGeometry DEF='BG_12' vertexCount='84' primType='"TRIANGLESTRIP"' position='-636.724975586 149.963012695 -950.590515137' size='5.66998291016 2.30799865723 2.625' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_12_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_12_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_12_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube2_001_TRANSFORM'>
+            <Transform DEF='pCube2_001_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_037'>
+                <Shape DEF='SP_24'>
+                  <Appearance>
+                    <Material DEF='MA_MossArtsCenter_Model_Glass' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081' transparency='0.774441'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_24' vertexCount='34' primType='"TRIANGLESTRIP"' position='-637.757995605 138.99949646 -961.512451172' size='3.32397460938 28.8510055542 28.8989868164' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_24_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_24_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_24_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_004_TRANSFORM'>
+            <Transform DEF='pCube1_004_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_152'>
+                <Shape DEF='SP_17'>
+                  <Appearance>
+                    <Material DEF='MA_MossArtsCenter_Model_Francis_Eck_Title' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081' transparency='1'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Francis_Eck_Title' url='"MossArtsCenter_Model_Francis_Eck_Title_MainTex.png" "MossArtsCenter_Model_Francis_Eck_Title_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Francis_Eck_Title_MainTex.png"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_17' vertexCount='28' primType='"TRIANGLESTRIP"' position='-634.598999023 138.99949646 -961.695495605' size='1.83996582031 28.8510055542 28.8129882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_17_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_17_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_17_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Key_Stop_Panel_TRANSFORM'>
+          <Transform DEF='pSphere4_TRANSFORM'>
+            <Transform DEF='pSphere4_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_017'>
+                <Shape DEF='SP_19'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_19' vertexCount='178 30' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-644.686523438 86.7857513428 -969.829956055' size='0.465026855469 1.21730041504 1.27996826172' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_19_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_19_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_19_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pSphere3_TRANSFORM'>
+            <Transform DEF='pSphere3_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_030'>
+                <Shape DEF='SP_16'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_16' vertexCount='178 30' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-644.686523438 95.6142501831 -969.829956055' size='0.465026855469 1.21730041504 1.27996826172' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_16_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_16_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_16_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pSphere2_TRANSFORM'>
+            <Transform DEF='pSphere2_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_086'>
+                <Shape DEF='SP_18'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_18' vertexCount='178 30' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-644.686523438 95.6142501831 -954.359008789' size='0.465026855469 1.21730041504 1.28002929688' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_18_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_18_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_18_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pSphere1_TRANSFORM'>
+            <Transform DEF='pSphere1_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_026'>
+                <Shape DEF='SP_20'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_20' vertexCount='178 30' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-644.686523438 86.7834014893 -954.359008789' size='0.465026855469 1.21720123291 1.28002929688' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_20_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_20_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_20_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCylinder1_005_TRANSFORM'>
+            <Transform DEF='pCylinder1_005_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_076'>
+                <Shape DEF='SP_21'>
+                  <Appearance>
+                    <Material DEF='MA_MossArtsCenter_Model_Stop_Button' ambientIntensity='0.333' diffuseColor='1 0 0' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_21' vertexCount='84' primType='"TRIANGLESTRIP"' position='-645.427001953 85.5645446777 -962.096008301' size='2.78601074219 5.08390045166 5.083984375' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_21_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_21_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_21_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube3_TRANSFORM'>
+            <Transform DEF='pCube3_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_149'>
+                <Shape DEF='SP_22'>
+                  <Appearance DEF='AOPT_Appearance_1533022496'>
+                    <Material USE='MA_MossArtsCenter_Model_InformationStandClear'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Decals_001' url='"MossArtsCenter_Model_Decals_MainTex.png" "MossArtsCenter_Model_Decals_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Decals_MainTex.png"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_22' vertexCount='122' primType='"TRIANGLESTRIP"' position='-644.611999512 85.5364990234 -962.09552002' size='0.286010742188 5.15980529785 8.53698730469' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_22_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_22_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_22_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube2_TRANSFORM'>
+            <Transform DEF='pCube2_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_072'>
+                <Shape DEF='SP_23'>
+                  <Appearance USE='AOPT_Appearance_1533022496'/>
+                  <BinaryGeometry DEF='BG_23' vertexCount='51' primType='"TRIANGLESTRIP"' position='-644.585510254 91.3835983276 -962.095458984' size='0.296997070313 6.55560302734 5.55303955078' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_23_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_23_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_23_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='pCube1_003_TRANSFORM'>
+            <Transform DEF='pCube1_003_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_143'>
+                <Shape DEF='SP_41'>
+                  <Appearance>
+                    <Material DEF='MA_MossArtsCenter_Model_Base' ambientIntensity='0.333' diffuseColor='0.451 0.451 0.451' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_41' vertexCount='328 54' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-638.020996094 91.1999511719 -962.095947266' size='12.9499511719 17.7680969238 17.7680053711' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_41_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_41_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_41_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Exit_Signs_TRANSFORM'>
+          <Transform DEF='exit_sign_FBX_1_TRANSFORM'>
+            <Transform DEF='exit_sign_FBX_1_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_093'>
+                <Shape DEF='SP_25'>
+                  <Appearance DEF='AOPT_Appearance_1533016800'>
+                    <Material USE='MA_MossArtsCenter_Model_InformationStandClear'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_exitsign_diffuse_glass' url='"MossArtsCenter_Model_exitsign_diffuse_glass_MainTex.jpg" "MossArtsCenter_Model_exitsign_diffuse_glass_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_exitsign_diffuse_glass_MainTex.jpg"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_25' vertexCount='172' primType='"TRIANGLESTRIP"' position='-1014.70098877 235 -1660.69506836' size='34.5379638672 23.7040100098 2.91003417969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_25_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_25_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_25_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='exit_sign_FBX_TRANSFORM'>
+            <Transform DEF='exit_sign_FBX_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_081'>
+                <Shape DEF='SP_28'>
+                  <Appearance USE='AOPT_Appearance_1533016800'/>
+                  <BinaryGeometry DEF='BG_28' vertexCount='166' primType='"TRIANGLESTRIP"' position='-640.798950195 235.399993896 1635.4050293' size='34.533996582 23.703994751 2.91003417969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_28_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_28_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_28_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Reflection_Probes_TRANSFORM'>
+          <Transform USE='transform2_TRANSFORM'/>
+          <Transform USE='transform2_TRANSFORM'/>
+          <Transform USE='transform2_TRANSFORM'/>
+        </Transform>
+        <Transform DEF='Light_Planes_TRANSFORM'>
+          <Transform DEF='Light_Plane__006_TRANSFORM'>
+            <Transform DEF='Light_Plane__006_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_067'>
+                <Shape DEF='SP_26'>
+                  <Appearance DEF='AOPT_Appearance_1533568480'>
+                    <Material USE='MA_MossArtsCenter_Model_InformationStandClear'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_26' vertexCount='255' primType='"TRIANGLESTRIP"' position='-704.899047852 247.300003052 1612.20495605' size='24.549987793 0 219.75' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_26_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_26_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_26_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+            <Transform USE='transform2_TRANSFORM'/>
+          </Transform>
+          <Transform DEF='Light_Plane__005_TRANSFORM'>
+            <Transform DEF='Light_Plane__005_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_077'>
+                <Shape DEF='SP_29'>
+                  <Appearance USE='AOPT_Appearance_1533568480'/>
+                  <BinaryGeometry DEF='BG_29' vertexCount='255' primType='"TRIANGLESTRIP"' position='-704.899047852 247.300003052 679.004516602' size='24.549987793 0 219.758972168' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_29_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_29_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_29_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+            <Transform USE='transform2_TRANSFORM'/>
+          </Transform>
+          <Transform DEF='Light_Plane__004_TRANSFORM'>
+            <Transform DEF='Light_Plane__004_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_142'>
+                <Shape DEF='SP_36'>
+                  <Appearance USE='AOPT_Appearance_1533568480'/>
+                  <BinaryGeometry DEF='BG_36' vertexCount='255' primType='"TRIANGLESTRIP"' position='-704.899047852 247.300003052 -255.095504761' size='24.549987793 0 219.759002686' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_36_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_36_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_36_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+            <Transform USE='transform2_TRANSFORM'/>
+          </Transform>
+          <Transform DEF='Light_Plane__003_TRANSFORM'>
+            <Transform DEF='Light_Plane__003_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_100'>
+                <Shape DEF='SP_37'>
+                  <Appearance USE='AOPT_Appearance_1533568480'/>
+                  <BinaryGeometry DEF='BG_37' vertexCount='255' primType='"TRIANGLESTRIP"' position='-704.899047852 247.300003052 -1187.5949707' size='24.549987793 0 219.75' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_37_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_37_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_37_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+            <Transform USE='transform2_TRANSFORM'/>
+            <Transform USE='transform2_TRANSFORM'/>
+            <Transform USE='transform2_TRANSFORM'/>
+          </Transform>
+          <Transform DEF='Light_Plane__002_TRANSFORM'>
+            <Transform DEF='Light_Plane__002_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_048'>
+                <Shape DEF='SP_30'>
+                  <Appearance USE='AOPT_Appearance_1533568480'/>
+                  <BinaryGeometry DEF='BG_30' vertexCount='255' primType='"TRIANGLESTRIP"' position='-704.899047852 247.300003052 -2121.99511719' size='24.549987793 0 219.75012207' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_30_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_30_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_30_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+            <Transform USE='transform2_TRANSFORM'/>
+          </Transform>
+          <Transform DEF='Light_Plane__001_TRANSFORM'>
+            <Transform DEF='Light_Plane__001_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_013'>
+                <Shape DEF='SP_31'>
+                  <Appearance USE='AOPT_Appearance_1533568480'/>
+                  <BinaryGeometry DEF='BG_31' vertexCount='255' primType='"TRIANGLESTRIP"' position='-1011.49700928 246.800003052 -1187.29504395' size='24.5460205078 0 219.75' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_31_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_31_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_31_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+            <Transform USE='transform2_TRANSFORM'/>
+          </Transform>
+          <Transform DEF='Light_Plane__TRANSFORM'>
+            <Transform DEF='Light_Plane__ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_122'>
+                <Shape DEF='SP_38'>
+                  <Appearance USE='AOPT_Appearance_1533568480'/>
+                  <BinaryGeometry DEF='BG_38' vertexCount='255' primType='"TRIANGLESTRIP"' position='-1011.49700928 217.699996948 -2122.0949707' size='24.5460205078 24.2579956055 218.810058594' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_38_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_38_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_38_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+            <Transform USE='transform2_TRANSFORM'/>
+          </Transform>
+        </Transform>
+        <Transform DEF='Infrastructure_TRANSFORM'>
+          <Transform DEF='Upper_Hallway_Walls_TRANSFORM'>
+            <Transform DEF='Upper_Hallway_Walls_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_137'>
+                <Shape DEF='SP_42'>
+                  <Appearance DEF='AOPT_Appearance_1533567056'>
+                    <Material USE='MA_MossArtsCenter_Model_InformationStandClear'/>
+                    <ImageTexture DEF='IM_file1' url='"White_Wall_Texture.png" "White_Wall_Texture.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/White_Wall_Texture.png"'/>
+                    <TextureTransform scale='10 10'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_42' vertexCount='456 27' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-732.913452148 125.442405701 -276.834960938' size='892.092956543 245.171173096 4395.39013672' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_42_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_42_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_42_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_39'>
+                  <Appearance>
+                    <Material DEF='MA_MossArtsCenter_Model_blinn1' ambientIntensity='0.333' diffuseColor='0.529 0.529 0.529' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_39' vertexCount='22' primType='"TRIANGLESTRIP"' position='-794.191040039 125.456924438 2178.375' size='1244.69799805 245.142166138 515.029907227' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_39_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_39_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_39_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Stairs_and_Second_Floor_TRANSFORM'>
+            <Transform DEF='Stairs_and_Second_Floor_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_056'>
+                <Shape DEF='SP_40'>
+                  <Appearance>
+                    <Material USE='MA_MossArtsCenter_Model_Francis_Eck_Title'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Entrance_Lobby_Floor_1' url='"MossArtsCenter_Model_Entrance_Lobby_Floor_1_MainTex.png" "MossArtsCenter_Model_Entrance_Lobby_Floor_1_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Entrance_Lobby_Floor_1_MainTex.png"'/>
+                    <TextureTransform scale='30 30'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_40' vertexCount='121 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-830.774047852 2.87129998207 -3.115234375' size='1171.53198242 0.0291800498962 4878.00976563' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_40_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_40_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_40_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_27'>
+                  <Appearance>
+                    <Material DEF='MA_MossArtsCenter_Model_WhiteKEys' ambientIntensity='0.333' diffuseColor='0.956 0.956 0.956' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_27' vertexCount='256' primType='"TRIANGLESTRIP"' position='-1185.04553223 -179.053146362 -2399.33496094' size='467.689025879 363.819732666 830.950073242' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_27_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_27_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_27_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Main_Stair_Sloped_Wall_TRANSFORM'>
+            <Transform DEF='Main_Stair_Sloped_Wall_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_088'>
+                <Shape DEF='SP_32'>
+                  <Appearance USE='AOPT_Appearance_1533567056'/>
+                  <BinaryGeometry DEF='BG_32' vertexCount='1209 114' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-899.772460938 -102.651489258 -2383.125' size='218.355041504 584.04699707 925.58996582' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_32_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_32_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_32_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Main_Back_Wall_TRANSFORM'>
+            <Transform DEF='Main_Back_Wall_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_106'>
+                <Shape DEF='SP_33'>
+                  <Appearance USE='AOPT_Appearance_1533567056'/>
+                  <BinaryGeometry DEF='BG_33' vertexCount='179' primType='"TRIANGLESTRIP"' position='-3162.55517578 -50.3234863281 -3777.35009766' size='4139.62988281 630.409057617 4968.13964844' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_33_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_33_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_33_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_34'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_34' vertexCount='48 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-4187.30517578 -198.153656006 -4445.74023438' size='5553.54980469 334.748718262 3631.35986328' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_34_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_34_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_34_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_35'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_35' vertexCount='12' primType='"TRIANGLESTRIP"' position='-4516.52001953 -49.9610519409 -4252.5' size='1232.12011719 2.07490158081 2816.7199707' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_35_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_35_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_35_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_52'>
+                  <Appearance>
+                    <Material DEF='MA_MossArtsCenter_Model_Cube_Maroon' ambientIntensity='0.333' diffuseColor='0.39 0.152 0.152' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_52' vertexCount='4 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-4500.29980469 -121.148254395 -3339.14013672' size='450.540039063 140.299499512 939.420166016' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_52_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_52_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_52_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_47'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_47' vertexCount='4' primType='"TRIANGLESTRIP"' position='-3922.32519531 -48.9618492126 -2737.10009766' size='58.4899902344 0.0764999389648 214.079833984' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_47_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_47_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_47_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_49'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_49' vertexCount='4' primType='"TRIANGLESTRIP"' position='-3884.94482422 -48.9618492126 -2690.72998047' size='27.5900878906 0.0764999389648 121.33984375' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_49_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_49_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_49_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Information_Displays_TRANSFORM'>
+          <Transform DEF='Information_Display_1_TRANSFORM'>
+            <Transform DEF='pPlane3_002_TRANSFORM'>
+              <Transform DEF='pPlane3_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_112'>
+                  <Shape DEF='SP_53'>
+                    <Appearance DEF='AOPT_Appearance_1533565632'>
+                      <Material USE='MA_MossArtsCenter_Model_InformationStandClear'/>
+                      <ImageTexture DEF='IM_MossArtsCenter_Model_InformationStandDisplay' url='"MossArtsCenter_Model_InformationStandDisplay_MainTex.png" "MossArtsCenter_Model_InformationStandDisplay_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_InformationStandDisplay_MainTex.png"'/>
+                      <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_53' vertexCount='4' primType='"TRIANGLESTRIP"' position='-836.397460938 73.9131469727 1754.28503418' size='23.758972168 32.6274986267 16.2099609375' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_53_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_53_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_53_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pPlane2_002_TRANSFORM'>
+              <Transform DEF='pPlane2_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_039'>
+                  <Shape DEF='SP_44'>
+                    <Appearance USE='AOPT_Appearance_1533565632'/>
+                    <BinaryGeometry DEF='BG_44' vertexCount='23' primType='"TRIANGLESTRIP"' position='-835.981994629 120.166999817 1755' size='37.6240234375 38.7519989014 36.3200683594' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_44_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_44_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_44_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_57'>
+                    <Appearance DEF='AOPT_Appearance_1533572752'>
+                      <Material DEF='MA_MossArtsCenter_Model_InformationStandBlack' ambientIntensity='0.333' diffuseColor='0.071 0.071 0.071' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_57' vertexCount='82' primType='"TRIANGLESTRIP"' position='-836.09753418 120.074005127 1754.86010742' size='37.8550415039 38.9379959106 36.5999755859' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_57_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_57_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_57_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pPlane1_002_TRANSFORM'>
+              <Transform DEF='pPlane1_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_005'>
+                  <Shape DEF='SP_51'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_51' vertexCount='287 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-837.414489746 117.428001404 1752.53491211' size='3.18103027344 6.81199645996 3.10998535156' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_51_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_51_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_51_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder5_002_TRANSFORM'>
+              <Transform DEF='pCylinder5_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_038'>
+                  <Shape DEF='SP_50'>
+                    <Appearance USE='AOPT_Appearance_1533568480'/>
+                    <BinaryGeometry DEF='BG_50' vertexCount='146' primType='"TRIANGLESTRIP"' position='-837.531005859 70.1336517334 1752.77001953' size='3.91198730469 7.75250244141 4.32006835938' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_50_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_50_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_50_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder4_002_TRANSFORM'>
+              <Transform DEF='pCylinder4_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_071'>
+                  <Shape DEF='SP_54'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_54' vertexCount='28' primType='"TRIANGLESTRIP"' position='-848.122009277 121.122497559 1762.26489258' size='13.2860107422 37.1409912109 22.1300048828' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_54_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_54_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_54_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder3_002_TRANSFORM'>
+              <Transform DEF='pCylinder3_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_154'>
+                  <Shape DEF='SP_48'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_48' vertexCount='28' primType='"TRIANGLESTRIP"' position='-823.718505859 121.122497559 1748' size='13.1929931641 37.1409912109 22.2199707031' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_48_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_48_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_48_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder2_002_TRANSFORM'>
+              <Transform DEF='pCylinder2_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_139'>
+                  <Shape DEF='SP_55'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_55' vertexCount='815' primType='"TRIANGLESTRIP"' position='-832.615966797 59.296836853 1760.75' size='14.5020141602 116.666313171 22.6799316406' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_55_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_55_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_55_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder1_004_TRANSFORM'>
+              <Transform DEF='pCylinder1_004_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_087'>
+                  <Shape DEF='SP_56'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_56' vertexCount='186' primType='"TRIANGLESTRIP"' position='-834.264038086 3 1757.94506836' size='29.2300415039 0.298960208893 37.8499755859' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_56_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_56_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_56_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_002_TRANSFORM'>
+              <Transform DEF='pCube1_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_074'>
+                  <Shape DEF='SP_58'>
+                    <Appearance USE='AOPT_Appearance_1533568480'/>
+                    <BinaryGeometry DEF='BG_58' vertexCount='128' primType='"TRIANGLESTRIP"' position='-835.593994141 71.3178024292 1755.66503906' size='26.0479736328 30.2462043762 19.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_58_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_58_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_58_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Information_Display_2_TRANSFORM'>
+            <Transform DEF='pPlane3_001_TRANSFORM'>
+              <Transform DEF='pPlane3_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_033'>
+                  <Shape DEF='SP_46'>
+                    <Appearance USE='AOPT_Appearance_1533565632'/>
+                    <BinaryGeometry DEF='BG_46' vertexCount='4' primType='"TRIANGLESTRIP"' position='-580.47052002 73.9131469727 -1787.83496094' size='5.041015625 32.6274986267 25.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_46_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_46_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_46_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pPlane2_001_TRANSFORM'>
+              <Transform DEF='pPlane2_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_057'>
+                  <Shape DEF='SP_43'>
+                    <Appearance USE='AOPT_Appearance_1533565632'/>
+                    <BinaryGeometry DEF='BG_43' vertexCount='23' primType='"TRIANGLESTRIP"' position='-580.325500488 120.166999817 -1787.86999512' size='28.2189941406 38.7519989014 29.7600097656' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_43_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_43_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_43_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_45'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_45' vertexCount='82' primType='"TRIANGLESTRIP"' position='-580.188964844 120.074005127 -1787.85998535' size='28.4920043945 38.9379959106 30' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_45_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_45_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_45_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pPlane1_001_TRANSFORM'>
+              <Transform DEF='pPlane1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_073'>
+                  <Shape DEF='SP_59'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_59' vertexCount='287 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-578.455993652 117.428001404 -1787.76501465' size='2.32995605469 6.81199645996 2.830078125' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_59_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_59_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_59_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder5_001_TRANSFORM'>
+              <Transform DEF='pCylinder5_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_110'>
+                  <Shape DEF='SP_60'>
+                    <Appearance USE='AOPT_Appearance_1533568480'/>
+                    <BinaryGeometry DEF='BG_60' vertexCount='146' primType='"TRIANGLESTRIP"' position='-579.053466797 70.1336517334 -1787.75' size='3.87298583984 7.75250244141 3.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_60_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_60_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_60_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder4_001_TRANSFORM'>
+              <Transform DEF='pCylinder4_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_028'>
+                  <Shape DEF='SP_66'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_66' vertexCount='28' primType='"TRIANGLESTRIP"' position='-580.958496094 121.122497559 -1801.97497559' size='25.4730224609 37.1409912109 1.55004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_66_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_66_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_66_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder3_001_TRANSFORM'>
+              <Transform DEF='pCylinder3_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_036'>
+                  <Shape DEF='SP_69'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_69' vertexCount='28' primType='"TRIANGLESTRIP"' position='-582.018493652 121.122497559 -1773.77001953' size='25.4489746094 37.1409912109 1.56005859375' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_69_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_69_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_69_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder2_001_TRANSFORM'>
+              <Transform DEF='pCylinder2_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_006'>
+                  <Shape DEF='SP_61'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_61' vertexCount='815' primType='"TRIANGLESTRIP"' position='-587.929992676 59.296836853 -1788.11999512' size='25.7640380859 116.666313171 3.84008789063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_61_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_61_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_61_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder1_003_TRANSFORM'>
+              <Transform DEF='pCylinder1_003_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_158'>
+                  <Shape DEF='SP_73'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_73' vertexCount='186' primType='"TRIANGLESTRIP"' position='-584.698486328 3 -1788' size='41.825012207 0.298960208893 23.5600585938' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_73_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_73_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_73_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_001_TRANSFORM'>
+              <Transform DEF='pCube1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_144'>
+                  <Shape DEF='SP_71'>
+                    <Appearance USE='AOPT_Appearance_1533568480'/>
+                    <BinaryGeometry DEF='BG_71' vertexCount='128' primType='"TRIANGLESTRIP"' position='-582.0625 71.3178024292 -1787.90002441' size='8.06103515625 30.2462043762 26.2600097656' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_71_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_71_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_71_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Information_Display_TRANSFORM'>
+            <Transform DEF='pPlane3_TRANSFORM'>
+              <Transform DEF='pPlane3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_044'>
+                  <Shape DEF='SP_67'>
+                    <Appearance USE='AOPT_Appearance_1533565632'/>
+                    <BinaryGeometry DEF='BG_67' vertexCount='4' primType='"TRIANGLESTRIP"' position='-585.764526367 73.8131484985 798.663452148' size='13.0709838867 32.6274986267 24.8610229492' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_67_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_67_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_67_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pPlane2_TRANSFORM'>
+              <Transform DEF='pPlane2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_058'>
+                  <Shape DEF='SP_68'>
+                    <Appearance USE='AOPT_Appearance_1533565632'/>
+                    <BinaryGeometry DEF='BG_68' vertexCount='23' primType='"TRIANGLESTRIP"' position='-586.531494141 120.067001343 798.35949707' size='34.0749511719 38.751991272 36.1030273438' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_68_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_68_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_68_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_70'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_70' vertexCount='82' primType='"TRIANGLESTRIP"' position='-586.390991211 119.973999023 798.453491211' size='34.3559570313 38.9379959106 36.3229980469' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_70_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_70_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_70_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pPlane1_TRANSFORM'>
+              <Transform DEF='pPlane1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_124'>
+                  <Shape DEF='SP_75'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_75' vertexCount='287 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-583.877990723 117.32800293 799.402954102' size='2.93395996094 6.81200408936 3.03997802734' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_75_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_75_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_75_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder5_TRANSFORM'>
+              <Transform DEF='pCylinder5_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_131'>
+                  <Shape DEF='SP_72'>
+                    <Appearance USE='AOPT_Appearance_1533568480'/>
+                    <BinaryGeometry DEF='BG_72' vertexCount='146' primType='"TRIANGLESTRIP"' position='-584.23046875 70.0336456299 799.502502441' size='4.27301025391 7.75249481201 3.82299804688' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_72_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_72_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_72_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder4_TRANSFORM'>
+              <Transform DEF='pCylinder4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_148'>
+                  <Shape DEF='SP_65'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_65' vertexCount='28' primType='"TRIANGLESTRIP"' position='-581.469970703 121.022506714 785.1875' size='23.8300170898 37.1409988403 9.80700683594' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_65_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_65_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_65_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder3_TRANSFORM'>
+              <Transform DEF='pCylinder3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_113'>
+                  <Shape DEF='SP_76'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_76' vertexCount='28' primType='"TRIANGLESTRIP"' position='-591.895507813 121.022506714 811.448974609' size='23.7550048828 37.1409988403 9.88604736328' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_76_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_76_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_76_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder2_TRANSFORM'>
+              <Transform DEF='pCylinder2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_049'>
+                  <Shape DEF='SP_74'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_74' vertexCount='815' primType='"TRIANGLESTRIP"' position='-592.708984375 59.1968460083 795.892028809' size='24.1820068359 116.666313171 11.4219970703' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_74_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_74_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_74_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder1_002_TRANSFORM'>
+              <Transform DEF='pCylinder1_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_121'>
+                  <Shape DEF='SP_77'>
+                    <Appearance USE='AOPT_Appearance_1533572752'/>
+                    <BinaryGeometry DEF='BG_77' vertexCount='186' primType='"TRIANGLESTRIP"' position='-589.698974609 2.90000486374 797.104980469' size='39.8639526367 0.298949956894 26.6640014648' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_77_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_77_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_77_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_TRANSFORM'>
+              <Transform DEF='pCube1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_029'>
+                  <Shape DEF='SP_78'>
+                    <Appearance USE='AOPT_Appearance_1533568480'/>
+                    <BinaryGeometry DEF='BG_78' vertexCount='128' primType='"TRIANGLESTRIP"' position='-587.24597168 71.2177963257 798.076538086' size='16.1819458008 30.2461967468 26.8030395508' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_78_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_78_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_78_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Trashcans_TRANSFORM'>
+          <Transform DEF='trashcan_2_FBX__TRANSFORM'>
+            <Transform DEF='pPipe1_001_TRANSFORM'>
+              <Transform DEF='pPipe1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_065'>
+                  <Shape DEF='SP_62'>
+                    <Appearance DEF='AOPT_Appearance_1535059664'>
+                      <Material DEF='MA_MossArtsCenter_Model_Base_Gray' ambientIntensity='0.333' diffuseColor='0.592 0.592 0.592' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_62' vertexCount='829' primType='"TRIANGLESTRIP"' position='-883.798950195 78.0507049561 805.104980469' size='58.4920043945 4.64040374756 58.4920043945' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_62_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_62_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_62_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder1_001_TRANSFORM'>
+              <Transform DEF='pCylinder1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_041'>
+                  <Shape DEF='SP_64'>
+                    <Appearance>
+                      <Material USE='MA_MossArtsCenter_Model_InformationStandClear'/>
+                      <ImageTexture DEF='IM_MossArtsCenter_Model_trashcan_2_diffuse' url='"MossArtsCenter_Model_trashcan_2_diffuse_MainTex.jpg" "MossArtsCenter_Model_trashcan_2_diffuse_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_trashcan_2_diffuse_MainTex.jpg"'/>
+                      <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_64' vertexCount='405' primType='"TRIANGLESTRIP"' position='-883.798522949 38.2135925293 805.104492188' size='56.3649902344 76.73462677 56.3649902344' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_64_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_64_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_64_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='trashcan_1_FBX__TRANSFORM'>
+            <Transform DEF='pPipe1_TRANSFORM'>
+              <Transform DEF='pPipe1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_060'>
+                  <Shape DEF='SP_63'>
+                    <Appearance USE='AOPT_Appearance_1535059664'/>
+                    <BinaryGeometry DEF='BG_63' vertexCount='488 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-890.698974609 78.0518035889 874.304504395' size='58.4440307617 4.86460113525 58.4429931641' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_63_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_63_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_63_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCylinder1_TRANSFORM'>
+              <Transform DEF='pCylinder1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_147'>
+                  <Shape DEF='SP_98'>
+                    <Appearance>
+                      <Material USE='MA_MossArtsCenter_Model_InformationStandClear'/>
+                      <ImageTexture DEF='IM_MossArtsCenter_Model_trashcan_diffuse' url='"MossArtsCenter_Model_trashcan_diffuse_MainTex.jpg" "MossArtsCenter_Model_trashcan_diffuse_MainTex.jpg" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_trashcan_diffuse_MainTex.jpg"'/>
+                      <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_98' vertexCount='373' primType='"TRIANGLESTRIP"' position='-890.698974609 38.2135925293 874.304504395' size='56.3179931641 76.73462677 56.3189697266' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_98_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_98_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_98_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Windows_TRANSFORM'>
+          <Transform DEF='Upper_Gallery_2_TRANSFORM'>
+            <Transform DEF='Gallery_curtain_TRANSFORM'>
+              <Transform DEF='Gallery_curtain_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_159'>
+                  <Shape DEF='SP_114'>
+                    <Appearance USE='AOPT_Appearance_1533568480'/>
+                    <BinaryGeometry DEF='BG_114' vertexCount='453' primType='"TRIANGLESTRIP"' position='-405.552490234 151.700195313 1154.10498047' size='85.4169921875 127.823600769 271.75' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_114_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_114_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_114_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Window_Glass_001_TRANSFORM'>
+              <Transform DEF='Window_Glass_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_045'>
+                  <Shape DEF='SP_103'>
+                    <Appearance DEF='AOPT_Appearance_1535062512'>
+                      <Material DEF='MA_MossArtsCenter_Model_glass' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081' transparency='0.819547'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_103' vertexCount='255' primType='"TRIANGLESTRIP"' position='-443.699005127 149.999908447 1154.10498047' size='71.2399902344 125.726203918 269.669921875' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_103_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_103_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_103_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Upper_Gallery_1_TRANSFORM'>
+            <Transform DEF='Window_Glass_TRANSFORM'>
+              <Transform DEF='Window_Glass_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_135'>
+                  <Shape DEF='SP_97'>
+                    <Appearance USE='AOPT_Appearance_1535062512'/>
+                    <BinaryGeometry DEF='BG_97' vertexCount='255' primType='"TRIANGLESTRIP"' position='-1172.09997559 109.999931335 -1629.69995117' size='130.719970703 217.328125 616' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_97_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_97_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_97_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Shades_TRANSFORM'>
+              <Transform DEF='Upper_Gallery_Window_Shade_7_TRANSFORM'>
+                <Transform DEF='Upper_Gallery_Window_Shade_7_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_032'>
+                    <Shape DEF='SP_99'>
+                      <Appearance USE='AOPT_Appearance_1532368608'/>
+                      <BinaryGeometry DEF='BG_99' vertexCount='4' primType='"TRIANGLESTRIP"' position='-1274.01000977 111.153442383 -1924.0949707' size='19.9599609375 229.161102295 92.5300292969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_99_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_99_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_99_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Upper_Gallery_Window_Shade_6_TRANSFORM'>
+                <Transform DEF='Upper_Gallery_Window_Shade_6_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_018'>
+                    <Shape DEF='SP_102'>
+                      <Appearance USE='AOPT_Appearance_1532368608'/>
+                      <BinaryGeometry DEF='BG_102' vertexCount='4' primType='"TRIANGLESTRIP"' position='-1253.66003418 111.153442383 -1829.78503418' size='19.9599609375 229.161102295 92.5300292969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_102_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_102_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_102_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Upper_Gallery_Window_Shade_5_TRANSFORM'>
+                <Transform DEF='Upper_Gallery_Window_Shade_5_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_125'>
+                    <Shape DEF='SP_107'>
+                      <Appearance USE='AOPT_Appearance_1532368608'/>
+                      <BinaryGeometry DEF='BG_107' vertexCount='4' primType='"TRIANGLESTRIP"' position='-1233.36999512 111.153442383 -1735.74499512' size='19.9599609375 229.161102295 92.5300292969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_107_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_107_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_107_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Upper_Gallery_Window_Shade_4_TRANSFORM'>
+                <Transform DEF='Upper_Gallery_Window_Shade_4_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_047'>
+                    <Shape DEF='SP_100'>
+                      <Appearance USE='AOPT_Appearance_1532368608'/>
+                      <BinaryGeometry DEF='BG_100' vertexCount='4' primType='"TRIANGLESTRIP"' position='-1212.83007813 111.153442383 -1640.54003906' size='19.9600830078 229.161102295 92.5200195313' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_100_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_100_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_100_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Upper_Gallery_Window_Shade_3_TRANSFORM'>
+                <Transform DEF='Upper_Gallery_Window_Shade_3_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_123'>
+                    <Shape DEF='SP_112'>
+                      <Appearance USE='AOPT_Appearance_1532368608'/>
+                      <BinaryGeometry DEF='BG_112' vertexCount='4' primType='"TRIANGLESTRIP"' position='-1192.50500488 111.153442383 -1546.35998535' size='19.9699707031 229.161102295 92.5200195313' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_112_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_112_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_112_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Upper_Gallery_Window_Shade_2_TRANSFORM'>
+                <Transform DEF='Upper_Gallery_Window_Shade_2_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_127'>
+                    <Shape DEF='SP_108'>
+                      <Appearance USE='AOPT_Appearance_1532368608'/>
+                      <BinaryGeometry DEF='BG_108' vertexCount='4' primType='"TRIANGLESTRIP"' position='-1172.16003418 111.153442383 -1452.05493164' size='19.9599609375 229.161102295 92.5299072266' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_108_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_108_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_108_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Upper_Gallery_Window_Shade_1_TRANSFORM'>
+                <Transform DEF='Upper_Gallery_Window_Shade_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_103'>
+                    <Shape DEF='SP_101'>
+                      <Appearance USE='AOPT_Appearance_1532368608'/>
+                      <BinaryGeometry DEF='BG_101' vertexCount='4' primType='"TRIANGLESTRIP"' position='-1151.86999512 111.153427124 -1358.01501465' size='19.9599609375 229.161148071 92.5300292969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_101_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_101_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_101_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='Upper_Gallery_Window_Frames_TRANSFORM'>
+              <Transform DEF='Upper_Gallery_Window_Frames_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_085'>
+                  <Shape DEF='SP_104'>
+                    <Appearance DEF='AOPT_Appearance_1535066784'>
+                      <Material DEF='MA_MossArtsCenter_Model_glassWall_MetalTrim' ambientIntensity='0.333' diffuseColor='0.429 0.413 0.412' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_104' vertexCount='790' primType='"TRIANGLESTRIP"' position='-1171.89001465 110.721687317 -1632.14001465' size='145.239990234 224.790634155 627.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_104_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_104_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_104_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Sandbox_TRANSFORM'>
+            <Transform DEF='Glass_TRANSFORM'>
+              <Transform DEF='Window_Glass_2_TRANSFORM'>
+                <Transform DEF='Window_Glass_2_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_141'>
+                    <Shape DEF='SP_105'>
+                      <Appearance USE='AOPT_Appearance_1535062512'/>
+                      <BinaryGeometry DEF='BG_105' vertexCount='255' primType='"TRIANGLESTRIP"' position='-492.99899292 134.799850464 -1476.30004883' size='0 163.860290527 362.180053711' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_105_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_105_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_105_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Window_Glass_1_TRANSFORM'>
+                <Transform DEF='Window_Glass_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_012'>
+                    <Shape DEF='SP_106'>
+                      <Appearance USE='AOPT_Appearance_1535062512'/>
+                      <BinaryGeometry DEF='BG_106' vertexCount='255' primType='"TRIANGLESTRIP"' position='-492.99899292 122.900047302 -2026.79492188' size='0 197.8618927 640.369995117' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_106_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_106_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_106_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='Frames_TRANSFORM'>
+              <Transform DEF='Sandbox_Window_Frames_2_TRANSFORM'>
+                <Transform DEF='Sandbox_Window_Frames_2_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_118'>
+                    <Shape DEF='SP_109'>
+                      <Appearance USE='AOPT_Appearance_1535066784'/>
+                      <BinaryGeometry DEF='BG_109' vertexCount='466' primType='"TRIANGLESTRIP"' position='-493.680480957 136.121704102 -1477.78491211' size='12.699005127 173.990600586 369.569946289' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_109_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_109_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_109_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Sandbox_Window_Frames_1_TRANSFORM'>
+                <Transform DEF='Sandbox_Window_Frames_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_079'>
+                    <Shape DEF='SP_110'>
+                      <Appearance USE='AOPT_Appearance_1535066784'/>
+                      <BinaryGeometry DEF='BG_110' vertexCount='870' primType='"TRIANGLESTRIP"' position='-493.680480957 120.881607056 -2031.50500488' size='12.699005127 204.470809937 643.889892578' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_110_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_110_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_110_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Stair_Handles_TRANSFORM'>
+          <Transform DEF='Right_Stair_Handle_TRANSFORM'>
+            <Transform DEF='Right_Stair_Handle_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_117'>
+                <Shape DEF='SP_111'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_111' vertexCount='579 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-1313.42504883 -85.4113006592 -2366.19506836' size='190.41003418 349.451385498 863.569946289' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_111_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_111_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_111_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Left_Stair_Handle_TRANSFORM'>
+            <Transform DEF='Left_Stair_Handle_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_126'>
+                <Shape DEF='SP_113'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_113' vertexCount='551 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-981.114501953 -85.4113006592 -2391.41503906' size='43.4909667969 349.451385498 881.489868164' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_113_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_113_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_113_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_11_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_11_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_129'>
+                  <Shape DEF='SP_83'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_83' vertexCount='58' primType='"TRIANGLESTRIP"' position='-964.619995117 79.3851470947 -1999.22998047' size='3.60998535156 10.1216964722 3.43994140625' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_83_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_83_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_83_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_10_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_10_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_023'>
+                  <Shape DEF='SP_81'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_81' vertexCount='58' primType='"TRIANGLESTRIP"' position='-968.734008789 10.5065956116 -2110.85498047' size='3.60998535156 10.4996099472 3.43017578125' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_81_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_81_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_81_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_9_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_9_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_027'>
+                  <Shape DEF='SP_85'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_85' vertexCount='58' primType='"TRIANGLESTRIP"' position='-971.849487305 -39.6901016235 -2201.20996094' size='3.61102294922 10.121799469 3.43994140625' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_85_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_85_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_85_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_8_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_8_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_146'>
+                  <Shape DEF='SP_79'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_79' vertexCount='58' primType='"TRIANGLESTRIP"' position='-973.906005859 -40.2195968628 -2287.61499023' size='3.60998535156 10.121799469 3.43017578125' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_79_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_79_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_79_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_7_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_7_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_003'>
+                  <Shape DEF='SP_92'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_92' vertexCount='58' primType='"TRIANGLESTRIP"' position='-977.936035156 -75.291847229 -2379.28515625' size='3.61004638672 13.2227020264 3.42993164063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_92_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_92_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_92_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_6_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_6_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_053'>
+                  <Shape DEF='SP_88'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_88' vertexCount='58' primType='"TRIANGLESTRIP"' position='-982.216003418 -124.408004761 -2462.31494141' size='3.60998535156 12.6900024414 3.42993164063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_88_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_88_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_88_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_5_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_5_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_092'>
+                  <Shape DEF='SP_82'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_82' vertexCount='58' primType='"TRIANGLESTRIP"' position='-986.165527344 -155.225997925 -2534.95996094' size='3.61102294922 10.1220092773 3.43994140625' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_82_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_82_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_82_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_4_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_145'>
+                  <Shape DEF='SP_87'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_87' vertexCount='58' primType='"TRIANGLESTRIP"' position='-990.611999512 -155.312988281 -2609.89013672' size='3.60998535156 10.1219940186 3.44018554688' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_87_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_87_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_87_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_3_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_096'>
+                  <Shape DEF='SP_86'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_86' vertexCount='58' primType='"TRIANGLESTRIP"' position='-994.013977051 -178.850494385 -2680.7800293' size='3.60998535156 13.0070037842 3.43994140625' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_86_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_86_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_86_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_2_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_138'>
+                  <Shape DEF='SP_84'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_84' vertexCount='58' primType='"TRIANGLESTRIP"' position='-997.125 -214.491500854 -2742.52490234' size='3.60998535156 12.4370117188 3.42993164063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_84_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_84_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_84_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Left_Stair_Handle_Support_1_TRANSFORM'>
+              <Transform DEF='Left_Stair_Handle_Support_1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_128'>
+                  <Shape DEF='SP_96'>
+                    <Appearance USE='AOPT_Appearance_1532368608'/>
+                    <BinaryGeometry DEF='BG_96' vertexCount='58' primType='"TRIANGLESTRIP"' position='-1000.4744873 -256.825500488 -2816.19995117' size='3.61102294922 13.0429840088 3.43994140625' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_96_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_96_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_96_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Back_Outer_Doors_TRANSFORM'>
+          <Transform DEF='Outer_Sliding_Doors_Right_Window_TRANSFORM'>
+            <Transform DEF='Outer_Sliding_Doors_Right_Window_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled'>
+                <Shape DEF='SP_89'>
+                  <Appearance USE='AOPT_Appearance_1535062512'/>
+                  <BinaryGeometry DEF='BG_89' vertexCount='10' primType='"TRIANGLESTRIP"' position='-843.197021484 125.497154236 1906.73999023' size='124.611999512 191.255706787 3.30004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_89_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_89_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_89_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_90'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_90' vertexCount='94' primType='"TRIANGLESTRIP"' position='-843.197021484 125.496879578 1906.73999023' size='141.812011719 245.758239746 8.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_90_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_90_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_90_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Outer_Sliding_Doors_Right_Door_TRANSFORM'>
+            <Transform DEF='Outer_Sliding_Doors_Right_Door_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_061'>
+                <Shape DEF='SP_91'>
+                  <Appearance USE='AOPT_Appearance_1535062512'/>
+                  <BinaryGeometry DEF='BG_91' vertexCount='10' primType='"TRIANGLESTRIP"' position='-712.126464844 125.497154236 1915.11999512' size='124.611022949 191.255706787 3.30004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_91_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_91_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_91_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_93'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_93' vertexCount='94' primType='"TRIANGLESTRIP"' position='-712.126464844 125.496879578 1915.11999512' size='141.810974121 245.758239746 8.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_93_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_93_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_93_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Outer_Sliding_Doors_Left_Window_TRANSFORM'>
+            <Transform DEF='Outer_Sliding_Doors_Left_Window_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_119'>
+                <Shape DEF='SP_80'>
+                  <Appearance USE='AOPT_Appearance_1535062512'/>
+                  <BinaryGeometry DEF='BG_80' vertexCount='10' primType='"TRIANGLESTRIP"' position='-395.213012695 125.497154236 1906.73999023' size='190.774017334 191.255706787 3.30004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_80_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_80_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_80_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_94'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_94' vertexCount='94' primType='"TRIANGLESTRIP"' position='-395.213012695 125.496879578 1906.73999023' size='207.973999023 245.758239746 8.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_94_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_94_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_94_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Outer_Sliding_Doors_Left_Door_TRANSFORM'>
+            <Transform DEF='Outer_Sliding_Doors_Left_Door_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_025'>
+                <Shape DEF='SP_95'>
+                  <Appearance USE='AOPT_Appearance_1535062512'/>
+                  <BinaryGeometry DEF='BG_95' vertexCount='10' primType='"TRIANGLESTRIP"' position='-569.771972656 125.497154236 1915.11999512' size='124.611999512 191.255706787 3.30004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_95_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_95_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_95_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_138'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_138' vertexCount='94' primType='"TRIANGLESTRIP"' position='-569.771972656 125.496879578 1915.11999512' size='141.811981201 245.758239746 8.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_138_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_138_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_138_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Inner_Sliding_Doors_Right_Window_TRANSFORM'>
+            <Transform DEF='Inner_Sliding_Doors_Right_Window_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_007'>
+                <Shape DEF='SP_144'>
+                  <Appearance USE='AOPT_Appearance_1535062512'/>
+                  <BinaryGeometry DEF='BG_144' vertexCount='10' primType='"TRIANGLESTRIP"' position='-843.197021484 125.497154236 1631.01000977' size='124.611999512 191.255706787 3.30004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_144_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_144_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_144_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_150'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_150' vertexCount='94' primType='"TRIANGLESTRIP"' position='-843.197021484 125.496879578 1631.01000977' size='141.812011719 245.758239746 8.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_150_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_150_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_150_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Inner_Sliding_Doors_Right_Door_TRANSFORM'>
+            <Transform DEF='Inner_Sliding_Doors_Right_Door_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_157'>
+                <Shape DEF='SP_140'>
+                  <Appearance USE='AOPT_Appearance_1535062512'/>
+                  <BinaryGeometry DEF='BG_140' vertexCount='10' primType='"TRIANGLESTRIP"' position='-712.126464844 125.497154236 1639.40002441' size='124.611022949 191.255706787 3.30004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_140_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_140_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_140_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_142'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_142' vertexCount='94' primType='"TRIANGLESTRIP"' position='-712.126464844 125.496879578 1639.40002441' size='141.810974121 245.758239746 8.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_142_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_142_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_142_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Inner_Sliding_Doors_Left_Window_TRANSFORM'>
+            <Transform DEF='Inner_Sliding_Doors_Left_Window_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_090'>
+                <Shape DEF='SP_139'>
+                  <Appearance USE='AOPT_Appearance_1535062512'/>
+                  <BinaryGeometry DEF='BG_139' vertexCount='10' primType='"TRIANGLESTRIP"' position='-434.516998291 125.497154236 1631.01000977' size='124.611999512 191.255706787 3.30004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_139_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_139_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_139_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_141'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_141' vertexCount='94' primType='"TRIANGLESTRIP"' position='-434.516998291 125.496879578 1631.01000977' size='141.812011719 245.758239746 8.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_141_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_141_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_141_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Inner_Sliding_Doors_Left_Door_TRANSFORM'>
+            <Transform DEF='Inner_Sliding_Doors_Left_Door_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_083'>
+                <Shape DEF='SP_146'>
+                  <Appearance USE='AOPT_Appearance_1535062512'/>
+                  <BinaryGeometry DEF='BG_146' vertexCount='10' primType='"TRIANGLESTRIP"' position='-569.771972656 125.497154236 1639.40002441' size='124.611999512 191.255706787 3.30004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_146_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_146_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_146_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+                <Shape DEF='SP_143'>
+                  <Appearance USE='AOPT_Appearance_1532368608'/>
+                  <BinaryGeometry DEF='BG_143' vertexCount='94' primType='"TRIANGLESTRIP"' position='-569.771972656 125.496879578 1639.40002441' size='141.811981201 245.758239746 8.5' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_143_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_143_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_143_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Cube_TRANSFORM'>
+          <Transform DEF='Cube_ifs_TRANSFORM'>
+            <Group DEF='group_ME_Untitled_114'>
+              <Shape DEF='SP_148'>
+                <Appearance USE='AOPT_Appearance_1533567056'/>
+                <BinaryGeometry DEF='BG_148' vertexCount='34' primType='"TRIANGLESTRIP"' position='-680.198974609 54.9999237061 -1079.69506836' size='68.6780395508 108.602157593 68.6700439453' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_148_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_148_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_148_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+              </Shape>
+            </Group>
+          </Transform>
+        </Transform>
+      </Transform>
+      <Transform DEF='Newsroom__155_TRANSFORM'>
+        <Transform DEF='Door_Frame_001_TRANSFORM'>
+          <Transform DEF='group5_002_TRANSFORM'>
+            <Transform DEF='pCube30_002_TRANSFORM'>
+              <Transform DEF='pCube30_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_075'>
+                  <Shape DEF='SP_145'>
+                    <Appearance DEF='AOPT_Appearance_1538638016'>
+                      <Material DEF='MA_MossArtsCenter_Model_aluminum' ambientIntensity='0.333' diffuseColor='0.669 0.669 0.669' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_145' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -344.375976563 -1787.65991211' size='3.89196777344 12.1440124512 0.119995117188' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_145_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_145_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_145_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube29_002_TRANSFORM'>
+              <Transform DEF='pCube29_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_002'>
+                  <Shape DEF='SP_147'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_147' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -344.375976563 -1787.53491211' size='3.89196777344 12.1440124512 0.130004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_147_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_147_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_147_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube28_002_TRANSFORM'>
+              <Transform DEF='pCube28_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_004'>
+                  <Shape DEF='SP_149'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_149' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -256.29699707 -1787.65991211' size='3.89196777344 12.1439819336 0.119995117188' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_149_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_149_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_149_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube27_002_TRANSFORM'>
+              <Transform DEF='pCube27_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_024'>
+                  <Shape DEF='SP_133'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_133' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -256.29699707 -1787.53491211' size='3.89196777344 12.1439819336 0.130004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_133_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_133_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_133_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube26_002_TRANSFORM'>
+              <Transform DEF='pCube26_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_078'>
+                  <Shape DEF='SP_134'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_134' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -169.329986572 -1787.53491211' size='3.89196777344 12.1439971924 0.130004882813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_134_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_134_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_134_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube25_002_TRANSFORM'>
+              <Transform DEF='pCube25_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_063'>
+                  <Shape DEF='SP_135'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_135' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -169.329986572 -1787.65991211' size='3.89196777344 12.1439971924 0.119995117188' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_135_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_135_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_135_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_Hinge_002_TRANSFORM'>
+              <Transform DEF='Opener_Arm_Hinge_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_059'>
+                  <Shape DEF='SP_137'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_137' vertexCount='64' primType='"TRIANGLESTRIP"' position='761.506469727 -148.406494141 -1812.48999023' size='1.01495361328 1.12100219727 3.34008789063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_137_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_137_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_137_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_2_002_TRANSFORM'>
+              <Transform DEF='Opener_Arm_2_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_082'>
+                  <Shape DEF='SP_136'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_136' vertexCount='132' primType='"TRIANGLESTRIP"' position='754.362487793 -148.350006104 -1809.32006836' size='14.7609863281 0.508010864258 7.18005371094' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_136_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_136_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_136_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_1_002_TRANSFORM'>
+              <Transform DEF='Opener_Arm_1_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_019'>
+                  <Shape DEF='SP_151'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_151' vertexCount='132' primType='"TRIANGLESTRIP"' position='754.346984863 -148.858001709 -1805.88000488' size='15.2399902344 0.507995605469 1.67993164063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_151_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_151_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_151_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Opener_002_TRANSFORM'>
+              <Transform DEF='Door_Opener_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_115'>
+                  <Shape DEF='SP_157'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_157' vertexCount='76 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='760.851501465 -152.287002563 -1802.45507813' size='4.69897460938 6.35000610352 21.5899658203' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_157_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_157_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_157_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Lock_002_TRANSFORM'>
+              <Transform DEF='Door_Lock_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_021'>
+                  <Shape DEF='SP_153'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_153' vertexCount='48' primType='"TRIANGLESTRIP"' position='763.932983398 -253.251998901 -1879.08496094' size='1.8759765625 6.35000610352 0.869995117188' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_153_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_153_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_153_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_3_002_TRANSFORM'>
+              <Transform DEF='Door_Hinge_3_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_109'>
+                  <Shape DEF='SP_167'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_167' vertexCount='438' primType='"TRIANGLESTRIP"' position='762.920532227 -344.375976563 -1787.57495117' size='1.18902587891 12.1440124512 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_167_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_167_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_167_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_2_002_TRANSFORM'>
+              <Transform DEF='Door_Hinge_2_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_068'>
+                  <Shape DEF='SP_166'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_166' vertexCount='438' primType='"TRIANGLESTRIP"' position='762.920532227 -256.29699707 -1787.57495117' size='1.18902587891 12.1439819336 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_166_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_166_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_166_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_1_002_TRANSFORM'>
+              <Transform DEF='Door_Hinge_1_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_050'>
+                  <Shape DEF='SP_156'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_156' vertexCount='438' primType='"TRIANGLESTRIP"' position='762.920532227 -169.329986572 -1787.57495117' size='1.18902587891 12.1439971924 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_156_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_156_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_156_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Handle1_002_TRANSFORM'>
+              <Transform DEF='Door_Handle1_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_084'>
+                  <Shape DEF='SP_163'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_163' vertexCount='630 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='769.744995117 -253.440002441 -1869.90002441' size='4.67602539063 7.61999511719 13.7800292969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_163_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_163_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_163_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Handle_002_TRANSFORM'>
+              <Transform DEF='Door_Handle_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_052'>
+                  <Shape DEF='SP_158'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_158' vertexCount='636' primType='"TRIANGLESTRIP"' position='760.952514648 -253.440002441 -1869.90002441' size='4.67498779297 7.61999511719 13.7800292969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_158_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_158_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_158_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Frame_002_TRANSFORM'>
+              <Transform DEF='Door_Frame_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_055'>
+                  <Shape DEF='SP_155'>
+                    <Appearance USE='AOPT_Appearance_1533567056'/>
+                    <BinaryGeometry DEF='BG_155' vertexCount='131' primType='"TRIANGLESTRIP"' position='772.992004395 -252.425994873 -1833.19995117' size='19.58203125 216.851989746 101.599975586' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_155_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_155_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_155_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_003_TRANSFORM'>
+              <Transform DEF='Door_003_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_107'>
+                  <Shape DEF='SP_160'>
+                    <Appearance DEF='AOPT_Appearance_1539635152'>
+                      <Material USE='MA_MossArtsCenter_Model_InformationStandClear'/>
+                      <ImageTexture DEF='IM_MAC_Door_Wood_Texture' url='"MAC_Door_Wood_Texture.png" "MAC_Door_Wood_Texture.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MAC_Door_Wood_Texture.png"'/>
+                      <TextureTransform scale='5 5'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_160' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.303955078 -255.113494873 -1833.08996582' size='4.20599365234 211.476989746 90.7199707031' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_160_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_160_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_160_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Newsroom__155_Tag_TRANSFORM'>
+          <Transform DEF='Newsroom__155_Tag_ifs_TRANSFORM'>
+            <Group DEF='group_ME_Untitled_161'>
+              <Shape DEF='SP_168'>
+                <Appearance>
+                  <Material USE='MA_MossArtsCenter_Model_Francis_Eck_Title'/>
+                  <ImageTexture DEF='IM_MossArtsCenter_Model_Newsroom_155' url='"MossArtsCenter_Model_Newsroom 155_MainTex.png" "MossArtsCenter_Model_Newsroom 155_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Newsroom 155_MainTex.png"'/>
+                  <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_168' vertexCount='89' primType='"TRIANGLESTRIP"' position='764.453491211 -222.100006104 -1901.99499512' size='0.851013183594 15.2400054932 16.1899414063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_168_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_168_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_168_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+              </Shape>
+            </Group>
+          </Transform>
+        </Transform>
+      </Transform>
+      <Transform DEF='Lab__157_TRANSFORM'>
+        <Transform DEF='Door_Frame_TRANSFORM'>
+          <Transform DEF='group5_001_TRANSFORM'>
+            <Transform DEF='pCube30_001_TRANSFORM'>
+              <Transform DEF='pCube30_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_163'>
+                  <Shape DEF='SP_152'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_152' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -344.375976563 -2104.20996094' size='3.89196777344 12.1440124512 0.1201171875' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_152_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_152_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_152_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube29_001_TRANSFORM'>
+              <Transform DEF='pCube29_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_104'>
+                  <Shape DEF='SP_154'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_154' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -344.375976563 -2104.08496094' size='3.89196777344 12.1440124512 0.1298828125' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_154_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_154_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_154_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube28_001_TRANSFORM'>
+              <Transform DEF='pCube28_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_136'>
+                  <Shape DEF='SP_159'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_159' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -256.29699707 -2104.20996094' size='3.89196777344 12.1439819336 0.1201171875' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_159_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_159_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_159_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube27_001_TRANSFORM'>
+              <Transform DEF='pCube27_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_099'>
+                  <Shape DEF='SP_161'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_161' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -256.29699707 -2104.08496094' size='3.89196777344 12.1439819336 0.1298828125' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_161_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_161_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_161_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube26_001_TRANSFORM'>
+              <Transform DEF='pCube26_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_153'>
+                  <Shape DEF='SP_162'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_162' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -169.329986572 -2104.08496094' size='3.89196777344 12.1439971924 0.1298828125' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_162_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_162_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_162_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube25_001_TRANSFORM'>
+              <Transform DEF='pCube25_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_035'>
+                  <Shape DEF='SP_164'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_164' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.460998535 -169.329986572 -2104.20996094' size='3.89196777344 12.1439971924 0.1201171875' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_164_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_164_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_164_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_Hinge_001_TRANSFORM'>
+              <Transform DEF='Opener_Arm_Hinge_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_120'>
+                  <Shape DEF='SP_165'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_165' vertexCount='64' primType='"TRIANGLESTRIP"' position='761.506469727 -148.406494141 -2129.04003906' size='1.01495361328 1.12100219727 3.33984375' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_165_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_165_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_165_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_2_001_TRANSFORM'>
+              <Transform DEF='Opener_Arm_2_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_091'>
+                  <Shape DEF='SP_128'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_128' vertexCount='132' primType='"TRIANGLESTRIP"' position='754.362487793 -148.350006104 -2125.87011719' size='14.7609863281 0.508010864258 7.17993164063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_128_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_128_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_128_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_1_001_TRANSFORM'>
+              <Transform DEF='Opener_Arm_1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_108'>
+                  <Shape DEF='SP_121'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_121' vertexCount='132' primType='"TRIANGLESTRIP"' position='754.346984863 -148.858001709 -2122.43017578' size='15.2399902344 0.507995605469 1.67993164063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_121_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_121_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_121_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Opener_001_TRANSFORM'>
+              <Transform DEF='Door_Opener_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_064'>
+                  <Shape DEF='SP_118'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_118' vertexCount='76 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='760.851501465 -152.287002563 -2119.00488281' size='4.69897460938 6.35000610352 21.5900878906' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_118_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_118_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_118_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Lock_001_TRANSFORM'>
+              <Transform DEF='Door_Lock_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_014'>
+                  <Shape DEF='SP_119'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_119' vertexCount='48' primType='"TRIANGLESTRIP"' position='763.932983398 -253.251998901 -2195.63500977' size='1.8759765625 6.35000610352 0.8701171875' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_119_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_119_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_119_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_3_001_TRANSFORM'>
+              <Transform DEF='Door_Hinge_3_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_009'>
+                  <Shape DEF='SP_122'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_122' vertexCount='438' primType='"TRIANGLESTRIP"' position='762.920532227 -344.375976563 -2104.125' size='1.18902587891 12.1440124512 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_122_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_122_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_122_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_2_001_TRANSFORM'>
+              <Transform DEF='Door_Hinge_2_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_097'>
+                  <Shape DEF='SP_127'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_127' vertexCount='438' primType='"TRIANGLESTRIP"' position='762.920532227 -256.29699707 -2104.125' size='1.18902587891 12.1439819336 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_127_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_127_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_127_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_1_001_TRANSFORM'>
+              <Transform DEF='Door_Hinge_1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_133'>
+                  <Shape DEF='SP_124'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_124' vertexCount='438' primType='"TRIANGLESTRIP"' position='762.920532227 -169.329986572 -2104.125' size='1.18902587891 12.1439971924 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_124_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_124_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_124_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Handle1_001_TRANSFORM'>
+              <Transform DEF='Door_Handle1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_054'>
+                  <Shape DEF='SP_120'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_120' vertexCount='630 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='769.744995117 -253.440002441 -2186.45019531' size='4.67602539063 7.61999511719 13.7800292969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_120_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_120_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_120_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Handle_001_TRANSFORM'>
+              <Transform DEF='Door_Handle_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_070'>
+                  <Shape DEF='SP_123'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_123' vertexCount='636' primType='"TRIANGLESTRIP"' position='760.952514648 -253.440002441 -2186.45019531' size='4.67498779297 7.61999511719 13.7800292969' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_123_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_123_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_123_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Frame_001_001_TRANSFORM'>
+              <Transform DEF='Door_Frame_001_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_094'>
+                  <Shape DEF='SP_115'>
+                    <Appearance USE='AOPT_Appearance_1533567056'/>
+                    <BinaryGeometry DEF='BG_115' vertexCount='131' primType='"TRIANGLESTRIP"' position='772.992004395 -252.425994873 -2149.75' size='19.58203125 216.851989746 101.600097656' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_115_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_115_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_115_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_002_TRANSFORM'>
+              <Transform DEF='Door_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_162'>
+                  <Shape DEF='SP_132'>
+                    <Appearance USE='AOPT_Appearance_1539635152'/>
+                    <BinaryGeometry DEF='BG_132' vertexCount='34' primType='"TRIANGLESTRIP"' position='765.303955078 -255.113494873 -2149.64013672' size='4.20599365234 211.476989746 90.7199707031' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_132_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_132_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_132_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Lab__157_Tag_TRANSFORM'>
+          <Transform DEF='Lab__157_Tag_ifs_TRANSFORM'>
+            <Group DEF='group_ME_Untitled_042'>
+              <Shape DEF='SP_116'>
+                <Appearance>
+                  <Material USE='MA_MossArtsCenter_Model_Francis_Eck_Title'/>
+                  <ImageTexture DEF='IM_MossArtsCenter_Model_Lab_157' url='"MossArtsCenter_Model_Lab 157_MainTex.png" "MossArtsCenter_Model_Lab 157_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Lab 157_MainTex.png"'/>
+                  <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_116' vertexCount='89' primType='"TRIANGLESTRIP"' position='764.453491211 -222.100006104 -2219.625' size='0.851013183594 15.2400054932 16.1899414063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_116_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_116_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_116_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+              </Shape>
+            </Group>
+          </Transform>
+        </Transform>
+      </Transform>
+      <Transform DEF='Create_Studio_TRANSFORM'>
+        <Transform DEF='Create_Studio_Tag_TRANSFORM'>
+          <Transform DEF='Create_Studio_Tag_ifs_TRANSFORM'>
+            <Group DEF='group_ME_Untitled_150'>
+              <Shape DEF='SP_130'>
+                <Appearance>
+                  <Material USE='MA_MossArtsCenter_Model_Francis_Eck_Title'/>
+                  <ImageTexture DEF='IM_MossArtsCenter_Model_Create_Studio_158' url='"MossArtsCenter_Model_Create Studio 158_MainTex.png" "MossArtsCenter_Model_Create Studio 158_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Create Studio 158_MainTex.png"'/>
+                  <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_130' vertexCount='85' primType='"TRIANGLESTRIP"' position='521.658508301 -222.100006104 -239.095001221' size='0.844970703125 15.2400054932 16.1920013428' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_130_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_130_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_130_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+              </Shape>
+            </Group>
+          </Transform>
+        </Transform>
+      </Transform>
+      <Transform DEF='Master_Equipment_Room_TRANSFORM'>
+        <Transform DEF='Door_TRANSFORM'>
+          <Transform DEF='group5_TRANSFORM'>
+            <Transform DEF='pCube30_TRANSFORM'>
+              <Transform DEF='pCube30_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_001'>
+                  <Shape DEF='SP_125'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_125' vertexCount='34' primType='"TRIANGLESTRIP"' position='522.041015625 -344.375976563 -862.629516602' size='3.89202880859 12.1440124512 0.127014160156' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_125_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_125_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_125_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube29_TRANSFORM'>
+              <Transform DEF='pCube29_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_130'>
+                  <Shape DEF='SP_126'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_126' vertexCount='34' primType='"TRIANGLESTRIP"' position='522.041015625 -344.375976563 -862.756469727' size='3.89202880859 12.1440124512 0.127014160156' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_126_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_126_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_126_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube28_TRANSFORM'>
+              <Transform DEF='pCube28_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_010'>
+                  <Shape DEF='SP_129'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_129' vertexCount='34' primType='"TRIANGLESTRIP"' position='522.041015625 -256.29699707 -862.629516602' size='3.89202880859 12.1439819336 0.127014160156' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_129_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_129_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_129_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube27_TRANSFORM'>
+              <Transform DEF='pCube27_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_089'>
+                  <Shape DEF='SP_131'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_131' vertexCount='34' primType='"TRIANGLESTRIP"' position='522.041015625 -256.29699707 -862.756469727' size='3.89202880859 12.1439819336 0.127014160156' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_131_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_131_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_131_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube26_TRANSFORM'>
+              <Transform DEF='pCube26_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_164'>
+                  <Shape DEF='SP_117'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_117' vertexCount='34' primType='"TRIANGLESTRIP"' position='522.041015625 -169.329986572 -862.756469727' size='3.89202880859 12.1439971924 0.127014160156' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_117_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_117_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_117_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube25_TRANSFORM'>
+              <Transform DEF='pCube25_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_066'>
+                  <Shape DEF='SP_177'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_177' vertexCount='34' primType='"TRIANGLESTRIP"' position='522.041015625 -169.329986572 -862.629516602' size='3.89202880859 12.1439971924 0.127014160156' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_177_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_177_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_177_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_Hinge_TRANSFORM'>
+              <Transform DEF='Opener_Arm_Hinge_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_034'>
+                  <Shape DEF='SP_176'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_176' vertexCount='64' primType='"TRIANGLESTRIP"' position='525.995483398 -148.406494141 -837.797485352' size='1.01501464844 1.12100219727 3.34301757813' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_176_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_176_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_176_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_2_TRANSFORM'>
+              <Transform DEF='Opener_Arm_2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_020'>
+                  <Shape DEF='SP_181'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_181' vertexCount='126 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='533.139526367 -148.350006104 -840.971984863' size='14.7610473633 0.508010864258 7.17797851563' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_181_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_181_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_181_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Opener_Arm_1_TRANSFORM'>
+              <Transform DEF='Opener_Arm_1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_031'>
+                  <Shape DEF='SP_180'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_180' vertexCount='128 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='533.155029297 -148.858001709 -844.408996582' size='15.2400512695 0.507995605469 1.67602539063' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_180_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_180_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_180_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Opener_TRANSFORM'>
+              <Transform DEF='Door_Opener_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_156'>
+                  <Shape DEF='SP_171'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_171' vertexCount='76 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='526.650512695 -152.287002563 -847.837036133' size='4.69897460938 6.35000610352 21.5900268555' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_171_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_171_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_171_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Lock_TRANSFORM'>
+              <Transform DEF='Door_Lock_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_132'>
+                  <Shape DEF='SP_174'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_174' vertexCount='48' primType='"TRIANGLESTRIP"' position='523.568969727 -253.251998901 -771.209472656' size='1.87603759766 6.35000610352 0.868957519531' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_174_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_174_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_174_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_3_TRANSFORM'>
+              <Transform DEF='Door_Hinge_3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_140'>
+                  <Shape DEF='SP_170'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_170' vertexCount='438' primType='"TRIANGLESTRIP"' position='524.581542969 -344.375976563 -862.710998535' size='1.18902587891 12.1440124512 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_170_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_170_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_170_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_2_TRANSFORM'>
+              <Transform DEF='Door_Hinge_2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_102'>
+                  <Shape DEF='SP_172'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_172' vertexCount='438' primType='"TRIANGLESTRIP"' position='524.581542969 -256.29699707 -862.710998535' size='1.18902587891 12.1439819336 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_172_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_172_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_172_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Hinge_1_TRANSFORM'>
+              <Transform DEF='Door_Hinge_1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_151'>
+                  <Shape DEF='SP_175'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_175' vertexCount='438' primType='"TRIANGLESTRIP"' position='524.581542969 -169.329986572 -862.710998535' size='1.18902587891 12.1439971924 1.25' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_175_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_175_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_175_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Handle1_TRANSFORM'>
+              <Transform DEF='Door_Handle1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_046'>
+                  <Shape DEF='SP_178'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_178' vertexCount='632' primType='"TRIANGLESTRIP"' position='517.756958008 -253.440002441 -780.39050293' size='4.67596435547 7.61999511719 13.7810058594' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_178_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_178_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_178_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Handle_TRANSFORM'>
+              <Transform DEF='Door_Handle_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_008'>
+                  <Shape DEF='SP_173'>
+                    <Appearance USE='AOPT_Appearance_1538638016'/>
+                    <BinaryGeometry DEF='BG_173' vertexCount='636' primType='"TRIANGLESTRIP"' position='526.54901123 -253.440002441 -780.39050293' size='4.67602539063 7.61999511719 13.7810058594' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_173_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_173_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_173_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_Frame_003_TRANSFORM'>
+              <Transform DEF='Door_Frame_003_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_016'>
+                  <Shape DEF='SP_169'>
+                    <Appearance USE='AOPT_Appearance_1533567056'/>
+                    <BinaryGeometry DEF='BG_169' vertexCount='131' primType='"TRIANGLESTRIP"' position='514.510009766 -252.425994873 -817.094970703' size='19.58203125 216.851989746 101.600036621' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_169_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_169_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_169_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Door_001_TRANSFORM'>
+              <Transform DEF='Door_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_015'>
+                  <Shape DEF='SP_179'>
+                    <Appearance USE='AOPT_Appearance_1539635152'/>
+                    <BinaryGeometry DEF='BG_179' vertexCount='34' primType='"TRIANGLESTRIP"' position='522.197998047 -255.113494873 -817.201538086' size='4.2060546875 211.476989746 90.7269897461' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_179_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_179_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_179_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Master_Equipment_Room_Tag_TRANSFORM'>
+          <Transform DEF='Master_Equipment_Room_Tag_ifs_TRANSFORM'>
+            <Group DEF='group_ME_Untitled_105'>
+              <Shape DEF='SP_182'>
+                <Appearance>
+                  <Material USE='MA_MossArtsCenter_Model_Francis_Eck_Title'/>
+                  <ImageTexture DEF='IM_MossArtsCenter_Model_Master_Equipment_Room_160A' url='"MossArtsCenter_Model_Master Equipment Room 160A_MainTex.png" "MossArtsCenter_Model_Master Equipment Room 160A_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Master Equipment Room 160A_MainTex.png"'/>
+                  <TextureTransform USE='AOPT_TextureTransform_1532394560'/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_182' vertexCount='85' primType='"TRIANGLESTRIP"' position='521.658508301 -222.100006104 -750.054992676' size='0.844970703125 15.2400054932 16.1920166016' index='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_182_indexBinary.bin' coord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_182_coordNormalBinary.bin+8' texCoord='M8Master-Create-Lab-News-Upper_aoptbinGeo/BG_182_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+              </Shape>
+            </Group>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>

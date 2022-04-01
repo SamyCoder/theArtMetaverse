@@ -1,0 +1,18 @@
+
+  ================= The 12 config values set ===================
+
+     0  http_port=8887
+     1  https_port=4443
+     2  catch_signal=
+     3  config_dir=/home/kars10/.mw_server
+     4  doc_root=/home/kars10/public_html/mw_root
+     5  exit_on_last=-1
+     6  on_exit=
+     7  passcode=
+     8  signal=
+     9  mw_dir_str=/mw/
+     10  mw_dir_str_length=4
+     11  mw_prefix=/home/kars10/git/mirrorworlds/public
+
+  ================================================================
+

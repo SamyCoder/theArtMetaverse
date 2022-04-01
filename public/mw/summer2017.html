@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8"/>
+    <title>Mirror Worlds</title>
+    <!--<link rel="stylesheet" type="text/css" href="index.css">-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        function main()
+        {
+            document.getElementById('url').innerHTML =
+                'Current URL: ' + location.href;
+        }
+    </script>
+</head>
+
+<body onload="main();">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+    	<div class="container">
+        	<div class="navbar-header">
+          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            		<span class="sr-only">Toggle navigation</span>
+           		 	<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+          		</button>
+         		<a class="navbar-brand" href="#">Mirror Worlds Online</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="summer2017.html">Summer 2017</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	<div style="height: 75px"></div>
+
+    <div class="container">
+
+		<h1>Mirror Worlds Online - Summer 2017</h1>
+
+   	 	<p>Your Mirror Worlds Service is up and running.
+    	  This page is a temporary index page to
+     	 get you up and running. Find this file and replace it.</p>
+
+		<a class="btn btn-default btn-lg" href="http://www.icat.vt.edu/mirrorworlds/">The Mirror Worlds
+                Homepage >></a>
+
+	</div>
+	<div class="container">
+
+		<hr></hr>
+
+		<h2>Available Worlds</h2>
+		<p style="margin-bottom: 50px;">Click the images below to navigate to the available worlds</p>
+
+		<div class="row">	
+			<div class="col-sm-4 text-center">
+				<a class="worldLink"  href="world.html?file=/MACSummer2017/MossArt_Composed_UG_cameras.x3d">
+					<img src="images/macWorld.jpg" class="img-circle img-center" width="250" height="250">
+				</a>
+				<h3>Moss Arts Center</h3>
+			</div>
+<!--
+			<div class="col-sm-3 text-center">
+				<a class="worldLink" href="">
+					<img src="images/clipWorld.jpg" class="img-circle img-center" width="150" height="150">
+				</a>
+				<h3>Catawba</h3>
+			</div>
+-->
+			<div class="col-sm-4 text-center">
+				<a class="worldLink" href="world.html?file=/McDaniels_NutGrove/grove1_Xb.x3d">
+					<img src="images/nutGrove.jpg" class="img-circle img-center" width="250" height="250">
+				</a>
+				<h3>McDaniel's Nut Grove</h3>
+			</div>
+
+			<div class="col-sm-4 text-center">
+				<a class="worldLink" href="world.html?file=/Halden/Pool_w_a_view.x3d">
+					<img src="images/nuclearPool.png" class="img-circle img-center" width="250" height="250">
+				</a>
+				<h3>Nuclear Fuel Pool</h3>
+			</div>
+		</div>
+
+		<hr></hr>
+	</div>
+	
+	<div class="text-center">	
+		<a class="btn btn-default btn-md" href="https://github.com/vtcoders/mirrorworlds">
+			Check us out on GitHub
+		</a>
+	</div>
+
+	<div style="height: 25px"></div>
+
+    <pre id=url></pre>
+</body>
+</html>

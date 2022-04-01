@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <NavigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'/>
+    <Background DEF='WO_World' groundColor='0.051 0.051 0.051' skyColor='0.051 0.051 0.051'/>
+    <Transform DEF='MossArtsCenter_Model1_TRANSFORM' rotation='0 1 -0 3.14159' scale='0.01 0.01 0.01'>
+      <Transform DEF='Learning_Lab_Hallway_Observation_Room_TRANSFORM'>
+        <Transform DEF='Learning_Lab_and_Observation_Prefab_TRANSFORM'>
+          <Transform DEF='Observation_Room_Group_TRANSFORM'>
+            <Transform DEF='Observation_Room_Wall_TRANSFORM'>
+              <Transform DEF='Observation_Room_Wall_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_011'>
+                  <Shape DEF='SP_1'>
+                    <Appearance DEF='AOPT_Appearance_2036822736'>
+                      <Material DEF='MA_MossArtsCenter_Model_White_Wall' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      <ImageTexture DEF='IM_file1' url='"White_Wall_Texture.png" "White_Wall_Texture.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/White_Wall_Texture.png"'/>
+                      <TextureTransform DEF='AOPT_TextureTransform_2036851504' scale='10 10'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_1' vertexCount='117' primType='"TRIANGLESTRIP"' position='-303.715667725 124.834968567 -341.51449585' size='601.30670166 243.840072632 735.29901123' index='M21LearnPref_aoptbinGeo/BG_1_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_1_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_1_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Observation_Room_Floor_TRANSFORM'>
+              <Transform DEF='Observation_Room_Floor_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_024'>
+                  <Shape DEF='SP_2'>
+                    <Appearance>
+                      <Material USE='MA_MossArtsCenter_Model_White_Wall'/>
+                      <ImageTexture DEF='IM_MossArtsCenter_Model_Observation_Room_Floor' url='"MossArtsCenter_Model_Observation_Room_Floor_MainTex.png" "MossArtsCenter_Model_Observation_Room_Floor_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Observation_Room_Floor_MainTex.png"'/>
+                      <TextureTransform scale='4 4'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_2' vertexCount='4' primType='"TRIANGLESTRIP"' position='-303.715698242 2.91493010521 -341.51449585' size='601.306640625 0 735.29901123' index='M21LearnPref_aoptbinGeo/BG_2_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_2_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_2_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Observation_Room_Ceiling_TRANSFORM'>
+              <Transform DEF='Observation_Room_Ceiling_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_016'>
+                  <Shape DEF='SP_3'>
+                    <Appearance DEF='AOPT_Appearance_2036869280'>
+                      <Material USE='MA_MossArtsCenter_Model_White_Wall'/>
+                      <ImageTexture DEF='IM_file3' url='"Ceiling_Tiling_Texture.png" "Ceiling_Tiling_Texture.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/Ceiling_Tiling_Texture.png"'/>
+                      <TextureTransform scale='5 5'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_3' vertexCount='4' primType='"TRIANGLESTRIP"' position='-303.715698242 246.755004883 -341.51449585' size='601.306640625 0 735.29901123' index='M21LearnPref_aoptbinGeo/BG_3_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_3_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_3_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='LearningLab_Hallway_Wall_TRANSFORM'>
+            <Transform DEF='LearningLab_Hallway_Wall_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_001'>
+                <Shape DEF='SP_4'>
+                  <Appearance USE='AOPT_Appearance_2036822736'/>
+                  <BinaryGeometry DEF='BG_4' vertexCount='379' primType='"TRIANGLESTRIP"' position='730.974975586 124.834892273 139.650543213' size='2395.94995117 243.840209961 354.040893555' index='M21LearnPref_aoptbinGeo/BG_4_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_4_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_4_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='LearningLab_Hallway_Floor_TRANSFORM'>
+            <Transform DEF='LearningLab_Hallway_Floor_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_025'>
+                <Shape DEF='SP_5'>
+                  <Appearance>
+                    <Material USE='MA_MossArtsCenter_Model_White_Wall'/>
+                    <ImageTexture DEF='IM_file5' url='"Gray_Floor_Texture.png" "Gray_Floor_Texture.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/Gray_Floor_Texture.png"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_2036851504'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_5' vertexCount='362' primType='"TRIANGLESTRIP"' position='730.344970703 2.91493010521 139.64956665' size='2394.68994141 0 389.040924072' index='M21LearnPref_aoptbinGeo/BG_5_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_5_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_5_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='LearningLab_Hallway_Ceiling_TRANSFORM'>
+            <Transform DEF='LearningLab_Hallway_Ceiling_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_008'>
+                <Shape DEF='SP_10'>
+                  <Appearance DEF='AOPT_Appearance_2036953440'>
+                    <Material DEF='MA_MossArtsCenter_Model_lambert10' ambientIntensity='0.333' diffuseColor='0.5 0.5 0.5' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_10' vertexCount='380 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='730.344970703 246.755004883 139.64956665' size='2394.68994141 0 389.040924072' index='M21LearnPref_aoptbinGeo/BG_10_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_10_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_10_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Learning_Lab_Group_TRANSFORM'>
+            <Transform DEF='Whiteboard_20_TRANSFORM'>
+              <Transform DEF='Whiteboard_20_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_026'>
+                  <Shape DEF='SP_8'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_8' vertexCount='4' primType='"TRIANGLESTRIP"' position='12.1725997925 136.762451172 -408.233520508' size='0 210.095092773 113.376983643' index='M21LearnPref_aoptbinGeo/BG_8_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_8_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_8_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_19_TRANSFORM'>
+              <Transform DEF='Whiteboard_19_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_013'>
+                  <Shape DEF='SP_0'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_0' vertexCount='4' primType='"TRIANGLESTRIP"' position='696.311523438 138.982498169 20.972700119' size='113.37701416 206.845001221 0' index='M21LearnPref_aoptbinGeo/BG_0_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_0_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_0_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_18_TRANSFORM'>
+              <Transform DEF='Whiteboard_18_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_007'>
+                  <Shape DEF='SP_6'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_6' vertexCount='4' primType='"TRIANGLESTRIP"' position='582.038452148 138.982498169 20.972700119' size='113.37701416 206.845001221 0' index='M21LearnPref_aoptbinGeo/BG_6_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_6_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_6_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_17_TRANSFORM'>
+              <Transform DEF='Whiteboard_17_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_031'>
+                  <Shape DEF='SP_11'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_11' vertexCount='4' primType='"TRIANGLESTRIP"' position='12.1725997925 136.762451172 -180.757003784' size='0 210.095092773 113.37600708' index='M21LearnPref_aoptbinGeo/BG_11_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_11_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_11_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_16_TRANSFORM'>
+              <Transform DEF='Whiteboard_16_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_003'>
+                  <Shape DEF='SP_12'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_12' vertexCount='4' primType='"TRIANGLESTRIP"' position='12.1725997925 136.762451172 -295.029998779' size='0 210.095092773 113.375991821' index='M21LearnPref_aoptbinGeo/BG_12_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_12_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_12_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_14_TRANSFORM'>
+              <Transform DEF='Whiteboard_14_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_015'>
+                  <Shape DEF='SP_13'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_13' vertexCount='4' primType='"TRIANGLESTRIP"' position='12.1725997925 136.762451172 -523.199462891' size='0 210.095092773 113.37701416' index='M21LearnPref_aoptbinGeo/BG_13_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_13_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_13_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_13_TRANSFORM'>
+              <Transform DEF='Whiteboard_13_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_020'>
+                  <Shape DEF='SP_14'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_14' vertexCount='4' primType='"TRIANGLESTRIP"' position='12.1725997925 136.762451172 -637.068481445' size='0 210.095092773 113.37701416' index='M21LearnPref_aoptbinGeo/BG_14_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_14_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_14_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_12_TRANSFORM'>
+              <Transform DEF='Whiteboard_12_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_018'>
+                  <Shape DEF='SP_15'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_15' vertexCount='4' primType='"TRIANGLESTRIP"' position='68.5836029053 135.536056519 -694.028991699' size='113.376800537 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_15_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_15_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_15_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_11_TRANSFORM'>
+              <Transform DEF='Whiteboard_11_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_006'>
+                  <Shape DEF='SP_9'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_9' vertexCount='4' primType='"TRIANGLESTRIP"' position='182.856506348 135.536056519 -694.028991699' size='113.376998901 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_9_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_9_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_9_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_10_TRANSFORM'>
+              <Transform DEF='Whiteboard_10_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_023'>
+                  <Shape DEF='SP_7'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_7' vertexCount='4' primType='"TRIANGLESTRIP"' position='297.06451416 135.536056519 -694.028991699' size='113.376983643 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_7_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_7_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_7_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_9_TRANSFORM'>
+              <Transform DEF='Whiteboard_9_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_022'>
+                  <Shape DEF='SP_24'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_24' vertexCount='4' primType='"TRIANGLESTRIP"' position='411.026489258 135.536056519 -694.028991699' size='113.376983643 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_24_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_24_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_24_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_8_TRANSFORM'>
+              <Transform DEF='Whiteboard_8_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_004'>
+                  <Shape DEF='SP_16'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_16' vertexCount='4' primType='"TRIANGLESTRIP"' position='524.89453125 135.536056519 -694.028991699' size='113.37701416 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_16_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_16_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_16_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_7_TRANSFORM'>
+              <Transform DEF='Whiteboard_7_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled'>
+                  <Shape DEF='SP_21'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_21' vertexCount='4' primType='"TRIANGLESTRIP"' position='638.674499512 135.536056519 -694.028991699' size='113.376953125 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_21_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_21_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_21_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_6_TRANSFORM'>
+              <Transform DEF='Whiteboard_6_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_030'>
+                  <Shape DEF='SP_17'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_17' vertexCount='4' primType='"TRIANGLESTRIP"' position='1880.43505859 135.536056519 -694.028991699' size='113.369995117 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_17_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_17_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_17_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_5_TRANSFORM'>
+              <Transform DEF='Whiteboard_5_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_029'>
+                  <Shape DEF='SP_18'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_18' vertexCount='4' primType='"TRIANGLESTRIP"' position='1766.31005859 135.536056519 -694.028991699' size='113.380004883 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_18_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_18_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_18_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_4_TRANSFORM'>
+              <Transform DEF='Whiteboard_4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_028'>
+                  <Shape DEF='SP_19'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_19' vertexCount='4' primType='"TRIANGLESTRIP"' position='1652.5300293 135.536056519 -694.028991699' size='113.380004883 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_19_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_19_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_19_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_3_TRANSFORM'>
+              <Transform DEF='Whiteboard_3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_027'>
+                  <Shape DEF='SP_20'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_20' vertexCount='4' primType='"TRIANGLESTRIP"' position='1538.65991211 135.536056519 -694.028991699' size='113.380004883 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_20_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_20_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_20_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_2_TRANSFORM'>
+              <Transform DEF='Whiteboard_2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_017'>
+                  <Shape DEF='SP_23'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_23' vertexCount='4' primType='"TRIANGLESTRIP"' position='1424.69995117 135.536056519 -694.028991699' size='113.380004883 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_23_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_23_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_23_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Whiteboard_1_TRANSFORM'>
+              <Transform DEF='Whiteboard_1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_005'>
+                  <Shape DEF='SP_22'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_22' vertexCount='4' primType='"TRIANGLESTRIP"' position='1310.48999023 135.536056519 -694.028991699' size='113.380004883 210.095901489 0' index='M21LearnPref_aoptbinGeo/BG_22_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_22_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_22_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Learning_Lab_Wall_TRANSFORM'>
+              <Transform DEF='Learning_Lab_Wall_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_012'>
+                  <Shape DEF='SP_31'>
+                    <Appearance USE='AOPT_Appearance_2036822736'/>
+                    <BinaryGeometry DEF='BG_31' vertexCount='287' primType='"TRIANGLESTRIP"' position='996.127990723 122.436401367 -336.893096924' size='1968.46398926 239.043182373 716.057800293' index='M21LearnPref_aoptbinGeo/BG_31_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_31_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_31_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Electric_Lining_4_TRANSFORM'>
+              <Transform DEF='Electric_Lining_4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_002'>
+                  <Shape DEF='SP_25'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_25' vertexCount='109 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='613.990966797 33.1958007813 4.92910003662' size='567.526000977 14.4175987244 32.8073997498' index='M21LearnPref_aoptbinGeo/BG_25_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_25_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_25_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Electric_Lining_3_TRANSFORM'>
+              <Transform DEF='Electric_Lining_3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_019'>
+                  <Shape DEF='SP_30'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_30' vertexCount='109 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='1317.48498535 33.1958007813 4.86629962921' size='574.729980469 14.4175987244 32.9329986572' index='M21LearnPref_aoptbinGeo/BG_30_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_30_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_30_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Electric_Lining_2_TRANSFORM'>
+              <Transform DEF='Electric_Lining_2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_021'>
+                  <Shape DEF='SP_29'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_29' vertexCount='63' primType='"TRIANGLESTRIP"' position='1651.375 33.1958007813 -337.282104492' size='570.949951172 14.4175987244 716.83581543' index='M21LearnPref_aoptbinGeo/BG_29_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_29_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_29_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='Electric_Lining_1_TRANSFORM'>
+              <Transform DEF='Electric_Lining_1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_014'>
+                  <Shape DEF='SP_26'>
+                    <Appearance USE='AOPT_Appearance_2036953440'/>
+                    <BinaryGeometry DEF='BG_26' vertexCount='70' primType='"TRIANGLESTRIP"' position='295.945281982 33.1958007813 -337.164611816' size='570.953369141 14.4175987244 716.600830078' index='M21LearnPref_aoptbinGeo/BG_26_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_26_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_26_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Learning_Lab_Floor_TRANSFORM'>
+            <Transform DEF='Learning_Lab_Floor_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_009'>
+                <Shape DEF='SP_27'>
+                  <Appearance>
+                    <Material USE='MA_MossArtsCenter_Model_White_Wall'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Learning_Lab_Floor' url='"MossArtsCenter_Model_Learning_Lab_Floor_MainTex.png" "MossArtsCenter_Model_Learning_Lab_Floor_MainTex.png" "C:/Users/enikoo/Desktop/MirrorWorlds/MossArtCenter/MossArtCenter_MayaProject/assets/MossArt_FbxParts/MossArt_RevisedFbxParts/../../MossArtsCenter_FromUnity_April_6_2017.fbm/MossArtsCenter_Model_Learning_Lab_Floor_MainTex.png"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_2036851504'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_27' vertexCount='33' primType='"TRIANGLESTRIP"' position='974.552429199 2.91493010521 -336.893463135' size='1925.31506348 0 716.057067871' index='M21LearnPref_aoptbinGeo/BG_27_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_27_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_27_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Learning_Lab_Ceiling_TRANSFORM'>
+            <Transform DEF='Learning_Lab_Ceiling_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_010'>
+                <Shape DEF='SP_28'>
+                  <Appearance USE='AOPT_Appearance_2036869280'/>
+                  <BinaryGeometry DEF='BG_28' vertexCount='30' primType='"TRIANGLESTRIP"' position='974.552429199 241.957992554 -336.893463135' size='1925.31506348 0 716.057067871' index='M21LearnPref_aoptbinGeo/BG_28_indexBinary.bin' coord='M21LearnPref_aoptbinGeo/BG_28_coordNormalBinary.bin+8' texCoord='M21LearnPref_aoptbinGeo/BG_28_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>
