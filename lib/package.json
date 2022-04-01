@@ -4,13 +4,10 @@
   "description": "server for mirror Worlds",
   "main": "server.js",
   "dependencies": {
-    "socket.io": "1.7.1",
-    "csv": "^0.4.6"
+    "csv": "^0.4.6",
+    "socket.io": "^1.7.1"
   },
-  "devDependencies": {
-  },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/vtcoders/mirrorworlds"
