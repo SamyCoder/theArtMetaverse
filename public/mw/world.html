@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html>
+ <!-- <html>
+
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>MirrorWorlds</title>
 
-    <script type='text/javascript' src='x3dom/x3dom.js'> </script> 
-    <link rel='stylesheet' type='text/css' href='x3dom/x3dom.css'></link>
+    <script type='text/javascript' src='x3dom/x3dom.js'> </script>
+    <link rel="shortcut icon" href="#">
+    <link rel='stylesheet' type='text/css' href='x3dom/x3dom.css'>
+    </link>
     <link rel="stylesheet" type="text/css" href="world.css">
 
     <script src="/socket.io/socket.io.js"></script>
-    <script src="webClient.js"></script>
-    
+    <script type="text/javascript" src="webClient.js"></script>
+
 </head>
 
-<body onload = "init()">
-    
-    <section>
-        <div id="sceneContainer" class="one-edge-shadow">
-            <X3D id="x3dContent">
+<body onload = "init()"> 
+
+<body>
+     <section>
+        <div id="sceneContainer" class="one-edge-shadow" >
+            <X3D id="x3dContent" width="500px" height="500px">
                 <Scene>
-                    <inline id=mw_model nameSpaceName=mw></inline>
+                    <inline id=mw_model nameSpaceName=mw url="metagrid2.sv.vt.edu:46758/mw/Deer.x3d" ></inline>
                     <Group id="avatarGroup"></Group>
                 </Scene>
             </X3D>
-        </div>
-
+        </div> 
+    
         <div id="bottomBar">
 
             <b>People currently observing this model:</b>
@@ -32,11 +36,11 @@
 
         </div>
     </section>
-        
+
     <div id="sideBar">
-        
+
         <div id="widgetSpace">
-            
+
             <div class="widget">
                 <span class="widgetHeader">Avatars</span>
                 <div class="widgetContent">
@@ -47,20 +51,20 @@
                         <option value="avatars/Regina_aopted.x3d">Regina</option>
                         <option value="avatars/Warrior_aopted.x3d">Warrior</option>
                         <option value="avatars/XBot_aopted.x3d">XBot</option>
-                      	<option value="avatars/YBot_aopted.x3d">YBot</option>
+                        <option value="avatars/YBot_aopted.x3d">YBot</option>
                     </select>
                 </div>
             </div>
-            
+
             <div id="chat" class="widget" style="height: 50%;">
                 <span class="widgetHeader">Chat Window</span>
                 <ul id="messages"></ul>
                 <input id="inputField" autocomplete="off" />
                 <button id="sendButton">Send</button>
             </div>
-            
+
         </div>
-        
+
         <button id="maxButton" title="show toolbar" class="minmaxB shadow inactive">
             <b> &gt; </b>
         </button>
@@ -68,7 +72,17 @@
             <b> &lt; </b>
         </button>
     </div>
-    
-</body>
 
+</html> -->
+<html>
+    <head>
+        <title>Deer Test</title>
+    </head>
+    <body>
+        <x3d width='500px' height='400px'> 
+            <scene>
+                <inline url="Deer.x3d"> </inline> 
+            </scene> 
+        </x3d>     
+    </body>
 </html>

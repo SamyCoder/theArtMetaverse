@@ -71,6 +71,9 @@ function init() {
 
     if(location.search.match(/.*(\?|\&)file=.*/) != -1)
         var url = location.search.replace(/.*(\?|\&)file=/,'').replace(/\&.*$/g, '');
+		console.log('url');
+		console.log(url);
+		console.log('url');
 
     if(typeof url == undefined || url.length < 1) {
 
@@ -78,8 +81,12 @@ function init() {
         // This is the only place that we declare this.
         var url = '/mw/example.x3d';
     }
+	
+	var url = '/mw/example.x3d';
 
     model.url = url;
+
+	console.log('checkpoint A --', url);
 
 	//-------------------------------------------------------
 	/**
@@ -87,6 +94,9 @@ function init() {
 	 * establishes socket callbacks
 	 */
     model.onload = function() {
+
+		console.log('checkpoint B model.onload');
+
 
 		// Wait for user to enter a username for their session
         clientInfo.name = prompt("Enter your name:");
@@ -582,6 +592,7 @@ function init() {
 
         var selectAvatar = getElementById("selectAvatar");
 
+
 		//-------------------------------------------------------
 		/**
 	 	 * Fired when a user selects a different value in the
@@ -596,20 +607,25 @@ function init() {
 			socket.emit('serverUpdate', uniqueId, clientInfo);
 		});
 
-        var sendButton = getElementById("sendButton");
 
+
+        getElementById("sendButton").onclick() = testerfunction();
+		
+
+		
 		//-------------------------------------------------------
 		/**
 	 	 * Fired when user clicks the send button in the chatroom
 		 * or hits the return key on their keyboard
 		 */
-        sendButton.addEventListener('click', sendMessage);
+        //sendButton.addEventListener('click', sendMessage);
+		sendButton.addEventListener('click', testerfunction);
+
 
         var formDiv = getElementById("inputField");
         formDiv.addEventListener('keypress', function(e) {
 
             if(e.keyCode == 13) {
-
                 sendMessage();
             }
         });
@@ -671,4 +687,8 @@ function init() {
 		// Send message to server for distribution
         socket.emit('chatMessage', clientInfo.name, message);
     }
+
+	function testerfunction(smth) {
+		console.log('we made it');
+	}
 }
