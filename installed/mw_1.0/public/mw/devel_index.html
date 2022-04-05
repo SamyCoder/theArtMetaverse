@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <style>
+        body {
+            background-color: #AAAACC;
+            margin: 14px;
+        }
+        dt {
+            font-weight: bold;
+        }
+        dd {
+            margin-bottom: 15px;
+        }
+    </style>
+    <meta charset="utf-8"/>
+    <title>developer Mirror Worlds</title>
+</head>
+<body>
+
+    <p><a href=.>mirror worlds top index page</a></p>
+
+
+    <h2>Developer Tests</h2>
+
+    <p>
+        These are code development tests and are not necessarily intended
+        to be good examples.
+    </p>
+
+
+    <dl>
+
+        <dt><a
+           href="mw.html?file=tests/simple.js">simple world</a>
+        </dt>
+        <dd>
+            Loads a very simple model and that's about it.  A sanity
+            check.
+        </dd>
+
+        <dt><a
+            href="mw.html?file=tests/move.x3d">move via x3d data
+            attribute</a>
+        </dt>
+        <dd>
+            Animates a model by adding extra javaScript code via HTML
+            interpreting "data-" attributes as files to load.
+            At this point it's playing with the "data-" attributes and
+            may or may not become a Mirror Worlds common method.
+        </dd>
+
+        <dt><a
+            href="mw.html?file=tests/example_move2.js">example
+            move 2</a>
+        </dt>
+        <dd>
+            Like the above, plus loads the moving model twice.  This may not
+            be the best way to do this kind of thing, but it's a good
+            test that show how the two animations act independently.
+        </dd>
+
+        <dt><a href="mw.html?file=tests/gnome_planeMove.js">gnome
+                and moving plane</a>
+        </dt>
+        <dd>
+            Moving a different part of the model just
+            as a test.
+        </dd>
+
+        <dt>
+            2 client connections in one browser client
+        </dt>
+        <dd>Run another server via:
+            <pre>./mw_server --http_port=8881 --https_port=8883</pre> and then
+            click <a
+            href="mw.html?file=tests/additionalHost_Port8881.js">to make
+            2 connections with one web client</a>
+        </dd>
+
+        <dt><a href="mw.html?file=tests/avatarList.js">list avatars</a>
+        </dt>
+        <dd>Lists the avatars in <i>/mw/avatars</i>.  See the avatar X3D
+            files in the browser debug console.
+        </dd>
+
+        <dt><a
+            href="mw.html?file=tests/viewpointAvatar.js">simple
+            viewpoint avators</a>
+        </dt>
+        <dd>
+            Test the "viewpoint avavtar" subscription with teapots.
+        </dd>
+
+        <dt><a
+            href="mw.html?file=tests/lamp.js">simple lamp</a>
+        </dt>
+        <dd>
+            Test lamps using a subscription.
+        </dd>
+
+        <dt><a
+            href="mw.html?file=tests/chat.js">simple chat</a>
+        </dt>
+        <dd>
+            Test simple chat using a subscription.
+        </dd>
+
+
+        <dt><a
+            href="mw.html?file=tests/viewpointAvatar_lamp_chat.js">simple
+            viewpoint avators, lamps, and chat</a>
+            All at in one page.
+        </dt>
+        <dd>
+            Test the last three subscriptions in one page.
+        </dd>
+
+
+
+     </dl>
+
+
+
+     <p><a href="docs/index.html">client API</a></p>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<X3D>
+  <Scene>
+	<Transform scale="0.0025 0.0025 0.0025" rotation="0 1 0 3.1416">
+      <Transform DEF='ybot'>
+        <Transform>
+          <Transform DEF='Alpha_Joints'>
+            <Group DEF='Alpha_Joints_geometry'>
+              <Shape DEF='SP_1'>
+                <Appearance>
+                  <Material DEF='Alpha_JointsSG' ambientIntensity='1' diffuseColor='0.15 0.21 0.22' shininess='0' specularColor='0.28 0.28 0.28'/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_1' solid='false' vertexCount='25250' primType='"TRIANGLESTRIP"' position='-1.01195144653 70.688369751 0.165249824524' size='51.2976989746 140.023254395 24.2602996826' index='binGeo_YBot/BG_1_indexBinary.bin' coord='binGeo_YBot/BG_1_coordBinary.bin+8' normal='binGeo_YBot/BG_1_normalBinary.bin+4' texCoord='binGeo_YBot/BG_1_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Alpha_Surface'>
+            <Group DEF='Alpha_Surface_geometry'>
+              <Shape DEF='SP_0'>
+                <Appearance>
+                  <Material DEF='Alpha_SurfaceSG' ambientIntensity='1' diffuseColor='0.1 0.42 0.52' shininess='0.0078125' specularColor='0.48 0.48 0.48'/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_0' solid='false' vertexCount='49806 1380' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.853750228882 79.422958374 1.90350055695' size='52.3136978149 158.864074707 32.0652008057' index='binGeo_YBot/BG_0_indexBinary.bin' coord='binGeo_YBot/BG_0_coordBinary.bin+8' normal='binGeo_YBot/BG_0_normalBinary.bin+4' texCoord='binGeo_YBot/BG_0_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>

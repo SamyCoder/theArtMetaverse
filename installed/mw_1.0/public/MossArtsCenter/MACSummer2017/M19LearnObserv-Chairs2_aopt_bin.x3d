@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <NavigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'/>
+    <Background DEF='WO_World' groundColor='0.051 0.051 0.051' skyColor='0.051 0.051 0.051'/>
+    <Transform DEF='MossArtsCenter_Model1_TRANSFORM' rotation='0 1 -0 3.14159' scale='0.01 0.01 0.01'>
+      <Transform DEF='Learning_Lab_Hallway_Observation_Room_TRANSFORM'>
+        <Transform DEF='ObservationRoom_TRANSFORM'>
+          <Transform DEF='Chairs2_TRANSFORM'>
+            <Transform DEF='Learning_lab_observation_chair_10_TRANSFORM'>
+              <Transform DEF='pPlane1_004_TRANSFORM'>
+                <Transform DEF='pPlane1_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_026'>
+                    <Shape DEF='SP_0'>
+                      <Appearance DEF='AOPT_Appearance_941494784'>
+                        <Material DEF='MA_MossArtsCenter_Model_Chair_mesh' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081' transparency='1'/>
+                        <ImageTexture DEF='IM_MossArtsCenter_Model_Chair_mesh' url='"MossArtsCenter_Model_Chair_mesh_MainTex.png" "MossArtsCenter_Model_Chair_mesh_MainTex.png"'/>
+                        <TextureTransform/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_0' vertexCount='136' primType='"TRIANGLESTRIP"' position='-377.560974121 71.1669998169 -200.187011719' size='37.9859924316 60.2080039978 12.4340057373' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_0_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_0_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_0_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_1'>
+                      <Appearance DEF='AOPT_Appearance_941483824'>
+                        <Material DEF='MA_MossArtsCenter_Model_complex_chair_silver' ambientIntensity='0.333' diffuseColor='0.678 0.678 0.678' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_1' vertexCount='1386 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-376.81149292 67.2557983398 -205.166503906' size='42.5729980469 71.4244003296 25.3150024414' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_1_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_1_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_1_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pPipe1_004_TRANSFORM'>
+                <Transform DEF='pPipe1_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_048'>
+                    <Shape DEF='SP_2'>
+                      <Appearance DEF='AOPT_Appearance_941558448'>
+                        <Material DEF='MA_MossArtsCenter_Model_complex_chair_silver_1' ambientIntensity='0.333' diffuseColor='0 0 0' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_2' vertexCount='234' primType='"TRIANGLESTRIP"' position='-352.848022461 41.1829490662 -223.61050415' size='3.83401489258 3.32849884033 6.1369934082' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_2_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_2_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_2_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder8_004_TRANSFORM'>
+                <Transform DEF='pCylinder8_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_103'>
+                    <Shape DEF='SP_3'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_3' vertexCount='146' primType='"TRIANGLESTRIP"' position='-388.252990723 4.88335514069 -239.356506348' size='4.40200805664 4.57730960846 4.58500671387' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_3_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_3_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_3_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder7_004_TRANSFORM'>
+                <Transform DEF='pCylinder7_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_042'>
+                    <Shape DEF='SP_4'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_4' vertexCount='146' primType='"TRIANGLESTRIP"' position='-395.95300293 4.88335514069 -213.631011963' size='4.45001220703 4.57730960846 3.78199768066' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_4_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_4_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_4_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder6_004_TRANSFORM'>
+                <Transform DEF='pCylinder6_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_056'>
+                    <Shape DEF='SP_9'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_9' vertexCount='146' primType='"TRIANGLESTRIP"' position='-373.865997314 4.88335514069 -198.35848999' size='2.78997802734 4.57730960846 3.8809967041' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_9_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_9_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_9_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder5_004_TRANSFORM'>
+                <Transform DEF='pCylinder5_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_078'>
+                    <Shape DEF='SP_8'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_8' vertexCount='146' primType='"TRIANGLESTRIP"' position='-352.51550293 4.88335514069 -214.644989014' size='4.3330078125 4.57730960846 3.5359954834' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_8_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_8_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_8_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder4_004_TRANSFORM'>
+                <Transform DEF='pCylinder4_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_090'>
+                    <Shape DEF='SP_10'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_10' vertexCount='146' primType='"TRIANGLESTRIP"' position='-361.407501221 4.88335514069 -239.983001709' size='4.26898193359 4.57730960846 4.59201049805' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_10_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_10_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_10_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder3_004_TRANSFORM'>
+                <Transform DEF='pCylinder3_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_086'>
+                    <Shape DEF='SP_6'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_6' vertexCount='834 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-374.614013672 9.54417514801 -219.45098877' size='46.4040222168 5.05864953995 44.2920074463' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_6_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_6_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_6_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_004_TRANSFORM'>
+                <Transform DEF='pCylinder2_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_020'>
+                    <Shape DEF='SP_12'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_12' vertexCount='142' primType='"TRIANGLESTRIP"' position='-374.415496826 25.8603343964 -221.085006714' size='2.66900634766 37.5287284851 2.66799926758' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_12_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_12_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_12_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_004_TRANSFORM'>
+                <Transform DEF='pCylinder1_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_015'>
+                    <Shape DEF='SP_13'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_13' vertexCount='142' primType='"TRIANGLESTRIP"' position='-358.145507813 41.1842002869 -222.884490967' size='13.4989929199 2.8675994873 4.31300354004' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_13_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_13_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_13_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube13_004_TRANSFORM'>
+                <Transform DEF='pCube13_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_006'>
+                    <Shape DEF='SP_5'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_5' vertexCount='420 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-401.976989746 63.1064987183 -215.121002197' size='9.11801147461 2.49760055542 18.0559997559' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_5_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_5_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_5_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube12_004_TRANSFORM'>
+                <Transform DEF='pCube12_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_095'>
+                    <Shape DEF='SP_11'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_11' vertexCount='113' primType='"TRIANGLESTRIP"' position='-402.229003906 60.0503005981 -213.559997559' size='5.12200927734 3.7047996521 10.0800018311' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_11_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_11_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_11_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube11_004_TRANSFORM'>
+                <Transform DEF='pCube11_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_065'>
+                    <Shape DEF='SP_14'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_14' vertexCount='401 111' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-397.148986816 48.9962463379 -212.695007324' size='13.524017334 21.2943000793 6.37400817871' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_14_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_14_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_14_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube10_004_TRANSFORM'>
+                <Transform DEF='pCube10_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_036'>
+                    <Shape DEF='SP_15'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_15' vertexCount='422 42' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-349.831481934 63.1064987183 -207.272003174' size='9.11898803711 2.49760055542 18.0559997559' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_15_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_15_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_15_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube9_004_TRANSFORM'>
+                <Transform DEF='pCube9_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_097'>
+                    <Shape DEF='SP_7'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_7' vertexCount='108' primType='"TRIANGLESTRIP"' position='-350.049987793 60.0503005981 -205.705505371' size='5.12197875977 3.7047996521 10.078994751' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_7_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_7_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_7_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube8_004_TRANSFORM'>
+                <Transform DEF='pCube8_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_027'>
+                    <Shape DEF='SP_23'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_23' vertexCount='404 111' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-355.141998291 48.9962463379 -206.488998413' size='13.5239868164 21.2943000793 6.37399291992' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_23_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_23_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_23_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube7_004_TRANSFORM'>
+                <Transform DEF='pCube7_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_043'>
+                    <Shape DEF='SP_24'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_24' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-392.188476563 40.3559494019 -225.112487793' size='4.50900268555 5.39870071411 26.421005249' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_24_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_24_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_24_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube6_004_TRANSFORM'>
+                <Transform DEF='pCube6_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_070'>
+                    <Shape DEF='SP_20'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_20' vertexCount='106' primType='"TRIANGLESTRIP"' position='-372.234985352 41.0461997986 -235.569503784' size='21.7200012207 4.86340332031 7.13900756836' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_20_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_20_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_20_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube5_004_TRANSFORM'>
+                <Transform DEF='pCube5_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_029'>
+                    <Shape DEF='SP_16'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_16' vertexCount='34' primType='"TRIANGLESTRIP"' position='-374.31350708 41.2461509705 -221.76550293' size='24.1790161133 3.35649871826 23.7489929199' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_16_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_16_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_16_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_004_TRANSFORM'>
+                <Transform DEF='pCube3_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_099'>
+                    <Shape DEF='SP_17'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_17' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-356.242980957 40.3559494019 -219.701507568' size='4.50997924805 5.39870071411 26.421005249' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_17_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_17_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_17_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube2_004_TRANSFORM'>
+                <Transform DEF='pCube2_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_011'>
+                    <Shape DEF='SP_22'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_22' vertexCount='34' primType='"TRIANGLESTRIP"' position='-374.182495117 44.1244506836 -222.632507324' size='42.5950012207 4.60390090942 36.7949981689' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_22_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_22_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_22_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube1_004_TRANSFORM'>
+                <Transform DEF='pCube1_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_005'>
+                    <Shape DEF='SP_18'>
+                      <Appearance DEF='AOPT_Appearance_942396384'>
+                        <Material DEF='MA_MossArtsCenter_Model_chair_cushion' ambientIntensity='0.333' diffuseColor='0.443 0.294 0.094' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_18' vertexCount='1387 165' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-373.98348999 49.5897521973 -223.955993652' size='46.7470092773 8.94009780884 46.7460021973' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_18_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_18_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_18_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='Learning_lab_observation_chair_1_TRANSFORM'>
+              <Transform DEF='pPlane1_003_TRANSFORM'>
+                <Transform DEF='pPlane1_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_013'>
+                    <Shape DEF='SP_19'>
+                      <Appearance USE='AOPT_Appearance_941494784'/>
+                      <BinaryGeometry DEF='BG_19' vertexCount='136' primType='"TRIANGLESTRIP"' position='-109.408500671 71.3670043945 -596.317993164' size='9.0890045166 60.2080001831 37.7059936523' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_19_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_19_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_19_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_21'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_21' vertexCount='1392' primType='"TRIANGLESTRIP"' position='-104.381103516 67.4558029175 -596.027954102' size='21.839805603 71.4244003296 41.1680297852' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_21_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_21_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_21_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pPipe1_003_TRANSFORM'>
+                <Transform DEF='pPipe1_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_021'>
+                    <Shape DEF='SP_38'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_38' vertexCount='234' primType='"TRIANGLESTRIP"' position='-83.8182067871 41.3829498291 -573.856506348' size='5.91699981689 3.32849884033 3.33703613281' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_38_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_38_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_38_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder8_003_TRANSFORM'>
+                <Transform DEF='pCylinder8_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_084'>
+                    <Shape DEF='SP_29'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_29' vertexCount='146' primType='"TRIANGLESTRIP"' position='-71.383895874 5.08335494995 -610.556030273' size='4.53820037842 4.57731056213 4.50396728516' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_29_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_29_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_29_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder7_003_TRANSFORM'>
+                <Transform DEF='pCylinder7_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_044'>
+                    <Shape DEF='SP_41'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_41' vertexCount='146' primType='"TRIANGLESTRIP"' position='-97.7068939209 5.08335494995 -615.864990234' size='4.00479888916 4.57731056213 4.53601074219' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_41_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_41_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_41_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder6_003_TRANSFORM'>
+                <Transform DEF='pCylinder6_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_014'>
+                    <Shape DEF='SP_39'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_39' vertexCount='146' primType='"TRIANGLESTRIP"' position='-110.89050293 5.08335494995 -592.470458984' size='4.08899688721 4.57731056213 3.11297607422' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_39_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_39_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_39_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder5_003_TRANSFORM'>
+                <Transform DEF='pCylinder5_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_028'>
+                    <Shape DEF='SP_28'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_28' vertexCount='146' primType='"TRIANGLESTRIP"' position='-92.7152023315 5.08335494995 -572.70300293' size='3.25340270996 4.57731056213 4.17395019531' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_28_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_28_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_28_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder4_003_TRANSFORM'>
+                <Transform DEF='pCylinder4_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_069'>
+                    <Shape DEF='SP_42'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_42' vertexCount='146' primType='"TRIANGLESTRIP"' position='-68.2988510132 5.08335494995 -583.880493164' size='4.5625 4.57731056213 4.09704589844' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_42_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_42_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_42_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder3_003_TRANSFORM'>
+                <Transform DEF='pCylinder3_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_096'>
+                    <Shape DEF='SP_32'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_32' vertexCount='834 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-89.3848571777 9.74418067932 -594.73046875' size='45.356300354 5.05864048004 46.1630249023' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_32_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_32_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_32_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_003_TRANSFORM'>
+                <Transform DEF='pCylinder2_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_073'>
+                    <Shape DEF='SP_40'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_40' vertexCount='142' primType='"TRIANGLESTRIP"' position='-88.3101501465 26.0603408813 -595.101013184' size='2.69430541992 37.5287208557 2.69396972656' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_40_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_40_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_40_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_003_TRANSFORM'>
+                <Transform DEF='pCylinder1_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_053'>
+                    <Shape DEF='SP_33'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_33' vertexCount='142' primType='"TRIANGLESTRIP"' position='-85.0264511108 41.3842506409 -579.065002441' size='3.12229919434 2.86769866943 13.4100341797' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_33_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_33_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_33_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube13_003_TRANSFORM'>
+                <Transform DEF='pCube13_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_054'>
+                    <Shape DEF='SP_30'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_30' vertexCount='420 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-96.775604248 63.3064994812 -622' size='17.7547988892 2.49759674072 7.74597167969' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_30_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_30_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_30_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube12_003_TRANSFORM'>
+                <Transform DEF='pCube12_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_085'>
+                    <Shape DEF='SP_25'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_25' vertexCount='113' primType='"TRIANGLESTRIP"' position='-98.3533935547 60.2502975464 -622.108032227' size='10.0772018433 3.7047996521 4.52398681641' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_25_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_25_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_25_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube11_003_TRANSFORM'>
+                <Transform DEF='pCube11_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_051'>
+                    <Shape DEF='SP_34'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_34' vertexCount='397 114' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-98.7131958008 49.1962509155 -617.018493652' size='5.30359649658 21.2943000793 13.3129882813' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_34_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_34_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_34_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube10_003_TRANSFORM'>
+                <Transform DEF='pCube10_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_081'>
+                    <Shape DEF='SP_36'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_36' vertexCount='422 42' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-99.8114471436 63.3064994812 -569.354003906' size='17.7551040649 2.49759674072 7.74597167969' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_36_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_36_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_36_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube9_003_TRANSFORM'>
+                <Transform DEF='pCube9_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_008'>
+                    <Shape DEF='SP_26'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_26' vertexCount='108' primType='"TRIANGLESTRIP"' position='-101.39125061 60.2502975464 -569.428466797' size='10.0774993896 3.7047996521 4.52496337891' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_26_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_26_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_26_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube8_003_TRANSFORM'>
+                <Transform DEF='pCube8_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_100'>
+                    <Shape DEF='SP_37'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_37' vertexCount='402 108' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-101.113800049 49.1962509155 -574.522521973' size='5.30439758301 21.2943000793 13.3129882813' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_37_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_37_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_37_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube7_003_TRANSFORM'>
+                <Transform DEF='pCube7_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_031'>
+                    <Shape DEF='SP_35'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_35' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-85.9290008545 40.5559501648 -613.168518066' size='26.6233978271 5.39869689941 2.0830078125' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_35_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_35_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_35_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube6_003_TRANSFORM'>
+                <Transform DEF='pCube6_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_046'>
+                    <Shape DEF='SP_31'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_31' vertexCount='106' primType='"TRIANGLESTRIP"' position='-73.6862945557 41.2462005615 -594.258483887' size='5.22699737549 4.86339950562 21.5570068359' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_31_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_31_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_31_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube5_003_TRANSFORM'>
+                <Transform DEF='pCube5_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_105'>
+                    <Shape DEF='SP_27'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_27' vertexCount='34' primType='"TRIANGLESTRIP"' position='-87.6227493286 41.4461517334 -595.062011719' size='22.00050354 3.35650253296 22.4819946289' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_27_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_27_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_27_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_003_TRANSFORM'>
+                <Transform DEF='pCube3_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_017'>
+                    <Shape DEF='SP_45'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_45' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-88.0214538574 40.5559501648 -576.877990723' size='26.6231002808 5.39869689941 2.083984375' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_45_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_45_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_45_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube2_003_TRANSFORM'>
+                <Transform DEF='pCube2_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_061'>
+                    <Shape DEF='SP_58'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_58' vertexCount='34' primType='"TRIANGLESTRIP"' position='-86.7473983765 44.3244476318 -595.010986328' size='33.5932006836 4.60390090942 40.0900268555' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_58_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_58_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_58_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube1_003_TRANSFORM'>
+                <Transform DEF='pCube1_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_034'>
+                    <Shape DEF='SP_48'>
+                      <Appearance USE='AOPT_Appearance_942396384'/>
+                      <BinaryGeometry DEF='BG_48' vertexCount='1387 165' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-85.4111480713 49.7897491455 -594.934020996' size='45.2656974792 8.94010162354 45.2659912109' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_48_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_48_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_48_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='Learning_lab_observation_chair_2_TRANSFORM'>
+              <Transform DEF='pPlane1_002_TRANSFORM'>
+                <Transform DEF='pPlane1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_041'>
+                    <Shape DEF='SP_57'>
+                      <Appearance USE='AOPT_Appearance_941494784'/>
+                      <BinaryGeometry DEF='BG_57' vertexCount='136' primType='"TRIANGLESTRIP"' position='-334.20401001 71.3670043945 -617.874023438' size='37.6539916992 60.2080001831 8.71002197266' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_57_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_57_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_57_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_44'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_44' vertexCount='1380 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-333.966003418 67.4558029175 -622.903991699' size='40.9880065918 71.4244003296 21.4379882813' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_44_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_44_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_44_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pPipe1_002_TRANSFORM'>
+                <Transform DEF='pPipe1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_080'>
+                    <Shape DEF='SP_46'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_46' vertexCount='234' primType='"TRIANGLESTRIP"' position='-312.006500244 41.3829498291 -643.694458008' size='3.27899169922 3.32849884033 5.88897705078' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_46_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_46_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_46_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder8_002_TRANSFORM'>
+                <Transform DEF='pCylinder8_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_102'>
+                    <Shape DEF='SP_43'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_43' vertexCount='146' primType='"TRIANGLESTRIP"' position='-348.832000732 5.08335494995 -655.750488281' size='4.51397705078 4.57731056213 4.53100585938' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_43_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_43_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_43_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder7_002_TRANSFORM'>
+                <Transform DEF='pCylinder7_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_049'>
+                    <Shape DEF='SP_52'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_52' vertexCount='146' primType='"TRIANGLESTRIP"' position='-353.869506836 5.08335494995 -629.374023438' size='4.54299926758 4.57731056213 4.02801513672' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_52_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_52_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_52_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder6_002_TRANSFORM'>
+                <Transform DEF='pCylinder6_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_075'>
+                    <Shape DEF='SP_47'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_47' vertexCount='146' primType='"TRIANGLESTRIP"' position='-330.341491699 5.08335494995 -616.432006836' size='3.14898681641 4.57731056213 4.10998535156' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_47_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_47_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_47_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder5_002_TRANSFORM'>
+                <Transform DEF='pCylinder5_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_032'>
+                    <Shape DEF='SP_59'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_59' vertexCount='146' primType='"TRIANGLESTRIP"' position='-310.761993408 5.08335494995 -634.809509277' size='4.15399169922 4.57731056213 3.21899414063' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_59_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_59_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_59_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder4_002_TRANSFORM'>
+                <Transform DEF='pCylinder4_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_018'>
+                    <Shape DEF='SP_50'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_50' vertexCount='146' primType='"TRIANGLESTRIP"' position='-322.18951416 5.08335494995 -659.10949707' size='4.07498168945 4.57731056213 4.55700683594' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_50_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_50_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_50_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder3_002_TRANSFORM'>
+                <Transform DEF='pCylinder3_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_025'>
+                    <Shape DEF='SP_51'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_51' vertexCount='834 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-332.770996094 9.74418067932 -637.97253418' size='46.1140136719 5.05864048004 45.4509887695' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_51_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_51_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_51_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_002_TRANSFORM'>
+                <Transform DEF='pCylinder2_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_062'>
+                    <Shape DEF='SP_53'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_53' vertexCount='142' primType='"TRIANGLESTRIP"' position='-333.203979492 26.0603408813 -638.984008789' size='2.6960144043 37.5287208557 2.69598388672' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_53_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_53_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_53_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_002_TRANSFORM'>
+                <Transform DEF='pCylinder1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_068'>
+                    <Shape DEF='SP_54'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_54' vertexCount='142' primType='"TRIANGLESTRIP"' position='-317.202514648 41.3842506409 -642.432495117' size='13.3929748535 2.86769866943 2.98699951172' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_54_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_54_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_54_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube13_002_TRANSFORM'>
+                <Transform DEF='pCube13_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_060'>
+                    <Shape DEF='SP_49'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_49' vertexCount='420 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-360.014007568 63.3064994812 -630.242004395' size='7.58801269531 2.49759674072 17.7120361328' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_49_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_49_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_49_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube12_002_TRANSFORM'>
+                <Transform DEF='pCube12_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_001'>
+                    <Shape DEF='SP_55'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_55' vertexCount='113' primType='"TRIANGLESTRIP"' position='-360.106506348 60.2502975464 -628.663452148' size='4.45501708984 3.7047996521 10.0709838867' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_55_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_55_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_55_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube11_002_TRANSFORM'>
+                <Transform DEF='pCube11_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_004'>
+                    <Shape DEF='SP_56'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_56' vertexCount='399 111' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-355.018005371 49.1962509155 -628.360473633' size='13.2819824219 21.2943000793 5.18096923828' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_56_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_56_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_56_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube10_002_TRANSFORM'>
+                <Transform DEF='pCube10_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_037'>
+                    <Shape DEF='SP_60'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_60' vertexCount='422 42' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-307.339996338 63.3064994812 -627.748046875' size='7.58801269531 2.49759674072 17.7119750977' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_60_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_60_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_60_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube9_002_TRANSFORM'>
+                <Transform DEF='pCube9_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_077'>
+                    <Shape DEF='SP_65'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_65' vertexCount='108' primType='"TRIANGLESTRIP"' position='-307.398498535 60.2502975464 -626.16796875' size='4.45501708984 3.7047996521 10.0719604492' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_65_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_65_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_65_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube8_002_TRANSFORM'>
+                <Transform DEF='pCube8_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_055'>
+                    <Shape DEF='SP_77'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_77' vertexCount='402 102' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-312.489990234 49.1962509155 -626.38848877' size='13.2820129395 21.2943000793 5.18103027344' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_77_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_77_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_77_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube7_002_TRANSFORM'>
+                <Transform DEF='pCube7_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_058'>
+                    <Shape DEF='SP_71'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_71' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-351.295013428 40.5559501648 -641.178955078' size='1.80999755859 5.39869689941 26.632019043' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_71_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_71_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_71_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube6_002_TRANSFORM'>
+                <Transform DEF='pCube6_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_047'>
+                    <Shape DEF='SP_69'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_69' vertexCount='106' primType='"TRIANGLESTRIP"' position='-332.511474609 41.2462005615 -653.615478516' size='21.5270080566 4.86339950562 5.00897216797' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_69_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_69_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_69_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube5_002_TRANSFORM'>
+                <Transform DEF='pCube5_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_106'>
+                    <Shape DEF='SP_68'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_68' vertexCount='34' primType='"TRIANGLESTRIP"' position='-333.17199707 41.4461517334 -639.671508789' size='22.2799987793 3.35650253296 21.79296875' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_68_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_68_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_68_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_002_TRANSFORM'>
+                <Transform DEF='pCube3_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_066'>
+                    <Shape DEF='SP_70'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_70' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-314.984985352 40.5559501648 -639.459960938' size='1.81002807617 5.39869689941 26.632019043' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_70_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_70_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_70_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube2_002_TRANSFORM'>
+                <Transform DEF='pCube2_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_107'>
+                    <Shape DEF='SP_63'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_63' vertexCount='34' primType='"TRIANGLESTRIP"' position='-333.130493164 44.3244476318 -640.547485352' size='39.7869873047 4.60390090942 33.2169799805' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_63_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_63_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_63_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube1_002_TRANSFORM'>
+                <Transform DEF='pCube1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_088'>
+                    <Shape DEF='SP_73'>
+                      <Appearance USE='AOPT_Appearance_942396384'/>
+                      <BinaryGeometry DEF='BG_73' vertexCount='1387 165' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-333.067016602 49.7897491455 -641.884521484' size='45.1520080566 8.94010162354 45.1510009766' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_73_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_73_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_73_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='Learning_lab_observation_chair_8_TRANSFORM'>
+              <Transform DEF='pPlane1_001_TRANSFORM'>
+                <Transform DEF='pPlane1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_012'>
+                    <Shape DEF='SP_72'>
+                      <Appearance USE='AOPT_Appearance_941494784'/>
+                      <BinaryGeometry DEF='BG_72' vertexCount='136' primType='"TRIANGLESTRIP"' position='-522.338500977 70.8670043945 -311.983001709' size='10.6309814453 60.2080001831 37.8740234375' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_72_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_72_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_72_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_74'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_74' vertexCount='1386 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-517.327514648 66.9558029175 -312.484008789' size='23.4530029297 71.4244003296 41.8540039063' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_74_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_74_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_74_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pPipe1_001_TRANSFORM'>
+                <Transform DEF='pPipe1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_072'>
+                    <Shape DEF='SP_62'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_62' vertexCount='234' primType='"TRIANGLESTRIP"' position='-493.54800415 40.8829498291 -293.804016113' size='6.02398681641 3.32849884033 3.56802368164' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_62_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_62_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_62_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder8_001_TRANSFORM'>
+                <Transform DEF='pCylinder8_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_091'>
+                    <Shape DEF='SP_64'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_64' vertexCount='146' primType='"TRIANGLESTRIP"' position='-487.011474609 4.58334541321 -331.997009277' size='4.37100219727 4.57731056213 4.58999633789' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_64_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_64_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_64_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder7_001_TRANSFORM'>
+                <Transform DEF='pCylinder7_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_007'>
+                    <Shape DEF='SP_75'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_75' vertexCount='146' primType='"TRIANGLESTRIP"' position='-513.841003418 4.58334541321 -333.120483398' size='4.30798339844 4.57731056213 4.59298706055' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_75_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_75_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_75_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder6_001_TRANSFORM'>
+                <Transform DEF='pCylinder6_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_104'>
+                    <Shape DEF='SP_66'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_66' vertexCount='146' primType='"TRIANGLESTRIP"' position='-523.200012207 4.58334541321 -307.95098877' size='4.36596679688 4.57731056213 3.60400390625' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_66_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_66_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_66_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder5_001_TRANSFORM'>
+                <Transform DEF='pCylinder5_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_063'>
+                    <Shape DEF='SP_76'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_76' vertexCount='146' primType='"TRIANGLESTRIP"' position='-502.15447998 4.58334541321 -291.272491455' size='2.70498657227 4.57731056213 3.82299804688' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_76_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_76_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_76_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder4_001_TRANSFORM'>
+                <Transform DEF='pCylinder4_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_024'>
+                    <Shape DEF='SP_78'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_78' vertexCount='146' primType='"TRIANGLESTRIP"' position='-479.788513184 4.58334541321 -306.133972168' size='4.42300415039 4.57731056213 3.7200012207' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_78_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_78_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_78_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder3_001_TRANSFORM'>
+                <Transform DEF='pCylinder3_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_074'>
+                    <Shape DEF='SP_61'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_61' vertexCount='834 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-501.419006348 9.2441701889 -312.75' size='46.3220214844 5.0586605072 44.9140014648' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_61_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_61_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_61_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_001_TRANSFORM'>
+                <Transform DEF='pCylinder2_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_039'>
+                    <Shape DEF='SP_67'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_67' vertexCount='142' primType='"TRIANGLESTRIP"' position='-501.309509277 25.560333252 -314.083984375' size='2.68499755859 37.5287284851 2.68600463867' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_67_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_67_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_67_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_001_TRANSFORM'>
+                <Transform DEF='pCylinder1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_009'>
+                    <Shape DEF='SP_92'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_92' vertexCount='142' primType='"TRIANGLESTRIP"' position='-495.556518555 40.8842010498 -298.759002686' size='3.67098999023 2.8675994873 13.4639892578' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_92_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_92_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_92_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube13_001_TRANSFORM'>
+                <Transform DEF='pCube13_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled'>
+                    <Shape DEF='SP_89'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_89' vertexCount='420 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-513.881469727 62.8064994812 -339.325500488' size='17.9109802246 2.49759674072 8.38299560547' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_89_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_89_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_89_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube12_001_TRANSFORM'>
+                <Transform DEF='pCube12_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_040'>
+                    <Shape DEF='SP_86'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_86' vertexCount='113' primType='"TRIANGLESTRIP"' position='-515.456481934 59.7502975464 -339.18548584' size='10.0889892578 3.7047996521 4.8030090332' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_86_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_86_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_86_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube11_001_TRANSFORM'>
+                <Transform DEF='pCube11_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_033'>
+                    <Shape DEF='SP_91'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_91' vertexCount='401 108' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-514.947509766 48.6962509155 -334.086486816' size='5.79901123047 21.2943000793 13.4230041504' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_91_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_91_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_91_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube10_001_TRANSFORM'>
+                <Transform DEF='pCube10_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_108'>
+                    <Shape DEF='SP_93'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_93' vertexCount='422 42' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-508.638977051 62.8064994812 -286.854003906' size='17.9119567871 2.49759674072 8.38201904297' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_93_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_93_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_93_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube9_001_TRANSFORM'>
+                <Transform DEF='pCube9_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_050'>
+                    <Shape DEF='SP_82'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_82' vertexCount='108' primType='"TRIANGLESTRIP"' position='-510.210510254 59.7502975464 -286.679504395' size='10.0890197754 3.7047996521 4.80297851563' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_82_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_82_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_82_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube8_001_TRANSFORM'>
+                <Transform DEF='pCube8_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_083'>
+                    <Shape DEF='SP_83'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_83' vertexCount='402 105' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-510.802520752 48.6962509155 -291.770507813' size='5.79901123047 21.2943000793 13.4230041504' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_83_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_83_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_83_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube7_001_TRANSFORM'>
+                <Transform DEF='pCube7_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_087'>
+                    <Shape DEF='SP_96'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_96' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-501.786010742 40.0559501648 -332.300994873' size='26.558013916 5.39869689941 3.19598388672' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_96_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_96_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_96_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube6_001_TRANSFORM'>
+                <Transform DEF='pCube6_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_002'>
+                    <Shape DEF='SP_84'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_84' vertexCount='106' primType='"TRIANGLESTRIP"' position='-486.734008789 40.7462005615 -315.540008545' size='6.10800170898 4.86339950562 21.6539916992' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_84_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_84_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_84_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube5_001_TRANSFORM'>
+                <Transform DEF='pCube5_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_016'>
+                    <Shape DEF='SP_80'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_80' vertexCount='34' primType='"TRIANGLESTRIP"' position='-500.625 40.9461517334 -314.152496338' size='22.8239746094 3.35650253296 23.2830200195' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_80_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_80_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_80_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_001_TRANSFORM'>
+                <Transform DEF='pCube3_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_030'>
+                    <Shape DEF='SP_85'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_85' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-498.172485352 40.0559501648 -296.130493164' size='26.5589904785 5.39869689941 3.1969909668' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_85_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_85_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_85_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube2_001_TRANSFORM'>
+                <Transform DEF='pCube2_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_019'>
+                    <Shape DEF='SP_87'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_87' vertexCount='34' primType='"TRIANGLESTRIP"' position='-499.75201416 43.8244476318 -314.239501953' size='35.0940246582 4.60390090942 41.2789916992' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_87_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_87_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_87_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube1_001_TRANSFORM'>
+                <Transform DEF='pCube1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_094'>
+                    <Shape DEF='SP_88'>
+                      <Appearance USE='AOPT_Appearance_942396384'/>
+                      <BinaryGeometry DEF='BG_88' vertexCount='1387 165' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-498.41998291 49.2897491455 -314.37298584' size='45.775970459 8.94010162354 45.7760009766' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_88_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_88_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_88_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='Learning_lab_observation_chair_5_TRANSFORM'>
+              <Transform DEF='pPlane1_TRANSFORM'>
+                <Transform DEF='pPlane1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_057'>
+                    <Shape DEF='SP_90'>
+                      <Appearance USE='AOPT_Appearance_941494784'/>
+                      <BinaryGeometry DEF='BG_90' vertexCount='136' primType='"TRIANGLESTRIP"' position='-417.768493652 73.4669952393 -463.298522949' size='37.6849975586 60.2080001831 18.1650085449' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_90_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_90_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_90_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_94'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_94' vertexCount='1386 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-416.211486816 69.5558013916 -458.509521484' size='44.1910095215 71.4243927002 31.0069885254' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_94_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_94_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_94_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pPipe1_TRANSFORM'>
+                <Transform DEF='pPipe1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_052'>
+                    <Shape DEF='SP_95'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_95' vertexCount='234' primType='"TRIANGLESTRIP"' position='-429.393005371 43.4829483032 -431.294006348' size='4.64199829102 3.32850265503 6.40200805664' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_95_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_95_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_95_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder8_TRANSFORM'>
+                <Transform DEF='pCylinder8_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_010'>
+                    <Shape DEF='SP_79'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_79' vertexCount='146' primType='"TRIANGLESTRIP"' position='-390.684020996 7.18335485458 -433.049499512' size='4.52401733398 4.57730960846 3.96899414063' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_79_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_79_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_79_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder7_TRANSFORM'>
+                <Transform DEF='pCylinder7_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_023'>
+                    <Shape DEF='SP_81'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_81' vertexCount='146' primType='"TRIANGLESTRIP"' position='-395.305480957 7.18335485458 -459.501495361' size='4.4889831543 4.57730960846 4.54901123047' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_81_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_81_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_81_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder6_TRANSFORM'>
+                <Transform DEF='pCylinder6_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_093'>
+                    <Shape DEF='SP_103'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_103' vertexCount='146' primType='"TRIANGLESTRIP"' position='-421.891479492 7.18335485458 -463.280517578' size='4.12899780273 4.57730960846 4.5710144043' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_103_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_103_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_103_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder5_TRANSFORM'>
+                <Transform DEF='pCylinder5_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_045'>
+                    <Shape DEF='SP_106'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_106' vertexCount='146' primType='"TRIANGLESTRIP"' position='-433.70098877 7.18335485458 -439.163513184' size='4.20401000977 4.57730960846 3.3030090332' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_106_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_106_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_106_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder4_TRANSFORM'>
+                <Transform DEF='pCylinder4_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_109'>
+                    <Shape DEF='SP_108'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_108' vertexCount='146' primType='"TRIANGLESTRIP"' position='-414.413513184 7.18335485458 -420.479492188' size='3.06100463867 4.57730960846 4.05700683594' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_108_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_108_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_108_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder3_TRANSFORM'>
+                <Transform DEF='pCylinder3_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_003'>
+                    <Shape DEF='SP_100'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_100' vertexCount='834 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-411.853515625 11.8441753387 -441.989501953' size='45.8529968262 5.05865001678 45.8789978027' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_100_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_100_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_100_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_TRANSFORM'>
+                <Transform DEF='pCylinder2_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_101'>
+                    <Shape DEF='SP_101'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_101' vertexCount='142' primType='"TRIANGLESTRIP"' position='-411.233520508 28.1603355408 -443.200500488' size='2.69900512695 37.5287322998 2.69897460938' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_101_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_101_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_101_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_TRANSFORM'>
+                <Transform DEF='pCylinder1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_064'>
+                    <Shape DEF='SP_107'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_107' vertexCount='142' primType='"TRIANGLESTRIP"' position='-424.979980469 43.4841995239 -434.312988281' size='13.3739929199 2.8675994873 6.35598754883' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_107_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_107_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_107_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube13_TRANSFORM'>
+                <Transform DEF='pCube13_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_092'>
+                    <Shape DEF='SP_98'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_98' vertexCount='420 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-389.251495361 65.4064483643 -460.864013672' size='11.4329833984 2.49769592285 18.259979248' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_98_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_98_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_98_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube12_TRANSFORM'>
+                <Transform DEF='pCube12_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_098'>
+                    <Shape DEF='SP_102'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_102' vertexCount='111 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-389.724487305 62.3502960205 -462.373504639' size='6.16702270508 3.7047996521 9.95501708984' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_102_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_102_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_102_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube11_TRANSFORM'>
+                <Transform DEF='pCube11_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_022'>
+                    <Shape DEF='SP_99'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_99' vertexCount='399 114' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-394.692504883 51.2962493896 -460.713012695' size='13.6430053711 21.2943000793 8.18002319336' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_99_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_99_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_99_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube10_TRANSFORM'>
+                <Transform DEF='pCube10_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_059'>
+                    <Shape DEF='SP_113'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_113' vertexCount='422 42' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-439.399993896 65.4064483643 -444.557006836' size='11.4320068359 2.49769592285 18.2600097656' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_113_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_113_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_113_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube9_TRANSFORM'>
+                <Transform DEF='pCube9_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_038'>
+                    <Shape DEF='SP_114'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_114' vertexCount='108' primType='"TRIANGLESTRIP"' position='-439.905029297 62.3502960205 -446.055480957' size='6.16799926758 3.7047996521 9.95498657227' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_114_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_114_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_114_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube8_TRANSFORM'>
+                <Transform DEF='pCube8_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_076'>
+                    <Shape DEF='SP_109'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_109' vertexCount='406 111' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-434.962493896 51.2962493896 -447.794494629' size='13.6430053711 21.2943000793 8.18099975586' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_109_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_109_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_109_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube7_TRANSFORM'>
+                <Transform DEF='pCube7_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_071'>
+                    <Shape DEF='SP_110'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_110' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-393.536499023 42.6559524536 -447.549499512' size='8.76098632813 5.39870071411 25.5009765625' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_110_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_110_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_110_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube6_TRANSFORM'>
+                <Transform DEF='pCube6_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_082'>
+                    <Shape DEF='SP_111'>
+                      <Appearance USE='AOPT_Appearance_941558448'/>
+                      <BinaryGeometry DEF='BG_111' vertexCount='106' primType='"TRIANGLESTRIP"' position='-406.703491211 43.3461990356 -429.270507813' size='21.5530090332 4.86339950562 10.4129943848' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_111_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_111_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_111_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube5_TRANSFORM'>
+                <Transform DEF='pCube5_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_079'>
+                    <Shape DEF='SP_112'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_112' vertexCount='34' primType='"TRIANGLESTRIP"' position='-411.020507813 43.5461502075 -442.54598999' size='26.7090148926 3.35649871826 26.3800048828' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_112_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_112_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_112_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_TRANSFORM'>
+                <Transform DEF='pCube3_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_067'>
+                    <Shape DEF='SP_104'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_104' vertexCount='80 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-428.105499268 42.6559524536 -436.308502197' size='8.76098632813 5.39870071411 25.5009765625' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_104_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_104_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_104_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube2_TRANSFORM'>
+                <Transform DEF='pCube2_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_089'>
+                    <Shape DEF='SP_105'>
+                      <Appearance USE='AOPT_Appearance_941483824'/>
+                      <BinaryGeometry DEF='BG_105' vertexCount='34' primType='"TRIANGLESTRIP"' position='-410.749511719 46.4244499207 -441.711975098' size='46.1849975586 4.60389709473 41.7539978027' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_105_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_105_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_105_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube1_TRANSFORM'>
+                <Transform DEF='pCube1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_035'>
+                    <Shape DEF='SP_97'>
+                      <Appearance USE='AOPT_Appearance_942396384'/>
+                      <BinaryGeometry DEF='BG_97' vertexCount='1387 165' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-410.335998535 51.8897476196 -440.438995361' size='49.9420166016 8.94009780884 49.9420166016' index='M19LearnObserv-Chairs2_aoptbinGeo/BG_97_indexBinary.bin' coord='M19LearnObserv-Chairs2_aoptbinGeo/BG_97_coordNormalBinary.bin+8' texCoord='M19LearnObserv-Chairs2_aoptbinGeo/BG_97_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <WorldInfo info='"This Web3D Content was created with Vivaty Studio, a Web3D authoring tool" "www.mediamachines.com"' title='MossArt_Composed'/>
+    <DirectionalLight DEF='lightUp' intensity='0.16' direction='0 -1 -0'/>
+    <DirectionalLight DEF='lightDown' intensity='0.16' direction='0 1 0'/>
+    <DirectionalLight DEF='lighFront' intensity='0.16'/>
+    <DirectionalLight DEF='lightBack' intensity='0.16' direction='0 0 1'/>
+    <DirectionalLight DEF='lightSide1' intensity='0.16' direction='1 0 0'/>
+    <DirectionalLight DEF='lightSide2' intensity='0.16' direction='-1 0 0'/>
+    <Viewpoint DEF='Viewpoint1' description='Viewpoint1' position='30 0 160' fieldOfView='0.7854'/>
+    <Inline DEF='Inline1' url='"M1Main_aopt_bin.x3d"'/>
+    <Inline DEF='Inline2' url='"M2Out_aopt_bin.x3d"'/>
+    <Inline DEF='Inline3' url='"M3Lobby1_aopt_bin.x3d"'/>
+    <Inline DEF='Inline4' url='"M4Lobby2_aopt_bin.x3d"'/>
+    <Inline DEF='Inline5' url='"M5Kiosk-theFBXSC_aopt_bin.x3d"'/>
+    <Inline DEF='Inline6' url='"M6Pool-Performance_aopt_bin.x3d"'/>
+    <Inline DEF='Inline7' url='"M7PerformanceFBXASCx3d_aopt_bin.x3d"'/>
+    <Inline DEF='Inline8' url='"M8Master-Create-Lab-News-Upper_aopt_bin.x3d"'/>
+    <Inline DEF='Inline9' url='"M9Upper-SandChair1_aopt_bin.x3d"'/>
+    <Inline DEF='Inline10' url='"M10SandChair2_aopt_bin.x3d"'/>
+    <Inline DEF='Inline11' url='"M11SandTable-Couch-Desk12_aopt_bin.x3d"'/>
+    <Inline DEF='Inline12' url='"M12SandDesk3_aopt_bin.x3d"'/>
+    <Inline DEF='Inline13' url='"M13SandCorner-White-Doors_aopt_bin.x3d"'/>
+    <Inline DEF='Inline14' url='"M14SandDoors-Lights_aopt_bin.x3d"'/>
+    <Inline DEF='Inline15' url='"M15SandboxRoom-Hallway_aopt_bin.x3d"'/>
+    <Inline DEF='Inline16' url='"M16LearnObservTable-RoomAcces_aopt_bin.x3d"'/>
+    <Inline DEF='Inline17' url='"M17LearnObservMonit-WhiteBoar-Door_aopt_bin.x3d"'/>
+    <Inline DEF='Inline18' url='"M18LearnObserv-Chairs1_aopt_bin.x3d"'/>
+    <Inline DEF='Inline19' url='"M19LearnObserv-Chairs2_aopt_bin.x3d"'/>
+    <Inline DEF='Inline20' url='"M20LearnObserv-Monitors_aopt_bin.x3d"'/>
+    <Inline DEF='Inline21' url='"M21LearnPref_aopt_bin.x3d"'/>
+    <Inline DEF='Inline22' url='"M22LearningLab1_aopt_bin.x3d"'/>
+    <Inline DEF='Inline23' url='"M23LearningLab2-Tables1_aopt_bin.x3d"'/>
+    <Inline DEF='Inline24' url='"M24LearningLab2-Tables2-Stools_aopt_bin.x3d"'/>
+    <Inline DEF='Inline25' url='"M25LearningLab2-Tables2-Chairs1_aopt_bin.x3d"'/>
+    <Inline DEF='Inline26' url='"M26LearningLab2-Tables2-Chairs2_aopt_bin.x3d"'/>
+    <Inline DEF='Inline27' url='"M27LearningLab2-ProjectsDoorsWhite-Tablets_aopt_bin.x3d"'/>
+    <Inline DEF='Inline28' url='"M28StillNOrgan-Unassign-Signs-Doors1_aopt_bin.x3d"'/>
+    <Inline DEF='Inline29' url='"M29StillNOrgan-UnassignDoors2_aopt_bin.x3d"'/>
+    <Inline DEF='Inline30' url='"M30LearningLabHall-FromRevised2maya_aopt_bin.x3d"'/>
+    <Transform DEF='dad_Light6' translation='30 0 45'>
+      <PointLight DEF='Light6' intensity='0.4'/>
+    </Transform>
+  </Scene>
+</X3D>

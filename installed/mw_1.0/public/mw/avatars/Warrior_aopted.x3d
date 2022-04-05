@@ -1,0 +1,24 @@
+<X3D>
+  <Scene>
+    <Transform scale="0.0025 0.0025 0.0025" rotation="0 1 0 3.1416">
+      <Transform DEF='warriorobj'>
+        <Transform>
+          <Transform DEF='Dreyar' translation='2.1616 75.5181 2.55107'>
+            <Transform translation='-2.1616 -75.5181 -2.55107'>
+              <Group DEF='Dreyar_geometry'>
+                <Shape DEF='SP_0'>
+                  <Appearance>
+                    <Material DEF='DreyarSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.140625'/>
+                    <ImageTexture url='"Warrior_textures/Dreyar_diffuse.png"'/>
+                    <TextureTransform/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_0' solid='false' vertexCount='19906 597' primType='"TRIANGLESTRIP" "TRIANGLES"' position='2.16159820557 75.5180587769 2.5511007309' size='70.788192749 158.559890747 36.5712013245' index='binGeo_Warrior/BG_0_indexBinary.bin' coord='binGeo_Warrior/BG_0_coordBinary.bin+8' normal='binGeo_Warrior/BG_0_normalBinary.bin+4' texCoord='binGeo_Warrior/BG_0_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>

@@ -1,0 +1,106 @@
+<X3D>
+  <Scene>
+    <Transform scale="0.0025 0.0025 0.0025" rotation="0 1 0 3.1416">
+      <Transform DEF='maleteen_posed'>
+        <Transform>
+          <Transform DEF='Body'>
+            <Group DEF='Body_geometry'>
+              <Shape DEF='SP_4'>
+                <Appearance>
+                  <Material DEF='EyelashesSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"MaleTeen_textures/MaleTeen_Body_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_4' solid='false' vertexCount='23863 750' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.995100021362 112.708854675 1.32379436493' size='46.6291999817 90.1103057861 19.5926094055' index='binGeo_MaleTeen/BG_4_indexBinary.bin' coord='binGeo_MaleTeen/BG_4_coordBinary.bin+8' normal='binGeo_MaleTeen/BG_4_normalBinary.bin+4' texCoord='binGeo_MaleTeen/BG_4_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Bottoms'>
+            <Group DEF='Bottoms_geometry'>
+              <Shape DEF='SP_2'>
+                <Appearance>
+                  <Material DEF='BottomsSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"MaleTeen_textures/MaleTeen_Bottom_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_2' solid='false' vertexCount='5740 135' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.0193996429443 51.0914993286 -0.104584693909' size='26.6226005554 86.0971984863 19.5965900421' index='binGeo_MaleTeen/BG_2_indexBinary.bin' coord='binGeo_MaleTeen/BG_2_coordBinary.bin+8' normal='binGeo_MaleTeen/BG_2_normalBinary.bin+4' texCoord='binGeo_MaleTeen/BG_2_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Eyelashes'>
+            <Group DEF='Eyelashes_geometry'>
+              <Shape DEF='SP_3'>
+                <Appearance>
+                  <Material USE='EyelashesSG'/>
+                  <ImageTexture url='"MaleTeen_textures/MaleTeen_Body_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_3' solid='false' vertexCount='169' primType='"TRIANGLESTRIP"' position='0.0980401039124 144.820999146 8.5844745636' size='13.7683601379 2.75 2.75278997421' index='binGeo_MaleTeen/BG_3_indexBinary.bin' coord='binGeo_MaleTeen/BG_3_coordBinary.bin+8' normal='binGeo_MaleTeen/BG_3_normalBinary.bin+4' texCoord='binGeo_MaleTeen/BG_3_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Eyewear'>
+            <Group DEF='Eyewear_geometry'>
+              <Shape DEF='SP_0'>
+                <Appearance>
+                  <Material DEF='EyewearSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"MaleTeen_textures/MaleTeen_Eyewear_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_0' solid='false' vertexCount='1841 87' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.000175476074219 144.347000122 3.91928529739' size='17.025428772 3.51000976563 11.7044906616' index='binGeo_MaleTeen/BG_0_indexBinary.bin' coord='binGeo_MaleTeen/BG_0_coordBinary.bin+8' normal='binGeo_MaleTeen/BG_0_normalBinary.bin+4' texCoord='binGeo_MaleTeen/BG_0_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Hair'>
+            <Group DEF='Hair_geometry'>
+              <Shape DEF='SP_7'>
+                <Appearance>
+                  <Material DEF='HairSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"MaleTeen_textures/MaleTeen_Hair_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_7' solid='false' vertexCount='12771 396' primType='"TRIANGLESTRIP" "TRIANGLES"' position='0.0778198242188 148.296005249 2.43943023682' size='19.2431602478 21.4179992676 23.3247413635' index='binGeo_MaleTeen/BG_7_indexBinary.bin' coord='binGeo_MaleTeen/BG_7_coordBinary.bin+8' normal='binGeo_MaleTeen/BG_7_normalBinary.bin+4' texCoord='binGeo_MaleTeen/BG_7_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Shoes'>
+            <Group DEF='Shoes_geometry'>
+              <Shape DEF='SP_1'>
+                <Appearance>
+                  <Material DEF='ShoesSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"MaleTeen_textures/MaleTeen_Shoes_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_1' solid='false' vertexCount='9352 183' primType='"TRIANGLESTRIP" "TRIANGLES"' position='0.000650405883789 10.5990810394 3.9082698822' size='22.3763008118 21.1978397369 22.0064601898' index='binGeo_MaleTeen/BG_1_indexBinary.bin' coord='binGeo_MaleTeen/BG_1_coordBinary.bin+8' normal='binGeo_MaleTeen/BG_1_normalBinary.bin+4' texCoord='binGeo_MaleTeen/BG_1_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Tops'>
+            <Group DEF='Tops_geometry'>
+              <Shape DEF='SP_6'>
+                <Appearance>
+                  <Material DEF='TopsSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"MaleTeen_textures/MaleTeen_Top_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_6' solid='false' vertexCount='6140 141' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.794801712036 104.738548279 -0.341750144958' size='45.6251983643 65.7509002686 22.4011001587' index='binGeo_MaleTeen/BG_6_indexBinary.bin' coord='binGeo_MaleTeen/BG_6_coordBinary.bin+8' normal='binGeo_MaleTeen/BG_6_normalBinary.bin+4' texCoord='binGeo_MaleTeen/BG_6_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='default1'>
+            <Group DEF='default1_geometry'>
+              <Shape DEF='SP_5'>
+                <Appearance>
+                  <Material USE='EyelashesSG'/>
+                  <ImageTexture url='"MaleTeen_textures/MaleTeen_Body_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_5' solid='false' vertexCount='1885 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-3.48091125488e-005 145.363998413 6.06295013428' size='11.9186706543 4.46398925781 4.41270065308' index='binGeo_MaleTeen/BG_5_indexBinary.bin' coord='binGeo_MaleTeen/BG_5_coordBinary.bin+8' normal='binGeo_MaleTeen/BG_5_normalBinary.bin+4' texCoord='binGeo_MaleTeen/BG_5_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>

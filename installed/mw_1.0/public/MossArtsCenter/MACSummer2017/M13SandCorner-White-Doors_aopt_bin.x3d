@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <NavigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'/>
+    <Background DEF='WO_World' groundColor='0.051 0.051 0.051' skyColor='0.051 0.051 0.051'/>
+    <Transform DEF='MossArtsCenter_Model1_TRANSFORM' rotation='0 1 -0 3.14159' scale='0.01 0.01 0.01'>
+      <Transform DEF='Sandbox_TRANSFORM'>
+        <Transform DEF='Doors_TRANSFORM'>
+          <Transform DEF='Door_Thicker_Frame__002_TRANSFORM'>
+            <Transform DEF='group5_002_TRANSFORM'>
+              <Transform DEF='pCube30_002_TRANSFORM'>
+                <Transform DEF='pCube30_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_102'>
+                    <Shape DEF='SP_1'>
+                      <Appearance DEF='AOPT_Appearance_1813141760'>
+                        <Material DEF='MA_MossArtsCenter_Model_aluminum' ambientIntensity='0.333' diffuseColor='0.669 0.669 0.669' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_1' vertexCount='34' primType='"TRIANGLESTRIP"' position='374.533508301 -344.375976563 -2571.1550293' size='0.126983642578 12.1440124512 3.89013671875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_1_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_1_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_1_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube29_002_TRANSFORM'>
+                <Transform DEF='pCube29_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_063'>
+                    <Shape DEF='SP_2'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_2' vertexCount='34' primType='"TRIANGLESTRIP"' position='374.660491943 -344.375976563 -2571.1550293' size='0.127014160156 12.1440124512 3.89013671875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_2_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_2_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_2_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube28_002_TRANSFORM'>
+                <Transform DEF='pCube28_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_015'>
+                    <Shape DEF='SP_4'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_4' vertexCount='34' primType='"TRIANGLESTRIP"' position='374.533508301 -256.29699707 -2571.1550293' size='0.126983642578 12.1439819336 3.89013671875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_4_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_4_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_4_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube27_004_TRANSFORM'>
+                <Transform DEF='pCube27_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_059'>
+                    <Shape DEF='SP_5'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_5' vertexCount='34' primType='"TRIANGLESTRIP"' position='374.660491943 -256.29699707 -2571.1550293' size='0.127014160156 12.1439819336 3.89013671875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_5_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_5_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_5_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube26_004_TRANSFORM'>
+                <Transform DEF='pCube26_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_067'>
+                    <Shape DEF='SP_3'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_3' vertexCount='34' primType='"TRIANGLESTRIP"' position='374.660491943 -169.329986572 -2571.1550293' size='0.127014160156 12.1439971924 3.89013671875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_3_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_3_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_3_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube25_004_TRANSFORM'>
+                <Transform DEF='pCube25_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_056'>
+                    <Shape DEF='SP_0'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_0' vertexCount='34' primType='"TRIANGLESTRIP"' position='374.533508301 -169.329986572 -2571.1550293' size='0.126983642578 12.1439971924 3.89013671875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_0_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_0_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_0_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Opener_Arm_Hinge_002_TRANSFORM'>
+                <Transform DEF='Opener_Arm_Hinge_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_042'>
+                    <Shape DEF='SP_6'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_6' vertexCount='64' primType='"TRIANGLESTRIP"' position='349.701477051 -148.406494141 -2567.19995117' size='3.34298706055 1.12100219727 1.02001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_6_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_6_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_6_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Opener_Arm_2_002_TRANSFORM'>
+                <Transform DEF='Opener_Arm_2_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_100'>
+                    <Shape DEF='SP_7'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_7' vertexCount='132' primType='"TRIANGLESTRIP"' position='352.875976563 -148.350006104 -2560.06005859' size='7.1780090332 0.508010864258 14.7600097656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_7_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_7_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_7_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Opener_Arm_1_002_TRANSFORM'>
+                <Transform DEF='Opener_Arm_1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_052'>
+                    <Shape DEF='SP_9'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_9' vertexCount='128 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='356.31350708 -148.858001709 -2560.04003906' size='1.67498779297 0.507995605469 15.2399902344' index='M13SandCorner-White-Doors_aoptbinGeo/BG_9_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_9_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_9_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Opener_002_TRANSFORM'>
+                <Transform DEF='Door_Opener_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_028'>
+                    <Shape DEF='SP_10'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_10' vertexCount='76 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='359.741027832 -152.287002563 -2566.54980469' size='21.5899963379 6.35000610352 4.69995117188' index='M13SandCorner-White-Doors_aoptbinGeo/BG_10_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_10_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_10_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Lock_002_TRANSFORM'>
+                <Transform DEF='Door_Lock_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_006'>
+                    <Shape DEF='SP_11'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_11' vertexCount='48' primType='"TRIANGLESTRIP"' position='283.113494873 -253.251998901 -2569.62988281' size='0.869018554688 6.35000610352 1.88012695313' index='M13SandCorner-White-Doors_aoptbinGeo/BG_11_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_11_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_11_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Hinge_3_002_TRANSFORM'>
+                <Transform DEF='Door_Hinge_3_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_073'>
+                    <Shape DEF='SP_13'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_13' vertexCount='438' primType='"TRIANGLESTRIP"' position='374.615478516 -344.375976563 -2568.61499023' size='1.24899291992 12.1440124512 1.18994140625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_13_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_13_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_13_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Hinge_2_002_TRANSFORM'>
+                <Transform DEF='Door_Hinge_2_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_125'>
+                    <Shape DEF='SP_14'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_14' vertexCount='438' primType='"TRIANGLESTRIP"' position='374.615478516 -256.29699707 -2568.61499023' size='1.24899291992 12.1439819336 1.18994140625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_14_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_14_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_14_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Hinge_1_002_TRANSFORM'>
+                <Transform DEF='Door_Hinge_1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_135'>
+                    <Shape DEF='SP_12'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_12' vertexCount='438' primType='"TRIANGLESTRIP"' position='374.615478516 -169.329986572 -2568.61499023' size='1.24899291992 12.1439971924 1.18994140625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_12_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_12_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_12_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Handle1_002_TRANSFORM'>
+                <Transform DEF='Door_Handle1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_142'>
+                    <Shape DEF='SP_15'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_15' vertexCount='630 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='292.294494629 -253.440002441 -2575.43994141' size='13.7810058594 7.61999511719 4.67993164063' index='M13SandCorner-White-Doors_aoptbinGeo/BG_15_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_15_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_15_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Handle_002_TRANSFORM'>
+                <Transform DEF='Door_Handle_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_089'>
+                    <Shape DEF='SP_8'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_8' vertexCount='636' primType='"TRIANGLESTRIP"' position='292.294494629 -253.440002441 -2566.64501953' size='13.7810058594 7.61999511719 4.669921875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_8_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_8_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_8_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Frame_002_TRANSFORM'>
+                <Transform DEF='Door_Frame_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_035'>
+                    <Shape DEF='SP_17'>
+                      <Appearance DEF='AOPT_Appearance_1855832688'>
+                        <Material DEF='MA_MossArtsCenter_Model_White_Wall' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                        <ImageTexture DEF='IM_file1' url='"White_Wall_Texture.png" "White_Wall_Texture.png"'/>
+                        <TextureTransform scale='10 10'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_17' vertexCount='131' primType='"TRIANGLESTRIP"' position='328.999023438 -252.425994873 -2578.68994141' size='101.600006104 216.851989746 19.580078125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_17_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_17_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_17_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_002_TRANSFORM'>
+                <Transform DEF='Door_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_103'>
+                    <Shape DEF='SP_18'>
+                      <Appearance DEF='AOPT_Appearance_1855902704'>
+                        <Material USE='MA_MossArtsCenter_Model_White_Wall'/>
+                        <ImageTexture DEF='IM_MAC_Door_Wood_Texture' url='"MAC_Door_Wood_Texture.png" "MAC_Door_Wood_Texture.png"'/>
+                        <TextureTransform scale='5 5'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_18' vertexCount='34' primType='"TRIANGLESTRIP"' position='329.105499268 -255.113494873 -2571' size='90.7269897461 211.476989746 4.2001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_18_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_18_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_18_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Door_Thicker_Frame__001_TRANSFORM'>
+            <Transform DEF='group5_001_TRANSFORM'>
+              <Transform DEF='pCube30_001_TRANSFORM'>
+                <Transform DEF='pCube30_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_090'>
+                    <Shape DEF='SP_19'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_19' vertexCount='34' primType='"TRIANGLESTRIP"' position='416.760986328 -344.375976563 -973.560546875' size='3.89199829102 12.1440124512 0.127014160156' index='M13SandCorner-White-Doors_aoptbinGeo/BG_19_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_19_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_19_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube29_001_TRANSFORM'>
+                <Transform DEF='pCube29_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_085'>
+                    <Shape DEF='SP_20'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_20' vertexCount='34' primType='"TRIANGLESTRIP"' position='416.760986328 -344.375976563 -973.43347168' size='3.89199829102 12.1440124512 0.127014160156' index='M13SandCorner-White-Doors_aoptbinGeo/BG_20_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_20_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_20_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube28_001_TRANSFORM'>
+                <Transform DEF='pCube28_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_039'>
+                    <Shape DEF='SP_21'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_21' vertexCount='34' primType='"TRIANGLESTRIP"' position='416.760986328 -256.29699707 -973.560546875' size='3.89199829102 12.1439819336 0.127014160156' index='M13SandCorner-White-Doors_aoptbinGeo/BG_21_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_21_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_21_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube27_003_TRANSFORM'>
+                <Transform DEF='pCube27_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled'>
+                    <Shape DEF='SP_16'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_16' vertexCount='34' primType='"TRIANGLESTRIP"' position='416.760986328 -256.29699707 -973.43347168' size='3.89199829102 12.1439819336 0.127014160156' index='M13SandCorner-White-Doors_aoptbinGeo/BG_16_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_16_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_16_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube26_003_TRANSFORM'>
+                <Transform DEF='pCube26_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_040'>
+                    <Shape DEF='SP_22'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_22' vertexCount='34' primType='"TRIANGLESTRIP"' position='416.760986328 -169.329986572 -973.43347168' size='3.89199829102 12.1439971924 0.127014160156' index='M13SandCorner-White-Doors_aoptbinGeo/BG_22_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_22_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_22_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube25_003_TRANSFORM'>
+                <Transform DEF='pCube25_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_019'>
+                    <Shape DEF='SP_23'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_23' vertexCount='34' primType='"TRIANGLESTRIP"' position='416.760986328 -169.329986572 -973.560546875' size='3.89199829102 12.1439971924 0.127014160156' index='M13SandCorner-White-Doors_aoptbinGeo/BG_23_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_23_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_23_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Opener_Arm_Hinge_001_TRANSFORM'>
+                <Transform DEF='Opener_Arm_Hinge_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_036'>
+                    <Shape DEF='SP_24'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_24' vertexCount='64' primType='"TRIANGLESTRIP"' position='412.806518555 -148.406494141 -998.39050293' size='1.01498413086 1.12100219727 3.33898925781' index='M13SandCorner-White-Doors_aoptbinGeo/BG_24_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_24_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_24_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Opener_Arm_2_001_TRANSFORM'>
+                <Transform DEF='Opener_Arm_2_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_137'>
+                    <Shape DEF='SP_39'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_39' vertexCount='132' primType='"TRIANGLESTRIP"' position='405.661987305 -148.350006104 -995.218017578' size='14.7619934082 0.508010864258 7.17797851563' index='M13SandCorner-White-Doors_aoptbinGeo/BG_39_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_39_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_39_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Opener_Arm_1_001_TRANSFORM'>
+                <Transform DEF='Opener_Arm_1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_023'>
+                    <Shape DEF='SP_36'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_36' vertexCount='128 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='405.647003174 -148.858001709 -991.781005859' size='15.2399902344 0.507995605469 1.67602539063' index='M13SandCorner-White-Doors_aoptbinGeo/BG_36_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_36_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_36_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Opener_001_TRANSFORM'>
+                <Transform DEF='Door_Opener_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_032'>
+                    <Shape DEF='SP_26'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_26' vertexCount='76 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='412.151489258 -152.287002563 -988.353027344' size='4.69900512695 6.35000610352 21.5900268555' index='M13SandCorner-White-Doors_aoptbinGeo/BG_26_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_26_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_26_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Lock_001_TRANSFORM'>
+                <Transform DEF='Door_Lock_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_141'>
+                    <Shape DEF='SP_37'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_37' vertexCount='48' primType='"TRIANGLESTRIP"' position='415.233001709 -253.251998901 -1064.98510742' size='1.8759765625 6.35000610352 0.869995117188' index='M13SandCorner-White-Doors_aoptbinGeo/BG_37_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_37_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_37_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Hinge_3_001_TRANSFORM'>
+                <Transform DEF='Door_Hinge_3_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_114'>
+                    <Shape DEF='SP_42'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_42' vertexCount='438' primType='"TRIANGLESTRIP"' position='414.22052002 -344.375976563 -973.479003906' size='1.18899536133 12.1440124512 1.25' index='M13SandCorner-White-Doors_aoptbinGeo/BG_42_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_42_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_42_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Hinge_2_001_TRANSFORM'>
+                <Transform DEF='Door_Hinge_2_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_029'>
+                    <Shape DEF='SP_35'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_35' vertexCount='438' primType='"TRIANGLESTRIP"' position='414.22052002 -256.29699707 -973.479003906' size='1.18899536133 12.1439819336 1.25' index='M13SandCorner-White-Doors_aoptbinGeo/BG_35_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_35_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_35_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Hinge_1_001_TRANSFORM'>
+                <Transform DEF='Door_Hinge_1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_053'>
+                    <Shape DEF='SP_38'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_38' vertexCount='438' primType='"TRIANGLESTRIP"' position='414.22052002 -169.329986572 -973.479003906' size='1.18899536133 12.1439971924 1.25' index='M13SandCorner-White-Doors_aoptbinGeo/BG_38_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_38_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_38_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Handle1_001_TRANSFORM'>
+                <Transform DEF='Door_Handle1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_016'>
+                    <Shape DEF='SP_29'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_29' vertexCount='630 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='421.04498291 -253.440002441 -1055.80004883' size='4.67599487305 7.61999511719 13.7799072266' index='M13SandCorner-White-Doors_aoptbinGeo/BG_29_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_29_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_29_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Handle_001_TRANSFORM'>
+                <Transform DEF='Door_Handle_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_027'>
+                    <Shape DEF='SP_28'>
+                      <Appearance USE='AOPT_Appearance_1813141760'/>
+                      <BinaryGeometry DEF='BG_28' vertexCount='636' primType='"TRIANGLESTRIP"' position='412.252502441 -253.440002441 -1055.80004883' size='4.67498779297 7.61999511719 13.7799072266' index='M13SandCorner-White-Doors_aoptbinGeo/BG_28_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_28_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_28_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Frame_001_TRANSFORM'>
+                <Transform DEF='Door_Frame_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_127'>
+                    <Shape DEF='SP_33'>
+                      <Appearance USE='AOPT_Appearance_1855832688'/>
+                      <BinaryGeometry DEF='BG_33' vertexCount='131' primType='"TRIANGLESTRIP"' position='424.291992188 -252.425994873 -1019.09753418' size='19.5820007324 216.851989746 101.605041504' index='M13SandCorner-White-Doors_aoptbinGeo/BG_33_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_33_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_33_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_001_TRANSFORM'>
+                <Transform DEF='Door_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_111'>
+                    <Shape DEF='SP_25'>
+                      <Appearance USE='AOPT_Appearance_1855902704'/>
+                      <BinaryGeometry DEF='BG_25' vertexCount='34' primType='"TRIANGLESTRIP"' position='416.604003906 -255.113494873 -1018.98748779' size='4.20599365234 211.476989746 90.7249755859' index='M13SandCorner-White-Doors_aoptbinGeo/BG_25_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_25_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_25_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Door_Thicker_Frame__TRANSFORM'>
+            <Transform DEF='group5_TRANSFORM'>
+              <Transform DEF='Door_TRANSFORM'>
+                <Transform DEF='Door_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_092'>
+                    <Shape DEF='SP_34'>
+                      <Appearance USE='AOPT_Appearance_1855902704'/>
+                      <BinaryGeometry DEF='BG_34' vertexCount='34' primType='"TRIANGLESTRIP"' position='460.039001465 -255.113494873 -2558.05493164' size='90.8159790039 211.476989746 7.22998046875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_34_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_34_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_34_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+                <Transform DEF='pCube30_TRANSFORM'>
+                  <Transform DEF='pCube30_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_094'>
+                      <Shape DEF='SP_40'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_40' vertexCount='34' primType='"TRIANGLESTRIP"' position='414.630493164 -344.375976563 -2556.69995117' size='0.256988525391 12.1440124512 3.89990234375' index='M13SandCorner-White-Doors_aoptbinGeo/BG_40_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_40_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_40_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='pCube29_TRANSFORM'>
+                  <Transform DEF='pCube29_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_115'>
+                      <Shape DEF='SP_41'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_41' vertexCount='34' primType='"TRIANGLESTRIP"' position='414.503479004 -344.375976563 -2556.69482422' size='0.256988525391 12.1440124512 3.88989257813' index='M13SandCorner-White-Doors_aoptbinGeo/BG_41_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_41_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_41_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='pCube28_TRANSFORM'>
+                  <Transform DEF='pCube28_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_031'>
+                      <Shape DEF='SP_27'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_27' vertexCount='34' primType='"TRIANGLESTRIP"' position='414.630493164 -256.29699707 -2556.69995117' size='0.256988525391 12.1439819336 3.89990234375' index='M13SandCorner-White-Doors_aoptbinGeo/BG_27_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_27_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_27_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='pCube27_002_TRANSFORM'>
+                  <Transform DEF='pCube27_002_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_022'>
+                      <Shape DEF='SP_30'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_30' vertexCount='34' primType='"TRIANGLESTRIP"' position='414.503479004 -256.29699707 -2556.69482422' size='0.256988525391 12.1439819336 3.88989257813' index='M13SandCorner-White-Doors_aoptbinGeo/BG_30_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_30_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_30_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='pCube26_002_TRANSFORM'>
+                  <Transform DEF='pCube26_002_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_043'>
+                      <Shape DEF='SP_31'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_31' vertexCount='34' primType='"TRIANGLESTRIP"' position='414.503479004 -169.329986572 -2556.69482422' size='0.256988525391 12.1439971924 3.88989257813' index='M13SandCorner-White-Doors_aoptbinGeo/BG_31_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_31_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_31_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='pCube25_002_TRANSFORM'>
+                  <Transform DEF='pCube25_002_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_065'>
+                      <Shape DEF='SP_32'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_32' vertexCount='34' primType='"TRIANGLESTRIP"' position='414.630493164 -169.329986572 -2556.69995117' size='0.256988525391 12.1439971924 3.89990234375' index='M13SandCorner-White-Doors_aoptbinGeo/BG_32_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_32_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_32_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Opener_Arm_Hinge_TRANSFORM'>
+                  <Transform DEF='Opener_Arm_Hinge_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_097'>
+                      <Shape DEF='SP_52'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_52' vertexCount='64' primType='"TRIANGLESTRIP"' position='439.567993164 -148.406494141 -2553.5949707' size='3.35000610352 1.12100219727 1.08984375' index='M13SandCorner-White-Doors_aoptbinGeo/BG_52_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_52_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_52_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Opener_Arm_2_TRANSFORM'>
+                  <Transform DEF='Opener_Arm_2_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_138'>
+                      <Shape DEF='SP_48'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_48' vertexCount='131 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='435.526000977 -148.350006104 -2547.14501953' size='4.5 0.508010864258 16.6499023438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_48_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_48_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_48_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Opener_Arm_1_TRANSFORM'>
+                  <Transform DEF='Opener_Arm_1_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_046'>
+                      <Shape DEF='SP_49'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_49' vertexCount='131 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='433.113494873 -148.858001709 -2546.20507813' size='1.95300292969 0.507995605469 15.25' index='M13SandCorner-White-Doors_aoptbinGeo/BG_49_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_49_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_49_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Door_Opener_TRANSFORM'>
+                  <Transform DEF='Door_Opener_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_024'>
+                      <Shape DEF='SP_44'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_44' vertexCount='76 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='429.5625 -152.287002563 -2552.58984375' size='21.7230224609 6.35000610352 5.40014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_44_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_44_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_44_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Door_Lock_TRANSFORM'>
+                  <Transform DEF='Door_Lock_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_104'>
+                      <Shape DEF='SP_51'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_51' vertexCount='44' primType='"TRIANGLESTRIP"' position='506.047485352 -253.251998901 -2558.2199707' size='0.923004150391 6.35000610352 1.85986328125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_51_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_51_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_51_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Door_Hinge_3_TRANSFORM'>
+                  <Transform DEF='Door_Hinge_3_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_009'>
+                      <Shape DEF='SP_47'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_47' vertexCount='438' primType='"TRIANGLESTRIP"' position='414.634002686 -344.375976563 -2554.16015625' size='1.24798583984 12.1440124512 1.19995117188' index='M13SandCorner-White-Doors_aoptbinGeo/BG_47_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_47_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_47_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Door_Hinge_2_TRANSFORM'>
+                  <Transform DEF='Door_Hinge_2_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_087'>
+                      <Shape DEF='SP_50'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_50' vertexCount='438' primType='"TRIANGLESTRIP"' position='414.634002686 -256.29699707 -2554.16015625' size='1.24798583984 12.1439819336 1.19995117188' index='M13SandCorner-White-Doors_aoptbinGeo/BG_50_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_50_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_50_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Door_Hinge_1_TRANSFORM'>
+                  <Transform DEF='Door_Hinge_1_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_120'>
+                      <Shape DEF='SP_55'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_55' vertexCount='438' primType='"TRIANGLESTRIP"' position='414.634002686 -169.329986572 -2554.16015625' size='1.24798583984 12.1439971924 1.19995117188' index='M13SandCorner-White-Doors_aoptbinGeo/BG_55_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_55_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_55_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Door_Handle1_TRANSFORM'>
+                  <Transform DEF='Door_Handle1_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_119'>
+                      <Shape DEF='SP_53'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_53' vertexCount='633 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='496.737976074 -253.440002441 -2563.7800293' size='13.8160095215 7.61999511719 4.83984375' index='M13SandCorner-White-Doors_aoptbinGeo/BG_53_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_53_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_53_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+                <Transform DEF='Door_Handle_TRANSFORM'>
+                  <Transform DEF='Door_Handle_ifs_TRANSFORM'>
+                    <Group DEF='group_ME_Untitled_131'>
+                      <Shape DEF='SP_54'>
+                        <Appearance USE='AOPT_Appearance_1813141760'/>
+                        <BinaryGeometry DEF='BG_54' vertexCount='636' primType='"TRIANGLESTRIP"' position='496.924499512 -253.440002441 -2554.96484375' size='13.7449951172 7.61999511719 5.07006835938' index='M13SandCorner-White-Doors_aoptbinGeo/BG_54_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_54_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_54_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                      </Shape>
+                    </Group>
+                  </Transform>
+                </Transform>
+              </Transform>
+              <Transform DEF='Door_Frame_TRANSFORM'>
+                <Transform DEF='Door_Frame_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_055'>
+                    <Shape DEF='SP_59'>
+                      <Appearance USE='AOPT_Appearance_1855832688'/>
+                      <BinaryGeometry DEF='BG_59' vertexCount='131' primType='"TRIANGLESTRIP"' position='424.291992188 -252.425994873 -2508.19995117' size='19.5820007324 216.851989746 101.600097656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_59_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_59_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_59_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Whiteboards_TRANSFORM'>
+          <Transform DEF='Whiteboard_1__002_TRANSFORM'>
+            <Transform DEF='pCube6_002_TRANSFORM'>
+              <Transform DEF='pCube6_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_134'>
+                  <Shape DEF='SP_60'>
+                    <Appearance DEF='AOPT_Appearance_1857033264'>
+                      <Material DEF='MA_MossArtsCenter_Model_Whiteboard_Frame' ambientIntensity='0.333' diffuseColor='0.643 0.643 0.643' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_60' vertexCount='266 24' primType='"TRIANGLESTRIP" "TRIANGLES"' position='72.2008132935 -358.17401123 -2517.49511719' size='162.890365601 2.62802124023 24.7102050781' index='M13SandCorner-White-Doors_aoptbinGeo/BG_60_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_60_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_60_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube5_004_TRANSFORM'>
+              <Transform DEF='pCube5_004_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_054'>
+                  <Shape DEF='SP_56'>
+                    <Appearance USE='AOPT_Appearance_1857033264'/>
+                    <BinaryGeometry DEF='BG_56' vertexCount='34' primType='"TRIANGLESTRIP"' position='72.2011489868 -314.436523438 -2517.49511719' size='162.575683594 14.2409973145 20.9299316406' index='M13SandCorner-White-Doors_aoptbinGeo/BG_56_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_56_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_56_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_002_TRANSFORM'>
+              <Transform DEF='pCube1_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_037'>
+                  <Shape DEF='SP_57'>
+                    <Appearance DEF='AOPT_Appearance_1857041808'>
+                      <Material USE='MA_MossArtsCenter_Model_White_Wall'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_57' vertexCount='10' primType='"TRIANGLESTRIP"' position='72.2011413574 -247.487503052 -2517.49511719' size='150.257705688 112.087005615 20.7302246094' index='M13SandCorner-White-Doors_aoptbinGeo/BG_57_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_57_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_57_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_58'>
+                    <Appearance USE='AOPT_Appearance_1857033264'/>
+                    <BinaryGeometry DEF='BG_58' vertexCount='62' primType='"TRIANGLESTRIP"' position='72.2011566162 -247.487503052 -2517.49511719' size='152.565689087 114.67300415 21.0100097656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_58_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_58_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_58_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='group3_002_TRANSFORM'>
+              <Transform DEF='pCylinder3_1_002_TRANSFORM'>
+                <Transform DEF='pCylinder3_1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_139'>
+                    <Shape DEF='SP_43'>
+                      <Appearance DEF='AOPT_Appearance_1857030416'>
+                        <Material DEF='MA_MossArtsCenter_Model_lambert2_2' ambientIntensity='0.333' diffuseColor='0 0 0' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                      </Appearance>
+                      <BinaryGeometry DEF='BG_43' vertexCount='602 27' primType='"TRIANGLESTRIP" "TRIANGLES"' position='150.06149292 -359.48651123 -2481.32006836' size='4.11698913574 3.57699584961 4.580078125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_43_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_43_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_43_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_1_002_TRANSFORM'>
+                <Transform DEF='pCylinder2_1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_081'>
+                    <Shape DEF='SP_45'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_45' vertexCount='592 36' primType='"TRIANGLESTRIP" "TRIANGLES"' position='156.43850708 -359.48651123 -2534.08984375' size='4.11698913574 3.57699584961 4.57983398438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_45_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_45_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_45_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_1_002_TRANSFORM'>
+                <Transform DEF='pCylinder1_1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_140'>
+                    <Shape DEF='SP_46'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_46' vertexCount='42' primType='"TRIANGLESTRIP"' position='153.13999939 -298.730010986 -2507.71484375' size='3.28399658203 106.568008423 3.65014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_46_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_46_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_46_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_63'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_63' vertexCount='128' primType='"TRIANGLESTRIP"' position='153.13999939 -244.988006592 -2507.71484375' size='3.28399658203 0.916000366211 3.65014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_63_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_63_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_63_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_1_002_TRANSFORM'>
+                <Transform DEF='pCube4_1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_050'>
+                    <Shape DEF='SP_76'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_76' vertexCount='484 21' primType='"TRIANGLESTRIP" "TRIANGLES"' position='153.239990234 -358.833496094 -2507.69995117' size='10.68800354 5.21499633789 53.6000976563' index='M13SandCorner-White-Doors_aoptbinGeo/BG_76_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_76_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_76_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_1_002_TRANSFORM'>
+                <Transform DEF='pCube3_1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_075'>
+                    <Shape DEF='SP_68'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_68' vertexCount='54 9' primType='"TRIANGLESTRIP" "TRIANGLES"' position='153.191497803 -352.738494873 -2507.70507813' size='6.72698974609 7.92700195313 15.0500488281' index='M13SandCorner-White-Doors_aoptbinGeo/BG_68_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_68_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_68_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_78'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_78' vertexCount='58 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='153.191497803 -339.659484863 -2507.70507813' size='6.72698974609 34.0849914551 15.0500488281' index='M13SandCorner-White-Doors_aoptbinGeo/BG_78_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_78_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_78_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube2_1_002_TRANSFORM'>
+                <Transform DEF='pCube2_1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_048'>
+                    <Shape DEF='SP_64'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_64' vertexCount='85 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='149.080001831 -248.006011963 -2508.20507813' size='6.94400024414 4.61000061035 3.65014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_64_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_64_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_64_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='group1_002_TRANSFORM'>
+              <Transform DEF='pCylinder3_002_TRANSFORM'>
+                <Transform DEF='pCylinder3_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_126'>
+                    <Shape DEF='SP_74'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_74' vertexCount='595 36' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-5.65929985046 -359.48651123 -2553.66992188' size='4.11651992798 3.57699584961 4.580078125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_74_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_74_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_74_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_002_TRANSFORM'>
+                <Transform DEF='pCylinder2_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_124'>
+                    <Shape DEF='SP_77'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_77' vertexCount='604 21' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-12.036649704 -359.48651123 -2500.89990234' size='4.11649990082 3.57699584961 4.57983398438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_77_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_77_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_77_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_002_TRANSFORM'>
+                <Transform DEF='pCylinder1_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_122'>
+                    <Shape DEF='SP_65'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_65' vertexCount='42' primType='"TRIANGLESTRIP"' position='-8.73842430115 -298.730010986 -2527.27490234' size='3.28394985199 106.568008423 3.65014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_65_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_65_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_65_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_70'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_70' vertexCount='128' primType='"TRIANGLESTRIP"' position='-8.73842430115 -244.988006592 -2527.27490234' size='3.28394985199 0.916000366211 3.65014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_70_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_70_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_70_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_004_TRANSFORM'>
+                <Transform DEF='pCube4_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_069'>
+                    <Shape DEF='SP_72'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_72' vertexCount='484 21' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-8.83757019043 -358.833496094 -2527.29003906' size='10.6880598068 5.21499633789 53.6000976563' index='M13SandCorner-White-Doors_aoptbinGeo/BG_72_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_72_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_72_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_004_TRANSFORM'>
+                <Transform DEF='pCube3_004_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_072'>
+                    <Shape DEF='SP_62'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_62' vertexCount='50 12' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-8.78944969177 -352.738494873 -2527.28515625' size='6.72709989548 7.92700195313 15.0500488281' index='M13SandCorner-White-Doors_aoptbinGeo/BG_62_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_62_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_62_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_61'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_61' vertexCount='58 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-8.78944969177 -339.659484863 -2527.28515625' size='6.72709989548 34.0849914551 15.0500488281' index='M13SandCorner-White-Doors_aoptbinGeo/BG_61_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_61_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_61_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Whiteboard_1__001_TRANSFORM'>
+            <Transform DEF='pCube6_001_TRANSFORM'>
+              <Transform DEF='pCube6_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_047'>
+                  <Shape DEF='SP_69'>
+                    <Appearance USE='AOPT_Appearance_1857033264'/>
+                    <BinaryGeometry DEF='BG_69' vertexCount='266 24' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-107.199142456 -358.17401123 -2507.79492188' size='163.573699951 2.62802124023 14.0300292969' index='M13SandCorner-White-Doors_aoptbinGeo/BG_69_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_69_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_69_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube5_003_TRANSFORM'>
+              <Transform DEF='pCube5_003_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_121'>
+                  <Shape DEF='SP_66'>
+                    <Appearance USE='AOPT_Appearance_1857033264'/>
+                    <BinaryGeometry DEF='BG_66' vertexCount='34' primType='"TRIANGLESTRIP"' position='-107.199142456 -314.436523438 -2507.79492188' size='163.43170166 14.2409973145 10.169921875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_66_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_66_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_66_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_001_TRANSFORM'>
+              <Transform DEF='pCube1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_070'>
+                  <Shape DEF='SP_67'>
+                    <Appearance USE='AOPT_Appearance_1857041808'/>
+                    <BinaryGeometry DEF='BG_67' vertexCount='10' primType='"TRIANGLESTRIP"' position='-107.198898315 -247.487503052 -2507.79492188' size='150.954193115 112.087005615 10.7900390625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_67_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_67_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_67_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_71'>
+                    <Appearance USE='AOPT_Appearance_1857033264'/>
+                    <BinaryGeometry DEF='BG_71' vertexCount='62' primType='"TRIANGLESTRIP"' position='-107.199050903 -247.487503052 -2507.79492188' size='153.275909424 114.67300415 10.9099121094' index='M13SandCorner-White-Doors_aoptbinGeo/BG_71_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_71_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_71_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='group3_001_TRANSFORM'>
+              <Transform DEF='pCylinder3_1_001_TRANSFORM'>
+                <Transform DEF='pCylinder3_1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_083'>
+                    <Shape DEF='SP_75'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_75' vertexCount='592 48' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-24.2430992126 -359.48651123 -2485.67993164' size='4.14039993286 3.57699584961 4.60009765625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_75_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_75_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_75_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_1_001_TRANSFORM'>
+                <Transform DEF='pCylinder2_1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_130'>
+                    <Shape DEF='SP_73'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_73' vertexCount='580 54' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-27.1180000305 -359.48651123 -2538.75' size='4.14039993286 3.57699584961 4.60009765625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_73_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_73_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_73_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_1_001_TRANSFORM'>
+                <Transform DEF='pCylinder1_1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_095'>
+                    <Shape DEF='SP_91'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_91' vertexCount='42' primType='"TRIANGLESTRIP"' position='-25.789899826 -298.730010986 -2512.20507813' size='3.30300140381 106.568008423 3.669921875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_91_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_91_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_91_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_80'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_80' vertexCount='128' primType='"TRIANGLESTRIP"' position='-25.789899826 -244.988006592 -2512.20507813' size='3.30300140381 0.916000366211 3.669921875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_80_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_80_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_80_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_1_001_TRANSFORM'>
+                <Transform DEF='pCube4_1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_044'>
+                    <Shape DEF='SP_81'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_81' vertexCount='484 21' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-25.6901512146 -358.833496094 -2512.20996094' size='7.61770057678 5.21499633789 53.7600097656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_81_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_81_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_81_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_1_001_TRANSFORM'>
+                <Transform DEF='pCube3_1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_132'>
+                    <Shape DEF='SP_96'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_96' vertexCount='54 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-25.7385482788 -352.738494873 -2512.20996094' size='5.79689979553 7.92700195313 14.8000488281' index='M13SandCorner-White-Doors_aoptbinGeo/BG_96_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_96_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_96_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_82'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_82' vertexCount='58 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-25.7385482788 -339.659484863 -2512.20996094' size='5.79689979553 34.0849914551 14.8000488281' index='M13SandCorner-White-Doors_aoptbinGeo/BG_82_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_82_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_82_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube2_1_001_TRANSFORM'>
+                <Transform DEF='pCube2_1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_071'>
+                    <Shape DEF='SP_89'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_89' vertexCount='85 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-29.8739509583 -248.006011963 -2511.97998047' size='6.79290008545 4.61000061035 3.21997070313' index='M13SandCorner-White-Doors_aoptbinGeo/BG_89_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_89_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_89_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='group1_001_TRANSFORM'>
+              <Transform DEF='pCylinder3_001_TRANSFORM'>
+                <Transform DEF='pCylinder3_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_076'>
+                    <Shape DEF='SP_79'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_79' vertexCount='596 45' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-190.154998779 -359.48651123 -2529.91015625' size='4.13999938965 3.57699584961 4.59985351563' index='M13SandCorner-White-Doors_aoptbinGeo/BG_79_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_79_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_79_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_001_TRANSFORM'>
+                <Transform DEF='pCylinder2_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_123'>
+                    <Shape DEF='SP_87'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_87' vertexCount='580 51' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-187.279998779 -359.48651123 -2476.83984375' size='4.13999938965 3.57699584961 4.59985351563' index='M13SandCorner-White-Doors_aoptbinGeo/BG_87_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_87_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_87_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_001_TRANSFORM'>
+                <Transform DEF='pCylinder1_001_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_068'>
+                    <Shape DEF='SP_93'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_93' vertexCount='42' primType='"TRIANGLESTRIP"' position='-188.60848999 -298.730010986 -2503.38500977' size='3.30299377441 106.568008423 3.669921875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_93_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_93_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_93_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_84'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_84' vertexCount='128' primType='"TRIANGLESTRIP"' position='-188.60848999 -244.988006592 -2503.38500977' size='3.30299377441 0.916000366211 3.669921875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_84_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_84_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_84_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_003_TRANSFORM'>
+                <Transform DEF='pCube4_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_077'>
+                    <Shape DEF='SP_90'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_90' vertexCount='484 21' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-188.708007813 -358.833496094 -2503.375' size='7.61799621582 5.21499633789 53.75' index='M13SandCorner-White-Doors_aoptbinGeo/BG_90_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_90_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_90_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_003_TRANSFORM'>
+                <Transform DEF='pCube3_003_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_143'>
+                    <Shape DEF='SP_94'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_94' vertexCount='52 9' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-188.659500122 -352.738494873 -2503.37988281' size='5.79699707031 7.92700195313 14.8000488281' index='M13SandCorner-White-Doors_aoptbinGeo/BG_94_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_94_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_94_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_85'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_85' vertexCount='58 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-188.659500122 -339.659484863 -2503.37988281' size='5.79699707031 34.0849914551 14.8000488281' index='M13SandCorner-White-Doors_aoptbinGeo/BG_85_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_85_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_85_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='Whiteboard_1__TRANSFORM'>
+            <Transform DEF='pCube6_TRANSFORM'>
+              <Transform DEF='pCube6_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_106'>
+                  <Shape DEF='SP_83'>
+                    <Appearance USE='AOPT_Appearance_1857033264'/>
+                    <BinaryGeometry DEF='BG_83' vertexCount='266 24' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-352.99899292 -358.17401123 -2188.39501953' size='8.22198486328 2.62802124023 163.649902344' index='M13SandCorner-White-Doors_aoptbinGeo/BG_83_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_83_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_83_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube5_002_TRANSFORM'>
+              <Transform DEF='pCube5_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_012'>
+                  <Shape DEF='SP_92'>
+                    <Appearance USE='AOPT_Appearance_1857033264'/>
+                    <BinaryGeometry DEF='BG_92' vertexCount='34' primType='"TRIANGLESTRIP"' position='-352.99899292 -314.436523438 -2188.39501953' size='4.30200195313 14.2409973145 163.58984375' index='M13SandCorner-White-Doors_aoptbinGeo/BG_92_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_92_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_92_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube1_TRANSFORM'>
+              <Transform DEF='pCube1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_091'>
+                  <Shape DEF='SP_86'>
+                    <Appearance USE='AOPT_Appearance_1857041808'/>
+                    <BinaryGeometry DEF='BG_86' vertexCount='10' primType='"TRIANGLESTRIP"' position='-352.99899292 -247.487503052 -2188.39501953' size='5.38598632813 112.087005615 151.049804688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_86_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_86_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_86_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_88'>
+                    <Appearance USE='AOPT_Appearance_1857033264'/>
+                    <BinaryGeometry DEF='BG_88' vertexCount='62' primType='"TRIANGLESTRIP"' position='-352.999023438 -247.487503052 -2188.39501953' size='5.4280090332 114.67300415 153.390136719' index='M13SandCorner-White-Doors_aoptbinGeo/BG_88_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_88_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_88_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='group3_TRANSFORM'>
+              <Transform DEF='pCylinder3_1_TRANSFORM'>
+                <Transform DEF='pCylinder3_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_112'>
+                    <Shape DEF='SP_95'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_95' vertexCount='604 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-327.924499512 -359.48651123 -2270.50488281' size='4.61102294922 3.57699584961 4.15014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_95_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_95_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_95_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_1_TRANSFORM'>
+                <Transform DEF='pCylinder2_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_109'>
+                    <Shape DEF='SP_100'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_100' vertexCount='606 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-381.066009521 -359.48651123 -2269.53515625' size='4.61199951172 3.57699584961 4.15014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_100_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_100_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_100_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_1_TRANSFORM'>
+                <Transform DEF='pCylinder1_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_084'>
+                    <Shape DEF='SP_113'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_113' vertexCount='42' primType='"TRIANGLESTRIP"' position='-354.488494873 -298.730010986 -2269.91015625' size='3.67901611328 106.568008423 3.30004882813' index='M13SandCorner-White-Doors_aoptbinGeo/BG_113_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_113_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_113_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_101'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_101' vertexCount='128' primType='"TRIANGLESTRIP"' position='-354.488494873 -244.988006592 -2269.91015625' size='3.67901611328 0.916000366211 3.30004882813' index='M13SandCorner-White-Doors_aoptbinGeo/BG_101_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_101_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_101_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_1_TRANSFORM'>
+                <Transform DEF='pCube4_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_060'>
+                    <Shape DEF='SP_102'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_102' vertexCount='484 21' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-354.489990234 -358.833496094 -2270.01000977' size='53.7380065918 5.21499633789 6.97998046875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_102_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_102_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_102_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_1_TRANSFORM'>
+                <Transform DEF='pCube3_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_074'>
+                    <Shape DEF='SP_107'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_107' vertexCount='56 9' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-354.489013672 -352.738494873 -2269.95996094' size='14.6440124512 7.92700195313 5.28002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_107_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_107_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_107_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_105'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_105' vertexCount='64' primType='"TRIANGLESTRIP"' position='-354.489013672 -339.659484863 -2269.95996094' size='14.6440124512 34.0849914551 5.28002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_105_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_105_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_105_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube2_1_TRANSFORM'>
+                <Transform DEF='pCube2_1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_010'>
+                    <Shape DEF='SP_103'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_103' vertexCount='85 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-354.413513184 -248.006011963 -2265.81982422' size='2.98699951172 4.61000061035 6.69995117188' index='M13SandCorner-White-Doors_aoptbinGeo/BG_103_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_103_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_103_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+            <Transform DEF='group1_TRANSFORM'>
+              <Transform DEF='pCylinder3_TRANSFORM'>
+                <Transform DEF='pCylinder3_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_064'>
+                    <Shape DEF='SP_106'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_106' vertexCount='604 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-378.073486328 -359.48651123 -2106.28515625' size='4.61099243164 3.57699584961 4.15014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_106_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_106_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_106_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder2_TRANSFORM'>
+                <Transform DEF='pCylinder2_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_021'>
+                    <Shape DEF='SP_108'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_108' vertexCount='606 18' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-324.932006836 -359.48651123 -2107.25488281' size='4.61199951172 3.57699584961 4.15014648438' index='M13SandCorner-White-Doors_aoptbinGeo/BG_108_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_108_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_108_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCylinder1_TRANSFORM'>
+                <Transform DEF='pCylinder1_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_008'>
+                    <Shape DEF='SP_109'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_109' vertexCount='42' primType='"TRIANGLESTRIP"' position='-351.509521484 -298.730010986 -2106.87988281' size='3.6789855957 106.568008423 3.30004882813' index='M13SandCorner-White-Doors_aoptbinGeo/BG_109_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_109_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_109_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_110'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_110' vertexCount='128' primType='"TRIANGLESTRIP"' position='-351.509521484 -244.988006592 -2106.87988281' size='3.6789855957 0.916000366211 3.30004882813' index='M13SandCorner-White-Doors_aoptbinGeo/BG_110_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_110_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_110_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube4_002_TRANSFORM'>
+                <Transform DEF='pCube4_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_005'>
+                    <Shape DEF='SP_111'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_111' vertexCount='484 21' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-351.507995605 -358.833496094 -2106.7800293' size='53.7380065918 5.21499633789 6.97998046875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_111_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_111_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_111_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+              <Transform DEF='pCube3_002_TRANSFORM'>
+                <Transform DEF='pCube3_002_ifs_TRANSFORM'>
+                  <Group DEF='group_ME_Untitled_033'>
+                    <Shape DEF='SP_97'>
+                      <Appearance USE='AOPT_Appearance_1857030416'/>
+                      <BinaryGeometry DEF='BG_97' vertexCount='54 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-351.509002686 -352.738494873 -2106.83007813' size='14.6439819336 7.92700195313 5.28002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_97_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_97_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_97_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                    <Shape DEF='SP_112'>
+                      <Appearance USE='AOPT_Appearance_1857033264'/>
+                      <BinaryGeometry DEF='BG_112' vertexCount='58 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-351.509002686 -339.659484863 -2106.83007813' size='14.6439819336 34.0849914551 5.28002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_112_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_112_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_112_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                    </Shape>
+                  </Group>
+                </Transform>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Corner_Lockers_TRANSFORM'>
+          <Transform DEF='sand_box_corner_locker_FBX__TRANSFORM'>
+            <Transform DEF='pCube27_001_TRANSFORM'>
+              <Transform DEF='pCube27_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_001'>
+                  <Shape DEF='SP_104'>
+                    <Appearance DEF='AOPT_Appearance_1858051920'>
+                      <Material DEF='MA_MossArtsCenter_Model_blinn3' ambientIntensity='0.333' diffuseColor='0.081 0.081 0.081' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_104' vertexCount='154 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-273.31149292 -336.940002441 -987.699523926' size='3.57501220703 7.88400268555 0.703002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_104_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_104_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_104_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube26_001_TRANSFORM'>
+              <Transform DEF='pCube26_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_020'>
+                  <Shape DEF='SP_114'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_114' vertexCount='160 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-329.716491699 -336.926025391 -988.047485352' size='3.57501220703 7.88400268555 0.703002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_114_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_114_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_114_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube25_001_TRANSFORM'>
+              <Transform DEF='pCube25_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_101'>
+                  <Shape DEF='SP_98'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_98' vertexCount='156 72' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-301.557495117 -336.932983398 -987.873474121' size='3.57501220703 7.88400268555 0.703002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_98_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_98_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_98_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube24_001_TRANSFORM'>
+              <Transform DEF='pCube24_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_025'>
+                  <Shape DEF='SP_99'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_99' vertexCount='154 72' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-358.194519043 -336.917999268 -988.222473145' size='3.57498168945 7.88397216797 0.703002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_99_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_99_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_99_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube23_001_TRANSFORM'>
+              <Transform DEF='pCube23_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_099'>
+                  <Shape DEF='SP_131'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_131' vertexCount='148 75' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-386.353515625 -336.911010742 -988.395507813' size='3.57498168945 7.88400268555 0.703002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_131_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_131_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_131_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube22_001_TRANSFORM'>
+              <Transform DEF='pCube22_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_116'>
+                  <Shape DEF='SP_123'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_123' vertexCount='168 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-421.758972168 -337.108001709 -1023.88500977' size='0.660003662109 7.90002441406 3.60992431641' index='M13SandCorner-White-Doors_aoptbinGeo/BG_123_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_123_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_123_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube21_001_TRANSFORM'>
+              <Transform DEF='pCube21_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_105'>
+                  <Shape DEF='SP_124'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_124' vertexCount='168 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-421.413513184 -337.43649292 -1079.98999023' size='0.658996582031 7.89898681641 3.61999511719' index='M13SandCorner-White-Doors_aoptbinGeo/BG_124_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_124_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_124_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube20_001_TRANSFORM'>
+              <Transform DEF='pCube20_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_013'>
+                  <Shape DEF='SP_132'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_132' vertexCount='168 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-421.585998535 -337.271972656 -1051.92504883' size='0.659973144531 7.89999389648 3.60998535156' index='M13SandCorner-White-Doors_aoptbinGeo/BG_132_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_132_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_132_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube19_001_TRANSFORM'>
+              <Transform DEF='pCube19_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_017'>
+                  <Shape DEF='SP_125'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_125' vertexCount='166 63' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-421.239013672 -337.601989746 -1108.31005859' size='0.660003662109 7.89999389648 3.61999511719' index='M13SandCorner-White-Doors_aoptbinGeo/BG_125_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_125_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_125_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube18_001_TRANSFORM'>
+              <Transform DEF='pCube18_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_096'>
+                  <Shape DEF='SP_122'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_122' vertexCount='164 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-421.066497803 -337.766479492 -1136.37011719' size='0.658996582031 7.89901733398 3.61999511719' index='M13SandCorner-White-Doors_aoptbinGeo/BG_122_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_122_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_122_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube17_001_TRANSFORM'>
+              <Transform DEF='pCube17_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_030'>
+                  <Shape DEF='SP_126'>
+                    <Appearance USE='AOPT_Appearance_1857030416'/>
+                    <BinaryGeometry DEF='BG_126' vertexCount='70' primType='"TRIANGLESTRIP"' position='-314.367492676 -314.294494629 -970.908996582' size='94.7269897461 8.19500732422 36.8800048828' index='M13SandCorner-White-Doors_aoptbinGeo/BG_126_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_126_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_126_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_127'>
+                    <Appearance DEF='AOPT_Appearance_1858059040'>
+                      <Material USE='MA_MossArtsCenter_Model_White_Wall'/>
+                      <ImageTexture DEF='IM_MossArtsCenter_Model_sand_box_corner_locker_diffuse' url='"MossArtsCenter_Model_sand_box_corner_locker_diffuse_MainTex.jpg" "MossArtsCenter_Model_sand_box_corner_locker_diffuse_MainTex.jpg"'/>
+                      <TextureTransform/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_127' vertexCount='140' primType='"TRIANGLESTRIP"' position='-314.367492676 -314.15447998 -970.908996582' size='94.7269897461 8.47500610352 36.8800048828' index='M13SandCorner-White-Doors_aoptbinGeo/BG_127_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_127_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_127_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube16_001_TRANSFORM'>
+              <Transform DEF='pCube16_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_108'>
+                  <Shape DEF='SP_115'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_115' vertexCount='290 75' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-386.359008789 -327.115997314 -989.726501465' size='2.50198364258 3.98400878906 3.14697265625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_115_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_115_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_115_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube15_001_TRANSFORM'>
+              <Transform DEF='pCube15_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_003'>
+                  <Shape DEF='SP_120'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_120' vertexCount='296 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-358.244995117 -327.123474121 -989.552978516' size='2.50201416016 3.98300170898 3.14801025391' index='M13SandCorner-White-Doors_aoptbinGeo/BG_120_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_120_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_120_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube14_001_TRANSFORM'>
+              <Transform DEF='pCube14_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_062'>
+                  <Shape DEF='SP_128'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_128' vertexCount='296 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-329.916992188 -327.130981445 -989.378540039' size='2.50201416016 3.98397827148 3.14703369141' index='M13SandCorner-White-Doors_aoptbinGeo/BG_128_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_128_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_128_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube13_001_TRANSFORM'>
+              <Transform DEF='pCube13_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_007'>
+                  <Shape DEF='SP_119'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_119' vertexCount='290 75' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-301.741516113 -327.138000488 -989.205505371' size='2.50302124023 3.98400878906 3.14697265625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_119_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_119_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_119_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube12_001_TRANSFORM'>
+              <Transform DEF='pCube12_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_041'>
+                  <Shape DEF='SP_121'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_121' vertexCount='290 75' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-273.412994385 -327.145507813 -989.030517578' size='2.50201416016 3.98300170898 3.14703369141' index='M13SandCorner-White-Doors_aoptbinGeo/BG_121_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_121_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_121_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube11_001_TRANSFORM'>
+              <Transform DEF='pCube11_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_093'>
+                  <Shape DEF='SP_129'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_129' vertexCount='280 90' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-420.509521484 -327.473999023 -1052.17004395' size='3.14498901367 3.97601318359 2.52001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_129_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_129_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_129_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube10_001_TRANSFORM'>
+              <Transform DEF='pCube10_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_002'>
+                  <Shape DEF='SP_130'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_130' vertexCount='286 84' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-420.336486816 -327.941497803 -1080.30004883' size='3.14498901367 3.97497558594 2.52001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_130_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_130_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_130_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube9_001_TRANSFORM'>
+              <Transform DEF='pCube9_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_049'>
+                  <Shape DEF='SP_116'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_116' vertexCount='274 96' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-420.682006836 -327.309509277 -1024.11999512' size='3.14599609375 3.97500610352 2.52001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_116_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_116_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_116_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube8_001_TRANSFORM'>
+              <Transform DEF='pCube8_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_117'>
+                  <Shape DEF='SP_117'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_117' vertexCount='286 84' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-420.162994385 -328.106994629 -1108.54504395' size='3.14599609375 3.97601318359 2.53002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_117_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_117_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_117_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube7_001_TRANSFORM'>
+              <Transform DEF='pCube7_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_088'>
+                  <Shape DEF='SP_118'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_118' vertexCount='276 93' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-419.990478516 -328.270996094 -1136.5300293' size='3.14498901367 3.97601318359 2.52001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_118_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_118_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_118_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube5_001_TRANSFORM'>
+              <Transform DEF='pCube5_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_128'>
+                  <Shape DEF='SP_136'>
+                    <Appearance USE='AOPT_Appearance_1857030416'/>
+                    <BinaryGeometry DEF='BG_136' vertexCount='110' primType='"TRIANGLESTRIP"' position='-409.544494629 -314.731018066 -1001.10449219' size='95.8170166016 8.68399047852 96.4709472656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_136_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_136_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_136_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_138'>
+                    <Appearance USE='AOPT_Appearance_1858059040'/>
+                    <BinaryGeometry DEF='BG_138' vertexCount='188 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-409.544494629 -314.731018066 -1001.10449219' size='95.8170166016 8.68399047852 96.4709472656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_138_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_138_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_138_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube4_001_TRANSFORM'>
+              <Transform DEF='pCube4_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_026'>
+                  <Shape DEF='SP_137'>
+                    <Appearance USE='AOPT_Appearance_1857030416'/>
+                    <BinaryGeometry DEF='BG_137' vertexCount='70' primType='"TRIANGLESTRIP"' position='-438.442993164 -314.992980957 -1096.58996582' size='36.842010498 8.52200317383 94.7600097656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_137_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_137_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_137_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_143'>
+                    <Appearance USE='AOPT_Appearance_1858059040'/>
+                    <BinaryGeometry DEF='BG_143' vertexCount='134' primType='"TRIANGLESTRIP"' position='-438.442993164 -314.852996826 -1096.58996582' size='36.842010498 8.80200195313 94.7600097656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_143_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_143_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_143_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube3_001_TRANSFORM'>
+              <Transform DEF='pCube3_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_082'>
+                  <Shape DEF='SP_139'>
+                    <Appearance DEF='AOPT_Appearance_1859059648'>
+                      <Material DEF='MA_MossArtsCenter_Model_blinn1' ambientIntensity='0.333' diffuseColor='0.529 0.529 0.529' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_139' vertexCount='1474 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-362.838500977 -339.445007324 -1047.34057617' size='189.560974121 42.2319946289 190.359008789' index='M13SandCorner-White-Doors_aoptbinGeo/BG_139_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_139_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_139_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='sand_box_corner_locker_FBX_TRANSFORM'>
+            <Transform DEF='pCube27_TRANSFORM'>
+              <Transform DEF='pCube27_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_098'>
+                  <Shape DEF='SP_148'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_148' vertexCount='156 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-263.884490967 -346.427001953 -2536.24511719' size='3.57501220703 7.88400268555 0.710205078125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_148_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_148_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_148_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube26_TRANSFORM'>
+              <Transform DEF='pCube26_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_079'>
+                  <Shape DEF='SP_140'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_140' vertexCount='152 81' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-320.289489746 -346.411987305 -2536.58984375' size='3.57498168945 7.88400268555 0.699951171875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_140_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_140_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_140_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube25_TRANSFORM'>
+              <Transform DEF='pCube25_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_066'>
+                  <Shape DEF='SP_135'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_135' vertexCount='162 72' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-292.130493164 -346.419006348 -2536.41992188' size='3.57501220703 7.88400268555 0.699951171875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_135_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_135_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_135_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube24_TRANSFORM'>
+              <Transform DEF='pCube24_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_038'>
+                  <Shape DEF='SP_142'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_142' vertexCount='164 66' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-348.76751709 -346.404998779 -2536.77001953' size='3.57498168945 7.88397216797 0.7001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_142_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_142_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_142_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube23_TRANSFORM'>
+              <Transform DEF='pCube23_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_004'>
+                  <Shape DEF='SP_141'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_141' vertexCount='158 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-376.926513672 -346.396972656 -2536.93994141' size='3.57498168945 7.88400268555 0.699951171875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_141_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_141_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_141_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube22_TRANSFORM'>
+              <Transform DEF='pCube22_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_045'>
+                  <Shape DEF='SP_133'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_133' vertexCount='162 72' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-412.765991211 -346.181518555 -2501.89013672' size='0.660003662109 7.89901733398 3.61987304688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_133_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_133_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_133_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube21_TRANSFORM'>
+              <Transform DEF='pCube21_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_034'>
+                  <Shape DEF='SP_144'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_144' vertexCount='174 60' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-413.111999512 -345.853027344 -2445.79003906' size='0.659973144531 7.89999389648 3.6201171875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_144_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_144_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_144_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube20_TRANSFORM'>
+              <Transform DEF='pCube20_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_058'>
+                  <Shape DEF='SP_145'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_145' vertexCount='180 51' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-412.939025879 -346.01751709 -2473.85009766' size='0.660003662109 7.89901733398 3.61987304688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_145_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_145_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_145_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube19_TRANSFORM'>
+              <Transform DEF='pCube19_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_118'>
+                  <Shape DEF='SP_147'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_147' vertexCount='176 57' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-413.286010742 -345.6875 -2417.4699707' size='0.660003662109 7.89898681641 3.6201171875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_147_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_147_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_147_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube18_TRANSFORM'>
+              <Transform DEF='pCube18_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_136'>
+                  <Shape DEF='SP_146'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_146' vertexCount='178 54' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-413.458984375 -345.523010254 -2389.4050293' size='0.660003662109 7.89999389648 3.60986328125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_146_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_146_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_146_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube17_TRANSFORM'>
+              <Transform DEF='pCube17_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_133'>
+                  <Shape DEF='SP_149'>
+                    <Appearance USE='AOPT_Appearance_1857030416'/>
+                    <BinaryGeometry DEF='BG_149' vertexCount='70' primType='"TRIANGLESTRIP"' position='-304.729003906 -323.981506348 -2553.81005859' size='94.7279968262 8.19500732422 36.8798828125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_149_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_149_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_149_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_150'>
+                    <Appearance USE='AOPT_Appearance_1858059040'/>
+                    <BinaryGeometry DEF='BG_150' vertexCount='133 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-304.729003906 -323.841491699 -2553.81005859' size='94.7279968262 8.47500610352 36.8798828125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_150_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_150_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_150_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube16_TRANSFORM'>
+              <Transform DEF='pCube16_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_113'>
+                  <Shape DEF='SP_134'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_134' vertexCount='293 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-376.942993164 -336.596008301 -2535.71484375' size='2.50399780273 3.96798706055 3.17016601563' index='M13SandCorner-White-Doors_aoptbinGeo/BG_134_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_134_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_134_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube15_TRANSFORM'>
+              <Transform DEF='pCube15_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_110'>
+                  <Shape DEF='SP_159'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_159' vertexCount='299 63' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-348.829498291 -336.602996826 -2535.54003906' size='2.50299072266 3.96801757813 3.16015625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_159_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_159_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_159_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube14_TRANSFORM'>
+              <Transform DEF='pCube14_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_107'>
+                  <Shape DEF='SP_160'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_160' vertexCount='293 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-320.500976563 -336.609985352 -2535.36499023' size='2.50399780273 3.96798706055 3.169921875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_160_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_160_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_160_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube13_TRANSFORM'>
+              <Transform DEF='pCube13_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_129'>
+                  <Shape DEF='SP_156'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_156' vertexCount='293 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-292.325500488 -336.617980957 -2535.19506836' size='2.50299072266 3.96798706055 3.169921875' index='M13SandCorner-White-Doors_aoptbinGeo/BG_156_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_156_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_156_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube12_TRANSFORM'>
+              <Transform DEF='pCube12_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_086'>
+                  <Shape DEF='SP_154'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_154' vertexCount='293 69' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-263.997497559 -336.625 -2535.02001953' size='2.50299072266 3.96801757813 3.16015625' index='M13SandCorner-White-Doors_aoptbinGeo/BG_154_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_154_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_154_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube11_TRANSFORM'>
+              <Transform DEF='pCube11_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_080'>
+                  <Shape DEF='SP_161'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_161' vertexCount='273 99' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-411.864501953 -336.216491699 -2473.70996094' size='3.14501953125 3.97500610352 2.52001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_161_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_161_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_161_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube10_TRANSFORM'>
+              <Transform DEF='pCube10_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_078'>
+                  <Shape DEF='SP_153'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_153' vertexCount='285 87' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-412.037994385 -336.355499268 -2445.57006836' size='3.14599609375 3.97497558594 2.52001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_153_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_153_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_153_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube9_TRANSFORM'>
+              <Transform DEF='pCube9_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_061'>
+                  <Shape DEF='SP_164'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_164' vertexCount='285 93' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-411.692016602 -336.380981445 -2501.76000977' size='3.14602661133 3.97598266602 2.52001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_164_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_164_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_164_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube8_TRANSFORM'>
+              <Transform DEF='pCube8_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_057'>
+                  <Shape DEF='SP_158'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_158' vertexCount='279 93' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-412.212005615 -336.190002441 -2417.33007813' size='3.14599609375 3.97601318359 2.52001953125' index='M13SandCorner-White-Doors_aoptbinGeo/BG_158_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_158_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_158_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube7_TRANSFORM'>
+              <Transform DEF='pCube7_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_018'>
+                  <Shape DEF='SP_155'>
+                    <Appearance USE='AOPT_Appearance_1858051920'/>
+                    <BinaryGeometry DEF='BG_155' vertexCount='289 84' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-412.384002686 -336.026489258 -2389.34521484' size='3.14599609375 3.97500610352 2.53002929688' index='M13SandCorner-White-Doors_aoptbinGeo/BG_155_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_155_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_155_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube5_TRANSFORM'>
+              <Transform DEF='pCube5_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_051'>
+                  <Shape DEF='SP_162'>
+                    <Appearance USE='AOPT_Appearance_1857030416'/>
+                    <BinaryGeometry DEF='BG_162' vertexCount='110' primType='"TRIANGLESTRIP"' position='-400.088012695 -324.079498291 -2524.95996094' size='96.1819763184 8.69897460938 96.1000976563' index='M13SandCorner-White-Doors_aoptbinGeo/BG_162_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_162_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_162_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_163'>
+                    <Appearance USE='AOPT_Appearance_1858059040'/>
+                    <BinaryGeometry DEF='BG_163' vertexCount='193 3' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-400.088012695 -324.079498291 -2524.95996094' size='96.1819763184 8.69897460938 96.1000976563' index='M13SandCorner-White-Doors_aoptbinGeo/BG_163_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_163_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_163_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube4_TRANSFORM'>
+              <Transform DEF='pCube4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_011'>
+                  <Shape DEF='SP_151'>
+                    <Appearance USE='AOPT_Appearance_1857030416'/>
+                    <BinaryGeometry DEF='BG_151' vertexCount='70' primType='"TRIANGLESTRIP"' position='-430.34197998 -323.218017578 -2429.66015625' size='36.842010498 8.52200317383 94.7600097656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_151_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_151_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_151_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                  <Shape DEF='SP_152'>
+                    <Appearance USE='AOPT_Appearance_1858059040'/>
+                    <BinaryGeometry DEF='BG_152' vertexCount='131' primType='"TRIANGLESTRIP"' position='-430.34197998 -323.07800293 -2429.66015625' size='36.842010498 8.80200195313 94.7600097656' index='M13SandCorner-White-Doors_aoptbinGeo/BG_152_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_152_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_152_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='pCube3_TRANSFORM'>
+              <Transform DEF='pCube3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_014'>
+                  <Shape DEF='SP_157'>
+                    <Appearance USE='AOPT_Appearance_1859059648'/>
+                    <BinaryGeometry DEF='BG_157' vertexCount='1476 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-353.669494629 -348.261505127 -2478.37988281' size='190.49899292 42.2730102539 189.420166016' index='M13SandCorner-White-Doors_aoptbinGeo/BG_157_indexBinary.bin' coord='M13SandCorner-White-Doors_aoptbinGeo/BG_157_coordNormalBinary.bin+8' texCoord='M13SandCorner-White-Doors_aoptbinGeo/BG_157_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>
