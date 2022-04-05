@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene DEF='scene'>
+    <NavigationInfo type='"EXAMINE" "ANY"'/>
+    <Transform>
+      <Shape DEF='SP_0'>
+        <Appearance>
+          <Material diffuseColor='0.9 0.9 0.9' shininess='0.5' specularColor='0.1 0.1 0.1'/>
+          <ImageTexture url='"model_texture.jpg"'/>
+        </Appearance>
+        <BinaryGeometry DEF='BG_0' solid='false' vertexCount='152832 101841' primType='"TRIANGLESTRIP" "TRIANGLES"' position='0.080916762352 -0.0767643451691 0.0465904474258' size='1.70800065994 1.5958135128 1.14430260658' coord='bin/BG_0_coordBinary.bin+8' normal='bin/BG_0_normalBinary.bin+4' texCoord='bin/BG_0_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+      </Shape>
+    </Transform>
+  </Scene>
+</X3D>

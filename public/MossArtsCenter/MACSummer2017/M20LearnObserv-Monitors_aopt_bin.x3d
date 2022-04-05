@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <NavigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'/>
+    <Background DEF='WO_World' groundColor='0.051 0.051 0.051' skyColor='0.051 0.051 0.051'/>
+    <Transform DEF='MossArtsCenter_Model1_TRANSFORM' rotation='0 1 -0 3.14159' scale='0.01 0.01 0.01'>
+      <Transform DEF='Learning_Lab_Hallway_Observation_Room_TRANSFORM'>
+        <Transform DEF='ObservationRoom_TRANSFORM'>
+          <Transform DEF='monitor_fbx_NearTV_TRANSFORM'>
+            <Transform DEF='monitor4_002_TRANSFORM'>
+              <Transform DEF='monitor4_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_007'>
+                  <Shape DEF='SP_1'>
+                    <Appearance DEF='AOPT_Appearance_1126053712'>
+                      <Material DEF='MA_MossArtsCenter_Model_04_-_Default' ambientIntensity='0.333' diffuseColor='0.165 0.165 0.165' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_1' vertexCount='3' primType='"TRIANGLES"' position='-33.0403518677 91.9826507568 -571.864990234' size='9.09949874878 40.7227020264 47.7800292969' index='M20LearnObserv-Monitors_aoptbinGeo/BG_1_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_1_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_1_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor3_002_TRANSFORM'>
+              <Transform DEF='monitor3_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_009'>
+                  <Shape DEF='SP_3'>
+                    <Appearance DEF='AOPT_Appearance_1118917232'>
+                      <Material DEF='MA_MossArtsCenter_Model_Material__26' ambientIntensity='0.333' diffuseColor='0 0 0' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_3' vertexCount='3' primType='"TRIANGLES"' position='-37.5161514282 71.279548645 -593.229492188' size='0.101100921631 0.690902709961 0.726989746094' index='M20LearnObserv-Monitors_aoptbinGeo/BG_3_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_3_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_3_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor2_002_TRANSFORM'>
+              <Transform DEF='monitor2_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_002'>
+                  <Shape DEF='SP_2'>
+                    <Appearance USE='AOPT_Appearance_1118917232'/>
+                    <BinaryGeometry DEF='BG_2' vertexCount='4887 939' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-30.1991004944 69.3541488647 -572.094970703' size='13.9365997314 13.9505004883 20.7059936523' index='M20LearnObserv-Monitors_aoptbinGeo/BG_2_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_2_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_2_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor1_002_TRANSFORM'>
+              <Transform DEF='monitor1_002_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_008'>
+                  <Shape DEF='SP_7'>
+                    <Appearance DEF='AOPT_Appearance_1126414288'>
+                      <Material DEF='MA_MossArtsCenter_Model_01_-_Default' ambientIntensity='0.333' diffuseColor='0.5 0.5 0.5' shininess='0.201' specularColor='0.081 0.081 0.081'/>
+                    </Appearance>
+                    <BinaryGeometry DEF='BG_7' vertexCount='7261 4587' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-32.7034492493 91.828994751 -571.774047852' size='10.5687007904 43.2340011597 50.1740112305' index='M20LearnObserv-Monitors_aoptbinGeo/BG_7_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_7_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_7_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='monitor_fbx_OppRouter_2_TRANSFORM'>
+            <Transform DEF='monitor4_001_TRANSFORM'>
+              <Transform DEF='monitor4_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_011'>
+                  <Shape DEF='SP_4'>
+                    <Appearance USE='AOPT_Appearance_1126053712'/>
+                    <BinaryGeometry DEF='BG_4' vertexCount='3' primType='"TRIANGLES"' position='-307.510986328 91.4826507568 -675.62097168' size='44.0160217285 40.7227020264 22.0640258789' index='M20LearnObserv-Monitors_aoptbinGeo/BG_4_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_4_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_4_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor3_001_TRANSFORM'>
+              <Transform DEF='monitor3_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_005'>
+                  <Shape DEF='SP_8'>
+                    <Appearance USE='AOPT_Appearance_1118917232'/>
+                    <BinaryGeometry DEF='BG_8' vertexCount='3' primType='"TRIANGLES"' position='-327.68548584 70.779548645 -683.312988281' size='0.647003173828 0.690902709961 0.369995117188' index='M20LearnObserv-Monitors_aoptbinGeo/BG_8_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_8_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_8_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor2_001_TRANSFORM'>
+              <Transform DEF='monitor2_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_001'>
+                  <Shape DEF='SP_0'>
+                    <Appearance USE='AOPT_Appearance_1118917232'/>
+                    <BinaryGeometry DEF='BG_0' vertexCount='4847 960' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-306.199005127 68.8541488647 -677.094970703' size='19.799987793 13.9505004883 15.8419799805' index='M20LearnObserv-Monitors_aoptbinGeo/BG_0_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_0_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_0_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor1_001_TRANSFORM'>
+              <Transform DEF='monitor1_001_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_006'>
+                  <Shape DEF='SP_9'>
+                    <Appearance USE='AOPT_Appearance_1126414288'/>
+                    <BinaryGeometry DEF='BG_9' vertexCount='7915 3522' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-307.350006104 91.3289489746 -674.822998047' size='46.2080078125 43.2341003418 26.0859985352' index='M20LearnObserv-Monitors_aoptbinGeo/BG_9_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_9_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_9_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform DEF='monitor_fbx_OppRouter_TRANSFORM'>
+            <Transform DEF='monitor4_TRANSFORM'>
+              <Transform DEF='monitor4_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled'>
+                  <Shape DEF='SP_10'>
+                    <Appearance USE='AOPT_Appearance_1126053712'/>
+                    <BinaryGeometry DEF='BG_10' vertexCount='4' primType='"TRIANGLESTRIP"' position='-359.43951416 95.7826538086 -676.591003418' size='46.2809753418 40.722694397 18.416015625' index='M20LearnObserv-Monitors_aoptbinGeo/BG_10_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_10_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_10_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor3_TRANSFORM'>
+              <Transform DEF='monitor3_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_003'>
+                  <Shape DEF='SP_11'>
+                    <Appearance USE='AOPT_Appearance_1118917232'/>
+                    <BinaryGeometry DEF='BG_11' vertexCount='4' primType='"TRIANGLESTRIP"' position='-379.644500732 75.0795516968 -667.914001465' size='0.700988769531 0.690902709961 0.281982421875' index='M20LearnObserv-Monitors_aoptbinGeo/BG_11_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_11_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_11_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor2_TRANSFORM'>
+              <Transform DEF='monitor2_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_004'>
+                  <Shape DEF='SP_6'>
+                    <Appearance USE='AOPT_Appearance_1118917232'/>
+                    <BinaryGeometry DEF='BG_6' vertexCount='4909 918' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-360.399505615 73.1541519165 -679.295043945' size='20.2689819336 13.9505004883 14.9719848633' index='M20LearnObserv-Monitors_aoptbinGeo/BG_6_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_6_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_6_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+            <Transform DEF='monitor1_TRANSFORM'>
+              <Transform DEF='monitor1_ifs_TRANSFORM'>
+                <Group DEF='group_ME_Untitled_010'>
+                  <Shape DEF='SP_5'>
+                    <Appearance USE='AOPT_Appearance_1126414288'/>
+                    <BinaryGeometry DEF='BG_5' vertexCount='7519 3825' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-359.569488525 95.6289520264 -676.894042969' size='48.4429931641 43.2341003418 20.132019043' index='M20LearnObserv-Monitors_aoptbinGeo/BG_5_indexBinary.bin' coord='M20LearnObserv-Monitors_aoptbinGeo/BG_5_coordNormalBinary.bin+8' texCoord='M20LearnObserv-Monitors_aoptbinGeo/BG_5_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                  </Shape>
+                </Group>
+              </Transform>
+            </Transform>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>

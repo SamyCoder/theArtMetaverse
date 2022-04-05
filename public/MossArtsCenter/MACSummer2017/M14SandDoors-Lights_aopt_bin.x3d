@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene>
+    <NavigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'/>
+    <Background DEF='WO_World' groundColor='0.051 0.051 0.051' skyColor='0.051 0.051 0.051'/>
+    <Transform DEF='MossArtsCenter_Model1_TRANSFORM' rotation='0 1 -0 3.14159' scale='0.01 0.01 0.01'>
+      <Transform DEF='Sandbox_TRANSFORM'>
+        <Transform DEF='Lights_TRANSFORM'>
+          <Transform DEF='Sandbox_Light__004_TRANSFORM'>
+            <Transform DEF='Sandbox_Light__004_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_003'>
+                <Shape DEF='SP_0'>
+                  <Appearance DEF='AOPT_Appearance_4189232480'>
+                    <Material DEF='MA_MossArtsCenter_Model_Ceiling_light' ambientIntensity='0.333' diffuseColor='1 1 1' shininess='0.201' specularColor='0.081 0.081 0.081' transparency='1'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Ceiling_light' url='"MossArtsCenter_Model_Ceiling_light_MainTex.png" "MossArtsCenter_Model_Ceiling_light_MainTex.png"'/>
+                    <TextureTransform DEF='AOPT_TextureTransform_4189228304'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_0' vertexCount='255' primType='"TRIANGLESTRIP"' position='41.600982666 230.31300354 -2417.0949707' size='835.91796875 0 23.7700195313' index='M14SandDoors-Lights_aoptbinGeo/BG_0_indexBinary.bin' coord='M14SandDoors-Lights_aoptbinGeo/BG_0_coordNormalBinary.bin+8' texCoord='M14SandDoors-Lights_aoptbinGeo/BG_0_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Sandbox_Light__003_TRANSFORM'>
+            <Transform DEF='Sandbox_Light__003_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_007'>
+                <Shape DEF='SP_2'>
+                  <Appearance USE='AOPT_Appearance_4189232480'/>
+                  <BinaryGeometry DEF='BG_2' vertexCount='255' primType='"TRIANGLESTRIP"' position='41.600982666 230.31300354 -2201.0949707' size='835.91796875 0 23.7700195313' index='M14SandDoors-Lights_aoptbinGeo/BG_2_indexBinary.bin' coord='M14SandDoors-Lights_aoptbinGeo/BG_2_coordNormalBinary.bin+8' texCoord='M14SandDoors-Lights_aoptbinGeo/BG_2_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Sandbox_Light__002_TRANSFORM'>
+            <Transform DEF='Sandbox_Light__002_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_001'>
+                <Shape DEF='SP_1'>
+                  <Appearance USE='AOPT_Appearance_4189232480'/>
+                  <BinaryGeometry DEF='BG_1' vertexCount='255' primType='"TRIANGLESTRIP"' position='41.600982666 230.31300354 -1979.0949707' size='835.91796875 0 23.7700195313' index='M14SandDoors-Lights_aoptbinGeo/BG_1_indexBinary.bin' coord='M14SandDoors-Lights_aoptbinGeo/BG_1_coordNormalBinary.bin+8' texCoord='M14SandDoors-Lights_aoptbinGeo/BG_1_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Sandbox_Light__001_TRANSFORM'>
+            <Transform DEF='Sandbox_Light__001_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_004'>
+                <Shape DEF='SP_3'>
+                  <Appearance USE='AOPT_Appearance_4189232480'/>
+                  <BinaryGeometry DEF='BG_3' vertexCount='255' primType='"TRIANGLESTRIP"' position='41.600982666 230.31300354 -1725.0949707' size='835.91796875 0 23.7700195313' index='M14SandDoors-Lights_aoptbinGeo/BG_3_indexBinary.bin' coord='M14SandDoors-Lights_aoptbinGeo/BG_3_coordNormalBinary.bin+8' texCoord='M14SandDoors-Lights_aoptbinGeo/BG_3_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Sandbox_Light__TRANSFORM'>
+            <Transform DEF='Sandbox_Light__ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled'>
+                <Shape DEF='SP_6'>
+                  <Appearance USE='AOPT_Appearance_4189232480'/>
+                  <BinaryGeometry DEF='BG_6' vertexCount='255' primType='"TRIANGLESTRIP"' position='41.100982666 230.513000488 -1213.39501953' size='835.91796875 0 23.7700195313' index='M14SandDoors-Lights_aoptbinGeo/BG_6_indexBinary.bin' coord='M14SandDoors-Lights_aoptbinGeo/BG_6_coordNormalBinary.bin+8' texCoord='M14SandDoors-Lights_aoptbinGeo/BG_6_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Sandbox_Light_TRANSFORM'>
+            <Transform DEF='Sandbox_Light_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_002'>
+                <Shape DEF='SP_5'>
+                  <Appearance USE='AOPT_Appearance_4189232480'/>
+                  <BinaryGeometry DEF='BG_5' vertexCount='255' primType='"TRIANGLESTRIP"' position='41.100982666 230.488998413 -1475.29504395' size='835.91796875 0 23.7700195313' index='M14SandDoors-Lights_aoptbinGeo/BG_5_indexBinary.bin' coord='M14SandDoors-Lights_aoptbinGeo/BG_5_coordNormalBinary.bin+8' texCoord='M14SandDoors-Lights_aoptbinGeo/BG_5_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform DEF='Door_Signs_TRANSFORM'>
+          <Transform DEF='Office_Name_Tags__TRANSFORM'>
+            <Transform DEF='Office_Name_Tags__ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_006'>
+                <Shape DEF='SP_7'>
+                  <Appearance DEF='AOPT_Appearance_4188862800'>
+                    <Material USE='MA_MossArtsCenter_Model_Ceiling_light'/>
+                    <ImageTexture DEF='IM_MossArtsCenter_Model_Sandbox_160' url='"MossArtsCenter_Model_Sandbox 160_MainTex.png" "MossArtsCenter_Model_Sandbox 160_MainTex.png"'/>
+                    <TextureTransform USE='AOPT_TextureTransform_4189228304'/>
+                  </Appearance>
+                  <BinaryGeometry DEF='BG_7' vertexCount='85' primType='"TRIANGLESTRIP"' position='428.378479004 -222.100006104 -1085.49499512' size='0.845001220703 15.2400054932 16.1899414063' index='M14SandDoors-Lights_aoptbinGeo/BG_7_indexBinary.bin' coord='M14SandDoors-Lights_aoptbinGeo/BG_7_coordNormalBinary.bin+8' texCoord='M14SandDoors-Lights_aoptbinGeo/BG_7_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+          <Transform DEF='Office_Name_Tags_TRANSFORM'>
+            <Transform DEF='Office_Name_Tags_ifs_TRANSFORM'>
+              <Group DEF='group_ME_Untitled_005'>
+                <Shape DEF='SP_4'>
+                  <Appearance USE='AOPT_Appearance_4188862800'/>
+                  <BinaryGeometry DEF='BG_4' vertexCount='85' primType='"TRIANGLESTRIP"' position='428.368499756 -222.11000061 -2441.72509766' size='0.844970703125 15.2399902344 16.1901855469' index='M14SandDoors-Lights_aoptbinGeo/BG_4_indexBinary.bin' coord='M14SandDoors-Lights_aoptbinGeo/BG_4_coordNormalBinary.bin+8' texCoord='M14SandDoors-Lights_aoptbinGeo/BG_4_texCoordBinary.bin+4' coordType='Uint16' texCoordType='Uint16' normalAsSphericalCoordinates='true'/>
+                </Shape>
+              </Group>
+            </Transform>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>
