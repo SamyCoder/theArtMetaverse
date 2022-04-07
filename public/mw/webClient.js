@@ -68,16 +68,17 @@ function init() {
 
     // default model
     // TODO: make this url path more relative so it works with URL=file://
+	var url = '/mw/example.x3d';
+    if(location.search.match(/.*(\?|\&)file=.*/) != -1){
+        url = location.search.replace(/.*(\?|\&)file=/,'').replace(/\&.*$/g, '');
+	}
 
-    if(location.search.match(/.*(\?|\&)file=.*/) != -1)
-        var url = location.search.replace(/.*(\?|\&)file=/,'').replace(/\&.*$/g, '');
+    // if(typeof url == undefined || url.length < 1) {
 
-    if(typeof url == undefined || url.length < 1) {
-
-        // The default mode
-        // This is the only place that we declare this.
-        var url = '/mw/example.x3d';
-    }
+    //     // The default mode
+    //     // This is the only place that we declare this.
+    //     var url = '/mw/example.x3d';
+    // }
 
     model.url = url;
 
