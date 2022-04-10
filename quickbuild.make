@@ -1,10 +1,8 @@
 #!/bin/bash
 
 # exit on error
-set -e
-
+Set -e
 args="$*"
-
 scriptdir="$(dirname $0)"
 cd "$scriptdir"
 scriptdir="$PWD"
@@ -13,9 +11,9 @@ scriptdir="$PWD"
 #
 # We seek to have a (run in a shell):
 #
-#    ./configure --prefix=/Path/to/Prefix
-#    make
-#    make install
+#	./configure --prefix=/Path/to/Prefix
+#	make
+#	make install
 #
 # software build and installation method via
 # this file and the file GNUmakefile.
@@ -45,9 +43,9 @@ csscompress=
 
 function usage()
 {
-    local prog="$(basename $0)"
+	local prog="$(basename $0)"
 
-    cat << EOF
+	cat << EOF
 
   Usage: $prog [OPTIONS]
 
@@ -64,47 +62,47 @@ function usage()
 
 
   ----------------------------------------------------------------------
-              OPTIONS
+			  OPTIONS
   ----------------------------------------------------------------------
 
 
-  --no-compress      do not apply yui-compressor to installed installed
-                     javascript and CSS files.  The default is compress
-                     if yui-compressor is found when this script runs,
-                     otherwise not
+  --no-compress	  do not apply yui-compressor to installed installed
+					 javascript and CSS files.  The default is compress
+					 if yui-compressor is found when this script runs,
+					 otherwise not
 
-  --node NPATH       set the full file path to the node.js executable.
-                     By default $prog will set the node server script
-                     to run with #!/usr/bin/env node , when NPATH is
-                     set it will be #!NPATH
+  --node NPATH	   set the full file path to the node.js executable.
+					 By default $prog will set the node server script
+					 to run with #!/usr/bin/env node , when NPATH is
+					 set it will be #!NPATH
 
-  --prefix PREFIX    set the installation directory prefix the current
-                     default PREFIX is "installed/" in the current
-                     directory.
+  --prefix PREFIX	set the installation directory prefix the current
+					 default PREFIX is "installed/" in the current
+					 directory.
 
-  --port PORT        set the default HTTP and WebSockets server port
-                     to PORT.  The default value is 9999
+  --port PORT		set the default HTTP and WebSockets server port
+					 to PORT.  The default value is 9999
 
-  --s_port SPORT     set the default HTTPS and secure WebSockets server
-                     port to SPORT.  The default value is 4443
+  --s_port SPORT	 set the default HTTPS and secure WebSockets server
+					 port to SPORT.  The default value is 4443
 
 
 
   For example in a bash shell run:
 
-     ./configure --prefix=/usr/local/mirrorworlds && make && make install
+	 ./configure --prefix=/usr/local/mirrorworlds && make && make install
 
 
 EOF
-    exit 1
+	exit 1
 }
 
 
 if which yui-compressor > /dev/null ; then
-    # These may get changed via user optional args below.
-    echo "Found yui-compressor in your PATH"
-    jscompress="yui-compressor --line-break 70 --type js"
-    csscompress="yui-compressor --line-break 70 --type css"
+	# These may get changed via user optional args below.
+	echo "Found yui-compressor in your PATH"
+	jscompress="yui-compressor --line-break 70 --type js"
+	csscompress="yui-compressor --line-break 70 --type css"
 fi
 
 # DEVELOPER NOTE:
@@ -115,44 +113,44 @@ fi
 
 
 while [ -n "$1" ] ; do
-    case "$1" in
-        --port)
-            shift 1
-            port="$1"
-            ;;
-        --port=*)
-            port="${1#*-port=}"
-            ;;
-        --s_port)
-            shift 1
-            s_port="$1"
-            ;;
-        --s_port=*)
-            s_port="${1#*-s_port=}"
-            ;;
-        --prefix)
-            shift 1
-            PREFIX="$1"
-            ;;
-        --prefix=*)
-            PREFIX="${1#*-prefix=}"
-            ;;
-        --node)
-            shift 1
-            shabang="${1}"
-            ;;
-        --node=*)
-            shabang="${1#*-node=}"
-            ;;
-        --no-compress)
-            jscompress=
-            csscompress=
-            ;;
-        *)
-            usage
-            ;;
-    esac
-    shift 1
+	case "$1" in
+		--port)
+			shift 1
+			port="$1"
+			;;
+		--port=*)
+			port="${1#*-port=}"
+			;;
+		--s_port)
+			shift 1
+			s_port="$1"
+			;;
+		--s_port=*)
+			s_port="${1#*-s_port=}"
+			;;
+		--prefix)
+			shift 1
+			PREFIX="$1"
+			;;
+		--prefix=*)
+			PREFIX="${1#*-prefix=}"
+			;;
+		--node)
+			shift 1
+			shabang="${1}"
+			;;
+		--node=*)
+			shabang="${1#*-node=}"
+			;;
+		--no-compress)
+			jscompress=
+			csscompress=
+			;;
+		*)
+			usage
+			;;
+	esac
+	shift 1
 done
 
 val_set=
@@ -172,11 +170,11 @@ EOF
 # Usage: setMakeVar MAKE_VARIABLE VALUE
 function setMakeVar()
 {
-    if [ -n "${!2}" ] ; then
-        echo "$1 ?= ${!2}" >> quickbuild.make
-        echo "$1 = ${!2}"
-        val_set=yes
-    fi
+	if [ -n "${!2}" ] ; then
+		echo "$1 ?= ${!2}" >> quickbuild.make
+		echo "$1 = ${!2}"
+		val_set=yes
+	fi
 }
 
 
@@ -203,7 +201,7 @@ cat << EOF
 
   Now try running:
 
-                     make
+					 make
 
 EOF
 
