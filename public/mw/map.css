@@ -1,0 +1,21 @@
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: azure;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  border: 1px solid #888;
+  width: 80%;
+  margin: 5%;
+  padding: 5%;
+}
+
+#modal-map-open {
+    margin-left: auto;
+}
+
