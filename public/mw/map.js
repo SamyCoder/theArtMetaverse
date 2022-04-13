@@ -1,14 +1,4 @@
 
-// // map modal for action
-// var modal = document.getElementById("modal-map");
-
-// // opens map 
-// var mapOpen = document.getElementById("modal-map-open");
-
-// // close map
-// var closeMap = document.getElementsById("map-back");
-
-
 // open modal
 function openMap() {
     var modal = document.getElementById("modal-map");
