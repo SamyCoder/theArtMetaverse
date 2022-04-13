@@ -3,6 +3,10 @@
 <head>
     <meta charset="utf-8"/>
     <title>MirrorWorlds</title>
+
+    
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <script type='text/javascript' src='map.js'> </script>
     <script type='text/javascript' src='http://www.x3dom.org/download/x3dom.js'> </script> 
     <!-- <script type='text/javascript' src='x3dom/x3dom.js'> </script> 
     <link rel='stylesheet' type='text/css' href='x3dom/x3dom.css'></link> -->
@@ -12,6 +16,7 @@
     
     <script src="/socket.io/socket.io.js"></script>
     <script src="webClient.js"></script>
+ 
     
 </head>
 
@@ -26,7 +31,6 @@
                 </Scene>
             </X3D>
         </div>
-
         <div id="bottomBar">
 
             <b>People currently observing this model:</b>
@@ -37,6 +41,7 @@
         
     <div id="sideBar">
         
+    <button id="modal-map-open" onclick="openMap()"> Open Map </button>
         <div id="widgetSpace">
             
             <div class="widget">
@@ -69,6 +74,20 @@
         <button id="minButton" title="hide toolbar" class="minmaxB active">
             <b> &lt; </b>
         </button>
+    </div>
+
+
+    <!-- MAP DIALOG BOX -->
+    <!-- TODO: Place actual Map + make pretty with icons -->
+    <div id="modal-map" class="modal">
+        <div class="modal-content">
+            <button id="map-back" onclick="closeMap()">  Close Modal </button>
+                    <h3> I'm the map </h3>
+                    <p>
+                        I am a rudimentary place for a map. This is not complete yet.
+                        Just a place holder.
+                    </p>
+        </div>
     </div>
     
 </body>
