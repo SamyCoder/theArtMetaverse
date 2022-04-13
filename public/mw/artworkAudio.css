@@ -2,7 +2,6 @@
     visibility: hidden;
     position: absolute; top: 50%; left: 50%;
     /* "COUNTER" WIDTH & HEIGHT OF BOX TO "TRULY CENTER" ON SCREEN */
-    z-index: 9;
     transform: translate(-50%, -50%);
     color: #fff; background: #000;
     padding: 10px;
@@ -10,7 +9,7 @@
 }
 
 /* Toggle this class - hide and show the popup */
-.artWorkAudio .show {
+.artWorkAudio.show {
     visibility: visible;
     /* -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s; */
