@@ -416,6 +416,7 @@ function init() {
 
 				console.log("Scene Update");
 
+
 				switch (type) {
 
 					case "lamp" :               	
@@ -449,6 +450,7 @@ function init() {
 
 		// Set up the models, lamps, and in-scene events
 		configureScene();
+		configureArtworkOverlay();
 
 		// Set up the widgets 
      	configureToolbar();
@@ -500,6 +502,7 @@ function init() {
 			 */
 			lampToggle2.addEventListener("click", function() {
 				socket.emit('environmentChange', "lamp", "lamp2");
+
 			});
 		};
 
@@ -514,8 +517,8 @@ function init() {
 			 * and sends updated state to Mirror Worlds server
 			 */
 			lampToggle1.addEventListener("click", function() {
-
 				socket.emit('environmentChange', "lamp", "lamp1");
+
 			});
 		};
 
@@ -549,6 +552,17 @@ function init() {
        	// Add listener to camera to update server with location data
        	camera.addEventListener('viewpointChanged', sendUpdate);
 	};
+
+	//This function is triggered by clicking on the blue rectangle in the example world
+	//This will open an artwork audio pop-up
+	function configureArtworkOverlay(){
+		var artwork = document.getElementById("mw__Box5");
+		var artWorkAudioTemplate = document.getElementById("artWorkAudioId");
+
+		artwork.addEventListener("click", function() {
+			artWorkAudioTemplate.classList.toggle("show");
+		});
+	}
 
 	//-------------------------------------------------------
 	/**

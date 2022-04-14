@@ -37,7 +37,7 @@
                     </Shape>
                 </Transform>
                 <Transform DEF='dad_Box5' translation='0 6 -12'>
-                    <Shape DEF='Box5' containerField='children'>
+                    <Shape DEF='Box5' id='Box5' containerField='children'>
                         <Appearance containerField='appearance'>
                             <Material DEF='Blue' containerField='material' ambientIntensity='.2' shininess='.2' diffuseColor='0 0 1'/>
                         </Appearance>
