@@ -553,17 +553,14 @@ function init() {
        	camera.addEventListener('viewpointChanged', sendUpdate);
 	};
 
+	//This function is triggered by clicking on the blue rectangle in the example world
+	//This will open an artwork audio pop-up
 	function configureArtworkOverlay(){
-		console.log("in art work config");
 		var artwork = document.getElementById("mw__Box5");
-	
+		var artWorkAudioTemplate = document.getElementById("artWorkAudioId");
+
 		artwork.addEventListener("click", function() {
-				var artWorkAudioTemplate = document.getElementsByClassName("artWorkAudio");
-				console.log("artworkaudiotemp");
-				console.log(artWorkAudioTemplate);
-		        artWorkAudioTemplate.classList.toggle("show"); //This is not running for some reason
-				console.log("after toggle");
-				console.log(artWorkAudioTemplate);
+			artWorkAudioTemplate.classList.toggle("show");
 		});
 	}
 
