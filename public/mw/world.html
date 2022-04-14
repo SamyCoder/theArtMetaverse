@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="map.css">
     <script type='text/javascript' src='map.js'> </script>
     <script type='text/javascript' src='artworkAudio.js'> </script>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
     <script type='text/javascript' src='http://www.x3dom.org/download/x3dom.js'> </script> 
     <!-- <script type='text/javascript' src='x3dom/x3dom.js'> </script> 
@@ -46,8 +47,6 @@
     </section>
         
     <div id="sideBar">
-        
-    <button id="modal-map-open" onclick="openMap()"> Open Map </button>
         <div id="widgetSpace">
             
             <div class="widget">
@@ -70,8 +69,7 @@
                 <ul id="messages"></ul>
                 <input id="inputField" autocomplete="off" />
                 <button id="sendButton">Send</button>
-            </div>
-            
+            </div>            
         </div>
         
         <button id="maxButton" title="show toolbar" class="minmaxB shadow inactive">
@@ -80,6 +78,12 @@
         <button id="minButton" title="hide toolbar" class="minmaxB active">
             <b> &lt; </b>
         </button>
+    </div>
+
+    <div id="map">
+        <!-- <button id="modal-map-open" onclick="openMap()"> Map &#128739;</button> -->
+        <!-- Map button -->
+        <i class='bx bxs-map-alt bx-md bx-tada-hover' id="modal-map-open" onclick="openMap()">Map</i>
     </div>
 
 

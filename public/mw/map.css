@@ -9,13 +9,22 @@
 
 .modal-content {
   background-color: #fefefe;
-  border: 1px solid #888;
-  width: 80%;
+  border: 2px solid #888;
+  width: 60%;
   margin: 5%;
   padding: 5%;
+
+  /* To place it in the lower right corner */
+  position: fixed;
+  bottom: 6%;
+  right: 0px;
 }
 
 #modal-map-open {
-    margin-left: auto;
+    /* margin-left: auto; */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
 }
+
 
