@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+<head>
+ <meta name='Vizthumbnail' content='Thumb_Untitled3_x3d1810881575921632.jpg'/>
+ <meta name='title' content='Chromatic Gate Home'/>
+ <meta name='description' content='Generated from Meshlab X3D Exported'/>
+ <meta name='created' content='18 November 2019'/>
+ <meta name='generator' content='Meshlab X3D Exported, http://meshlab.sourceforge.net'/>
+ <meta name='ExportTime' content='15: 0:32'/>
+ <meta name='ExportDate' content='12/9/2019'/>
+
+</head>
+<Scene>
+
+ 
+ <Viewpoint/>
+
+
+<Transform translation ='0 0 0'>
+ 
+</Transform>
+
+
+<Group>
+
+<Transform translation='0 0 0'>
+ <Shape>  <Material diffuseColor='1 1 1'/> 
+ <FontStyle size='1' justify ='BEGIN' />
+ <Text string ='"Hello World" , "Goodbye World"'>
+ </Shape>
+</Transform>
+
+
+</Group>
+
+
+
+
+</Scene>
+</X3D>

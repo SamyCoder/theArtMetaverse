@@ -1,0 +1,257 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+	<script type="text/javascript" src="./x3dom.js"></script>
+	<link rel="stylesheet" type="text/css" href="./Chaser_files/x3dom.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<!-- modified from url=(0066)https://andreasplesch.github.io/Library/Examples/gltf2/Chaser.html -->
+	<!-- npolys Web3D 2020 -->
+</head>
+
+<body>
+	<script>
+		// a usability recommendation: provide visual feedback for users about interaction modes   /// * esp Navigation!
+// on load, report the current bound NavInfo type on screen in a DIV -> p 
+
+//no jquery needed:
+ 
+x3dom.runtime.ready = function showNav (){
+    var id = "x3d_scene";
+    var configure = document.getElementById(id);
+     
+    /* Default view */
+    configure.runtime.showAll();
+    var navigationTypeName = configure.runtime.navigationType();
+	console.log(navigationTypeName);
+	document.getElementById('tip').innerHTML=navigationTypeName;
+}
+
+
+    function clickedLeft(event){
+        document.getElementById('pc').setAttribute('destination', event.hitPnt);
+        document.getElementById('oc').setAttribute('destination', '0.86 0.36 -0.36 1.71');
+        document.getElementById('cc').setAttribute('destination', '1 0.1 0');
+    }
+
+    function clickedRight(event){
+        document.getElementById('pc').setAttribute('destination', event.hitPnt);
+        document.getElementById('oc').setAttribute('destination', '0.86 -0.36 0.36 1.71');
+        document.getElementById('cc').setAttribute('destination', '0.1 1 0');
+    }
+	
+	
+	//////////////////////////////////
+	
+	///   using jquery : 
+	
+		$(document).ready(function(){
+		var screenshotCount = 0;
+
+		//Every time the user clicks on the 'take screenhot' button
+		var takeScreenShot = function() {
+			//Get data url from the runtime
+			var imgUrl = document.getElementById("x3d_scene").runtime.getScreenshot();
+
+			//Create preview image...
+			var newScreenshotImage = document.createElement('img');
+			newScreenshotImage.src = imgUrl;
+			newScreenshotImage.id = "screenshot_" + screenshotCount;
+			$('#screenshotPreviews').append(newScreenshotImage);
+
+			//...and download link
+			var newScreenshotDownloadLink = document.createElement('a');
+			newScreenshotDownloadLink.href = imgUrl;
+			newScreenshotDownloadLink.download = screenshotCount + ".png";
+			newScreenshotDownloadLink.innerHTML = "Download";
+			$('#screenshotPreviews').append(newScreenshotDownloadLink);
+
+			screenshotCount++;
+			$('#screenshotCount').html(screenshotCount);
+		};
+
+		$("#btnTakeScreenshot").on("click", takeScreenShot );
+
+		onAntiqueCamera = function (e) { 
+
+		    if ( e.fieldName == 'bind' )
+		    {
+		    	if ( !e.value )
+		    	{
+		    		takeScreenShot();
+		    	}
+		    	console.log (e, 'cam clicked'); };
+		    }
+	});
+
+
+	
+	</script>
+
+	<div id='HUDs_Div'
+		style='margin:2px; padding:4px 150px 4px 4px; background-color:rgba(199,202,204,.7); position:absolute; z-index:1000; right:0px; top:0px;'>
+		<div id='X3DOM_AOPT_Links'>
+			<h3>Your Navigation Mode is: </h3>
+			<p id='tip'></p>
+			Here is an X3D scene with glTF assets Inlined, lit and shadowed. 
+		</div>
+
+		<div>
+			<center>Use the DOM to capture your X3D! 
+				<br> <a href="#" id="btnTakeScreenshot">Take a screenshot</a> -OR-
+				<br> click the Antique Camera  to take a picture. 
+				Images are displayed and available for download below.
+			</center>
+		</div>
+
+
+	</div>
+
+
+
+
+	<x3d id="x3d_scene" showlog="false" width="1209px" height="691px" style="width: 100%; height: 100%;">
+
+		<scene def="scene" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" pickmode="idBuf"
+			dopickpass="true">
+			<navigationInfo type='"WALK","ANY"' transitiontime='0' headlight-'true'></navigationInfo>
+			<environment SSAO='"true"' ></environment>
+			<viewpoint id='person' position="0 1.6 5" nearclippingplane="-1" farclippingplane="-1"
+				fieldofview="0.785398" orientation="0,0,0,0" centerofrotation="0,0,0" znear="-1" zfar="-1"></viewpoint>
+			<!--		<spotlight direction='0 -1 0'  location='0 3 0' shadowIntensity='1'  shadowCascades="1" shadowFilterSize="16" shadowMapSize="1024" ></spotlight>
+ -->
+			<directionallight shadowIntensity='0' direction='0 -1 0' on="TRUE" intensity='1.0'></directionallight>
+			
+			<transform translation ='-3 6 0' rotation='0 0 1 .785'>
+						<shape>
+			<appearance>
+			<material ambientintensity='1' diffuseColor='1 1 1' emissivecolor='1 1 1'></material>
+			</appearance>
+			<cone height='.1' bottomRadius='.1'></cone>
+			</shape>
+			</transform>
+<spotlight znear='0.5' zfar='1000' direction='0.5 -1 0'  location='-3 6 0' shadowIntensity='0.5'  shadowCascades="4" shadowMapSize="2048" ></spotlight>
+
+			<background groundcolor="0.11, 0.43, 0.027" skycolor="0.74 0.84 0.96" groundangle="" skyangle="" backurl=""
+				bottomurl="" fronturl="" lefturl="" righturl="" topurl=""></background>
+
+			<transform rotation='0 1 0 1.578' scale='2 2 2'>
+				<inline url="&quot;./Sponza/glTF/Sponza.gltf&quot;" render="true" visible="true" bboxcenter="0,0,0"
+					bboxsize="-1,-1,-1" load="true" namespacename="">
+				</inline>
+			</transform>
+
+			<pointlight  shadowIntensity='0.5'  shadowCascades="4" shadowMapSize="2048" DEF='pl' intensity='0' location='0 3 1' radius='300'></pointlight>
+			<transform translation='0 3 1'>
+			<shape>
+			<appearance>
+			<material ambientintensity='1' diffuseColor='1 1 1' emissivecolor='1 1 1'></material>
+			</appearance>
+			<sphere radius='.1'></sphere>
+			</shape>
+			
+			</transform>
+			
+			<scalarinterpolator DEF='si' key='0 .2 .3 1' keyValue='0, 0.9, 1, 0'></scalarinterpolator>
+			<timesensor DEF='ts' cycleInterval='1'></timesensor>
+
+
+			<transform translation='0 1.4 0' scale='.5 .5 .5'>
+
+				<transform def="marker" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1"
+					center="0,0,0" translation="0,0,0" rotation="0,0,0,0" scale="1,1,1" scaleorientation="0,0,0,0">
+
+					<transform rotation='1 0 0 -1.578'>
+						<transform rotation="0 1 0 0" translation="0 0 1.8" render="true">
+							<transform rotation="0 1 0 3.14" scale=".5 .5 .5" translation="0 -4 0">
+								<touchsensor DEF='touch'></touchsensor>
+								<inline id="cameraInline" url="&quot;./AntiqueCamera/glTF/AntiqueCamera.gltf&quot;"
+									render="true" visible="true" load="true" namespacename="cam">
+								</inline>
+							</transform>
+							<viewpoint position='0 -1 1' def="aCamera" zNear='1.55' fieldOfView='1' 
+								onoutputchange='onAntiqueCamera(event)' _onviewpointchanged='onAntiqueCamera(event)'>
+							</viewpoint>
+						</transform>
+						<!--
+          <transform scale="0.1 0.1 0.1" translation="0 -.1 0" rotation="1 0 0 -1.578" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scaleorientation="0,0,0,0">
+            <shape render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true">
+                <appearance sorttype="auto" alphaclipthreshold="0.1">
+                    <material id="mat" diffusecolor="yellow" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2" specularcolor="0,0,0"></material>
+                </appearance>
+                <cone solid="false" ccw="true" usegeocache="true" lit="true" bottomradius="1" height="2" bottom="true" side="true" top="true" subdivision="32"></cone>
+            </shape>
+            </transform>    -->
+					</transform>
+				</transform>
+
+				<positionchaser id="pc" duration="1.0" initialdestination="0 -1 0" initialvalue="0 0 0" value="0,0,0"
+					destination="0,0,0">
+				</positionchaser>
+				<orientationchaser id="oc" duration="1.0" initialdestination="0 0 1 0" initialvalue="0 0 1 0.75"
+					value="0,0,0,0" destination="0,0,0,0">
+				</orientationchaser>
+				<colorchaser id="cc" duration="1.5" initialdestination="1 1 0" initialvalue="1 1 0" value="0,0,0"
+					destination="0,0,0">
+				</colorchaser>
+
+				<route fromnode="pc" fromfield="value_changed" tonode="marker" tofield="translation"></route>
+				<route fromnode="oc" fromfield="value_changed" tonode="marker" tofield="rotation"></route>
+				<!--  <route fromnode="cc" fromfield="value_changed" tonode="mat" tofield="diffuseColor"></route> -->
+
+				<route fromnode="touch" fromfield="touchTime" tonode="ts" tofield="startTime"></route>
+				<route fromnode="ts" fromfield="isActive" tonode='aCamera' tofield='bind'></route>
+
+				<route fromnode="ts" fromfield="fraction_changed" tonode="si" tofield="set_fraction"></route>
+				<route fromnode="si" fromfield="value_changed" tonode="pl" tofield="intensity"></route>
+
+
+
+				<transform onmousemove="clickedLeft(event);" rotation="0 1 0 0.785" translation="-1 0 0" render="true"
+					visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1"
+					scaleorientation="0,0,0,0">
+					<shape render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true">
+						<appearance sorttype="auto" alphaclipthreshold="0.1">
+							<imagetexture url='a.png'></imagetexture>
+							<material diffusecolor="red" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2"
+								specularcolor="0,0,0"></material>
+						</appearance>
+						<indexedfaceset def="plane" solid="false" creaseangle="3" coordindex="2 0 3 -1 3 0 1 -1"
+							ccw="true" usegeocache="true" lit="true" colorpervertex="true" normalpervertex="true"
+							normalupdatemode="fast" convex="true" normalindex="" colorindex="" texcoordindex="">
+							<coordinate point="-1 -1 0 1 -1 0 -1 1 0 1 1 0"></coordinate>
+							<normal vector="0 0 1 0 0 1 0 0 1 0 0 1"></normal>
+						</indexedfaceset>
+					</shape>
+				</transform>
+
+				<transform onmousemove="clickedRight(event);" rotation="0 1 0 -0.785" translation="1 0 0" render="true"
+					visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1"
+					scaleorientation="0,0,0,0">
+					<shape render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true">
+						<appearance sorttype="auto" alphaclipthreshold="0.1">
+							<imagetexture url='b.jpg'></imagetexture>
+							<material diffusecolor="green" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2"
+								specularcolor="0,0,0"></material>
+						</appearance>
+						<indexedfaceset use="plane">
+						</indexedfaceset>
+					</shape>
+				</transform>
+			</transform>
+		</scene>
+	</x3d>
+
+	<div style="position:absolute;left:0px;border:1px solid #dddddd; width:300px;min-height:200px;padding:10px;">
+		<b>Screenshots: <span id="screenshotCount">0</span></b>
+		<div id="screenshotPreviews">
+
+<br>
+X3D4 Demo: Nicholas Polys & Andreas Plesch <br>
+Web3D 2020
+</body>
+
+</html>
