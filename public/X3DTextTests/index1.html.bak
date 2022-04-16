@@ -1,0 +1,26 @@
+<html >
+
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="https://x3dom.org/release/x3dom.css" />
+  <script type="text/javascript" src="https://x3dom.org/release/x3dom.js"></script>
+  
+  </head>
+
+<body>
+
+  <!-- x3d scene -->
+  <x3d id="x3dElement" showStat="true" showLog="false"
+       x="0px" y="0px"
+       width="100%" height="100%">
+    <Scene>
+      <Viewpoint position="178.55869 -134.10634 -400.44422" orientation="0.03974 0.99156 -0.12341 2.73466" 
+	 centerOfRotation="10.07217 -23.93747 -9.35901" fieldOfView="0.78540" description=""></Viewpoint>
+  
+<inline url='PT_Archimedes.x3d'></inline>
+    </Scene>
+  </x3d>
+
+</div>
+</body>
+</html>
