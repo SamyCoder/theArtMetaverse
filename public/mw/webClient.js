@@ -450,10 +450,12 @@ function init() {
 
 		// Set up the models, lamps, and in-scene events
 		configureScene();
-		configureArtworkOverlay();
-
 		// Set up the widgets 
      	configureToolbar();
+		
+		 /* NOTE:  After a correct html element has been identified to interact with and add something 
+		 in the metaverse DO not uncomment it!!*/
+		// configureArtworkOverlay();
     };
 
 	//-------------------------------------------------------
@@ -557,6 +559,7 @@ function init() {
 	//This will open an artwork audio pop-up
 	function configureArtworkOverlay(){
 		var artwork = document.getElementById("mw__Box5");
+		
 		var artWorkAudioTemplate = document.getElementById("artWorkAudioId");
 
 		artwork.addEventListener("click", function() {
