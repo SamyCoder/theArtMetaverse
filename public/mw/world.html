@@ -21,7 +21,14 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="webClient.js"></script>
     
- 
+    <script>
+        function toggleAudio(){
+            var audio = document.getElementById("audio-container");
+            var audio_btn = document.getElementById("audio-btn");
+            audio.classList.toggle("displayele");
+            audio_btn.classList.toggle("hideele")
+        }
+    </script>
     
 </head>
 
@@ -47,7 +54,26 @@
             <button class="button" id="left_btn1"> <img src="./images/backArr.png" id="left_btn2"> </button>            
             <img id="sampleArt" class="art" src="./images/blueRect.png" height="80%" alt="Sample Art">
             <button class="button" id="right_btn1"> <img src="./images/forwardArr.png" id="right_btn2"> </button>
-            <br/>            
+            <br/>  
+            <div id="audio-btn" class="audio-btn-c">
+                <!-- <a href="https://www.flaticon.com/free-icons/speaker" title="speaker icons">Speaker icons created by Freepik - Flaticon</a> -->
+                <button id="sound" class="button child" onclick="toggleAudio()"><img src="\mw\images\speaker-filled-audio-tool.png" id="soundimg"></button>
+            </div>
+    
+            <div id="audio-container" class="audio-content">
+                <div class="audio-header">
+                    <h4 class="audio-title">Narration</h4>
+                </div>
+                <div class="audio-body">
+                    <audio controls controller>
+                        <source src="\mw\sounds\Ghostperson.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-footer">
+                    <button type="button" class="btn btn-default" onclick="toggleAudio()">Close</button>
+                </div>
+            </div>          
         </div>
     </section>
         
