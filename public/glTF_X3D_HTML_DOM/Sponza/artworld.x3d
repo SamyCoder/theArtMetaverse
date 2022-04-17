@@ -1,0 +1,60 @@
+<x3d>
+	<scene>
+		<environment SSAO='"true"' ></environment>
+		<viewpoint id='person' position="0 1.6 5" nearclippingplane="-1" farclippingplane="-1" fieldofview="0.785398" orientation="0,0,0,0" centerofrotation="0,0,0" znear="-1" zfar="-1"></viewpoint>
+		<spotlight direction='0 -1 0'  location='0 3 0' shadowIntensity='1'  shadowCascades="1" shadowFilterSize="16" shadowMapSize="1024" ></spotlight>
+		<directionallight shadowIntensity='0' direction='0 -1 0' on="TRUE" intensity='1.0'></directionallight>
+
+		<spotlight znear='0.5' zfar='1000' direction='0.5 -1 0'  location='-3 6 0' shadowIntensity='0.5'  shadowCascades="4" shadowMapSize="2048" ></spotlight>
+		<background groundcolor="0.11, 0.43, 0.027" skycolor="0.74 0.84 0.96" groundangle="" skyangle="" backurl=""
+			bottomurl="" fronturl="" lefturl="" righturl="" topurl=""></background>
+
+		<transform rotation='0 1 0 1.578' scale='2 2 2'>
+			<inline url="/Sponza/glTF/Sponza.gltf" render="true" visible="true" bboxcenter="0,0,0"
+				bboxsize="-1,-1,-1" load="true" namespacename="">
+			</inline>
+		</transform>
+
+		<pointlight  shadowIntensity='0.5'  shadowCascades="4" shadowMapSize="2048" DEF='pl' intensity='0' location='0 3 1' radius='300'></pointlight>
+		
+		<scalarinterpolator DEF='si' key='0 .2 .3 1' keyValue='0, 0.9, 1, 0'></scalarinterpolator>
+		<timesensor DEF='ts' cycleInterval='1'></timesensor>
+
+		<transform translation='0 1.4 0' scale='.5 .5 .5'>
+		
+			<transform onmousemove="clickedLeft(event);" rotation="0 1 0 0" translation="-0.6211 2.2505 -19.6767" render="true"
+				visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1"
+				scaleorientation="0,0,0,0">
+				<shape id="artid_one" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true">
+					<appearance sorttype="auto" alphaclipthreshold="0.1">
+						<imagetexture url='post_ap.jpg'></imagetexture>
+						<material diffusecolor="red" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2"
+							specularcolor="0,0,0"></material>
+					</appearance>
+					<indexedfaceset def="plane" solid="false" creaseangle="3" coordindex="2 0 3 -1 3 0 1 -1"
+						ccw="true" usegeocache="true" lit="true" colorpervertex="true" normalpervertex="true"
+						normalupdatemode="fast" convex="true" normalindex="" colorindex="" texcoordindex="">
+						<coordinate point="-1 -1 0 1 -1 0 -1 1 0 1 1 0"></coordinate>
+						<normal vector="0 0 1 0 0 1 0 0 1 0 0 1"></normal>
+					</indexedfaceset>
+				</shape>
+			</transform>
+
+			<transform onmousemove="clickedRight(event);" rotation="0 1 0 -1.5" translation="3.2 1.84 1.14" render="true"
+				visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="1,1,1"
+				scaleorientation="0,0,0,0">
+				<shape id="artid_two" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true">
+					<appearance sorttype="auto" alphaclipthreshold="0.1">
+						<imagetexture url='ghostperson.png'></imagetexture>
+						<material diffusecolor="green" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2"
+							specularcolor="0,0,0"></material>
+					</appearance>
+					<indexedfaceset use="plane">
+					</indexedfaceset>
+				</shape>
+			</transform>
+
+		</transform>
+
+	</scene>
+</x3d>
