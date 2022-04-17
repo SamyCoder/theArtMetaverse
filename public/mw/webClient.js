@@ -560,6 +560,8 @@ function init() {
 	function configureArtworkOverlay(){
 		var artwork_one = document.getElementById("mw__artid_one");
 		var artwork_two = document.getElementById("mw__artid_two");
+		var artwork_three = document.getElementById("mw__artid_three");
+		var artwork_four = document.getElementById("mw__artid_four");
 		var artWorkAudioTemplate = document.getElementById("artWorkAudioId");
 
 		artwork_one.addEventListener("click", function() {
@@ -567,6 +569,14 @@ function init() {
 		});
 
 		artwork_two.addEventListener("click", function() {
+			artWorkAudioTemplate.classList.toggle("show");
+		});
+
+		artwork_three.addEventListener("click", function() {
+			artWorkAudioTemplate.classList.toggle("show");
+		});
+
+		artwork_four.addEventListener("click", function() {
 			artWorkAudioTemplate.classList.toggle("show");
 		});
 	}
