@@ -455,7 +455,7 @@ function init() {
 		
 		 /* NOTE:  After a correct html element has been identified to interact with and add something 
 		 in the metaverse DO not uncomment it!!*/
-		// configureArtworkOverlay();
+		configureArtworkOverlay();
     };
 
 	//-------------------------------------------------------
@@ -558,11 +558,15 @@ function init() {
 	//This function is triggered by clicking on the blue rectangle in the example world
 	//This will open an artwork audio pop-up
 	function configureArtworkOverlay(){
-		var artwork = document.getElementById("mw__Box5");
-		
+		var artwork_one = document.getElementById("mw__artid_one");
+		var artwork_two = document.getElementById("mw__artid_two");
 		var artWorkAudioTemplate = document.getElementById("artWorkAudioId");
 
-		artwork.addEventListener("click", function() {
+		artwork_one.addEventListener("click", function() {
+			artWorkAudioTemplate.classList.toggle("show");
+		});
+
+		artwork_two.addEventListener("click", function() {
 			artWorkAudioTemplate.classList.toggle("show");
 		});
 	}
