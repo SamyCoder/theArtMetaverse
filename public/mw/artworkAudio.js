@@ -5,4 +5,6 @@ function configureArtworkOverlay(){
     artwork.addEventListener("click", function() {
         artWorkAudioTemplate.classList.toggle("show");
     });
+
+    
 }
