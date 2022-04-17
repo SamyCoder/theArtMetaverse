@@ -579,7 +579,8 @@ function init() {
 		artwork_four.addEventListener("click", function() {
 			artWorkAudioTemplate.classList.toggle("show");
 
-			var objects = [ {"id":0, "image_url":"./images/blueRect.png", "sound_file":"", "location":(0,0)}, {"id":0, "image_url":"./images/redRect.jpg", "sound_file":"", "location":(0,0)} ];
+			var objects = [ {"id":0, "image_url":"./images/blueRect.png", "sound_file":"", "location":(0,0)}, 			
+				{"id":0, "image_url":"./images/redRect.jpg", "sound_file":"", "location":(0,0)} ];
 			console.log(JSON.stringify(objects));
 			var right = document.getElementById("right_btn1");
 
