@@ -563,68 +563,72 @@ function init() {
 
 	//This function is triggered by clicking on the blue rectangle in the example world
 	//This will open an artwork audio pop-up
+	var art = document.getElementById("sampleArt");
 	function configureArtworkOverlay(){
 		var artwork_one = document.getElementById("mw__artid_one");
 		var artwork_two = document.getElementById("mw__artid_two");
 		var artwork_three = document.getElementById("mw__artid_three");
 		var artwork_four = document.getElementById("mw__artid_four");
+		var close_btn = document.getElementById("close_info_btn");
 		var artWorkAudioTemplate = document.getElementById("artWorkAudioId");
 
-		artwork_one.addEventListener("click", function() {
+		var objects = [ {"id": 0, "image_url":"../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg", "sound_file":"", "location":(-4.32, 1.84, 0.93)}, 			
+			{"id": 1, "image_url":"../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg", "sound_file":"", "location":(-4.32, 1.84, 0.93)},
+			{"id": 2, "image_url":"../glTF_X3D_HTML_DOM/Sponza/ghostperson.png", "sound_file":"", "location":(-4.32, 1.84, 0.93)},
+			{"id": 3, "image_url":"../glTF_X3D_HTML_DOM/Sponza/cat.jpg", "sound_file":"", "location":(-4.32, 1.84, 0.93)}
+			
+		];
+
+		close_btn.addEventListener("click", function() {
 			artWorkAudioTemplate.classList.toggle("show");
+		});
+
+		artwork_one.addEventListener("click", function() {
+			art.style.width = '160px';
+			art.style.height = '180px';
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
+			artWorkAudioTemplate.classList.toggle("show");
+			
+			
 		});
 
 		artwork_two.addEventListener("click", function() {
+			art.style.width = '160px';
+			art.style.height = '180px';
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png";
+			console.log("2");
 			artWorkAudioTemplate.classList.toggle("show");
+			
+			
 		});
 
 		artwork_three.addEventListener("click", function() {
+			art.style.width = '120px';
+			art.style.height = '160px';
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
 			artWorkAudioTemplate.classList.toggle("show");
+			
+			
 		});
 
+		
+		var right = document.getElementById("right_btn1");
+		var left = document.getElementById("left_btn1");
+
 		artwork_four.addEventListener("click", function() {
-			artWorkAudioTemplate.classList.toggle("show");
+			artWorkAudioTemplate.classList.toggle("show");		
+			art.style.width = '120px';
+			art.style.height = '160px';
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
+		});
 
-			var objects = [ {"id":0, "image_url":"./images/blueRect.png", "sound_file":"", "location":(0,0)}, 			
-				{"id":0, "image_url":"./images/redRect.jpg", "sound_file":"", "location":(0,0)} ];
-			console.log(JSON.stringify(objects));
-			var right = document.getElementById("right_btn1");
+		right.addEventListener("click", function() {			
+			changeToRightImage();
+		});
+		
 
-			right.addEventListener("click", function() {
-				var art = document.getElementById("sampleArt");
-
-				if (art.getAttribute("src") == "./images/blueRect.png") {
-					var id = 0;
-					
-					art.style.height = '400px';
-					console.log(art.height);
-					
-					if (objects[id + 1].image_url == "./images/redRect.jpg") {
-						art.src = objects[id + 1].image_url;
-					}
-					
-					
-				}
-				// for (var i = 0; i < objects.length; i++) {
-				// 	if (art.getAttribute("src") == objects[i].image_url) {
-				// 		art.src = objects[i + 1].image_url;
-				// 		if (art.src == "./images/redRect.jpg") {
-				// 			art.height="10%";
-				// 			console.log("HERE");
-				// 		}
-				// 	}
-				// }
-			});
-
-			// var monthNames = ["January", "February"];
-			// var month = {};
-			// var monthsArray = [];
-			// for (let i = 0; i < 2; i++) {
-			// 	month.id = (i + 1);
-			// 	month.name = monthNames[i];
-			// 	monthsArray.push({...month});
-			// }
-			// console.log(JSON.stringify(monthsArray));
+		left.addEventListener("click", function() {
+			changeToLeftImage();
 		});
 	}
 
@@ -752,7 +756,53 @@ function init() {
         socket.emit('chatMessage', clientInfo.name, message);
     }
 
-	function changeImage() {
-
+	function changeToRightImage() {		
+		if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg") {
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
+			art.style.width = '160px';
+			art.style.height = '180px';
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png";
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png") {
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
+			art.style.width = '120px';
+			art.style.height = '160px';
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/cat.jpg") {
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
+			art.style.width = '120px';
+			art.style.height = '160px';
+		}
 	}
+
+	function changeToLeftImage() {
+		if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg") {
+			console.log("CAT");
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
+			art.style.width = '120px';
+			art.style.height = '160px';
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/cat.jpg") {
+			var id = 3;
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png";
+			art.style.width = '160px';
+			art.style.height = '180px';
+			console.log("GHOST");
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png") {
+			console.log("POSTAP");
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
+			art.style.width = '160px';
+			art.style.height = '180px';
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
+			console.log("MASK");
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
+			art.style.width = '120px';
+			art.style.height = '160px';
+		}
+	}
+
 }
