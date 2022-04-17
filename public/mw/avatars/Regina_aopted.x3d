@@ -1,0 +1,106 @@
+<X3D>
+  <Scene>
+    <Transform scale="0.0025 0.0025 0.0025" rotation="0 1 0 3.1416">
+      <Transform DEF='reginaobj'>
+        <Transform>
+          <Transform DEF='Body'>
+            <Group DEF='Body_geometry'>
+              <Shape DEF='SP_4'>
+                <Appearance>
+                  <Material DEF='EyesSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"Regina_textures/Regina_Body_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_4' solid='false' vertexCount='18623 600' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.332349777222 107.903503418 0.375749588013' size='46.7069015503 89.4469985962 21.7532997131' index='binGeo_Regina/BG_4_indexBinary.bin' coord='binGeo_Regina/BG_4_coordBinary.bin+8' normal='binGeo_Regina/BG_4_normalBinary.bin+4' texCoord='binGeo_Regina/BG_4_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Bottoms'>
+            <Group DEF='Bottoms_geometry'>
+              <Shape DEF='SP_2'>
+                <Appearance>
+                  <Material DEF='BottomsSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"Regina_textures/Regina_Bottom_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_2' solid='false' vertexCount='5668 222' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.173599243164 53.8250198364 -2.58214950562' size='33.1938018799 88.0855560303 25.9289016724' index='binGeo_Regina/BG_2_indexBinary.bin' coord='binGeo_Regina/BG_2_coordBinary.bin+8' normal='binGeo_Regina/BG_2_normalBinary.bin+4' texCoord='binGeo_Regina/BG_2_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Eyes'>
+            <Group DEF='Eyes_geometry'>
+              <Shape DEF='SP_1'>
+                <Appearance>
+                  <Material USE='EyesSG'/>
+                  <ImageTexture url='"Regina_textures/Regina_Body_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_1' solid='false' vertexCount='1885 6' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.133989810944 146.684509277 6.58379983902' size='8.91499996185 2.83100891113 2.91639995575' index='binGeo_Regina/BG_1_indexBinary.bin' coord='binGeo_Regina/BG_1_coordBinary.bin+8' normal='binGeo_Regina/BG_1_normalBinary.bin+4' texCoord='binGeo_Regina/BG_1_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Hair'>
+            <Group DEF='Hair_geometry'>
+              <Shape DEF='SP_0'>
+                <Appearance>
+                  <Material DEF='HairSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"Regina_textures/Regina_Hair_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_0' solid='false' vertexCount='3724 156' primType='"TRIANGLESTRIP" "TRIANGLES"' position='0.177550315857 142.855499268 -3.6108250618' size='24.6732997894 25.8989868164 15.7995500565' index='binGeo_Regina/BG_0_indexBinary.bin' coord='binGeo_Regina/BG_0_coordBinary.bin+8' normal='binGeo_Regina/BG_0_normalBinary.bin+4' texCoord='binGeo_Regina/BG_0_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Hats'>
+            <Group DEF='Hats_geometry'>
+              <Shape DEF='SP_3'>
+                <Appearance>
+                  <Material DEF='HatsSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"Regina_textures/Regina_Hat_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_3' solid='false' vertexCount='1732 63' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.211549758911 152.394012451 0.58814907074' size='23.6284999847 14.0760040283 27.1502990723' index='binGeo_Regina/BG_3_indexBinary.bin' coord='binGeo_Regina/BG_3_coordBinary.bin+8' normal='binGeo_Regina/BG_3_normalBinary.bin+4' texCoord='binGeo_Regina/BG_3_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Shoes'>
+            <Group DEF='Shoes_geometry'>
+              <Shape DEF='SP_6'>
+                <Appearance>
+                  <Material DEF='ShoesSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"Regina_textures/Regina_Shoes_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_6' solid='false' vertexCount='7120 372' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.0837993621826 8.54462909698 4.10287952423' size='27.1888008118 17.0599441528 25.0546398163' index='binGeo_Regina/BG_6_indexBinary.bin' coord='binGeo_Regina/BG_6_coordBinary.bin+8' normal='binGeo_Regina/BG_6_normalBinary.bin+4' texCoord='binGeo_Regina/BG_6_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='Tops'>
+            <Group DEF='Tops_geometry'>
+              <Shape DEF='SP_7'>
+                <Appearance>
+                  <Material DEF='TopsSG' ambientIntensity='1' diffuseColor='0 0 0' shininess='0.765625'/>
+                  <ImageTexture url='"Regina_textures/Regina_Top_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_7' solid='false' vertexCount='3807 72' primType='"TRIANGLESTRIP" "TRIANGLES"' position='-0.00230026245117 107.104049683 -1.24934959412' size='33.4500007629 53.3778991699 31.6077003479' index='binGeo_Regina/BG_7_indexBinary.bin' coord='binGeo_Regina/BG_7_coordBinary.bin+8' normal='binGeo_Regina/BG_7_normalBinary.bin+4' texCoord='binGeo_Regina/BG_7_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+          <Transform DEF='default1'>
+            <Group DEF='default1_geometry'>
+              <Shape DEF='SP_5'>
+                <Appearance>
+                  <Material USE='EyesSG'/>
+                  <ImageTexture url='"Regina_textures/Regina_Body_Diffuse.png"'/>
+                  <TextureTransform/>
+                </Appearance>
+                <BinaryGeometry DEF='BG_5' solid='false' vertexCount='159' primType='"TRIANGLESTRIP"' position='-0.194169998169 146.750488281 8.04926013947' size='10.5834197998 1.82899475098 2.29147958755' index='binGeo_Regina/BG_5_indexBinary.bin' coord='binGeo_Regina/BG_5_coordBinary.bin+8' normal='binGeo_Regina/BG_5_normalBinary.bin+4' texCoord='binGeo_Regina/BG_5_texCoordBinary.bin+4' coordType='Int16' normalType='Int8' texCoordType='Uint16'/>
+              </Shape>
+            </Group>
+          </Transform>
+        </Transform>
+      </Transform>
+    </Transform>
+  </Scene>
+</X3D>
