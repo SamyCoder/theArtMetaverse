@@ -189,3 +189,31 @@ section {
     right: 25px;
     font-weight: bold;
 }
+
+/* .button {
+    width:10px;
+    height: 10px;
+} */
+
+/* #left_btn {
+    width:80px;
+    height: 80px;
+} */
+
+/* .right_btn {
+    width:10px;
+    height: 10px;
+}  */
+
+#sampleArt {
+    width: 40%;
+    height: 80%;
+}
+
+#left_btn2 {
+    width: 20px;
+}
+
+#right_btn2 {
+    width: 20px;
+}

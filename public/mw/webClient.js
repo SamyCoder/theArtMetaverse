@@ -561,6 +561,46 @@ function init() {
 
 		artwork.addEventListener("click", function() {
 			artWorkAudioTemplate.classList.toggle("show");
+
+			var objects = [ {"id":0, "image_url":"./images/blueRect.png", "sound_file":"", "location":(0,0)}, {"id":0, "image_url":"./images/redRect.jpg", "sound_file":"", "location":(0,0)} ];
+			console.log(JSON.stringify(objects));
+			var right = document.getElementById("right_btn1");
+
+			right.addEventListener("click", function() {
+				var art = document.getElementById("sampleArt");
+
+				if (art.getAttribute("src") == "./images/blueRect.png") {
+					var id = 0;
+					
+					art.style.height = '400px';
+					console.log(art.height);
+					
+					if (objects[id + 1].image_url == "./images/redRect.jpg") {
+						art.src = objects[id + 1].image_url;
+					}
+					
+					
+				}
+				// for (var i = 0; i < objects.length; i++) {
+				// 	if (art.getAttribute("src") == objects[i].image_url) {
+				// 		art.src = objects[i + 1].image_url;
+				// 		if (art.src == "./images/redRect.jpg") {
+				// 			art.height="10%";
+				// 			console.log("HERE");
+				// 		}
+				// 	}
+				// }
+			});
+
+			// var monthNames = ["January", "February"];
+			// var month = {};
+			// var monthsArray = [];
+			// for (let i = 0; i < 2; i++) {
+			// 	month.id = (i + 1);
+			// 	month.name = monthNames[i];
+			// 	monthsArray.push({...month});
+			// }
+			// console.log(JSON.stringify(monthsArray));
 		});
 	}
 
@@ -686,4 +726,8 @@ function init() {
 		// Send message to server for distribution
         socket.emit('chatMessage', clientInfo.name, message);
     }
+
+	function changeImage() {
+
+	}
 }
