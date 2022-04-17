@@ -1,3 +1,15 @@
+.audio-content {
+    visibility: hidden;
+}
+
+.audio-content.displayele {
+    visibility: visible;
+}
+
+.audio-btn-c.hideele {
+    visibility: hidden;
+}
+
 .artWorkAudio {
     visibility: hidden;
     position: absolute; top: 50%; left: 50%;
@@ -15,6 +27,9 @@
     animation: fadeIn 1s;
 }
 
+#parent { white-space: nowrap; }
+.child { display: inline-block; }
+
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
@@ -25,3 +40,23 @@
     from {opacity: 0;}
     to {opacity:1 ;}
 } 
+
+#sampleArt {
+    width: 40%;
+    height: 80%;
+}
+
+#left_btn2 {
+    width: 20px;
+}
+
+#right_btn2 {
+    width: 20px;
+}
+
+#sound{
+    width: 35px;
+}
+#soundimg{
+    width: 20px;
+}
