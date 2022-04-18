@@ -124,6 +124,8 @@ function positionUpdated(e)
 {	
     var pos = e.position;
     var rot = e.orientation;
+
+    console.log('update position call')
     
     //Tell the server that this client has moved and send new location data
 	socket.emit('updateposition', name, pos, rot, avatarType);

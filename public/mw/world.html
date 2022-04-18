@@ -21,7 +21,14 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="webClient.js"></script>
     
- 
+    <script>
+        function toggleAudio(){
+            var audio = document.getElementById("audio-container");
+            var audio_btn = document.getElementById("audio-btn");
+            audio.classList.toggle("displayele");
+            audio_btn.classList.toggle("hideele")
+        }
+    </script>
     
 </head>
 
@@ -31,6 +38,8 @@
         <div id="sceneContainer" class="one-edge-shadow">
             <X3D id="x3dContent">
                 <Scene>
+                    <Viewpoint id="right" position="5 -1 2" orientation="0 0 0 1" description="camera"></Viewpoint>
+                    <Viewpoint id="left" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
                     <inline id=mw_model nameSpaceName=mw></inline>
                     <Group id="avatarGroup"></Group>
                 </Scene>
@@ -43,11 +52,46 @@
         </div>
         <div id="artWorkAudioId" class="artWorkAudio">
             This is where the art audio goes!!
+            <br/>
+            <button class="close_artwork_info_btn" id="close_info_btn"> Close </button>
+
+            <br/>
+            
+            <button class="button" id="left_btn1"> <img src="./images/backArr.png" id="left_btn2"> </button>            
+            <img id="sampleArt" class="art" src="../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg" alt="Sample Art">
+            <button class="button" id="right_btn1"> <img src="./images/forwardArr.png" id="right_btn2"> </button>
+            <br/>  
+
+            <div id="audio-btn" class="audio-btn-c">
+                <!-- <a href="https://www.flaticon.com/free-icons/speaker" title="speaker icons">Speaker icons created by Freepik - Flaticon</a> -->
+                <button id="sound" class="button child" onclick="toggleAudio()"><img src="\mw\images\speaker-filled-audio-tool.png" id="soundimg"></button>
+            </div>
+    
+            <div id="audio-container" class="audio-content">
+                <div class="audio-header">
+                    <h4 class="audio-title">Narration</h4>
+                </div>
+                <div class="audio-body">
+                    <audio id="audio-player" controls controller>
+                        <source id="audio-source" src="\mw\sounds\Ghostperson.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audio-footer">
+                    <button type="button" class="btn btn-default" onclick="toggleAudio()">Close</button>
+                </div>
+            </div>          
         </div>
     </section>
         
     <div id="sideBar">
         <div id="widgetSpace">
+            <div id="chat" class="widget scroll" style="height: 50%;">
+                <span class="widgetHeader">Chat Window</span>
+                <ul id="messages"></ul>
+                <input id="inputField" autocomplete="off" />
+                <button id="sendButton">Send</button>
+            </div>  
             
             <div class="widget">
                 <span class="widgetHeader">Avatars</span>
@@ -64,12 +108,7 @@
                 </div>
             </div>
             
-            <div id="chat" class="widget" style="height: 50%;">
-                <span class="widgetHeader">Chat Window</span>
-                <ul id="messages"></ul>
-                <input id="inputField" autocomplete="off" />
-                <button id="sendButton">Send</button>
-            </div>            
+                      
         </div>
         
         <button id="maxButton" title="show toolbar" class="minmaxB shadow inactive">
@@ -97,6 +136,9 @@
                         I am a rudimentary place for a map. This is not complete yet.
                         Just a place holder.
                     </p>
+                    <button onclick="viewCheckpointRight()"> Checkpoint 1 </button>
+                    <button onclick="viewCheckpointLeft()"> Checkpoint 2 </button>
+
         </div>
     </div>
     

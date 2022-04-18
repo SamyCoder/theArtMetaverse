@@ -563,17 +563,83 @@ function init() {
 
 	//This function is triggered by clicking on the blue rectangle in the example world
 	//This will open an artwork audio pop-up
+	var art = document.getElementById("sampleArt");
+	var audio = document.getElementById("audio-source");
+	var player = document.getElementById("audio-player");
 	function configureArtworkOverlay(){
 		var artwork_one = document.getElementById("mw__artid_one");
 		var artwork_two = document.getElementById("mw__artid_two");
+		var artwork_three = document.getElementById("mw__artid_three");
+		var artwork_four = document.getElementById("mw__artid_four");
+		var close_btn = document.getElementById("close_info_btn");
 		var artWorkAudioTemplate = document.getElementById("artWorkAudioId");
 
-		artwork_one.addEventListener("click", function() {
+		var objects = [ {"id": 0, "image_url":"../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg", "sound_file":"/mw/sounds/Maskcat.wav", "location":(-4.32, 1.84, 0.93)}, 			
+			{"id": 1, "image_url":"../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg", "sound_file":"/mw/sounds/Postap.wav", "location":(-4.32, 1.84, 0.93)},
+			{"id": 2, "image_url":"../glTF_X3D_HTML_DOM/Sponza/ghostperson.png", "sound_file":"/mw/sounds/Ghostperson.wav", "location":(-4.32, 1.84, 0.93)},
+			{"id": 3, "image_url":"../glTF_X3D_HTML_DOM/Sponza/cat.jpg", "sound_file":"/mw/sounds/Attkcat.wav", "location":(-4.32, 1.84, 0.93)}
+			
+		];
+
+		close_btn.addEventListener("click", function() {
 			artWorkAudioTemplate.classList.toggle("show");
 		});
 
-		artwork_two.addEventListener("click", function() {
+		artwork_one.addEventListener("click", function() {
+			art.style.width = '160px';
+			art.style.height = '180px';
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
+			audio.src = "/mw/sounds/Postap.wav";
+			player.load();
 			artWorkAudioTemplate.classList.toggle("show");
+			
+			
+		});
+
+		artwork_two.addEventListener("click", function() {
+			art.style.width = '160px';
+			art.style.height = '180px';
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png";
+			audio.src="/mw/sounds/Ghostperson.wav";
+			player.load();
+			console.log("2");
+			artWorkAudioTemplate.classList.toggle("show");
+			
+			
+		});
+
+		artwork_three.addEventListener("click", function() {
+			art.style.width = '120px';
+			art.style.height = '160px';
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
+			audio.src= "/mw/sounds/Attkcat.wav";
+			player.load();
+			artWorkAudioTemplate.classList.toggle("show");
+			
+			
+		});
+
+		artwork_four.addEventListener("click", function() {
+			artWorkAudioTemplate.classList.toggle("show");		
+			art.style.width = '120px';
+			art.style.height = '160px';
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
+			audio.src = "/mw/sounds/Maskcat.wav";
+			player.load();
+		});
+
+		
+		var right = document.getElementById("right_btn1");
+		var left = document.getElementById("left_btn1");
+
+
+		right.addEventListener("click", function() {			
+			changeToRightImage();
+		});
+		
+
+		left.addEventListener("click", function() {
+			changeToLeftImage();
 		});
 	}
 
@@ -700,4 +766,72 @@ function init() {
 		// Send message to server for distribution
         socket.emit('chatMessage', clientInfo.name, message);
     }
+
+	function changeToRightImage() {		
+		if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg") {
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
+			art.style.width = '160px';
+			art.style.height = '180px';
+			audio.src = "/mw/sounds/Postap.wav";
+			player.load();
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png";
+			art.style.width = '120px';
+			art.style.height = '160px';
+			audio.src="/mw/sounds/Ghostperson.wav";
+			player.load();
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png") {
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
+			art.style.width = '120px';
+			art.style.height = '160px';
+			audio.src= "/mw/sounds/Attkcat.wav";
+			player.load();
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/cat.jpg") {
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
+			art.style.width = '120px';
+			art.style.height = '160px';
+			audio.src = "/mw/sounds/Maskcat.wav";
+			player.load();
+		}
+	}
+
+	function changeToLeftImage() {
+		if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg") {
+			console.log("CAT");
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
+			art.style.width = '120px';
+			art.style.height = '160px';
+			audio.src= "/mw/sounds/Attkcat.wav";
+			player.load();
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/cat.jpg") {
+			var id = 3;
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png";
+			art.style.width = '160px';
+			art.style.height = '180px';
+			audio.src="/mw/sounds/Ghostperson.wav";
+			player.load();
+			console.log("GHOST");
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png") {
+			console.log("POSTAP");
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
+			art.style.width = '160px';
+			art.style.height = '180px';
+			audio.src = "/mw/sounds/Postap.wav";
+			player.load();
+		}
+		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
+			console.log("MASK");
+			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
+			art.style.width = '120px';
+			art.style.height = '160px';
+			audio.src = "/mw/sounds/Maskcat.wav";
+			player.load();
+		}
+	}
+
 }

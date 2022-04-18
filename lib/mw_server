@@ -78,7 +78,7 @@ var users = {};
 // List of object in the scene and their states
 var sceneObjects = {lamp1: true, lamp2: true};
 
-http.listen(parseInt(config.http_port));
+// http.listen(parseInt(config.http_port));
 
 
 /*
