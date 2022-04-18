@@ -127,19 +127,19 @@ section {
     /* background-color: rgba(255, 255, 255, .5); */
     display: table-row;
     position: relative;
-    height: 30px;
+    height: 25px;
     width: 100%;
 }
 
 .widget.scroll {
-    /* background-color: rgba(255, 255, 255, .5); */
+    background-color: rgba(255, 255, 255, .5);
     display: table-row;
     position: absolute;
     height: 700px;
     width: 100%;
 }
 
-/* div.scroll {
+div.scroll {
     margin:4px, 4px;
     padding:4px;
     display: table-row;
@@ -147,7 +147,7 @@ section {
     overflow-x: hidden;
     overflow-y: auto;
     text-align:justify;
-} */
+}
 
 .widgetHeader {
     font-weight: bold;
@@ -174,7 +174,7 @@ section {
 	width: 155px;
 	height: 25px;
     position: absolute;
-    bottom: -325px;
+    bottom: 10px;
     left: 0;
 }
 
@@ -184,7 +184,7 @@ section {
     margin-bottom: 30px;
     margin-top: 0px;
 	padding: 0;
-    /* max-height: 75%; */
+    max-height: 75%;
     height: 700px;
     overflow:hidden;
     overflow-y:scroll;
@@ -205,7 +205,7 @@ section {
 	background: rgb(130, 224, 255);
 	border: none;
     position: absolute;
-    bottom: -325px;
+    bottom: 10px;
     right: 25px;
     font-weight: bold;
 }
