@@ -124,7 +124,7 @@ section {
 }
 
 .widget {
-    background-color: rgba(255, 255, 255, .5);
+    /* background-color: rgba(255, 255, 255, .5); */
     display: table-row;
     position: relative;
     height: 30px;
@@ -132,10 +132,10 @@ section {
 }
 
 .widget.scroll {
-    background-color: rgba(255, 255, 255, .5);
+    /* background-color: rgba(255, 255, 255, .5); */
     display: table-row;
     position: absolute;
-    /* height: 30px; */
+    height: 700px;
     width: 100%;
 }
 
@@ -179,9 +179,10 @@ section {
 }
 
 #messages {
+    background-color: rgba(255, 255, 255, .5);
 	list-style-type: none;
-    /* margin-bottom: 30px; */
-    /* margin-top: 0px; */
+    margin-bottom: 30px;
+    margin-top: 0px;
 	padding: 0;
     /* max-height: 75%; */
     height: 700px;
