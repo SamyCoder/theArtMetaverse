@@ -38,6 +38,8 @@
         <div id="sceneContainer" class="one-edge-shadow">
             <X3D id="x3dContent">
                 <Scene>
+                    <Viewpoint id="right" position="5 -1 2" orientation="0 0 0 1" description="camera"></Viewpoint>
+                    <Viewpoint id="left" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
                     <inline id=mw_model nameSpaceName=mw></inline>
                     <Group id="avatarGroup"></Group>
                 </Scene>
@@ -133,6 +135,9 @@
                         I am a rudimentary place for a map. This is not complete yet.
                         Just a place holder.
                     </p>
+                    <button onclick="viewCheckpointRight()"> Checkpoint 1 </button>
+                    <button onclick="viewCheckpointLeft()"> Checkpoint 2 </button>
+
         </div>
     </div>
     
