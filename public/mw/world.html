@@ -72,8 +72,8 @@
                     <h4 class="audio-title">Narration</h4>
                 </div>
                 <div class="audio-body">
-                    <audio controls controller>
-                        <source src="\mw\sounds\Ghostperson.wav" type="audio/wav">
+                    <audio id="audio-player" controls controller>
+                        <source id="audio-source" src="\mw\sounds\Ghostperson.wav" type="audio/wav">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
@@ -86,6 +86,12 @@
         
     <div id="sideBar">
         <div id="widgetSpace">
+            <div id="chat" class="widget scroll" style="height: 50%;">
+                <span class="widgetHeader">Chat Window</span>
+                <ul id="messages"></ul>
+                <input id="inputField" autocomplete="off" />
+                <button id="sendButton">Send</button>
+            </div>  
             
             <div class="widget">
                 <span class="widgetHeader">Avatars</span>
@@ -102,12 +108,7 @@
                 </div>
             </div>
             
-            <div id="chat" class="widget" style="height: 50%;">
-                <span class="widgetHeader">Chat Window</span>
-                <ul id="messages"></ul>
-                <input id="inputField" autocomplete="off" />
-                <button id="sendButton">Send</button>
-            </div>            
+                      
         </div>
         
         <button id="maxButton" title="show toolbar" class="minmaxB shadow inactive">
