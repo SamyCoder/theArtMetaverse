@@ -23,7 +23,7 @@ var clientInfo = {
 
 	// The path to the user's chosen avatar
 	// avatar:"avatars/FemaleTeen_aopted.x3d"
-	avatar:"avatars/boxEm.x3d"
+	avatar:"avatars/DeerAv.x3d"
 }
 
 //-------------------------------------------------------
@@ -181,14 +181,14 @@ function init() {
               		userAvatar.setAttribute("rotation", "0 0 0 0");
                    	userAvatar.setAttribute("id", userId + "Avatar");
 					
-					console.log("user avatar", userAvatar);
+					//console.log("user avatar", userAvatar);
                     
 					// Generate an Inline to hold X3D avatar
                     var characterOfAvatar = document.createElement('inline');
                     characterOfAvatar.setAttribute("id", userId + "Inline");
                     characterOfAvatar.setAttribute("url", current.avatar);
 
-					console.log("character of avatar", characterOfAvatar);
+					//console.log("character of avatar", characterOfAvatar);
 
                     // Add x3d model to the avatar Transform
                    	userAvatar.appendChild(characterOfAvatar);
@@ -675,7 +675,6 @@ function init() {
 		console.log("Configure Toolbar");
 
         var selectAvatar = getElementById("selectAvatar");
-		
 		//-------------------------------------------------------
 		/**
 	 	 * Fired when a user selects a different value in the
@@ -687,7 +686,7 @@ function init() {
 
 			clientInfo.avatar = selectAvatar.value;
 			// console.log("av select - socket", uniqueId);
-			console.log("avatar - client", clientInfo);
+			// console.log("avatar - client", clientInfo);
 			socket.emit('serverUpdate', uniqueId, clientInfo);
 		});
 
