@@ -23,7 +23,7 @@ var clientInfo = {
 
 	// The path to the user's chosen avatar
 	// avatar:"avatars/FemaleTeen_aopted.x3d"
-	avatar:"avatars/DeerAv.x3d"
+	avatar:"avatars/boxEm.x3d"
 }
 
 //-------------------------------------------------------
