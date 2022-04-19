@@ -165,11 +165,11 @@
                     <button onclick="viewCheckpointEnd()"> Checkpoint 1 </button>
                     <button onclick="viewCheckpointTop()"> Checkpoint 2 </button>
 
-                    <div id="sceneContainer-map" class="one-edge-shadow" >
-                        <X3D id="x3dContent-map" height="400px">
-                            <Scene type="None" disableDoubleClick="true" disableRightDrag="true">
-                                <Viewpoint viewAll="true" id="bird-eye-view-map" position="5 -1 2" description="camera"></Viewpoint>
-                                <Viewpoint viewAll="true" id="bird-eye-view-map-true" position="5 80 30" orientation="-1 -1 -1 2" description="camera"></Viewpoint>
+                    <div id="sceneContainer-map" class="one-edge-shadow">
+                        <X3D id="x3dContent-map">
+                            <Scene type="None" disableDoubleClick="true" disableRightDrag="true" height="20%">
+                                <Viewpoint id="bird-eye-view-map" position="0 1.7 0" description="camera"></Viewpoint>
+                                <Viewpoint  viewAll="true" id="bird-eye-view-map-true" position="0 80 30" orientation="-1 -1 -1 2" description="camera"></Viewpoint>
                                 <inline url="/../glTF_X3D_HTML_DOM/Sponza/artworld.x3d"></inline>
                             </Scene>
                         </X3D>
