@@ -38,11 +38,16 @@
         <div id="sceneContainer" class="one-edge-shadow">
             <X3D id="x3dContent">
                 <Scene>
-                    <Viewpoint id="right" position="0 1.7 0" orientation="0 0 0 1" description="camera"></Viewpoint>
-                   
-                    <Viewpoint id="left" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
+                    <Viewpoint id="first" position="0 1.7 0" orientation="0 0 0 1" description="camera"></Viewpoint>
                     <Viewpoint viewAll="true" id="bird-eye-view" position="26.37592940743272 68.12881939389209 -0.9537453133555437" orientation="-0.4450825579205132 0.7327016413576809 0.5148298955836703 1.9692003333816335" description="camera"></Viewpoint>
                     <Viewpoint viewAll="true" id="bird-eye-view-rot" position="26.37592940743272 68.12881939389209 -0.9537453133555437" orientation="-0.4450825579205132 0.7327016413576809 0.5148298955836703 1.9692003333816335" centerOfRotation="0 -1 0" description="camera"></Viewpoint>
+
+                    <Viewpoint id="right" position="5 -1 2" orientation="0 0 0 1" description="camera"></Viewpoint> 
+                    <Viewpoint id="left" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
+                    <Viewpoint id="PostAp" position="-0.45 2.933 -6.712" orientation="0 0 0 1" description="camera"></Viewpoint>
+                    <Viewpoint id="Cat" position="-0.06069594805752812 2.9027854440789205 13.938474069604464" orientation="0 0 0 1" description="camera"></Viewpoint>
+                    <Viewpoint id="Ghostperson" position="0.13437022638071533 2.294589890452815 0.40465204520591314" orientation="0 1 0 -1.5" description="camera"></Viewpoint>
+                    <Viewpoint id="Maskcat" position="0.13437022638071533 2.294589890452815 0.40465204520591314" orientation="0 1 0 1.5" description="camera"></Viewpoint>
 
 
                     <inline id=mw_model nameSpaceName=mw></inline>
@@ -65,6 +70,20 @@
             <button class="button" id="left_btn1"> <img src="./images/backArr.png" id="left_btn2"> </button>            
             <img id="sampleArt" class="art" src="../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg" alt="Sample Art">
             <button class="button" id="right_btn1"> <img src="./images/forwardArr.png" id="right_btn2"> </button>
+            
+            
+
+            <!-- <X3D id="x3dContent">
+                <Scene>
+                    <Viewpoint id="Cat" position="5 -1 2" orientation="0 0 0 1" description="camera"></Viewpoint>
+                    <Viewpoint id="Maskcat" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
+                    <Viewpoint id="Ghostperson" position="3.2 1.84 1.14" orientation="1 1 1 1" description="camera"></Viewpoint>
+                    <Viewpoint id="PostAp" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
+                    <inline id=mw_model nameSpaceName=mw></inline>
+                    <Group id="avatarGroup"></Group>
+                </Scene>
+            </X3D> -->
+
             <br/>  
 
             <div id="audio-btn" class="audio-btn-c">

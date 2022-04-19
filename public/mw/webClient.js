@@ -583,7 +583,9 @@ function init() {
 		];
 
 		close_btn.addEventListener("click", function() {
-			artWorkAudioTemplate.classList.toggle("show");
+				
+			artWorkAudioTemplate.classList.toggle("show");	
+					
 		});
 
 		artwork_one.addEventListener("click", function() {
@@ -592,9 +594,8 @@ function init() {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
 			audio.src = "/mw/sounds/Postap.wav";
 			player.load();
+			document.getElementById('PostAp').setAttribute('set_bind','true');
 			artWorkAudioTemplate.classList.toggle("show");
-			
-			
 		});
 
 		artwork_two.addEventListener("click", function() {
@@ -604,18 +605,20 @@ function init() {
 			audio.src="/mw/sounds/Ghostperson.wav";
 			player.load();
 			console.log("2");
-			artWorkAudioTemplate.classList.toggle("show");
-			
+			document.getElementById('Ghostperson').setAttribute('set_bind','true');
+			artWorkAudioTemplate.classList.toggle("show");			
 			
 		});
 
 		artwork_three.addEventListener("click", function() {
 			art.style.width = '120px';
 			art.style.height = '160px';
+			document.getElementById('Cat').setAttribute('set_bind','true');	
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
 			audio.src= "/mw/sounds/Attkcat.wav";
-			player.load();
+			player.load();			
 			artWorkAudioTemplate.classList.toggle("show");
+			
 			
 			
 		});
@@ -626,6 +629,7 @@ function init() {
 			art.style.height = '160px';
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
 			audio.src = "/mw/sounds/Maskcat.wav";
+			document.getElementById('Maskcat').setAttribute('set_bind','true');
 			player.load();
 		});
 
@@ -634,7 +638,7 @@ function init() {
 		var left = document.getElementById("left_btn1");
 
 
-		right.addEventListener("click", function() {			
+		right.addEventListener("click", function() {		
 			changeToRightImage();
 		});
 		
@@ -774,6 +778,7 @@ function init() {
 			art.style.height = '180px';
 			audio.src = "/mw/sounds/Postap.wav";
 			player.load();
+			document.getElementById('PostAp').setAttribute('set_bind','true');
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png";
@@ -781,6 +786,7 @@ function init() {
 			art.style.height = '160px';
 			audio.src="/mw/sounds/Ghostperson.wav";
 			player.load();
+			document.getElementById('Ghostperson').setAttribute('set_bind','true');
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png") {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
@@ -788,6 +794,7 @@ function init() {
 			art.style.height = '160px';
 			audio.src= "/mw/sounds/Attkcat.wav";
 			player.load();
+			document.getElementById('Cat').setAttribute('set_bind','true');
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/cat.jpg") {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
@@ -795,6 +802,7 @@ function init() {
 			art.style.height = '160px';
 			audio.src = "/mw/sounds/Maskcat.wav";
 			player.load();
+			document.getElementById('Maskcat').setAttribute('set_bind','true');
 		}
 	}
 
@@ -806,6 +814,7 @@ function init() {
 			art.style.height = '160px';
 			audio.src= "/mw/sounds/Attkcat.wav";
 			player.load();
+			document.getElementById('Cat').setAttribute('set_bind','true');
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/cat.jpg") {
 			var id = 3;
@@ -814,18 +823,18 @@ function init() {
 			art.style.height = '180px';
 			audio.src="/mw/sounds/Ghostperson.wav";
 			player.load();
-			console.log("GHOST");
+			document.getElementById('Ghostperson').setAttribute('set_bind','true');
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png") {
-			console.log("POSTAP");
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
 			art.style.width = '160px';
 			art.style.height = '180px';
 			audio.src = "/mw/sounds/Postap.wav";
 			player.load();
+			document.getElementById('PostAp').setAttribute('set_bind','true');
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
-			console.log("MASK");
+			document.getElementById('Maskcat').setAttribute('set_bind','true');
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
 			art.style.width = '120px';
 			art.style.height = '160px';
