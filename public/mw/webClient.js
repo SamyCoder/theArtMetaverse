@@ -327,6 +327,7 @@ function init() {
 			socket.on('clientUpdate', function(user, id) {
 
 				console.log("Update Fired");
+				console.log(user)
 
 				// Get a reference to the user bundle
 				var userTransform = document.getElementById(id + "Bundle");
