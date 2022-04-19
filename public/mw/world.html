@@ -38,8 +38,13 @@
         <div id="sceneContainer" class="one-edge-shadow">
             <X3D id="x3dContent">
                 <Scene>
-                    <Viewpoint id="right" position="5 -1 2" orientation="0 0 0 1" description="camera"></Viewpoint>
+                    <Viewpoint id="right" position="0 1.7 0" orientation="0 0 0 1" description="camera"></Viewpoint>
+                   
                     <Viewpoint id="left" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
+                    <Viewpoint viewAll="true" id="bird-eye-view" position="26.37592940743272 68.12881939389209 -0.9537453133555437" orientation="-0.4450825579205132 0.7327016413576809 0.5148298955836703 1.9692003333816335" description="camera"></Viewpoint>
+                    <Viewpoint viewAll="true" id="bird-eye-view-rot" position="26.37592940743272 68.12881939389209 -0.9537453133555437" orientation="-0.4450825579205132 0.7327016413576809 0.5148298955836703 1.9692003333816335" centerOfRotation="0 -1 0" description="camera"></Viewpoint>
+
+
                     <inline id=mw_model nameSpaceName=mw></inline>
                     <Group id="avatarGroup"></Group>
                 </Scene>
@@ -129,14 +134,24 @@
     <!-- TODO: Place actual Map + make pretty with icons -->
     <div id="modal-map" class="modal">
         <div class="modal-content">
-            <button id="map-back" onclick="closeMap()">  Close Modal </button>
-                    <h3> I'm the map </h3>
-                    <p>
-                        I am a rudimentary place for a map. This is not complete yet.
-                        Just a place holder.
-                    </p>
+            <button id="map-back" onclick="closeMap()">  Close </button>
+
+            <h1> MAP </h1>
+                    
                     <button onclick="viewCheckpointRight()"> Checkpoint 1 </button>
                     <button onclick="viewCheckpointLeft()"> Checkpoint 2 </button>
+                    <button onclick="viewCheckpointBird()"> Bird </button>
+                    <button onclick="viewCheckpointBirdRot()"> Bird Rot</button>
+
+                    <div id="sceneContainer-map" class="one-edge-shadow">
+                        <X3D id="x3dContent-map" width="1200px" height="500px">
+                            <Scene >
+                                <Viewpoint viewAll="true" id="bird-eye-view-map" position="5 -1 2" description="camera"></Viewpoint>
+                                <Viewpoint viewAll="true" id="bird-eye-view-map-true" position="26.37592940743272 68.12881939389209 -0.9537453133555437" orientation="-0.4450825579205132 0.7327016413576809 0.5148298955836703 1.9692003333816335" description="camera"></Viewpoint>
+                                <inline url="/../glTF_X3D_HTML_DOM/Sponza/artworld.x3d"></inline>
+                            </Scene>
+                        </X3D>
+                    </div>
 
         </div>
     </div>

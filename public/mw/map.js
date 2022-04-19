@@ -1,6 +1,7 @@
 
 // open modal
 function openMap() {
+    document.getElementById('bird-eye-view-map-true').setAttribute('set_bind','true');
     var modal = document.getElementById("modal-map");
     modal.style.display = "block";
 }
@@ -21,6 +22,19 @@ function viewCheckpointLeft() {
     var modal = document.getElementById("modal-map");
     modal.style.display = "none";
     document.getElementById('right').setAttribute('set_bind','true');
+    
+}
+function viewCheckpointBird() {
+    var modal = document.getElementById("modal-map");
+    modal.style.display = "none";
+    document.getElementById('bird-eye-view').setAttribute('set_bind','true');
+    
+}
+
+function viewCheckpointBirdRot() {
+    var modal = document.getElementById("modal-map");
+    modal.style.display = "none";
+    document.getElementById('bird-eye-view-rot').setAttribute('set_bind','true');
     
 }
 // // open modal
