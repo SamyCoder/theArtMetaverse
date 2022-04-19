@@ -1,0 +1,80 @@
+/* Private Chat Features */
+
+#clickP{
+  display: none;
+}
+label{
+  position: absolute;
+  right: 160px;
+  bottom: 20px;
+  height: 55px;
+  width: 55px;
+  background: -webkit-linear-gradient(left, #8297d7, #4b42fa);
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+label i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease;
+}
+label i.fas{
+  opacity: 0;
+  pointer-events: none;
+}
+#clickP:checked ~ label i.fas{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+#clickP:checked ~ label i.fab{
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+.wrapper{
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+#clickP:checked ~ .wrapper{
+  opacity: 1;
+  bottom: 85px;
+  pointer-events: auto;
+}
+.wrapper .head-text{
+  line-height: 60px;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 20px;
+  background: -webkit-linear-gradient(left, #5d7fd6, #3b4bf5);
+}
+.wrapper .chat-box{
+  padding: 20px;
+  width: 100%;
+}
+
+.chat-Area{
+    margin-top: 50%;
+}
+
+#privateSendButton{
+    background-color: rgb(145, 156, 237);
+    border-radius: 8px;
+    padding: 6px 18px;
+}
