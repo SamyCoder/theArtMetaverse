@@ -6,6 +6,8 @@ var socket;
 // connection provided by server
 var uniqueId;
 
+// var onlineUsersList = [] //global variable to store the names of current online users
+
 // This is where all user information is stored.
 var clientInfo = {
 
@@ -236,9 +238,22 @@ function init() {
            			userListEntry.innerHTML = (current.name + " observing at: " 
 						+ current.position.x + ", " + current.position.y + ", " + current.position.z);
             		userConsole.appendChild(newPLine);					
-            		userConsole.appendChild(userListEntry);		
+            		userConsole.appendChild(userListEntry);
+
+					
+					// console.log("This is what I am pushing", current.name);
+					// onlineUsersList.push(current.name);
+					// console.log("The name array", onlineUsersList);
+
+					var privateOnlineUser = document.createElement('option');
+					var addThisPrivateUser = document.getElementById('online-user-list');
+					privateOnlineUser.setAttribute("id", userId);
+					privateOnlineUser.innerHTML = current.name;
+					addThisPrivateUser.appendChild(privateOnlineUser);
                 }
             });
+
+			
 
 			//-------------------------------------------------------
 			/**
@@ -282,6 +297,9 @@ function init() {
                 // Update HTML Console
                 console.log("Adding User: ", userId);
         		var userList = getElementById("users");
+
+				// console.log("Users List", userList);
+
        			var userListEntry = document.createElement('span');;
        			var newPLine = document.createElement('p');
         		userListEntry.setAttribute("id", userId);
@@ -290,6 +308,12 @@ function init() {
                 	newestUser.position.z);
         		userList.appendChild(newPLine);
         		userList.appendChild(userListEntry);
+
+				var privateOnlineUser = document.createElement('option');
+				var addThisPrivateUser = document.getElementById('online-user-list');
+				privateOnlineUser.setAttribute("id", userId);
+				privateOnlineUser.innerHTML = newestUser.name;
+				addThisPrivateUser.appendChild(privateOnlineUser);
             });
 
 			//-------------------------------------------------------
@@ -315,6 +339,10 @@ function init() {
                 var users = getElementById("users");
         		var remove = getElementById(id);
         		users.removeChild(remove);
+
+				var onlineUser = document.getElementById('online-user-list');
+				var removeUser = getElementById(id);
+				onlineUser.removeChild(removeUser);
 			});
 
 			//-------------------------------------------------------
