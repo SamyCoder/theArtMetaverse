@@ -653,8 +653,8 @@ function init() {
 	var modal = document.getElementById("modal-map");
 	function addCheckpointActivation(){
 
-		var chkpt_end_1 = document.getElementById("mw__checkpoint-end-one");
-		var chkpt_top_2 = document.getElementById("mw__checkpoint-top-two");
+		var chkpt_end_1 = document.getElementById("checkpoint-end-one");
+		var chkpt_top_2 = document.getElementById("checkpoint-top-two");
 		
 		console.log('run the activationwtc')
 		console.log(chkpt_end_1);

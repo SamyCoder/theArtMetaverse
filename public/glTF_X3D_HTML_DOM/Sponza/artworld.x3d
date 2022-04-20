@@ -79,33 +79,6 @@
 				</shape>
 			</transform>
 
-			<transform onmousemove="clickedRight(event);" rotation="0 1 0 1.5" translation="0 70 20" render="true"
-				visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="5,10,5"
-				scaleorientation="0,0,0,0">
-			<inline id="checkpoint-end-one" url="checkpoint.x3d" render="true" visible="true" bboxcenter="0,0,0"
-				bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
-				
-			
-				<spotlight znear='0.5' zfar='1000' direction='0.5 -1 0'  location="0 80 20" shadowIntensity='0.5'  shadowCascades="4" shadowMapSize="2048" ></spotlight>
-				<pointlight  shadowIntensity='0.5'  shadowCascades="4" shadowMapSize="2048" DEF='pl' intensity='0' location="0 80 20" radius='300'></pointlight>
-				<directionallight shadowIntensity='0' direction='0 -1 0' on="TRUE" intensity='1.0'></directionallight>
-				
-		</transform>
-			
-			
-			<transform id="checkpoint-top-two" onmousemove="clickedRight(event);" rotation="0 1 0 1.5" translation="2 70 -16" render="true"
-				visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="5,10,5"
-				scaleorientation="0,0,0,0">
-
-				<spotlight znear='0.5' zfar='1000' direction='0.5 -1 0'  location="2 80 -16" shadowIntensity='0.5'  shadowCascades="4" shadowMapSize="2048" ></spotlight>
-				<pointlight  shadowIntensity='0.5'  shadowCascades="4" shadowMapSize="2048" DEF='pl' intensity='0' location="2 80 -16" radius='300'></pointlight>
-				<directionallight shadowIntensity='0' direction='0 -1 0' on="TRUE" intensity='1.0'></directionallight>
-			
-			<inline url="checkpoint.x3d" render="true" visible="true" bboxcenter="0,0,0"
-				bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true">
-			</inline>
-		</transform>
-
 		</transform>
 
 	</scene>
