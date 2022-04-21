@@ -189,18 +189,23 @@
     <!-- TODO: Place actual Map + make pretty with icons -->
     <div id="modal-map" class="modal">
         <div class="modal-content">
-            <button id="map-back" onclick="closeMap()">  Close </button>
+            <button id="map-back" onclick="closeMap()">  <img src="images/close.png" alt="Close"></img> </button>
 
             <h1> MAP </h1>
-                    
-                    <button onclick="viewCheckpointEnd()"> Checkpoint 1 </button>
-                    <button onclick="viewCheckpointTop()"> Checkpoint 2 </button>
 
-                    <div id="sceneContainer-map" class="one-edge-shadow" >
-                        <X3D id="x3dContent-map" height="400px">
-                            <Scene type="None" disableDoubleClick="true" disableRightDrag="true">
-                                <Viewpoint viewAll="true" id="bird-eye-view-map" position="5 -1 2" description="camera"></Viewpoint>
-                                <Viewpoint viewAll="true" id="bird-eye-view-map-true" position="5 80 30" orientation="-1 -1 -1 2" description="camera"></Viewpoint>
+                    <div id="sceneContainer-map" class="one-edge-shadow">
+                        <X3D id="x3dContent-map">
+                            <Scene type="None" disableDoubleClick="true" disableRightDrag="true" height="20%">
+                                <Viewpoint id="bird-eye-view-map" position="0 1.7 0" description="camera"></Viewpoint>
+                                <Viewpoint  viewAll="true" id="bird-eye-view-map-true" position="0 80 30" orientation="-1 -1 -1 2" description="camera"></Viewpoint>
+                                                                
+                                <transform rotation="0 1 0 1.5" translation="0 70 20" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="5,10,5" scaleorientation="0,0,0,0">
+                                    <inline id="checkpoint-end-one" url="checkpoint.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
+                                </transform>
+                                <transform id="checkpoint-top-two" rotation="0 1 0 1.5" translation="2 70 -16" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="5,10,5" scaleorientation="0,0,0,0">
+                                    <inline url="checkpoint.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
+                                </transform>
+
                                 <inline url="/../glTF_X3D_HTML_DOM/Sponza/artworld.x3d"></inline>
                             </Scene>
                         </X3D>

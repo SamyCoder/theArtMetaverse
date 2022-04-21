@@ -496,6 +496,8 @@ function init() {
 		 /* NOTE:  After a correct html element has been identified to interact with and add something 
 		 in the metaverse DO not uncomment it!!*/
 		configureArtworkOverlay();
+
+		addCheckpointActivation();
     };
 
 	//-------------------------------------------------------
@@ -679,6 +681,29 @@ function init() {
 		left.addEventListener("click", function() {
 			changeToLeftImage();
 		});
+	}
+
+	var modal = document.getElementById("modal-map");
+	function addCheckpointActivation(){
+
+		var chkpt_end_1 = document.getElementById("checkpoint-end-one");
+		var chkpt_top_2 = document.getElementById("checkpoint-top-two");
+		
+		console.log('run the activationwtc')
+		console.log(chkpt_end_1);
+		chkpt_end_1.addEventListener("click", function() {
+			console.log("button 1 clicked");
+			modal.style.display = "none";
+			document.getElementById('end-checkpoint').setAttribute('set_bind','true');
+		});
+
+		chkpt_top_2.addEventListener("click", function() {
+			console.log("button 2 clicked");
+			modal.style.display = "none";
+			document.getElementById('top-checkpoint').setAttribute('set_bind','true');
+		});
+
+
 	}
 
 	//-------------------------------------------------------
