@@ -73,32 +73,6 @@
 				<shape id="artid_four" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true">
 					<appearance sorttype="auto" alphaclipthreshold="0.1">
 						<imagetexture url='maskcat.jpg'></imagetexture>
-						<material diffusecolor="green" ambientintensity="0.2" emissivecolor="0,0,0" shininess="0.2"
-							specularcolor="0,0,0"></material>
-					</appearance>
-					<indexedfaceset use="plane">
-					</indexedfaceset>
-				</shape>
-			</transform>
-
-			<transform onmousemove="clickedRight(event);" rotation="0 1 0 1.5" translation="0 70 20" render="true"
-				visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="5,10,5"
-				scaleorientation="0,0,0,0">
-				<shape id="artid_two" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true">
-					<appearance sorttype="auto" alphaclipthreshold="0.1">
-						<imagetexture url='map-pin.png'></imagetexture>
-					</appearance>
-					<indexedfaceset use="plane">
-					</indexedfaceset>
-				</shape>
-			</transform>
-
-			<transform onmousemove="clickedRight(event);" rotation="0 1 0 1.5" translation="2 70 -16" render="true"
-				visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="5,10,5"
-				scaleorientation="0,0,0,0">
-				<shape id="artid_two" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" ispickable="true">
-					<appearance sorttype="auto" alphaclipthreshold="0.1">
-						<imagetexture url='map-pin.png'></imagetexture>
 					</appearance>
 					<indexedfaceset use="plane">
 					</indexedfaceset>
