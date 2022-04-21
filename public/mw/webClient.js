@@ -312,10 +312,15 @@ function init() {
 				var privateOnlineUser = document.createElement('option');
 				var addThisPrivateUser = document.getElementById('online-user-list');
 				privateOnlineUser.setAttribute("id", userId);
+				privateOnlineUser.setAttribute("onclick", "privateChatWithUser()");
 				privateOnlineUser.innerHTML = newestUser.name;
 				addThisPrivateUser.appendChild(privateOnlineUser);
+
             });
 
+			function privateChatWithUser(){
+				
+			}
 			//-------------------------------------------------------
 			/**
 			 * Fired when a client (that is not yourself) is leaving the scene
