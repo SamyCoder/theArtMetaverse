@@ -1,3 +1,4 @@
+<!-- Notes feature resource: https://www.geeksforgeeks.org/how-to-create-notes-taking-site-using-html-bootstrap-and-javascript/ -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="map.css">
     <script type='text/javascript' src='map.js'> </script>
     <script type='text/javascript' src='artworkAudio.js'> </script>
+    <script type='text/javascript' src='notes.js'> </script>
+
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
     <script type='text/javascript' src='http://www.x3dom.org/download/x3dom.js'> </script> 
@@ -16,6 +19,8 @@
     <link rel='stylesheet' type='text/css' href='http://www.x3dom.org/download/x3dom.css'></link> 
     <link rel="stylesheet" type="text/css" href="world.css">
     <link rel="stylesheet" type="text/css" href="artworkAudio.css">
+    <link rel="stylesheet" type="text/css" href="notes.css">
+
     
     <link rel="stylesheet" href="chatProximity.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -79,19 +84,6 @@
             <button class="button" id="left_btn1"> <img src="./images/backArr.png" id="left_btn2"> </button>            
             <img id="sampleArt" class="art" src="../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg" alt="Sample Art">
             <button class="button" id="right_btn1"> <img src="./images/forwardArr.png" id="right_btn2"> </button>
-            
-            
-
-            <!-- <X3D id="x3dContent">
-                <Scene>
-                    <Viewpoint id="Cat" position="5 -1 2" orientation="0 0 0 1" description="camera"></Viewpoint>
-                    <Viewpoint id="Maskcat" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
-                    <Viewpoint id="Ghostperson" position="3.2 1.84 1.14" orientation="1 1 1 1" description="camera"></Viewpoint>
-                    <Viewpoint id="PostAp" position="-13 0 -5" orientation="1 1 1 1" description="camera"></Viewpoint>
-                    <inline id=mw_model nameSpaceName=mw></inline>
-                    <Group id="avatarGroup"></Group>
-                </Scene>
-            </X3D> -->
 
             <br/>  
 
@@ -184,6 +176,39 @@
         <i class='bx bxs-map-alt bx-md bx-tada-hover' id="modal-map-open" onclick="openMap()">Map</i>
     </div>
 
+    <div id="notes-feat">
+        <input type="checkbox" id="clickN">
+        <label class="notes-label" for="clickN">
+            Notes
+        </label>  
+        <div class="wrapper">
+            <div class="container my-3">
+                <h1>Take your art gallery notes here</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Write Notes</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" 
+                                id="addTxt" rows="5" width="75%">
+                            </textarea>
+                        </div>
+                        <button class="btn btn-primary" 
+                            id="addBtn" style=
+                            "background-color:green">
+                            Add Note
+                        </button>
+                    </div>
+                </div>
+                <hr>
+                <h1>Saved Notes</h1>
+                <hr>
+                <div id="notes" class=
+                    "row container-fluid"> 
+                </div>
+            </div>
+        </div>  
+    </div>
+
 
     <!-- MAP DIALOG BOX -->
     <!-- TODO: Place actual Map + make pretty with icons -->
@@ -194,26 +219,27 @@
             </div>
             <h1> MAP </h1>
 
-                    <div id="sceneContainer-map" class="one-edge-shadow">
-                        <X3D id="x3dContent-map">
-                            <Scene type="None" disableDoubleClick="true" disableRightDrag="true" height="20%">
-                                <Viewpoint id="bird-eye-view-map" position="0 1.7 0" description="camera"></Viewpoint>
-                                <Viewpoint  viewAll="true" id="bird-eye-view-map-true" position="0 80 30" orientation="-1 -1 -1 2" description="camera"></Viewpoint>
-                                                                
-                                <transform rotation="0 1 0 1.5" translation="0 50 20" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="2,3,2" scaleorientation="0,0,0,0">
-                                    <inline id="checkpoint-end-one" url="checkred.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
-                                </transform>
-                                <transform id="checkpoint-top-two" rotation="0 1 0 1.5" translation="2 0 -16" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="2,3,2" scaleorientation="0,0,0,0">
-                                    <inline url="checkred.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
-                                </transform>
+                <div id="sceneContainer-map" class="one-edge-shadow">
+                    <X3D id="x3dContent-map">
+                        <Scene type="None" disableDoubleClick="true" disableRightDrag="true" height="20%">
+                            <Viewpoint id="bird-eye-view-map" position="0 1.7 0" description="camera"></Viewpoint>
+                            <Viewpoint  viewAll="true" id="bird-eye-view-map-true" position="0 80 30" orientation="-1 -1 -1 2" description="camera"></Viewpoint>
+                                                            
+                            <transform rotation="0 1 0 1.5" translation="0 50 20" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="2,3,2" scaleorientation="0,0,0,0">
+                                <inline id="checkpoint-end-one" url="checkred.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
+                            </transform>
+                            <transform id="checkpoint-top-two" rotation="0 1 0 1.5" translation="2 0 -16" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="2,3,2" scaleorientation="0,0,0,0">
+                                <inline url="checkred.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
+                            </transform>
 
-                                <inline url="/../glTF_X3D_HTML_DOM/Sponza/artworld.x3d"></inline>
-                            </Scene>
-                        </X3D>
-                    </div>
+                            <inline url="/../glTF_X3D_HTML_DOM/Sponza/artworld.x3d"></inline>
+                        </Scene>
+                    </X3D>
+                </div>
 
         </div>
     </div>
+
     
 </body>
 
