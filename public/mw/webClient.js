@@ -604,6 +604,7 @@ function init() {
 	var art = document.getElementById("sampleArt");
 	var audio = document.getElementById("audio-source");
 	var player = document.getElementById("audio-player");
+	var arttitle = document.getElementById("art-title");
 	function configureArtworkOverlay(){
 		var artwork_one = document.getElementById("mw__artid_one");
 		var artwork_two = document.getElementById("mw__artid_two");
@@ -633,6 +634,7 @@ function init() {
 			player.load();
 			document.getElementById('PostAp').setAttribute('set_bind','true');
 			artWorkAudioTemplate.classList.toggle("show");
+			arttitle.innerHTML = "Post Apocalypse by Emily N.";
 		});
 
 		artwork_two.addEventListener("click", function() {
@@ -644,7 +646,7 @@ function init() {
 			console.log("2");
 			document.getElementById('Ghostperson').setAttribute('set_bind','true');
 			artWorkAudioTemplate.classList.toggle("show");			
-			
+			arttitle.innerHTML = "Ghost Person by Emily N.";
 		});
 
 		artwork_three.addEventListener("click", function() {
@@ -655,7 +657,7 @@ function init() {
 			audio.src= "/mw/sounds/Attkcat.wav";
 			player.load();			
 			artWorkAudioTemplate.classList.toggle("show");
-			
+			arttitle.innerHTML = "Attack of the Feline by Emily N.";
 			
 			
 		});
@@ -668,6 +670,7 @@ function init() {
 			audio.src = "/mw/sounds/Maskcat.wav";
 			document.getElementById('Maskcat').setAttribute('set_bind','true');
 			player.load();
+			arttitle.innerHTML = "Mask Cat by Emily N.";
 		});
 
 		
@@ -857,6 +860,7 @@ function init() {
 			audio.src = "/mw/sounds/Postap.wav";
 			player.load();
 			document.getElementById('PostAp').setAttribute('set_bind','true');
+			arttitle.innerHTML = "Post Apocalypse by Emily N.";
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png";
@@ -865,6 +869,8 @@ function init() {
 			audio.src="/mw/sounds/Ghostperson.wav";
 			player.load();
 			document.getElementById('Ghostperson').setAttribute('set_bind','true');
+			arttitle.innerHTML = "Ghost Person by Emily N.";
+
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png") {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/cat.jpg";
@@ -873,6 +879,8 @@ function init() {
 			audio.src= "/mw/sounds/Attkcat.wav";
 			player.load();
 			document.getElementById('Cat').setAttribute('set_bind','true');
+			arttitle.innerHTML = "Attack of the Feline by Emily N.";
+
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/cat.jpg") {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
@@ -881,6 +889,8 @@ function init() {
 			audio.src = "/mw/sounds/Maskcat.wav";
 			player.load();
 			document.getElementById('Maskcat').setAttribute('set_bind','true');
+			arttitle.innerHTML = "Mask Cat by Emily N.";
+
 		}
 	}
 
@@ -893,6 +903,8 @@ function init() {
 			audio.src= "/mw/sounds/Attkcat.wav";
 			player.load();
 			document.getElementById('Cat').setAttribute('set_bind','true');
+			arttitle.innerHTML = "Attack of the Feline by Emily N.";
+
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/cat.jpg") {
 			var id = 3;
@@ -902,6 +914,8 @@ function init() {
 			audio.src="/mw/sounds/Ghostperson.wav";
 			player.load();
 			document.getElementById('Ghostperson').setAttribute('set_bind','true');
+			arttitle.innerHTML = "Ghost Person by Emily N.";
+
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/ghostperson.png") {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
@@ -910,6 +924,8 @@ function init() {
 			audio.src = "/mw/sounds/Postap.wav";
 			player.load();
 			document.getElementById('PostAp').setAttribute('set_bind','true');
+			arttitle.innerHTML = "Post Apocalypse by Emily N.";
+
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
 			document.getElementById('Maskcat').setAttribute('set_bind','true');
@@ -917,6 +933,8 @@ function init() {
 			art.style.width = '120px';
 			art.style.height = '160px';
 			audio.src = "/mw/sounds/Maskcat.wav";
+			arttitle.innerHTML = "Mask Cat by Emily N.";
+
 			player.load();
 		}
 	}
