@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Chat Proximity Feature</title>
+      <link rel="stylesheet" href="chatProximity.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <div class="private-chat">
+      <input type="checkbox" id="click">
+      <label for="click">
+      <i class="fab fa-facebook-messenger"></i>
+      <i class="fas fa-times"></i>
+      </label>
+      <div class="wrapper">
+         <div class="head-text">
+            Talk Privately with users online 
+            <select id="selectAvatar">
+                <option value="avatars/DeerAv.x3d">Deer Olive</option>
+                <option value="avatars/boxEm.x3d">Mack</option>
+                <option value="avatars/box.x3d">RBox</option>
+                <option value="avatars/Warrior_aopted.x3d">Warrior</option>
+                <option value="avatars/XBot_aopted.x3d">XBot</option>
+                <option value="avatars/YBot_aopted.x3d">YBot</option>
+            </select>
+         </div>
+         <div class="chat-box">
+            <div class="chat-Area">
+                <input id="privateInputField" autocomplete="off" style="width: 250px;"/>
+                <button id="privateSendButton">Send</button>
+            </div>
+         </div>
+      </div>
+    </div>
+   </body>
+</html>

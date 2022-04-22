@@ -23,8 +23,22 @@
 #modal-map-open {
     /* margin-left: auto; */
     position: fixed;
-    bottom: 15px;
-    right: 15px;
+    bottom: 30px;
+    right: 18px;
 }
 
+/* #map-back{
+  size: 15px;
+  margin-left: auto;
+  
+} */
 
+.close-map-button{
+  float: right;
+}
+
+#map-back img[src="images/close.png"]{
+  width: 20px;
+  height: 20px;
+  /* margin-right: auto; */
+}
