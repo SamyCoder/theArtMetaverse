@@ -7,13 +7,15 @@
     background-color: azure;
 }
 
+#modal-map {
+  height: 65%;
+}
 .modal-content {
   background-color: #fefefe;
   border: 2px solid #888;
-  width: 60%;
+  width: 30%;
   margin: 5%;
   padding: 5%;
-
   /* To place it in the lower right corner */
   position: fixed;
   bottom: 6%;
