@@ -189,8 +189,9 @@
     <!-- TODO: Place actual Map + make pretty with icons -->
     <div id="modal-map" class="modal">
         <div class="modal-content">
-            <button id="map-back" onclick="closeMap()">  <img src="images/close.png" alt="Close"></img> </button>
-
+            <div class="close-map-button">
+                <button id="map-back" onclick="closeMap()">  <img src="images/close.png" alt="Close"></img> </button>
+            </div>
             <h1> MAP </h1>
 
                     <div id="sceneContainer-map" class="one-edge-shadow">
@@ -199,10 +200,10 @@
                                 <Viewpoint id="bird-eye-view-map" position="0 1.7 0" description="camera"></Viewpoint>
                                 <Viewpoint  viewAll="true" id="bird-eye-view-map-true" position="0 80 30" orientation="-1 -1 -1 2" description="camera"></Viewpoint>
                                                                 
-                                <transform rotation="0 1 0 1.5" translation="0 70 20" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="5,10,5" scaleorientation="0,0,0,0">
+                                <transform rotation="0 1 0 1.5" translation="0 50 20" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="2,3,2" scaleorientation="0,0,0,0">
                                     <inline id="checkpoint-end-one" url="checkpoint.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
                                 </transform>
-                                <transform id="checkpoint-top-two" rotation="0 1 0 1.5" translation="2 70 -16" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="5,10,5" scaleorientation="0,0,0,0">
+                                <transform id="checkpoint-top-two" rotation="0 1 0 1.5" translation="2 50 -16" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" center="0,0,0" scale="2,3,2" scaleorientation="0,0,0,0">
                                     <inline url="checkpoint.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" load="true" namespacename="" ispickable="true"></inline>
                                 </transform>
 
