@@ -1,0 +1,58 @@
+#clickN{
+    display: none;
+}
+
+.notes-label{
+    position: absolute;
+    right: 260px;
+    bottom: 20px;
+    height: 55px;
+    width: 55px;
+    background: -webkit-linear-gradient(left, #8297d7, #067e50);
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.notes-label i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+}
+.notes-label i.fas{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#clickN:checked ~ label i.fas{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+#clickN:checked ~ label i.fab{
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+#clickN:checked ~ .wrapper{
+    opacity: 1;
+    bottom: 85px;
+    pointer-events: auto;
+}
+
+#notes {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 200px;
+}
+
+.my-3 {
+    margin: 5px;
+}
