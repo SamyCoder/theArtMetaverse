@@ -312,15 +312,16 @@ function init() {
 				var privateOnlineUser = document.createElement('option');
 				var addThisPrivateUser = document.getElementById('online-user-list');
 				privateOnlineUser.setAttribute("id", userId);
-				privateOnlineUser.setAttribute("onclick", "privateChatWithUser()");
 				privateOnlineUser.innerHTML = newestUser.name;
 				addThisPrivateUser.appendChild(privateOnlineUser);
 
+				//addThisPrivateUser.setAttribute("onclick", "privateChatWithUser()");
+
             });
 
-			function privateChatWithUser(){
-				
-			}
+			// function privateChatWithUser(){
+			// 	console.log("Hello I am private");
+			// }
 			//-------------------------------------------------------
 			/**
 			 * Fired when a client (that is not yourself) is leaving the scene
@@ -771,6 +772,15 @@ function init() {
             }
         });
 
+		var privateSendButton = getElementById("privateSendButton");
+		privateSendButton.addEventListener('click', sendPrivateMessage);
+		var privateMssg = getElementById("privateInputField");
+		privateMssg.addEventListener('keypress', function(e) {
+			if (e.keyCode == 13){
+				sendPrivateMessage();
+			}
+		});
+
         var minButton = getElementById("minButton");
         var maxButton = getElementById("maxButton");
         var sidebarContent = getElementById("sideBar");
@@ -828,6 +838,24 @@ function init() {
 		// Send message to server for distribution
         socket.emit('chatMessage', clientInfo.name, message);
     }
+
+	/**
+	 * This function is for private messages
+	 */
+	 function sendPrivateMessage(privateMemo){
+		var privateMssg = privateMemo;
+		if(privateMssg == null) {
+
+            var field = getElementById('privateInputField');
+            privateMssg = field.value;
+            field.value = "";
+        }
+
+		// TODO: Check 1st parameter ?????
+        socket.emit('privateMsg', clientInfo.name, privateMssg);
+
+	 }
+
 
 	function changeToRightImage() {		
 		if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg") {
