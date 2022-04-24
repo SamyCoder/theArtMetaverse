@@ -150,22 +150,22 @@ function sendMessage(memo) {
 	socket.emit('chatmessage', name, message);
 }
 
-/**
- * This intends to send private messages 
- * @param {*} privateMemo 
- */
-function sendPrivateMessage(privateMemo){
-    var privateMssg = privateMemo;
-    if(privateMssg == null) {
+// /**
+//  * This intends to send private messages 
+//  * @param {*} privateMemo 
+//  */
+// function sendPrivateMessage(privateMemo){
+//     var privateMssg = privateMemo;
+//     if(privateMssg == null) {
 
-        privateMssg = getElementById('privateInputField').value;
-        document.getElementById('privateInputField').value = "";
-    }
+//         privateMssg = getElementById('privateInputField').value;
+//         document.getElementById('privateInputField').value = "";
+//     }
 
-    // TODO: what should the first parameter really be ??
-    socket.emit('privateMsg', clientInfo.name, privateMssg);
+//     // TODO: what should the first parameter really be ??
+//     socket.emit('chatMessage', clientInfo.name, privateMssg);
 
- }
+//  }
 
 
 //-----------------------------
