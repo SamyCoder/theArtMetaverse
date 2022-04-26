@@ -139,13 +139,16 @@ function init() {
 				var privateOption = privateSelectTag.options[privateSelectTag.selectedIndex];
 				var nameOfPrivateUserSelected = privateOption.text;
 
-				// console.log('The private GUY: ', nameOfPrivateUserSelected);
+				console.log('The private GUY: ', nameOfPrivateUserSelected);
 				// console.log('I am the user private', user);
 				// console.log('I am the message private', privateMessage); 
+				//if (user == nameOfPrivateUserSelected){
+				// WIZARDSSSS WORK
 
-				if (user == nameOfPrivateUserSelected){
+				//nameOfPrivateUserSelected == "Users Online" -----
+				if (nameOfPrivateUserSelected == "Users Online"){
 					var nameTag = document.createElement('span');
-					nameTag.innerHTML = "<em>" + userName + "</em>";
+					nameTag.innerHTML = "<em>" + user + "</em>";
 
 					msg.appendChild(nameTag);
                 	msg.appendChild(document.createElement("br"));
