@@ -2,6 +2,8 @@
 // Socket connection from client to server
 var socket;
 
+var privateSocket; //for a private user connection
+
 // Unique Identifier for each client
 // connection provided by server
 var uniqueId;
@@ -104,6 +106,83 @@ function init() {
 
 		// Connect to Mirror Worlds server
         socket = new io.connect('');
+		privateSocket = new io.connect(''); //for private mssges
+
+		privateSocket.on('connect', function(){
+			/**
+			 * Fired upon a disconnection and insures that client will
+			 * not reconnect.
+			 */
+			 privateSocket.on('disconnect', function() {				
+
+                //socket.disconnect();
+
+				// Delete all other listeners and events
+                privateSocket.removeAllListeners();
+
+				// Delete reference to socket 
+                privateSocket = null;
+
+				// Inform user that a disconnect has occured
+                exit('server at ' + location.host + ' disconnected');
+            });
+
+			console.log("Private Connection Socket");
+
+			/**
+			 * This is for private messaging
+			 */
+			 privateSocket.on('chatUpdatePrivate', function(user, privateMessage){
+				var msg = document.createElement('li');
+				
+				var privateSelectTag = document.getElementById('online-user-list');
+				var privateOption = privateSelectTag.options[privateSelectTag.selectedIndex];
+				var nameOfPrivateUserSelected = privateOption.text;
+
+				console.log('The private GUY: ', nameOfPrivateUserSelected);
+				// console.log('I am the user private', user);
+				// console.log('I am the message private', privateMessage); 
+				//if (user == nameOfPrivateUserSelected){
+				// WIZARDSSSS WORK
+
+				//nameOfPrivateUserSelected == "Users Online" -----
+				if (nameOfPrivateUserSelected == "Users Online"){
+					var nameTag = document.createElement('span');
+					nameTag.innerHTML = "<em>" + user + "</em>";
+
+					msg.appendChild(nameTag);
+                	msg.appendChild(document.createElement("br"));
+	                msg.appendChild(document.createTextNode(privateMessage));
+
+					getElementById("messages-private").appendChild(msg);
+				}
+			});
+
+			// the id for newUser value: privateMsgUpdate
+			// privateSocket.on('privateMsgUpdate', function(user, privateMessage){
+			// 	var msg = document.createElement('li');
+				
+			// 	var privateSelectTag = document.getElementById('online-user-list');
+			// 	var privateOption = privateSelectTag.options[privateSelectTag.selectedIndex];
+			// 	var nameOfPrivateUserSelected = privateOption.text;
+
+			// 	// console.log('The private GUY: ', nameOfPrivateUserSelected);
+			// 	// console.log('I am the user private', user);
+			// 	// console.log('I am the message private', privateMessage); 
+
+			// 	if (user == nameOfPrivateUserSelected){
+			// 		var nameTag = document.createElement('span');
+			// 		nameTag.innerHTML = "<em>" + userName + "</em>";
+
+			// 		msg.appendChild(nameTag);
+            //     	msg.appendChild(document.createElement("br"));
+	        //         msg.appendChild(document.createTextNode(privateMessage));
+
+			// 		getElementById("messages-private").appendChild(msg);
+			// 	}
+			// });
+
+		});
 
 		//-------------------------------------------------------
 		/**
@@ -312,15 +391,16 @@ function init() {
 				var privateOnlineUser = document.createElement('option');
 				var addThisPrivateUser = document.getElementById('online-user-list');
 				privateOnlineUser.setAttribute("id", userId);
-				privateOnlineUser.setAttribute("onclick", "privateChatWithUser()");
 				privateOnlineUser.innerHTML = newestUser.name;
 				addThisPrivateUser.appendChild(privateOnlineUser);
 
+				//addThisPrivateUser.setAttribute("onclick", "privateChatWithUser()");
+
             });
 
-			function privateChatWithUser(){
-				
-			}
+			// function privateChatWithUser(){
+			// 	console.log("Hello I am private");
+			// }
 			//-------------------------------------------------------
 			/**
 			 * Fired when a client (that is not yourself) is leaving the scene
@@ -438,6 +518,8 @@ function init() {
                 getElementById("messages").appendChild(newMessage);
 			});
 
+
+
 			//-------------------------------------------------------
 			/**
 			 * Fired when an object in the scene has changed 
@@ -483,6 +565,10 @@ function init() {
 							mat[0].setAttribute("diffuseColor", ".95, .9, .25");
                 		}
 						break;
+					
+					// case "private" :
+					// 	//call something to update name 
+					// 	break;
 				}
 			});
 
@@ -794,6 +880,15 @@ function init() {
             }
         });
 
+		var privateSendButton = getElementById("privateSendButton");
+		privateSendButton.addEventListener('click', sendPrivateMessage);
+		var privateMssg = getElementById("privateInputField");
+		privateMssg.addEventListener('keypress', function(e) {
+			if (e.keyCode == 13){
+				sendPrivateMessage();
+			}
+		});
+
         var minButton = getElementById("minButton");
         var maxButton = getElementById("maxButton");
         var sidebarContent = getElementById("sideBar");
@@ -851,6 +946,24 @@ function init() {
 		// Send message to server for distribution
         socket.emit('chatMessage', clientInfo.name, message);
     }
+
+	/**
+	 * This function is for private messages
+	 */
+	 function sendPrivateMessage(privateMemo){
+		var privateMssg = privateMemo;
+		if(privateMssg == null) {
+
+            var field = getElementById('privateInputField');
+            privateMssg = field.value;
+            field.value = "";
+        }
+
+		// TODO: Check 1st parameter ?????
+        socket.emit('ptivateMessage', clientInfo.name, privateMssg);
+
+	 }
+
 
 	function changeToRightImage() {		
 		if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg") {

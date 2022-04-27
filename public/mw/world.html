@@ -155,14 +155,11 @@
               <select id="online-user-list">
                 <option value="private-user-choose">Users Online</option>
               </select>
-              <!-- <script>
-                  var onlineUser = getElementById("users");
-                  console.log("I am the users list: ", onlineUser.children);
-              </script> -->
-              
             </div>
            <div class="chat-box">
-              <div class="chat-Area">
+              <div class="chat-Area" class="widget scroll">
+                  <!-- <span class="widgetHeader">Chat Window</span> -->
+                  <ul id="messages-private"></ul>
                   <input id="privateInputField" autocomplete="off" style="width: 250px;"/>
                   <button id="privateSendButton">Send</button>
               </div>
@@ -183,8 +180,8 @@
         </label>  
         <div class="wrapper">
             <div class="container my-3">
-                <h1>Take your art gallery notes here</h1>
-                <div class="card">
+                <h1><center>Take your art gallery notes here</center></h1>
+                <div style="text-align:center" class="card">
                     <div class="card-body">
                         <h5 class="card-title">Write Notes</h5>
                         <div class="form-group">
@@ -194,7 +191,7 @@
                         </div>
                         <button class="btn btn-primary" 
                             id="addBtn" style=
-                            "background-color:green">
+                            "background-color:rgb(56, 140, 56)">
                             Add Note
                         </button>
                     </div>
