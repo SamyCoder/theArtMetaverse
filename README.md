@@ -124,7 +124,8 @@ As for the feature implementation for the private chat, a new socket has been cr
 2. The users need to be sorted by distance in the dropdown. 
 3. Other Potential Design Considerations: 
    1. We can click the avatar and a pop up for chat requests can pop up and then after accepting it we can do the private chatting with the user we clicked on. However, it could be annoying if the user misclicks the avatar and the pop up shows up, so that could be something to consider against the current design. 
-   2. If the list of online users is a lot, then it could be difficult for the user to click on it. An option for this could be to only include the users in the online list in the same gallery room or a certain bounded distance.  
+   2. If the list of online users is a lot, then it could be difficult for the user to click on it. An option for this could be to only include the users in the online list in the same gallery room or a certain bounded distance.
+   3. Currently we only support private chatting with one other user, this feature can be scaled to include more than one user for private chat. [Some other implementation designs would be required to consider for this]   
 
 
 ## Notes Feature
