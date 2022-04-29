@@ -685,20 +685,26 @@ function init() {
        	camera.addEventListener('viewpointChanged', sendUpdate);
 	};
 
-	//This function is triggered by clicking on the blue rectangle in the example world
-	//This will open an artwork audio pop-up
-	var art = document.getElementById("sampleArt");
-	var audio = document.getElementById("audio-source");
-	var player = document.getElementById("audio-player");
-	var arttitle = document.getElementById("art-title");
+	//This function is triggered by clicking on a piece of artwork
+	//within the art gallery
+	var art = document.getElementById("sampleArt"); //the art work
+	var audio = document.getElementById("audio-source"); //the audio
+	var player = document.getElementById("audio-player"); //the audio player
+	var arttitle = document.getElementById("art-title"); //the title of the artwork
 	function configureArtworkOverlay(){
+		//The pieces of artwork have ids on them within the .x3d file called
+		//artworld.x3d and they are referenced here
 		var artwork_one = document.getElementById("mw__artid_one");
 		var artwork_two = document.getElementById("mw__artid_two");
 		var artwork_three = document.getElementById("mw__artid_three");
 		var artwork_four = document.getElementById("mw__artid_four");
+		
 		var close_btn = document.getElementById("close_info_btn");
 		var artWorkAudioTemplate = document.getElementById("artWorkAudioId");
 
+		//this array is meant to hold the data of each of the artworks and in
+		//the future we hope to use this instead of hardcoding the data
+		//using the changeToRightImage() and changeToLeftImage() functions
 		var objects = [ {"id": 0, "image_url":"../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg", "sound_file":"/mw/sounds/Maskcat.wav", "location":(-4.32, 1.84, 0.93)}, 			
 			{"id": 1, "image_url":"../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg", "sound_file":"/mw/sounds/Postap.wav", "location":(-4.32, 1.84, 0.93)},
 			{"id": 2, "image_url":"../glTF_X3D_HTML_DOM/Sponza/ghostperson.png", "sound_file":"/mw/sounds/Ghostperson.wav", "location":(-4.32, 1.84, 0.93)},
@@ -706,12 +712,16 @@ function init() {
 			
 		];
 
+		//closes the artwork overlay
 		close_btn.addEventListener("click", function() {
 				
 			artWorkAudioTemplate.classList.toggle("show");	
 					
 		});
 
+		//here we are adding event listeners on each artwork
+		//and we make sure to place all of the correct information
+		//into the artwork overlay
 		artwork_one.addEventListener("click", function() {
 			art.style.width = '160px';
 			art.style.height = '180px';
@@ -759,7 +769,10 @@ function init() {
 			arttitle.innerHTML = "Mask Cat by Emily N.";
 		});
 
-		
+		//This is where we set event listeners on the
+		//right and left buttons to make sure they
+		//change the information on the panel to the correct
+		//artwork information
 		var right = document.getElementById("right_btn1");
 		var left = document.getElementById("left_btn1");
 
@@ -964,7 +977,11 @@ function init() {
 
 	 }
 
-
+	//This function determines what artwork the overlay
+	//was on currently and properly changes the information on
+	//overlay to the image that is to the right of the current artwork
+	//when the right arrow button is pressed
+	//This is also where the teleportation happens
 	function changeToRightImage() {		
 		if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg") {
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg";
@@ -972,7 +989,7 @@ function init() {
 			art.style.height = '180px';
 			audio.src = "/mw/sounds/Postap.wav";
 			player.load();
-			document.getElementById('PostAp').setAttribute('set_bind','true');
+			document.getElementById('PostAp').setAttribute('set_bind','true');//this line makes the user teleport
 			arttitle.innerHTML = "Post Apocalypse by Emily N.";
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
@@ -981,7 +998,7 @@ function init() {
 			art.style.height = '160px';
 			audio.src="/mw/sounds/Ghostperson.wav";
 			player.load();
-			document.getElementById('Ghostperson').setAttribute('set_bind','true');
+			document.getElementById('Ghostperson').setAttribute('set_bind','true');//this line makes the user teleport
 			arttitle.innerHTML = "Ghost Person by Emily N.";
 
 		}
@@ -991,7 +1008,7 @@ function init() {
 			art.style.height = '160px';
 			audio.src= "/mw/sounds/Attkcat.wav";
 			player.load();
-			document.getElementById('Cat').setAttribute('set_bind','true');
+			document.getElementById('Cat').setAttribute('set_bind','true');//this line makes the user teleport
 			arttitle.innerHTML = "Attack of the Feline by Emily N.";
 
 		}
@@ -1001,12 +1018,17 @@ function init() {
 			art.style.height = '160px';
 			audio.src = "/mw/sounds/Maskcat.wav";
 			player.load();
-			document.getElementById('Maskcat').setAttribute('set_bind','true');
+			document.getElementById('Maskcat').setAttribute('set_bind','true');//this line makes the user teleport
 			arttitle.innerHTML = "Mask Cat by Emily N.";
 
 		}
 	}
 
+	//This function determines what artwork the overlay
+	//was on currently and properly changes the information on
+	//overlay to the image that is to the left of the current artwork
+	//when the left arrow button is pressed
+	//This is also where the teleportation happens
 	function changeToLeftImage() {
 		if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg") {
 			console.log("CAT");
@@ -1015,7 +1037,7 @@ function init() {
 			art.style.height = '160px';
 			audio.src= "/mw/sounds/Attkcat.wav";
 			player.load();
-			document.getElementById('Cat').setAttribute('set_bind','true');
+			document.getElementById('Cat').setAttribute('set_bind','true');//this line makes the user teleport
 			arttitle.innerHTML = "Attack of the Feline by Emily N.";
 
 		}
@@ -1026,7 +1048,7 @@ function init() {
 			art.style.height = '180px';
 			audio.src="/mw/sounds/Ghostperson.wav";
 			player.load();
-			document.getElementById('Ghostperson').setAttribute('set_bind','true');
+			document.getElementById('Ghostperson').setAttribute('set_bind','true');//this line makes the user teleport
 			arttitle.innerHTML = "Ghost Person by Emily N.";
 
 		}
@@ -1036,12 +1058,12 @@ function init() {
 			art.style.height = '180px';
 			audio.src = "/mw/sounds/Postap.wav";
 			player.load();
-			document.getElementById('PostAp').setAttribute('set_bind','true');
+			document.getElementById('PostAp').setAttribute('set_bind','true');//this line makes the user teleport
 			arttitle.innerHTML = "Post Apocalypse by Emily N.";
 
 		}
 		else if (art.getAttribute("src") == "../glTF_X3D_HTML_DOM/Sponza/post_ap.jpg") {
-			document.getElementById('Maskcat').setAttribute('set_bind','true');
+			document.getElementById('Maskcat').setAttribute('set_bind','true');//this line makes the user teleport
 			art.src = "../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg";
 			art.style.width = '120px';
 			art.style.height = '160px';
