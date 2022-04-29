@@ -1,5 +1,7 @@
 
-
+/* 
+main modal for map 
+ */
 .modal {
     display: none;
     position: fixed;
@@ -7,9 +9,17 @@
     background-color: azure;
 }
 
+/* 
+adjusting size of modal to keep it 
+in porportional size of plane
+ */
 #modal-map {
   height: 65%;
 }
+
+/*
+Provides appropirate spacing for maps and other elements
+*/
 .modal-content {
   background-color: #fefefe;
   border: 2px solid #888;
@@ -22,6 +32,9 @@
   right: 0px;
 }
 
+/*
+Map Open buddon styings
+*/
 #modal-map-open {
     /* margin-left: auto; */
     position: fixed;
@@ -29,16 +42,16 @@
     right: 18px;
 }
 
-/* #map-back{
-  size: 15px;
-  margin-left: auto;
-  
-} */
-
+/* 
+Map close button stylings
+ */
 .close-map-button{
   float: right;
 }
 
+/* 
+Map close button icon stylings
+ */
 #map-back img[src="images/close.png"]{
   width: 20px;
   height: 20px;
