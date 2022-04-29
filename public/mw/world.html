@@ -74,19 +74,23 @@
             <b>People currently observing this model:</b>
             <span id="users">Loading...</span>
         </div>
+        <!-- This is where the artwork panel is with the audio feature
+             we are able to get this div in webclient.js and dynamically
+             change the artwork and the audio attached to it by clicking 
+             on the specific artworks -->
         <div id="artWorkAudioId" class="artWorkAudio">
             <p id="art-title"></p>
             <br/>
             <button class="close_artwork_info_btn" id="close_info_btn"> Close </button>
 
             <br/>
-            
+            <!-- arrow buttons and image of the artwork -->
             <button class="button" id="left_btn1"> <img src="./images/backArr.png" id="left_btn2"> </button>            
             <img id="sampleArt" class="art" src="../glTF_X3D_HTML_DOM/Sponza/maskcat.jpg" alt="Sample Art">
             <button class="button" id="right_btn1"> <img src="./images/forwardArr.png" id="right_btn2"> </button>
 
             <br/>  
-
+            <!-- audio button is here that opens the audio player -->
             <div id="audio-btn" class="audio-btn-c">
                 <!-- <a href="https://www.flaticon.com/free-icons/speaker" title="speaker icons">Speaker icons created by Freepik - Flaticon</a> -->
                 <button id="sound" class="button child" onclick="toggleAudio()"><img src="\mw\images\speaker-filled-audio-tool.png" id="soundimg"></button>
@@ -97,6 +101,8 @@
                     <h4 class="audio-title">Narration</h4>
                 </div>
                 <div class="audio-body">
+                    <!-- This is the audio player, but it will let the user know 
+                    if their browser does not support the audio -->
                     <audio id="audio-player" controls controller>
                         <source id="audio-source" src="\mw\sounds\Ghostperson.wav" type="audio/wav">
                         Your browser does not support the audio element.
