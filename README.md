@@ -21,12 +21,11 @@ Click on the link or copy and paste the link into a web browser and then the mir
 The Art Gallery is the main world we have been editing in, some positioning that we altered for this world, may have the user spawn in an unideal location within the other worlds (aka the Moss Arts Center world or example world). So, if it looks like the world is a light gray with nothing else, try moving around, it might turn out you are somewhere inside the MAC or just looking at a wall.
 
 # Our Phase Reports:
-Phase 1 Users, Tasks, and Data: https://docs.google.com/document/d/1-Q8TRKdgKAnIEoq2lXtzBKGAlf7RCK1c1l0i-vySRCA/edit
-Phase 2 Ideation: https://docs.google.com/document/d/1yBLiFcBZMp-zM25xgqMzrmcK_VKy55gPz9wz5_ddbVE/edit
-Phase 3 Abstract and Poster: https://docs.google.com/document/d/1zAFG5wdciHPbcvGFAJT9LfGENFJaLPDXEX5tNYmrwBg/edit
-Poster: https://www.canva.com/design/DAE-R08mkQ4/_b9eMnVODvlJntF08SSchQ/view?utm_content=DAE-R08mkQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
-
-Demo Video: https://youtu.be/9zv-FV63OxA
+* Phase 1 Users, Tasks, and Data: https://docs.google.com/document/d/1-Q8TRKdgKAnIEoq2lXtzBKGAlf7RCK1c1l0i-vySRCA/edit
+* Phase 2 Ideation: https://docs.google.com/document/d/1yBLiFcBZMp-zM25xgqMzrmcK_VKy55gPz9wz5_ddbVE/edit
+* Phase 3 Abstract and Poster: https://docs.google.com/document/d/1zAFG5wdciHPbcvGFAJT9LfGENFJaLPDXEX5tNYmrwBg/edit
+* Poster: https://www.canva.com/design/DAE-R08mkQ4/_b9eMnVODvlJntF08SSchQ/view?utm_content=DAE-R08mkQ4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+* Demo Video: https://youtu.be/9zv-FV63OxA
 ________________
 
 ## Map/Navigation Feature
