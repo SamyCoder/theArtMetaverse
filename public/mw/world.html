@@ -31,7 +31,7 @@
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="webClient.js"></script>
-
+    <!-- This function toggles the audio panel when something triggers it -->
     <script>
         function toggleAudio() {
             var audio = document.getElementById("audio-container");
@@ -188,6 +188,7 @@
         <i class='bx bxs-map-alt bx-md bx-tada-hover' id="modal-map-open" onclick="openMap()">Map</i>
     </div>
 
+    <!-- this is where the notes window is -->
     <div id="notes-feat">
         <input type="checkbox" id="clickN">
         <label class="notes-label" for="clickN">
@@ -198,6 +199,7 @@
                 <h1>
                     <center>Take your art gallery notes here</center>
                 </h1>
+                <!-- this is where the user is able to write their note -->
                 <div style="text-align:center" class="card">
                     <div class="card-body">
                         <h5 class="card-title">Write Notes</h5>
@@ -213,6 +215,7 @@
                 <hr>
                 <h1>Saved Notes</h1>
                 <hr>
+                <!-- This is where the users notes are displayed within the scrollable window -->
                 <div id="notes" class="row container-fluid">
                 </div>
             </div>

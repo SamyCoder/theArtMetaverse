@@ -810,6 +810,9 @@ function init() {
 
 	}
 
+	// This function loads any notes within the users localstorage
+	//into the scrollable list. it also adds notes to this list
+	//when the user clicks on the add button.
 	function setUpNotesApp(){
 		// If user adds a note, add it to the localStorage
 		let addBtn = document.getElementById("addBtn");
