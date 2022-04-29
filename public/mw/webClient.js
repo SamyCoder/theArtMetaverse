@@ -139,13 +139,17 @@ function init() {
 				var privateOption = privateSelectTag.options[privateSelectTag.selectedIndex];
 				var nameOfPrivateUserSelected = privateOption.text;
 
-				console.log('The private GUY: ', nameOfPrivateUserSelected);
+				console.log('The private user selected: ', nameOfPrivateUserSelected);
 				// console.log('I am the user private', user);
 				// console.log('I am the message private', privateMessage); 
 				//if (user == nameOfPrivateUserSelected){
+				/**
+				 * TODO: (Just an idea) Find a way to capture users change (the selected person for private chat) in the lib/mw_server.js, if possible
+				 * and then send that or emit that information here through the sockets so that we can make sure
+				 * using selection statements that we can only send messages to the person we want to privately. 
+				 */
+				
 				// WIZARDSSSS WORK
-
-				//nameOfPrivateUserSelected == "Users Online" -----
 				if (nameOfPrivateUserSelected == "Users Online"){
 					var nameTag = document.createElement('span');
 					nameTag.innerHTML = "<em>" + user + "</em>";
@@ -157,30 +161,6 @@ function init() {
 					getElementById("messages-private").appendChild(msg);
 				}
 			});
-
-			// the id for newUser value: privateMsgUpdate
-			// privateSocket.on('privateMsgUpdate', function(user, privateMessage){
-			// 	var msg = document.createElement('li');
-				
-			// 	var privateSelectTag = document.getElementById('online-user-list');
-			// 	var privateOption = privateSelectTag.options[privateSelectTag.selectedIndex];
-			// 	var nameOfPrivateUserSelected = privateOption.text;
-
-			// 	// console.log('The private GUY: ', nameOfPrivateUserSelected);
-			// 	// console.log('I am the user private', user);
-			// 	// console.log('I am the message private', privateMessage); 
-
-			// 	if (user == nameOfPrivateUserSelected){
-			// 		var nameTag = document.createElement('span');
-			// 		nameTag.innerHTML = "<em>" + userName + "</em>";
-
-			// 		msg.appendChild(nameTag);
-            //     	msg.appendChild(document.createElement("br"));
-	        //         msg.appendChild(document.createTextNode(privateMessage));
-
-			// 		getElementById("messages-private").appendChild(msg);
-			// 	}
-			// });
 
 		});
 
